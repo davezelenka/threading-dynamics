@@ -29,7 +29,8 @@ where
 
 Interactive Desmos models help visualize how threading generates geometric and spiral patterns:
 
-- [Jupiter/Saturn octagon & hexagon patterns](https://www.desmos.com/calculator/ue1uufq4u0)  
+- [Jupiter/Saturn octagon & hexagon patterns](https://www.desmos.com/calculator/ue1uufq4u0)
+- [Hurricane vortex parameters and predicted](https://www.desmos.com/calculator/ycpmeded0h)
 - [Topography & bathymetric spirals](https://www.desmos.com/calculator/etbwbnvafy)  
 
 ---
