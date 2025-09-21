@@ -18,7 +18,8 @@ where
 ## Repository Structure
 
 - **ENSO_PDO_AMO/**  
-  Analyses of climate oscillations (ENSO, PDO, AMO) as expressions of deep rotational threading. Includes spectral studies and harmonic modeling.  
+  Analyses of climate oscillations (ENSO, PDO, AMO) as expressions of deep rotational threading. Includes spectral studies and harmonic modeling.
+  Key project: enso_sun_ccf.py 
 
 - **hurricanes/**  
   Hurricane rotation, Coriolis imprint, and persistence explained by deep rotation coupling. Links to planetary-scale threading phenomena.  
