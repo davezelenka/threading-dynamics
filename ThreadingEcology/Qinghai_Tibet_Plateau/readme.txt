@@ -1,6 +1,6 @@
 https://data.mendeley.com/datasets/6cxvvr2bmn/1
 
-Sescription
+Description
 This dataset originates from extensive field sampling and laboratory measurements across three alpine grassland types on the Qinghai–Tibet Plateau. It includes paired observations under plateau pika (Ochotona curzoniae) disturbance and undisturbed conditions, enabling robust assessments of biodiversity and ecosystem multifunctionality. For each plot, we recorded: Biodiversity indicators: plant diversity, soil nematode diversity, and soil microbial diversity (all based on standardized quadrat sampling and computation), Ecosystem function indicators: aboveground biomass, soil organic carbon, total nitrogen, total phosphorus, available nitrogen, available phosphorus, and soil moisture.
 Sampling was conducted on 90 paired plots, resulting in a total of 180 individual plots. Each indicator was measured in both pika-disturbed and undisturbed counterparts under a stratified paired design. The dataset supports research on how small burrowing herbivore disturbance affects biodiversity–multifunctionality relationships in alpine ecosystems.
 
@@ -37,4 +37,5 @@ df_std <- df_std %>%
 Institutions
 Lanzhou University
 Categories
+
 Functional Plant Ecology, Soil
