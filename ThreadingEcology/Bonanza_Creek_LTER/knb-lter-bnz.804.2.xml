@@ -1,0 +1,1086 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-bnz.804.2" scope="system"
+  system="https://pasta.edirepository.org"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.2.0"
+  xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="eml://ecoinformatics.org/eml-2.2.0 https://eml.ecoinformatics.org/eml-2.2.0/eml.xsd">
+<access
+    authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document"
+      system="https://pasta.edirepository.org">
+<allow>
+<principal>uid=BNZ,o=EDI,dc=edirepository,dc=org</principal>
+<permission>all</permission>
+</allow>
+<allow>
+<principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset>
+<alternateIdentifier
+        system="https://doi.org">doi:10.6073/pasta/b78161335e3edbd2393378b197735d85</alternateIdentifier><shortName>knb-lter-bnz.804.2</shortName>
+<title>Pre and post-fire composition, density, basal area, and biomass for 212 sites that burned between 2004 and 2015 in Interior Alaska</title>
+<creator>
+<individualName>
+<givenName>Xanthe</givenName>
+<surName>Walker</surName>
+</individualName>
+<!--No position recorded in Database ( pers/position when lead_contact=1 )-->
+<address>
+<deliveryPoint>Northern Arizona University: Ecosystem Science and Society (Ecoss) PO Box 5620
+</deliveryPoint>
+<city>Flagstaff</city>
+<administrativeArea>AZ</administrativeArea>
+<postalCode>86011</postalCode>
+<country>United States</country>
+</address>
+<!--No phone info in Database  ( pers/tel1, tel2 or cell when lead_contact=1 )-->
+<!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+<electronicMailAddress>xanthe.walker@nau.edu</electronicMailAddress>
+<onlineUrl>https://ecoss.nau.edu/team/xanthe-walker/</onlineUrl>
+</creator>
+<creator>
+<individualName>
+<givenName>Michelle</givenName>
+<givenName>Cailin</givenName>
+<surName>Mack</surName>
+</individualName>
+<positionName>Principal Investigator</positionName>
+<address>
+<deliveryPoint>Northern Arizona University: Ecosystem Science and Society Center (ECOSS)  PO Box 5620</deliveryPoint>
+<city>Flagstaff</city>
+<administrativeArea>AZ</administrativeArea>
+<postalCode>86011</postalCode>
+<country>United States</country>
+</address>
+<phone
+        phonetype="voice">928-523-9415
+</phone>
+<!--No fax info present in Database  ( pers/fax when lead_contact=1 )-->
+<electronicMailAddress>Michelle.Mack@nau.edu</electronicMailAddress>
+<onlineUrl>https://macklab.nau.edu/</onlineUrl>
+</creator>
+<creator>
+<individualName>
+<givenName>Jill</givenName>
+<surName>Johnstone</surName>
+</individualName>
+<positionName>Senior Investigator</positionName>
+<address>
+<deliveryPoint>Department of Biology;  University of Saskatchewan;  112 Science Place</deliveryPoint>
+<city>Saskatoon</city>
+<administrativeArea>Saskatchewan</administrativeArea>
+<postalCode>S7N 5E2</postalCode>
+<country>Canada</country>
+</address>
+<phone
+        phonetype="voice">(306) 966-4421</phone>
+<phone
+        phonetype="fax">(306) 966-4461</phone>
+<electronicMailAddress>jfjohnstone@alaska.edu</electronicMailAddress>
+<onlineUrl>http://npelusask.weebly.com/</onlineUrl>
+</creator>
+<creator>
+<organizationName>Bonanza Creek LTER</organizationName>
+<address>
+<deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+<deliveryPoint>P.O. Box 756780 </deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99775</postalCode>
+<country>USA</country>
+</address>
+<phone
+        phonetype="voice">907-474-6364</phone>
+<phone
+        phonetype="fax">907-474-6251</phone>
+<electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+</creator>
+<metadataProvider>
+<organizationName>Bonanza Creek LTER</organizationName>
+<positionName>Data Manager</positionName>
+<address>
+<deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+<deliveryPoint>P.O. Box 756780 </deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99775</postalCode>
+<country>USA</country>
+</address>
+<phone
+        phonetype="voice">907-474-6364</phone>
+<phone
+      phonetype="fax">907-474-6251</phone>
+<electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+</metadataProvider>
+<!--No other people associated with this dataset found on file (pers/lastname/lead_contact=0)-->
+<pubDate>2023-05-18</pubDate>
+<abstract>
+<para>We collated data on pre-fire and post-fire stand composition from 212 sites across interior Alaska that burned between the years 2004 and 2014.</para>
+</abstract>
+<keywordSet>
+<keyword>basal area</keyword>
+<keyword>biomass</keyword>
+<keyword>density</keyword>
+<keyword>boreal forests</keyword>
+<keyword>burn</keyword>
+<keyword>composition</keyword>
+<keywordThesaurus>Succession</keywordThesaurus>
+</keywordSet>
+<intellectualRights>
+<section>
+<title>Data Use</title>
+<para>This work has been produced as part of the Long Term Ecological Research Program and data users should adhere to the Data Use Agreement of the Long Term Ecological Research Network. The consumer of these data (“Data User” herein) has an ethical obligation to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or coauthorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available “as is.” The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+</section>
+<section>
+<title>Citation</title>
+<para>It is considered a matter of professional ethics to acknowledge the work of other scientists. Thus, the Data User should properly cite the Data Set in any publications or in the metadata of any derived data products that were produced using the Data Set. Citation should take the following general form: Creator(s), Year of Data Publication, Title of Dataset, Publisher, Dataset identifier, Dataset URL, Dataset DOI.  For Example:   Van Cleve, Keith; Chapin, F. Stuart; Ruess, Roger W. 2016. Bonanza Creek Experimental Forest: Hourly Temperature (sample, min, max) at 50 cm and 150 cm from 1988 to Present, Bonanza Creek LTER - University of Alaska Fairbanks. BNZ:1, http://www.lter.uaf.edu/data/data-detail/id/1. doi:10.6073/pasta/725db90d86686be13e6d6b2da5d61217.</para>
+</section>
+<section>
+<title>Acknowledgement</title>
+<para>The Data User should acknowledge any institutional support or specific funding awards referenced in the metadata accompanying this dataset in any publications where the Data Set contributed significantly to its content. Acknowledgements should identify the supporting party, the party that received the support, and any identifying information such as grant numbers. For example: Data are provided by the Bonanza Creek LTER, a partnership between the University of Alaska Fairbanks, and the U.S. Forest Service. Significant funding for collection of these data was provided by the National Science Foundation Long-Term Ecological Research program (NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629) and by the USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231).</para>
+</section>
+<section>
+<title>Notification</title>
+<para>The Data User will notify the Data Set Contact when any derivative work or publication based on or derived from the Data Set is distributed.</para>
+</section>
+<section>
+<title>Collaboration</title>
+<para>The Data Set has been released in the spirit of open scientific collaboration. Data Users are thus strongly encouraged to consider consultation, collaboration and/or co-authorship with the Data Set Creator.</para>
+</section>
+<section>
+<title>Disclaimer</title>
+<para>While substantial efforts are made to ensure the accuracy of data and documentation contained in this Data Set, complete accuracy of data and metadata cannot be guaranteed. All data and metadata are made available in its present condition. The Data User holds all parties involved in the production or distribution of the Data Set harmless for damages resulting from its use or interpretation.</para>
+</section>
+<!--No additional acknowledgements found in database (datafile/intellectual_rights)-->
+</intellectualRights>
+<distribution
+          id="distributionReference">
+<online>
+<url
+      function="information">http://www.lter.uaf.edu/data/data-detail/id/804</url>
+</online>
+</distribution>
+<distribution
+      id="10.6073/pasta/b78161335e3edbd2393378b197735d85" scope="system"
+          system="https://pasta.edirepository.org"><online><url
+        function="information">https://doi.org/10.6073/pasta/b78161335e3edbd2393378b197735d85</url></online></distribution><coverage>
+<geographicCoverage
+        id="geoReference">
+<geographicDescription>Dataset geographic description information is unavailable. {datafile/geoCoverage is empty}</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-150.4057</westBoundingCoordinate>
+<eastBoundingCoordinate>-142.2088</eastBoundingCoordinate>
+<northBoundingCoordinate>66.31539</northBoundingCoordinate>
+<southBoundingCoordinate>63.36437199</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2005-06-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2019-08-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<maintenance>
+<description>
+<section>
+<title>Status</title>
+<para>Completed</para>
+</section>
+</description>
+</maintenance>
+<contact>
+<organizationName>Bonanza Creek LTER</organizationName>
+<positionName>Data Manager</positionName>
+<address>
+<deliveryPoint>Boreal Ecology Cooperative Research Unit </deliveryPoint>
+<deliveryPoint>University of Alaska Fairbanks</deliveryPoint>
+<deliveryPoint>P.O. Box 756780 </deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK</administrativeArea>
+<postalCode>99775</postalCode>
+<country>USA</country>
+</address>
+<phone
+        phonetype="voice">907-474-6364</phone>
+<phone
+        phonetype="fax">907-474-6251</phone>
+<electronicMailAddress>uaf-bnz-im-team@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.lter.uaf.edu</onlineUrl>
+</contact>
+
+<publisher><organizationName>Environmental Data Initiative</organizationName><electronicMailAddress>info@edirepository.org</electronicMailAddress><onlineUrl>https://edirepository.org</onlineUrl><userId
+        directory="https://ror.org">0330j0z60</userId></publisher><pubPlace>Environmental Data Initiative</pubPlace>
+<methods>
+<methodStep>
+<description>
+<section>
+<title>Methods</title>
+<para>We estimated pre-fire and post-fire stem density and forest composition by measuring pre-fire (burned) trees and newly established seedlings. We counted all standing or fallen pre-fire trees and measured diameter at breast height (dbh) on all individuals taller than 1.4 m or basal diameter on all trees less than 1.4 m in height that were originally rooted in two parallel 2 m x 30 m belt-transects. Similarly, we estimated post-fire density by counting post-fire seedlings within ten randomly positioned 1 m x 1 m quadrats along the same two transects and measuring the basal diameter of at least one representative species per quadrat. We counted all post-fire stems of spruce, aspen, and birch that were rooted in quadrats, regardless of size. Given the range of time after fire that we sampled (4-13 years) we were unable to differentiate seedlings from vegetative regeneration. We calculated total density (stems ha-1) of each tree species prior to the fire. We used published allometric equations to calculate pre-fire (Alexander and Mack 2016) and post-fire (Johnstone et al. 2020) species-specific aboveground tree biomass (g m-2). We then calculated the proportion of deciduous stems relative to total stems in both the pre-fire and post-fire stand (relative deciduous density) and the proportion of deciduous biomass relative to total biomass in both the pre-fire and post-fire stand (relative deciduous biomass). We classified sites into pre-fire and post-fire tree species dominance classes based on a deciduous fraction index (DI) calculated from the survey data (DI=relative density plus relative biomass of deciduous tree seedlings divided by two and multiplied by 100). When DI was ?33.33%, sites were classified as black spruce (hereafter Spruce). Sites were classified as mixed black spruce-deciduous (hereafter Mixed) if DI was &gt;33.33% and &lt;66.66%, and as deciduous if DI was ?66.66%. We used biomass rather than the more typical basal area because biomass accounts for the different allometric scaling relationships between black spruce and deciduous tree species. Based on pre- and post-fire DI and spruce density, we categorized sites in seven classes representing observed transitions in stand dominance after fire: 1) Spruce to Deciduous, 2) Spruce to Mixed, 3) Spruce to Spruce, 4) Spruce thinning (where post-fire spruce density was less than pre-fire spruce density), 5) Mixed to Mixed, 6) Mixed to Deciduous, and 7) Deciduous to Deciduous. 
+</para>
+</section>
+</description>
+</methodStep>
+<sampling>
+<studyExtent>
+<coverage>
+<temporalCoverage>
+<rangeOfDates>
+<beginDate>
+<calendarDate>2005-06-01</calendarDate>
+</beginDate>
+<endDate>
+<calendarDate>2019-08-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+</studyExtent>
+<samplingDescription>
+<section>
+<title>Sampling Frequency</title>
+<para>once</para>
+</section>
+</samplingDescription>
+</sampling>
+</methods>
+<project>
+<title>The Bonanza Creek LTER</title>
+<personnel
+        id="VanCleveID">
+<individualName>
+<givenName>Keith</givenName>
+<surName>Van Cleve</surName>
+</individualName>
+<organizationName>Bonanza Creek LTER</organizationName>
+<positionName>Lead Principal Investigator</positionName>
+<role>Principal Investigator</role>
+</personnel>
+<personnel
+          id="ChapinID">
+<individualName>
+<givenName>F.S.</givenName>
+<givenName>Stuart</givenName>
+<surName>Chapin</surName>
+</individualName>
+<organizationName>Bonanza Creek LTER</organizationName>
+<positionName>Lead Principal Investigator</positionName>
+<address>
+<deliveryPoint>Department of Biology and Wildlife;  Institute of Arctic Biology:  University of Alaska Fairbanks 193 Arctic Health P.O. Box 757000</deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK </administrativeArea>
+<postalCode>99775</postalCode>
+<country>United States</country>
+</address>
+<phone
+          phonetype="voice">(907) 455-6408</phone>
+<phone
+        phonetype="fax">(907) 474-6967</phone>
+<electronicMailAddress>terry.chapin@alaska.edu</electronicMailAddress>
+<onlineUrl>http://terrychapin.org/</onlineUrl>
+<role>Principal Investigator</role>
+</personnel>
+<personnel
+          id="RuessID">
+<individualName>
+<givenName>Roger</givenName>
+<givenName>W.</givenName>
+<surName>Ruess</surName>
+</individualName>
+<organizationName>Bonanza Creek LTER</organizationName>
+<positionName>Lead Principal Investigator</positionName>
+<address>
+<deliveryPoint>Institute of Arctic Biology  University of Alaska Fairbanks P.O. Box 757000</deliveryPoint>
+<city>Fairbanks</city>
+<administrativeArea>AK </administrativeArea>
+<postalCode>99775-0180</postalCode>
+<country>United States</country>
+</address>
+<phone
+          phonetype="voice">(907) 474-7153</phone>
+<phone
+      phonetype="fax">(907) 474-6967</phone>
+<electronicMailAddress>rwruess@alaska.edu</electronicMailAddress>
+<onlineUrl>http://www.iab.uaf.edu/~roger_ruess/</onlineUrl>
+<role>Principal Investigator</role>
+</personnel>
+<funding>
+<para>NSF Grant numbers  DEB-1636476, DEB-1026415, DEB-0620579, DEB-0423442, DEB-0080609, DEB-9810217, DEB-9211769, DEB-8702629</para>
+<para>USDA Forest Service, Pacific Northwest Research Station (Agreement # RJVA-PNW-01-JV-11261952-231)</para>
+</funding>
+</project>
+<dataTable
+      id="6ddbbd9b3c027848a1634e90bfbd946d" scope="document"
+              system="https://pasta.edirepository.org">
+<entityName>804_PrePostFireStandData_DiVA_XJW.csv</entityName>
+<entityDescription>Data on pre-fire and post-fire stand composition from 212 sites across interior Alaska that burned between the years 2004 and 2014.</entityDescription>
+<physical>
+<objectName>804_PrePostFireStandData_DiVA_XJW.csv</objectName>
+<dataFormat>
+<textFormat>
+<numHeaderLines>1</numHeaderLines>
+<recordDelimiter>\n</recordDelimiter>
+<physicalLineDelimiter>\n</physicalLineDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited>
+<fieldDelimiter>,</fieldDelimiter>
+<quoteCharacter>"</quoteCharacter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution>
+<online>
+<url
+          function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-bnz/804/2/6ddbbd9b3c027848a1634e90bfbd946d</url>
+</online>
+</distribution>
+</physical>
+<attributeList>
+<attribute>
+<attributeName>study</attributeName>
+<attributeLabel>study</attributeLabel>
+<attributeDefinition>Name of study</attributeDefinition>
+<storageType>string</storageType>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Name of study</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>burn</attributeName>
+<attributeLabel>burn</attributeLabel>
+<attributeDefinition>Name of fire scar</attributeDefinition>
+<storageType>string</storageType>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Name of fire scar</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>sites</attributeName>
+<attributeLabel>sites</attributeLabel>
+<attributeDefinition>ID # given to each site</attributeDefinition>
+<storageType>string</storageType>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>ID # given to each site</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>Project_site</attributeName>
+<attributeLabel>Project_site</attributeLabel>
+<attributeDefinition>combintion of site and project</attributeDefinition>
+<storageType>string</storageType>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>combintion of site and project</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>Lat.N.</attributeName>
+<attributeLabel>Lat.N.</attributeLabel>
+<attributeDefinition>latitude</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>Lon.W.</attributeName>
+<attributeLabel>Lon.W.</attributeLabel>
+<attributeDefinition>longitude</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>BS.dens.pre</attributeName>
+<attributeLabel>BS.dens.pre</attributeLabel>
+<attributeDefinition>Black spruce density pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>BS.ba.pre</attributeName>
+<attributeLabel>BS.ba.pre</attributeLabel>
+<attributeDefinition>Black spruce basal area pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>TA.den.pre</attributeName>
+<attributeLabel>TA.den.pre</attributeLabel>
+<attributeDefinition>Trembling Aspen density pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>cm2/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>TA.ba.pre</attributeName>
+<attributeLabel>TA.ba.pre</attributeLabel>
+<attributeDefinition>Trembling Aspen basal area pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>PB.dens.pre</attributeName>
+<attributeLabel>PB.dens.pre</attributeLabel>
+<attributeDefinition>Alaskan Paper Birch density pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>cm2/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>PB.ba.pre</attributeName>
+<attributeLabel>PB.ba.pre</attributeLabel>
+<attributeDefinition>Alaskan Paper Birch basal area pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>bs.biomass.pre</attributeName>
+<attributeLabel>bs.biomass.pre</attributeLabel>
+<attributeDefinition>Black spruce biomass pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>cm2/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>ta.biomass.pre</attributeName>
+<attributeLabel>ta.biomass.pre</attributeLabel>
+<attributeDefinition>Trembling Aspen biomass pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gramsPerSquareMeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>pb.biomass.pre</attributeName>
+<attributeLabel>pb.biomass.pre</attributeLabel>
+<attributeDefinition>Alaskan Paper Birch biomass pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gramsPerSquareMeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>decid.dens.pre</attributeName>
+<attributeLabel>decid.dens.pre</attributeLabel>
+<attributeDefinition>Deciduous density pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gramsPerSquareMeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>decid.ba.pre</attributeName>
+<attributeLabel>decid.ba.pre</attributeLabel>
+<attributeDefinition>Deciduous basal area pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>decid.bio.pre</attributeName>
+<attributeLabel>decid.bio.pre</attributeLabel>
+<attributeDefinition>Deciduous biomass pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>cm2/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>rel.decid.dens.pre</attributeName>
+<attributeLabel>rel.decid.dens.pre</attributeLabel>
+<attributeDefinition>Relative deciduous density pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>rel.decid.ba.pre</attributeName>
+<attributeLabel>rel.decid.ba.pre</attributeLabel>
+<attributeDefinition>Relative deciduous basal area pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>rel.decid.bio.pre</attributeName>
+<attributeLabel>rel.decid.bio.pre</attributeLabel>
+<attributeDefinition>Relative deciduous biomass pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>DI.pre</attributeName>
+<attributeLabel>DI.pre</attributeLabel>
+<attributeDefinition>Deciduous Index pre-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>class.pre</attributeName>
+<attributeLabel>class.pre</attributeLabel>
+<attributeDefinition>Pre-fire Stand Classification</attributeDefinition>
+<storageType>string</storageType>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Pre-fire Stand Classification</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>BS.dens.post</attributeName>
+<attributeLabel>BS.dens.post</attributeLabel>
+<attributeDefinition>Black spruce density post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>TA.dens.post</attributeName>
+<attributeLabel>TA.dens.post</attributeLabel>
+<attributeDefinition>Trembling Aspen density post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>PB.dens.post</attributeName>
+<attributeLabel>PB.dens.post</attributeLabel>
+<attributeDefinition>Alaskan Paper Birch density post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>decid.dens.post</attributeName>
+<attributeLabel>decid.dens.post</attributeLabel>
+<attributeDefinition>Deciduous Density post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<customUnit>stems/m2</customUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>bs.bio.post</attributeName>
+<attributeLabel>bs.bio.post</attributeLabel>
+<attributeDefinition>Black spruce biomass post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gramsPerSquareMeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>ta.bio.post</attributeName>
+<attributeLabel>ta.bio.post</attributeLabel>
+<attributeDefinition>Trembling Aspen biomass post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gramsPerSquareMeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>pb.bio.post</attributeName>
+<attributeLabel>pb.bio.post</attributeLabel>
+<attributeDefinition>Alaskan Paper Birch biomass post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gramsPerSquareMeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>decid.bio.post</attributeName>
+<attributeLabel>decid.bio.post</attributeLabel>
+<attributeDefinition>Deciduous biomass post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>gramsPerSquareMeter</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>rel.decid.dens.post</attributeName>
+<attributeLabel>rel.decid.dens.post</attributeLabel>
+<attributeDefinition>Relative deciduous density post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>rel.decid.bio.post</attributeName>
+<attributeLabel>rel.decid.bio.post</attributeLabel>
+<attributeDefinition>Relative deciduous biomass post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>DI.post</attributeName>
+<attributeLabel>DI.post</attributeLabel>
+<attributeDefinition>Deciduous Index post-fire</attributeDefinition>
+<storageType>float</storageType>
+<measurementScale>
+<ratio>
+<unit>
+<standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain>
+<numberType>real</numberType>
+<!--No minimum value recorded in database (datafilevaribles/minvalid)-->
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute>
+<attributeName>class.post</attributeName>
+<attributeLabel>class.post</attributeLabel>
+<attributeDefinition>Post-fire Stand Classification or Successional Trajectory</attributeDefinition>
+<storageType>string</storageType>
+<measurementScale>
+<nominal>
+<nonNumericDomain>
+<textDomain>
+<definition>Post-fire Stand Classification or Successional Trajectory</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+<missingValueCode>
+<code>NA</code>
+<codeExplanation>Missing Value</codeExplanation>
+</missingValueCode>
+</attribute>
+</attributeList>
+</dataTable>
+</dataset>
+<additionalMetadata>
+ <metadata>
+ <unitList>
+<unit
+          id="cm2/m2"/>
+<unit id="stems/m2"/>
+</unitList>
+ </metadata>
+ </additionalMetadata>
+</eml:eml>

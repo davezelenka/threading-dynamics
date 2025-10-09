@@ -1,0 +1,5 @@
+Manifest file for knb-lter-bnz.804.2.zip created on Wed Oct 08 15:13:35 UTC 2025
+804_PrePostFireStandData_DiVA_XJW.csv (51085 bytes)
+knb-lter-bnz.804.2.xml (37735 bytes)
+knb-lter-bnz.804.2.txt (13900 bytes)
+knb-lter-bnz.804.2.report.xml (31287 bytes)
