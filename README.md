@@ -1,73 +1,52 @@
-# Threading Dynamics
+# Threading Dynamics Repository
 
-This repository explores **universal threading dynamics**: a clean mathematical framework unifying rotational systems across scales — from **hurricanes** and **climate oscillations (ENSO, PDO, AMO)** to planetary polygons (e.g., Saturn’s hexagon) and galactic spirals.  
-
-At the core is the hypothesis that **all observed spirals, rings, bands, and geometric structures** are surface expressions of deeper annular EM and rotational threading patterns. These emerge from a universal scaling law:
-
-\[
-\lambda \propto V^{-1/3}
-\]
-
-where  
-- **λ** = characteristic threading wavelength (pattern scale),  
-- **V** = system volume (geometric coupling),  
-- stability is set by resonance conditions and coherence.  
+The **Threading Dynamics** repository contains research, analyses, and datasets relating to the **Fabric Paradigm**, a conceptual framework that interprets reality as a living fabric of light, memory, and agency. This framework unifies phenomena across physics, biology, cognition, and ecological systems through shared threading dynamics.
 
 ---
 
-## Repository Structure
+## Repository Overview
 
-- **ENSO_PDO_AMO/**  
-  Analyses of climate oscillations (ENSO, PDO, AMO) as expressions of deep rotational threading. Includes spectral studies and harmonic modeling.
-  Key project: enso_sun_ccf.py 
+The repository includes:
 
-- **hurricanes/**  
-  Hurricane rotation, Coriolis imprint, and persistence explained by deep rotation coupling. Links to planetary-scale threading phenomena.  
+- **Analysis Scripts (`analysis.py`)**  
+  Scripts implementing computational analyses and data exploration across multiple ecological, physical, and conceptual studies. These scripts focus on emergent patterns, memory dynamics, and coherence evolution.
 
----
+- **Datasets**  
+  Original data used for analyses, including ecological datasets (forest fires, alpine grasslands, desert seed banks) and other experimental or observational studies. Data are organized per study.
 
-## Visual Tools
+- **Outputs**  
+  Summary tables, CSVs, and JSON results capturing memory redistribution, disturbance response, functional recovery, and other threading-related metrics.
 
-Interactive Desmos models help visualize how threading generates geometric and spiral patterns:
-
-- [Jupiter/Saturn octagon & hexagon patterns](https://www.desmos.com/calculator/ue1uufq4u0)
-- [Hurricane vortex parameters and predicted](https://www.desmos.com/calculator/ycpmeded0h)
-- [Topography & bathymetric spirals](https://www.desmos.com/calculator/etbwbnvafy)  
+- **Documentation**  
+  Markdown summaries and hypothesis testing overviews connecting observed patterns to the Threading Dynamics framework.
 
 ---
 
-## Quick Start
+## Key Concepts
 
-Use these Python functions to calculate threading wavelengths and predict harmonic locations:
+The **Fabric Paradigm** frames reality as a coherent structure of light threading, where:
 
-```python
-import numpy as np
+- All phenomena arise from **threading dynamics** guided by choice or agency.  
+- Memory and latent potential influence system behavior and recovery after disturbance.  
+- Coherence, resonance, and redistribution are fundamental processes connecting micro- and macro-scale patterns.  
+- Disturbances are not purely destructive but act as **reorganization events**, reshaping stored memory and system coherence.  
 
-def calculate_threading_wavelength(volume_km3, k=1e4):
-    """
-    Calculate characteristic threading wavelength.
-    volume_km3 : system volume in cubic kilometers
-    k          : coherence constant (default planetary-scale)
-    """
-    return k * (volume_km3 ** (-1/3))
+This framework allows interdisciplinary exploration, linking physics, ecology, cognition, and organizational systems under a shared conceptual model.
 
-def predict_harmonics(lambda_km, radius_km, max_n=10):
-    """
-    Predict harmonic band/polygon latitudes.
-    Returns list of (harmonic_number, latitude_deg).
-    """
-    harmonics = []
-    for n in range(1, max_n+1):
-        sin_value = n * lambda_km / (2 * np.pi * radius_km)
-        if sin_value <= 1:  # physically possible
-            theta = 90 - np.degrees(np.arcsin(sin_value))
-            harmonics.append((n, theta))
-    return harmonics
+---
 
-# Example: Saturn
-volume_km3 = 8.27e14  # Saturn volume
-lambda_km = calculate_threading_wavelength(volume_km3)
-harmonics = predict_harmonics(lambda_km, radius_km=58232)
+## Usage
 
-print("λ =", lambda_km, "km")
-print("Harmonics (n, latitude):", harmonics)
+- Clone the repository and navigate to the relevant study folder.
+- Run `analysis.py` to reproduce analyses, generate summary tables, and view hypothesis support.  
+- Outputs are saved as CSVs and JSON files, providing per-sample and per-group summaries.
+
+---
+
+## Citation and References
+
+When using analyses, please cite the original datasets and studies.
+
+
+- The repository is intended for research, exploration, and educational purposes in cross-disciplinary studies connecting ecology, physics, and complex systems theory.
+
