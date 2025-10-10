@@ -1,4 +1,4 @@
-## Addendum: Qinghai–Tibet Plateau biodiversity and Ecosystem Multifunctionality Analysis (Threading Ecology Framework)
+## Addendum: Long-term relationships between seed banks and wildfire across four North American desert sites Analysis (Threading Ecology Framework)
 
 ## Dataset Reference
 
@@ -47,4 +47,5 @@ If you like, I can expand this into a **LaTeX-ready appendix**, including quotes
 [1]: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1195.1&utm_source=chatgpt.com "Data Package Summary - EDI Data Portal"
 [2]: https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4398?utm_source=chatgpt.com "Long‐term relationships between seed bank communities and ..."
 [3]: https://www.researchgate.net/publication/369543271_Long-term_relationships_between_seed_bank_communities_and_wildfire_across_four_North_American_desert_sites?utm_source=chatgpt.com "Long‐term relationships between seed bank communities ..."
+
 
