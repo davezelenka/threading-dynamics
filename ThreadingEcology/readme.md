@@ -6,7 +6,7 @@ This repository contains the analysis scripts and supporting data for three ecol
 
 ## Folder Structure and Contents
 
-### 1. Bonanza Creek Fire Regimes (Boreal Forests)
+### 1. Bonanza Creek Fire Regimes (Boreal Forests) 
 - **Folder:** `Bonanza_Creek_LTER`
 - **Contents:**
   - `analysis.py` — Script for analyzing pre- and post-fire forest composition and biomass.
