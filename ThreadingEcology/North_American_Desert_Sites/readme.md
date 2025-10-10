@@ -63,7 +63,7 @@ Hosna, R. & Faist, A. (2023). *Long-term relationships between seed bank communi
 
 ---
 
-## Threading Ecology Analysis (Derived from their Data)
+## New Analysis (Derived from their Data)
 
 ### Burn vs. Control Tests
 
@@ -108,3 +108,4 @@ Hosna, R. & Faist, A. (2023). *Long-term relationships between seed bank communi
 2. `summary_by_sample.csv` — Summary table per sample combining functional group counts and seed bank attributes.
 3. `summary_by_group.csv` — Aggregated statistics by burn status, microsite, and desert.
 4. `tsf_regression_results.json` — Regression results of seed bank richness vs. time-since-fire.
+
