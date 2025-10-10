@@ -7,7 +7,7 @@ This repository contains the analysis scripts and supporting data for three ecol
 ## Folder Structure and Contents
 
 ### 1. Bonanza Creek Fire Regimes (Boreal Forests)
-- **Folder:** `Bonanza_Creek`
+- **Folder:** `Bonanza_Creek_LTER`
 - **Contents:**
   - `analysis.py` — Script for analyzing pre- and post-fire forest composition and biomass.
   - `804_PrePostFireStandData_DiVA_XJW.csv` — Original dataset with tree species densities, biomass, and deciduous index (DI) per transect.
@@ -21,7 +21,7 @@ This repository contains the analysis scripts and supporting data for three ecol
 ---
 
 ### 2. Alpine Grassland Disturbance (Qinghai–Tibet Plateau)
-- **Folder:** `Alpine_Grassland`
+- **Folder:** `Qinghai_Tibet_Plateau`
 - **Contents:**
   - `analysis.py` — Script for paired analysis of pika-disturbed and undisturbed plots.
   - Original dataset: `Li_2025_AlpineGrassland.csv` (90 paired plots) including biodiversity, biomass, soil nutrients, and multifunctionality metrics.
@@ -36,7 +36,7 @@ This repository contains the analysis scripts and supporting data for three ecol
 ---
 
 ### 3. North American Desert Seed Banks
-- **Folder:** `North_American_Deserts`
+- **Folder:** `North_American_Desert_Sites`
 - **Contents:**
   - `analysis.py` — Script processing seed bank functional group summaries and attributes.
   - Input files:
