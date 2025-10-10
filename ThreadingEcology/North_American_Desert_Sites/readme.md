@@ -1,72 +1,51 @@
-Title:
-Long-term relationships between seed banks and wildfire across four North American desert sites
-Creators:
-Hosna, Rachel; Botanist; Chicago Botanic Grden
-Faist, Akasha; Assistant Professor; New Mexico State University
-Publication Date:
-2022-08-23
-Citation:
-Hosna, R. and A. Faist. 2022. Long-term relationships between seed banks and wildfire across four North American desert sites ver 1. Environmental Data Initiative. https://doi.org/10.6073/pasta/0d26c8854f8ffda1db92305e0e761806 (Accessed 2025-10-09).
-Copy Citation
-Abstract:
-It is well documented that the recovery of dryland plant communities following wildfire can be variable, and that legacies of fire can have long lasting effects on aboveground plant communities. However, our understanding of the degree to which dryland soil seed banks, or the viable seeds in situ, are impacted by fire and their subsequent post-fire succession remains extremely poor. To address this important knowledge gap, we used a time-since-fire approach to investigate soil seed bank community changes approximately 15 and 30 years after wildfire and to determine the influence of microsites (e.g., shrub vs. interspace) on seed bank composition. We assessed soil seed bank metrics across four North American deserts, including two cold desert sites (Colorado Plateau and Great Basin) and two warm desert sites (Chihuahuan and Sonoran). In greenhouse emergence trials, we found that seed bank characteristics diverged between warm and cold desert sites, such that warm desert sites had seed banks dominated by annual plants while our cold desert sites had seed banks with greater proportions of perennial species, regardless of fire history. In cold desert sites, fire significantly altered seed bank species composition even 30 years after fire. Shrub versus interspace microsites had no observed influence on seed bank composition in any desert. However, seed bank species richness was greater under shrubs in both warm deserts. Non-native species were present in the seed banks of all deserts, and some were particularly abundant in the burned sites. Despite the presence of native species in both burned and unburned seed banks, the presence of non-native species suggests some degree of vulnerability to future disturbances because fire can create positive feedbacks with many non-native plants. Our results highlight strong differences in fires’ relationship with seed banks for warm and cold desert sites and lend insight into how fire relates to the composition and diversity of the seeds that play a fundamental role in future plant communities.
+Below is a **Markdown addendum** for the Hosna & Faist (2022) seed-bank / wildfire study, with dataset citation, summary of their methods and findings, and how those map to your Threading Ecology interpretations. Because we did *not* independently reanalyze their raw data, I note which parts are drawn from their published results.
 
-Package ID:
-edi.1195.1  (Uploaded 2022-08-23)  
-Resources:
-View Full Metadata (788 views)
-View Quality Report
-  (9 downloads) 
-Data Entities:
-ch_aboveground_spfctngrp  (760 B; 39 downloads) 
- Explore Data
-ch_abovegrounddata_quadrat  (27.6 KiB; 41 downloads) 
- Explore Data
-cp_aboveground_spfctngrp  (473 B; 39 downloads) 
- Explore Data
-cp_abovegrounddata_quadrat  (14.3 KiB; 38 downloads) 
- Explore Data
-gb_aboveground_spfctngrp  (348 B; 37 downloads) 
- Explore Data
-gb_abovegrounddata_quadrat  (18.2 KiB; 35 downloads) 
- Explore Data
-so_aboveground_spfctngrp  (499 B; 46 downloads) 
- Explore Data
-so_abovegrounddata_quadrat  (21.2 KiB; 41 downloads) 
- Explore Data
-aboveground_fctnlgrpsummary  (285.1 KiB; 34 downloads) 
- Explore Data
-seedbank_fctnlgrpsummary  (88.8 KiB; 38 downloads) 
- Explore Data
-sbagcombinedaboveground_fctngrpsummary_withproportions  (80.5 KiB; 30 downloads) 
- Explore Data
-seedbank_attribute_spreadsheet  (46.1 KiB; 39 downloads) 
- Explore Data
-seedbank_greenhouse_specieslist  (9.4 KiB; 33 downloads) 
- Explore Data
-seedbank_ghousecountdata_density  (129.3 KiB; 41 downloads) 
- Explore Data
-seedbank_ghousecountdata_species  (115.5 KiB; 49 downloads) 
- Explore Data
-blocktest_and_densitybydesertcontrolonly  (5.5 KiB; 19 downloads) 
-seedbank_functionalgroup_prepcode  (2.0 KiB; 21 downloads) 
-aboveground_functionalgroup_prepcode  (7.3 KiB; 18 downloads) 
-Fig2_seedbankaboveground_fctnlgrp  (9.2 KiB; 19 downloads) 
-Fig3_alldesertord_code  (8.9 KiB; 19 downloads) 
-Fig4_Table4_IndicatorSpeciesAnalysis_code  (55.2 KiB; 19 downloads) 
-Fig5_regressioncode  (8.0 KiB; 17 downloads) 
-Table3code_DENSITYxburnstatus  (5.3 KiB; 20 downloads) 
-Table3code_RICHNESSxburnstatus  (7.2 KiB; 19 downloads) 
-Table5code_DENSITYxmicrosite  (5.0 KiB; 19 downloads) 
-Table5code_RICHNESSxmicrosite  (6.5 KiB; 20 downloads) 
-Intellectual Rights:
-This data package is released to the "public domain" under Creative Commons CC0 1.0 "No Rights Reserved" (see: https://creativecommons.org/publicdomain/zero/1.0/). It is considered professional etiquette to provide attribution of the original work if this data package is shared in whole or by individual components. A generic citation is provided for this data package on the website https://portal.edirepository.org (herein "website") in the summary metadata page. Communication (and collaboration) with the creators of this data package is recommended to prevent duplicate research or publication. This data package (and its components) is made available "as is" and with no warranty of accuracy or fitness for use. The creators of this data package and the website shall not be liable for any damages resulting from misinterpretation or misuse of the data package or its components. Periodic updates of this data package may be available from the website. Thank you.
-Digital Object Identifier:
-https://doi.org/10.6073/pasta/0d26c8854f8ffda1db92305e0e761806
-Code Generation:
-Analyze this data package using:           
-Provenance:
-Generate provenance metadata for use within your derived data package
-Journal Citations:
-A data package in this series has been cited, or was used as the source data, in the following journal article(s):
-Long‐term relationships between seed bank communities and wildfire across four North American desert sites (10.1002/ecs2.4398), Ecosphere (edi.1195.1) 
+---
+
+## Dataset Reference
+
+**Hosna, R. & Faist, A.** (2022). *Long-term relationships between seed banks and wildfire across four North American desert sites*, ver. 1. Environmental Data Initiative. Accessed 2025-10-08.
+DOI: [10.6073/pasta/0d26c8854f8ffda1db92305e0e761806](https://doi.org/10.6073/pasta/0d26c8854f8ffda1db92305e0e761806)
+EDI Package: “Long-term relationships between seed banks and wildfire across four North American desert sites” ([eDirectory][1])
+
+Additional published version:
+Hosna, R. & Faist, A. (2023). *Long-term relationships between seed bank communities and wildfire across four North American desert sites*. *Ecosphere*. ([ESAJournals][2])
+
+---
+
+## Study Description & Methods (from Hosna & Faist)
+
+* They used a **time-since-fire (TSF)** approach, sampling ~15 and ~30 years post-fire, across four desert ecoregions: two **cold deserts** (Colorado Plateau, Great Basin) and two **warm deserts** (Chihuahuan, Sonoran). ([ResearchGate][3])
+* At each desert site, there are paired **burned and unburned** control plots. ([ResearchGate][3])
+* In each plot, they sampled **microsites** under shrubs and interspaces (i.e. near shrub vs open ground) using **soil seed bank emergence trials** (greenhouse germination) to quantify viable seed composition. ([ResearchGate][3])
+* They compared seed bank species composition, richness, functional group proportions (annuals, perennials, non-natives), and divergence across fire histories and desert types. ([ResearchGate][3])
+* Key contrasts:
+   • In **cold deserts**, fire had significant long-lasting effects on seed bank composition (even 30 years post-fire). ([ResearchGate][3])
+   • In **warm deserts**, seed banks are more dominated by annual species, regardless of fire history. ([ResearchGate][3])
+   • Microsite (shrub vs interspace) did **not** systematically influence species composition in cold deserts; but in warm deserts, species richness was higher under shrubs. ([ResearchGate][3])
+* They also documented **non-native species** present in all desert seed banks, and often more abundant in burned areas, implying fire may exacerbate non-native feedbacks. ([ResearchGate][3])
+
+---
+
+## Mapping to Threading Ecology Hypotheses & Interpretation
+
+Below is how the reported results support or map to your Threading Ecology predictions (with transparency about which parts are from the authors’ results rather than a fresh reanalysis).
+
+| Threading Hypothesis                                   | Mapped Evidence / Inference from Hosna & Faist                                                                                                                                                                                                                       | Notes & Interpretive Framing                                                                                                                                                   |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **H1 – Threading–Disturbance Cycles**                  | The fact that fire history continues to influence seed bank composition decades later implies a memory–disturbance cycle: past disturbance reorganizes memory stores, then the system evolves from that new state.                                                   | While they did not explicitly model cyclic memory accumulation and release, their long-term legacy results align with the notion of disturbance driving memory reorganization. |
+| **H2 – Memory Gradient Triggers**                      | Differences in seed bank composition across burned and unburned plots suggest underlying memory gradients (pre-existing contrasts) that influence how strongly fire impacts seed bank dynamics.                                                                      | The authors did not compute gradient steepness metrics (like $\nabla^2 M$). Your framework interprets compositional divergence as a proxy for memory gradient steepness.       |
+| **H4 – Post-Disturbance Coherence Enhancement**        | Despite disturbance, native seed bank presence persisted, and non-dominant (latent) species remained. This suggests the seed bank retains latent potential facilitating coherence restoration.                                                                       | Their data show persistence, not necessarily *greater* post-fire coherence, but your inference is that latent memory buffers the system from total collapse.                   |
+| **H5 – Threading Density Recovery Before Composition** | They did not (in the published version) separately measure “threading pathways” density vs full composition recovery. However, the persistence of seed banks (latent memory) implies that structural potential remains even when aboveground composition is altered. | This is an inferred mapping, not a direct test. You might flag this as a hypothesis not fully tested by their work.                                                            |
+| **H6 – Multi-Phase Memory Recovery**                   | Their observation that effects persist decades later suggests that reactivation cycles (latent → active) may occur over long time scales, fitting the “multi-phase” picture.                                                                                         | The authors discuss reorganization over time but do not explicitly delineate phases of redistribution, latency, and reactivation in the way your model does.                   |
+
+**Summary Interpretation:**
+Hosna & Faist’s long-term seed bank dataset provides empirical grounding for the idea that **disturbances reorganize ecological memory**, and that such reorganizations have enduring legacies. While not every threading hypothesis is directly tested in their work, their results affirm key premises: memory persistence, differential responses across ecosystem types (warm vs cold deserts), and the importance of latent memory reservoirs in enabling recovery.
+
+---
+
+If you like, I can expand this into a **LaTeX-ready appendix**, including quotes and figure references from their paper, to use in your manuscript. Would you prefer that?
+
+[1]: https://portal.edirepository.org/nis/mapbrowse?packageid=edi.1195.1&utm_source=chatgpt.com "Data Package Summary - EDI Data Portal"
+[2]: https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.4398?utm_source=chatgpt.com "Long‐term relationships between seed bank communities and ..."
+[3]: https://www.researchgate.net/publication/369543271_Long-term_relationships_between_seed_bank_communities_and_wildfire_across_four_North_American_desert_sites?utm_source=chatgpt.com "Long‐term relationships between seed bank communities ..."
