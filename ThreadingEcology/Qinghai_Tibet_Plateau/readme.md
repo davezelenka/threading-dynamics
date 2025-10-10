@@ -1,7 +1,3 @@
-Here’s the full, clean **Markdown version** (ready for README, supplement, or appendix use):
-
----
-
 ## Dataset Reference
 
 **Li, J.** (2025). *Paired alpine grassland vegetation–soil dataset under plateau pika disturbance for biodiversity and multifunctionality analysis.*
@@ -95,3 +91,4 @@ Analysis scripts and results are available at:
 🔗 [https://github.com/davezelenka/threading-dynamics/tree/main/ThreadingEcology](https://github.com/davezelenka/threading-dynamics/tree/main/ThreadingEcology)
 
 ---
+
