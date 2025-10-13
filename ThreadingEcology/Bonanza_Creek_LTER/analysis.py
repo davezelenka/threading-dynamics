@@ -1,6 +1,11 @@
 import pandas as pd
 import numpy as np
 from scipy import stats
+import matplotlib.pyplot as plt
+import seaborn as sns
+import os
+
+sns.set(style="whitegrid", context="talk")
 
 def load_and_prepare_data(filepath):
     """
@@ -22,6 +27,7 @@ def load_and_prepare_data(filepath):
     df['memory_gradient_rate'] = (df['memory_gradient_di'] / (df['DI.pre'] + 1e-10)) * 100
     
     return df
+
 
 def test_hypothesis_2_memory_gradient(df):
     """
@@ -68,6 +74,7 @@ def test_hypothesis_2_memory_gradient(df):
     
     return gradient_stats
 
+
 def test_hypothesis_4_post_disturbance_enhancement(df):
     """
     Enhanced H4: Post-Disturbance Enhancement
@@ -102,14 +109,69 @@ def test_hypothesis_4_post_disturbance_enhancement(df):
     
     return enhancements
 
+
+def create_output_figures(df, enhancements):
+    """
+    Generate publication-quality visualizations for supplementary materials
+    """
+    os.makedirs("output", exist_ok=True)
+
+    # --- Figure 1: Memory Gradient Distribution ---
+    plt.figure(figsize=(10, 6))
+    sns.histplot(df['memory_gradient_di'], kde=True, color="steelblue", bins=25)
+    plt.axvline(df['memory_gradient_di'].mean(), color='red', linestyle='--', label='Mean ΔDI')
+    plt.title("Memory Gradient Distribution (ΔDI)")
+    plt.xlabel("Δ Disturbance Index (DI.post - DI.pre)")
+    plt.ylabel("Frequency")
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig("output/bonanza_memory_gradient_density.png", dpi=300)
+    plt.close()
+
+    # --- Figure 2: Post-Disturbance Enhancement ---
+    enh_df = pd.DataFrame({
+        "Memory Type": ["Total"] * len(enhancements['total_memory']) +
+                       ["Coniferous"] * len(enhancements['coniferous_memory']) +
+                       ["Deciduous"] * len(enhancements['deciduous_memory']),
+        "Enhancement (%)": np.concatenate([
+            enhancements['total_memory'], 
+            enhancements['coniferous_memory'], 
+            enhancements['deciduous_memory']
+        ])
+    })
+    
+    enh_df = enh_df.dropna()
+    
+    plt.figure(figsize=(9, 6))
+    sns.violinplot(
+        data=enh_df, 
+        x="Memory Type", 
+        y="Enhancement (%)", 
+        palette="muted", 
+        inner="box"
+    )
+    plt.axhline(0, color='gray', linestyle='--')
+    plt.title("Post-Disturbance Memory Enhancement")
+    plt.tight_layout()
+    plt.savefig("output/bonanza_post_disturbance_enhancement.png", dpi=300)
+    plt.close()
+
+
 def main(filepath):
     print("===== THREADING ECOLOGY ANALYSIS =====")
     print(f"Dataset: {filepath}")
     
     df = load_and_prepare_data(filepath)
     
-    test_hypothesis_2_memory_gradient(df)
-    test_hypothesis_4_post_disturbance_enhancement(df)
+    grad_stats = test_hypothesis_2_memory_gradient(df)
+    enhancements = test_hypothesis_4_post_disturbance_enhancement(df)
+    
+    create_output_figures(df, enhancements)
+
+    print("\nFigures saved to ./output/")
+    print(" - bonanza_memory_gradient_density.png")
+    print(" - bonanza_post_disturbance_enhancement.png")
+
 
 if __name__ == "__main__":
     filepath = '804_PrePostFireStandData_DiVA_XJW.csv'
