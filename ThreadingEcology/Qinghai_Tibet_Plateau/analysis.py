@@ -1,23 +1,24 @@
-# Fixed and re-run the paired-analysis script for the pika dataset.
-# This version corrects the previous syntax error and provides clearer printed output.
 import pandas as pd
 import numpy as np
 from scipy import stats
+import seaborn as sns
+import matplotlib.pyplot as plt
+import os
+
+sns.set(style="whitegrid", context="talk")
 
 def load_data(path='data.csv'):
     df = pd.read_csv(path)
     return df
 
 def find_pairs(df):
-    # Extract prefix letters and numeric part to form pair keys (e.g., A1 -> prefix=A, number=1)
     df = df.copy()
     df['prefix'] = df['plot_id'].str.extract(r'^([A-Za-z]+)')[0]
     df['number'] = df['plot_id'].str.extract(r'([0-9]+)')[0]
     df['pair_key'] = df['prefix'].fillna('') + df['number'].fillna('')
     counts = df['pair_key'].value_counts()
-    paired_keys = counts[counts==2].index.tolist()
+    paired_keys = counts[counts == 2].index.tolist()
     paired_df = df[df['pair_key'].isin(paired_keys)].copy()
-    # Pivot so we have With and Without columns per variable
     try:
         paired_df = paired_df.pivot(index='pair_key', columns='Pika_type')
         paired_df.columns = ['_'.join(map(str, col)).strip() for col in paired_df.columns.values]
@@ -28,7 +29,7 @@ def find_pairs(df):
 
 def compute_paired_differences(paired_df):
     vars_of_interest = [
-        'AGB', 'SOC', 'N', 'P', 'NO3', 'NH4', 'AP', 'SM', 
+        'AGB', 'SOC', 'N', 'P', 'NO3', 'NH4', 'AP', 'SM',
         'Biodiversity', 'Mean_EMF', 'Effective_EMF'
     ]
     summary = {}
@@ -38,12 +39,10 @@ def compute_paired_differences(paired_df):
         if col_with in paired_df.columns and col_without in paired_df.columns:
             diff = paired_df[col_with] - paired_df[col_without]
             paired_df[f'diff_{var}'] = diff
-            # summary stats
             mean_diff = diff.mean()
             median_diff = diff.median()
             std_diff = diff.std()
             count = diff.count()
-            # paired t-test (With vs Without)
             try:
                 tstat, pval = stats.ttest_rel(paired_df[col_with], paired_df[col_without], nan_policy='omit')
             except Exception as e:
@@ -80,31 +79,71 @@ def compare_multifunctionality_vs_biodiversity(paired_df):
             return {'spearman_r': float(corr), 'p_value': float(p), 'n': int(mask.sum())}
     return None
 
+def create_output_figures(paired_df):
+    os.makedirs("output", exist_ok=True)
+
+    # --- Figure 1: With vs Without Multifunctionality ---
+    plt.figure(figsize=(8, 6))
+    melted = paired_df.melt(
+        value_vars=['Mean_EMF_With', 'Mean_EMF_Without'],
+        var_name='Condition', value_name='Mean_EMF'
+    )
+    melted['Condition'] = melted['Condition'].str.replace('Mean_EMF_', '')
+    sns.violinplot(data=melted, x='Condition', y='Mean_EMF', palette='muted', inner='box')
+    plt.title("Ecosystem Multifunctionality With vs Without Pika")
+    plt.ylabel("Mean Ecosystem Multifunctionality (EMF)")
+    plt.tight_layout()
+    plt.savefig("output/pika_multifunctionality_comparison.png", dpi=300)
+    plt.close()
+
+    # --- Figure 2: ΔBiodiversity vs ΔMultifunctionality ---
+    if 'diff_Biodiversity' in paired_df.columns and 'diff_Mean_EMF' in paired_df.columns:
+        plt.figure(figsize=(8, 6))
+        sns.regplot(
+            x='diff_Biodiversity', y='diff_Mean_EMF',
+            data=paired_df, scatter_kws={'alpha':0.7}, line_kws={'color':'red'}
+        )
+        plt.title("Change in Biodiversity vs Change in Multifunctionality")
+        plt.xlabel("Δ Biodiversity (With – Without)")
+        plt.ylabel("Δ Mean EMF (With – Without)")
+        plt.tight_layout()
+        plt.savefig("output/pika_biodiversity_vs_emf.png", dpi=300)
+        plt.close()
+
 def main(path='data.csv'):
     df = load_data(path)
     paired_df, full_df, paired_keys = find_pairs(df)
     print(f'Found {len(paired_keys)} paired sampling units.')
     paired_df, summary = compute_paired_differences(paired_df)
+
     print('\nPaired differences summary (selected variables):')
     for var, statsum in summary.items():
         print(f"{var}: mean_diff={statsum['mean_diff']:.4f}, t={statsum['paired_t_stat']:.3f}, p={statsum['paired_p_value']:.4f}, n={statsum['count']}")
+
     mem_pred = test_memory_gradient_prediction(paired_df, memory_proxy='SOC')
     print('\nMemory gradient (SOC) vs abs(change) correlations:')
     if mem_pred:
-        for k,v in mem_pred.items():
+        for k, v in mem_pred.items():
             print(f"{k}: r={v['spearman_r']:.3f}, p={v['p_value']:.4f}, n={v['n']}")
     else:
         print("Not enough data to compute correlations.")
+
     emf_vs_bio = compare_multifunctionality_vs_biodiversity(paired_df)
     print('\nMean_EMF vs Biodiversity change correlation:')
     print(emf_vs_bio)
+
     paired_df.to_csv('output/paired_differences.csv', index=False)
-    print('\nPaired differences saved to paired_differences.csv')
+    print('\nPaired differences saved to output/paired_differences.csv')
+
+    create_output_figures(paired_df)
+    print("Figures saved to ./output/")
+    print(" - pika_multifunctionality_comparison.png")
+    print(" - pika_biodiversity_vs_emf.png")
+
     return paired_df, summary, mem_pred, emf_vs_bio
 
-# Run main if executed as script
 if __name__ == '__main__':
     try:
         paired_df, summary, mem_pred, emf_vs_bio = main('data.csv')
     except FileNotFoundError:
-        print("data.csv not found in working directory. Please place the dataset file in the current directory or specify the correct path.")
+        print("data.csv not found. Please place the dataset file in the current directory or specify the correct path.")
