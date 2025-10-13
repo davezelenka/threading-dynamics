@@ -98,7 +98,7 @@ def main(path='data.csv'):
     emf_vs_bio = compare_multifunctionality_vs_biodiversity(paired_df)
     print('\nMean_EMF vs Biodiversity change correlation:')
     print(emf_vs_bio)
-    paired_df.to_csv('paired_differences.csv', index=False)
+    paired_df.to_csv('output/paired_differences.csv', index=False)
     print('\nPaired differences saved to paired_differences.csv')
     return paired_df, summary, mem_pred, emf_vs_bio
 
