@@ -214,43 +214,63 @@ def tsf_regression(summary):
         res['error'] = 'Not enough burned samples with TSF for regression'
     return res
 
-def save_figures(summary, out_prefix):
-    # richness by burn
-    plt.figure(figsize=(6,4))
-    sns.boxplot(x='burn', y='fg_richness', data=summary, order=sorted(summary['burn'].dropna().unique()))
-    sns.stripplot(x='burn', y='fg_richness', data=summary, color='0.2', size=3, jitter=True, alpha=0.6)
-    plt.title('Functional-group richness by burn status')
-    plt.tight_layout()
-    fn1 = f"{out_prefix}_richness_by_burn.png"
-    plt.savefig(fn1, dpi=200)
-    plt.close()
+def save_compelling_figures(summary, out_prefix):
+    """
+    Generates two compelling summary figures:
+     1. Ecological memory recovery curve (richness vs TSF, smoothed)
+     2. Microsite coherence map (richness distributions by microsite and desert)
+    """
 
-    # richness by microsite
-    if 'overstory' in summary.columns:
-        plt.figure(figsize=(6,4))
-        s = summary.copy()
-        s['overstory_clean'] = s['overstory'].astype(str).str.strip().str.upper().str[0]
-        sns.boxplot(x='overstory_clean', y='fg_richness', data=s)
-        sns.stripplot(x='overstory_clean', y='fg_richness', data=s, color='0.2', size=3, jitter=True, alpha=0.6)
-        plt.title('Richness by microsite (S=shrub, I=interspace)')
+    # ---- 1. Ecological Memory Recovery Curve ----
+    s = summary.copy()
+    s['TSF_num'] = pd.to_numeric(s['TSF'], errors='coerce')
+    s = s[s['burn'].str.lower().str.contains('burn', na=False)]
+    s = s.dropna(subset=['TSF_num', 'fg_richness'])
+
+    if not s.empty:
+        plt.figure(figsize=(7,5))
+        sns.regplot(
+            data=s,
+            x='TSF_num', y='fg_richness',
+            lowess=True, scatter_kws={'alpha':0.5, 'color':'#999'},
+            line_kws={'color':'#005f73', 'lw':2.5}
+        )
+        plt.title("Ecological Memory Recovery Curve\n(Richness vs. Time Since Fire)")
+        plt.xlabel("Time Since Fire (years)")
+        plt.ylabel("Functional Group Richness")
+        plt.text(0.02, 0.9, "Burned plots only", transform=plt.gca().transAxes,
+                 fontsize=9, color='gray')
         plt.tight_layout()
-        fn2 = f"{out_prefix}_richness_by_microsite.png"
-        plt.savefig(fn2, dpi=200)
+        fn1 = f"{out_prefix}_memory_recovery_curve.png"
+        plt.savefig(fn1, dpi=300)
         plt.close()
 
-    # TSF vs richness scatter
-    if 'TSF' in summary.columns:
-        plt.figure(figsize=(6,4))
-        s = summary.copy()
-        s['TSF_num'] = pd.to_numeric(s['TSF'], errors='coerce')
-        sns.scatterplot(x='TSF_num', y='fg_richness', hue='burn', data=s, alpha=0.7)
-        plt.xlabel('Time since fire (TSF)')
-        plt.ylabel('FG richness')
-        plt.title('TSF vs FG richness')
+    # ---- 2. Microsite Coherence Map ----
+    m = summary.copy()
+    m['overstory_clean'] = m['overstory'].astype(str).str.strip().str.upper().str[0]
+    m = m[m['overstory_clean'].isin(['S', 'I'])]
+
+    if not m.empty and 'desert' in m.columns:
+        plt.figure(figsize=(8,5))
+        sns.violinplot(
+            data=m,
+            x='overstory_clean', y='fg_richness',
+            hue='desert', split=True, inner='quartile',
+            palette='Set2', linewidth=1.2
+        )
+        plt.title("Microsite Coherence Map\n(Richness by Microsite and Desert)")
+        plt.xlabel("Microsite (S = Shrub, I = Interspace)")
+        plt.ylabel("Functional Group Richness")
+        plt.legend(title="Desert", bbox_to_anchor=(1.02, 1), loc='upper left', frameon=False)
         plt.tight_layout()
-        fn3 = f"{out_prefix}_tsf_vs_richness.png"
-        plt.savefig(fn3, dpi=200)
+        fn2 = f"{out_prefix}_microsite_coherence_map.png"
+        plt.savefig(fn2, dpi=300)
         plt.close()
+
+    print("Saved two primary figures:")
+    print("  -", fn1)
+    print("  -", fn2)
+
 
 def main():
     print("Loading tables...")
@@ -292,7 +312,9 @@ def main():
         json.dump(test_results, f, indent=2)
 
     print("Saving plots...")
-    save_figures(summary, OUT_PREFIX)
+    print("Saving compelling figures...")
+    save_compelling_figures(summary, OUT_PREFIX)
+
 
     print("Done. Outputs:")
     for fn in Path('.').glob(f"{OUT_PREFIX}*"):
