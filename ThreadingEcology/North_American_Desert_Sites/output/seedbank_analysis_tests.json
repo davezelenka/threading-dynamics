@@ -1,0 +1,30 @@
+{
+  "burn_tests": {
+    "unpaired": {
+      "n_burned": 256,
+      "n_control": 222,
+      "rich_u_stat": 32980.0,
+      "rich_p": 0.0010674080449074338,
+      "total_u_stat": 29189.0,
+      "total_p": 0.607101313555376
+    }
+  },
+  "microsite_tests": {
+    "n_shrub": 245,
+    "n_inter": 233,
+    "rich_u_stat": 34251.5,
+    "rich_p": 4.4259644599032094e-05
+  },
+  "tsf_regression": {
+    "n": 256,
+    "params": {
+      "const": 1.090412807458749,
+      "TSF_num": 0.03542906213580335
+    },
+    "pvalues": {
+      "const": 4.4132626646633965e-09,
+      "TSF_num": 2.9411775206195484e-06
+    },
+    "rsquared": 0.08259832296155611
+  }
+}

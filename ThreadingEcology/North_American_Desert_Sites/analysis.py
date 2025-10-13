@@ -37,7 +37,7 @@ warnings.filterwarnings("ignore", category=FutureWarning)
 # --------- USER CONFIG ----------
 FG_FILE = "seedbank_fctnlgrpsummary.csv"
 ATTR_FILE = "seedbank_attribute_spreadsheet.csv"
-OUT_PREFIX = "seedbank_analysis"
+OUT_PREFIX = "output/seedbank_analysis"
 # --------------------------------
 
 def safe_read_csv(path):
