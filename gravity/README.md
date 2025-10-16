@@ -1,6 +1,6 @@
-# Fabric Framework: Toroidal Black Hole Simulations
+# Toroidal Black Hole Simulations
 
-This repository contains Python simulations exploring the **Fabric Framework** - a theoretical model that unifies physics with Biblical theology through the concept of memory density as a fundamental property of reality. The simulations focus on toroidal black hole structures where memory density creates gravitational effects.
+This repository contains Python simulations exploring the **Fabric Framework** - The simulations focus on toroidal black hole structures where memory density creates gravitational effects.
 
 ## Theoretical Background
 
@@ -123,7 +123,3 @@ These simulations explore whether:
 - Extension to rotating (Kerr-like) toroidal geometries
 - Quantum corrections to the memory density field
 - Connection to cosmological models and dark matter
-
-## Note
-
-This work represents speculative theoretical physics exploring the intersection of gravitational theory and information-theoretic approaches to spacetime. The Fabric Framework is a developing theoretical model that attempts to bridge scientific understanding with broader philosophical and theological perspectives.
