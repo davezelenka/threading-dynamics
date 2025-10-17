@@ -7,7 +7,7 @@ Below are twenty ways this vision could transform science and society alike.
 
 ---
 
-## 🔬 SCIENTIFIC IMPLICATIONS
+## SCIENTIFIC IMPLICATIONS
 
 ---
 
