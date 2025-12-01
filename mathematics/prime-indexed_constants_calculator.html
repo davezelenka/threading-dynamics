@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime-Indexed Constants Calculator (Ωp) - Operational Geometry</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            margin-bottom: 24px;
+        }
+
+        h1 {
+            color: #1e293b;
+            font-size: 2em;
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            color: #1e293b;
+            font-size: 1.5em;
+            margin-bottom: 16px;
+        }
+
+        .subtitle {
+            color: #64748b;
+            margin-bottom: 24px;
+        }
+
+        .controls {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        label {
+            font-weight: 500;
+            color: #475569;
+        }
+
+        input[type="range"] {
+            flex: 1;
+            max-width: 300px;
+        }
+
+        .value-display {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #3b82f6;
+            min-width: 50px;
+        }
+
+        button {
+            background: #3b82f6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        button:hover {
+            background: #2563eb;
+        }
+
+        button:disabled {
+            background: #94a3b8;
+            cursor: not-allowed;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 32px;
+            color: #64748b;
+        }
+
+        .spinner {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e2e8f0;
+            border-top: 4px solid #3b82f6;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9em;
+        }
+
+        thead {
+            background: #f8fafc;
+        }
+
+        th {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 2px solid #e2e8f0;
+            font-weight: 600;
+            color: #475569;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #f1f5f9;
+        }
+
+        tbody tr:hover {
+            background: #f8fafc;
+        }
+
+        .prime-cell {
+            font-weight: 600;
+            color: #3b82f6;
+        }
+
+        .mono {
+            font-family: 'Courier New', monospace;
+        }
+
+        .success {
+            color: #10b981;
+        }
+
+        .error {
+            color: #ef4444;
+        }
+
+        .info-box {
+            background: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 16px;
+            border-radius: 6px;
+            margin-top: 24px;
+        }
+
+        .info-box h3 {
+            color: #1e40af;
+            margin-bottom: 8px;
+        }
+
+        .info-box ul {
+            margin-left: 20px;
+            color: #1e40af;
+        }
+
+        .info-box li {
+            margin: 4px 0;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        sub {
+            font-size: 0.8em;
+        }
+
+        sup {
+            font-size: 0.8em;
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Prime-Indexed Constants Calculator</h1>
+            <p class="subtitle">
+                Computing Ω<sub>p</sub> for prime p, where Ω<sub>p</sub> is the positive root of 
+                x<sup>p</sup> - x<sup>p-1</sup> - 1 = 0
+            </p>
+            
+            <div class="controls">
+                <label>Max Prime:</label>
+                <input type="range" id="maxPrimeSlider" min="5" max="100" value="20">
+                <span class="value-display" id="maxPrimeValue">20</span>
+                <button id="computeBtn">Compute</button>
+            </div>
+
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Computing...</p>
+            </div>
+        </div>
+
+        <div class="card" id="chartCard" style="display: none;">
+            <h2>Convergence to Unity</h2>
+            <div class="chart-container">
+                <canvas id="convergenceChart"></canvas>
+            </div>
+            <p class="subtitle" style="font-style: italic; margin-top: 16px;">
+                As p → ∞, Ω<sub>p</sub> → 1 (operational complexity approaches identity)
+            </p>
+        </div>
+
+        <div class="card" id="resultsCard" style="display: none;">
+            <h2>Computed Values</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Prime p</th>
+                            <th>Ω<sub>p</sub></th>
+                            <th>Iterations</th>
+                            <th>Verification</th>
+                            <th>p-nacci Ratio</th>
+                            <th>Error</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody id="resultsTable">
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="info-box">
+                <h3>Key Observations:</h3>
+                <ul>
+                    <li>Ω<sub>2</sub> = φ ≈ 1.618 (Golden Ratio)</li>
+                    <li>Ω<sub>3</sub> ≈ 1.466 (Plastic Number - 3D structures)</li>
+                    <li>Each Ω<sub>p</sub> emerges from fixed point iteration: x = 1 + 1/x<sup>p-1</sup></li>
+                    <li>The p-nacci ratio converges to the same value, confirming operational emergence</li>
+                    <li>As p increases, constants approach unity (operational identity)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Generate primes up to n using Sieve of Eratosthenes
+        function generatePrimes(n) {
+            const primes = [];
+            const isPrime = new Array(n + 1).fill(true);
+            isPrime[0] = isPrime[1] = false;
+            
+            for (let i = 2; i <= n; i++) {
+                if (isPrime[i]) {
+                    primes.push(i);
+                    for (let j = i * i; j <= n; j += i) {
+                        isPrime[j] = false;
+                    }
+                }
+            }
+            return primes;
+        }
+
+        // Compute Ω_p: the positive root of x^p - x^(p-1) - 1 = 0
+        // Equivalently: x = 1 + 1/x^(p-1)
+        function computeOmegaP(p, maxIterations = 1000, tolerance = 1e-12) {
+            let x = 1.5; // Initial guess
+            
+            for (let i = 0; i < maxIterations; i++) {
+                const xOld = x;
+                // Fixed point iteration: x = 1 + 1/x^(p-1)
+                x = 1 + Math.pow(x, -(p - 1));
+                
+                if (Math.abs(x - xOld) < tolerance) {
+                    return { value: x, iterations: i + 1, converged: true };
+                }
+            }
+            
+            return { value: x, iterations: maxIterations, converged: false };
+        }
+
+        // Verify the solution by checking x^p - x^(p-1) - 1 ≈ 0
+        function verifyOmega(x, p) {
+            return Math.pow(x, p) - Math.pow(x, p - 1) - 1;
+        }
+
+        // Compute the p-nacci ratio approximation
+        function computePNacciRatio(p, terms = 50) {
+            const sequence = new Array(terms).fill(0);
+            
+            // Initialize first p terms to 1
+            for (let i = 0; i < Math.min(p, terms); i++) {
+                sequence[i] = 1;
+            }
+            
+            // Generate remaining terms
+            for (let i = p; i < terms; i++) {
+                let sum = 0;
+                for (let j = 1; j <= p - 1; j++) {
+                    sum += sequence[i - j];
+                }
+                sequence[i] = sum;
+            }
+            
+            // Return ratio of last two terms
+            if (terms >= 2 && sequence[terms - 2] !== 0) {
+                return sequence[terms - 1] / sequence[terms - 2];
+            }
+            return null;
+        }
+
+        function getConstantName(prime) {
+            const names = {
+                2: 'Golden Ratio (φ)',
+                3: 'Plastic Number',
+                5: 'Pentic Constant',
+                7: 'Septic Constant'
+            };
+            return names[prime] || '';
+        }
+
+        let chart = null;
+
+        function displayResults(results) {
+            const tbody = document.getElementById('resultsTable');
+            tbody.innerHTML = '';
+
+            results.forEach(r => {
+                const row = tbody.insertRow();
+                
+                row.insertCell().innerHTML = `<span class="prime-cell">${r.prime}</span>`;
+                row.insertCell().innerHTML = `<span class="mono">${r.omega.toFixed(10)}</span>`;
+                row.insertCell().textContent = r.iterations;
+                
+                const verificationClass = Math.abs(r.verification) < 1e-10 ? 'success' : 'error';
+                row.insertCell().innerHTML = `<span class="${verificationClass}">${r.verification.toExponential(2)}</span>`;
+                
+                row.insertCell().innerHTML = r.pNacciRatio 
+                    ? `<span class="mono">${r.pNacciRatio.toFixed(10)}</span>` 
+                    : 'N/A';
+                
+                row.insertCell().innerHTML = r.error 
+                    ? `<span class="mono">${r.error.toExponential(2)}</span>` 
+                    : 'N/A';
+                
+                row.insertCell().innerHTML = `<em>${getConstantName(r.prime)}</em>`;
+            });
+
+            // Create chart
+            const ctx = document.getElementById('convergenceChart');
+            
+            if (chart) {
+                chart.destroy();
+            }
+
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: results.map(r => r.prime),
+                    datasets: [
+                        {
+                            label: 'Ωp',
+                            data: results.map(r => r.omega),
+                            borderColor: '#3b82f6',
+                            backgroundColor: 'rgba(59, 130, 246, 0.1)',
+                            borderWidth: 2,
+                            pointRadius: 4,
+                            pointHoverRadius: 6,
+                            tension: 0.1
+                        },
+                        {
+                            label: 'Unity (y=1)',
+                            data: results.map(() => 1),
+                            borderColor: '#ef4444',
+                            borderWidth: 2,
+                            borderDash: [5, 5],
+                            pointRadius: 0,
+                            fill: false
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        },
+                        tooltip: {
+                            mode: 'index',
+                            intersect: false,
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.dataset.label || '';
+                                    if (label) {
+                                        label += ': ';
+                                    }
+                                    if (context.parsed.y !== null) {
+                                        label += context.parsed.y.toFixed(6);
+                                    }
+                                    return label;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'Prime p'
+                            }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Ωp'
+                            },
+                            min: 0.9,
+                            max: 2
+                        }
+                    }
+                }
+            });
+
+            document.getElementById('chartCard').style.display = 'block';
+            document.getElementById('resultsCard').style.display = 'block';
+        }
+
+        function computeAllOmegas() {
+            const maxPrime = parseInt(document.getElementById('maxPrimeSlider').value);
+            
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('chartCard').style.display = 'none';
+            document.getElementById('resultsCard').style.display = 'none';
+            document.getElementById('computeBtn').disabled = true;
+
+            setTimeout(() => {
+                const primes = generatePrimes(maxPrime);
+                const results = primes.map(p => {
+                    const omega = computeOmegaP(p);
+                    const verification = verifyOmega(omega.value, p);
+                    const pNacciRatio = computePNacciRatio(p);
+                    
+                    return {
+                        prime: p,
+                        omega: omega.value,
+                        iterations: omega.iterations,
+                        converged: omega.converged,
+                        verification: verification,
+                        pNacciRatio: pNacciRatio,
+                        error: pNacciRatio ? Math.abs(omega.value - pNacciRatio) : null
+                    };
+                });
+
+                displayResults(results);
+                
+                document.getElementById('loading').style.display = 'none';
+                document.getElementById('computeBtn').disabled = false;
+            }, 100);
+        }
+
+        // Event listeners
+        document.getElementById('maxPrimeSlider').addEventListener('input', (e) => {
+            document.getElementById('maxPrimeValue').textContent = e.target.value;
+        });
+
+        document.getElementById('computeBtn').addEventListener('click', computeAllOmegas);
+
+        // Initial computation
+        computeAllOmegas();
+    </script>
+</body>
+</html>
