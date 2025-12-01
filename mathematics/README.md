@@ -70,4 +70,6 @@ To be determined. All mathematical content is freely available for research and 
 
 
 _"Every form is merely the memory of an act."_
+
 _"Operational Geometry begins where Euclid ended: with Action as the unprovable, irreducible primitive."_
+
