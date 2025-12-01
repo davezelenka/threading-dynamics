@@ -66,10 +66,11 @@ Each prime generates a constant from the fixed point:
 
 ## License
 
-To be determined. All mathematical content is freely available for research and educational purposes.
+Creative Commons Attribution 4.0 International. All mathematical content is freely available for research and educational purposes.
 
-
+--
 _"Every form is merely the memory of an act."_
 
 _"Operational Geometry begins where Euclid ended: with Action as the unprovable, irreducible primitive."_
+
 
