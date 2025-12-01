@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operational Geometry: Topological Structures from Pure Operations</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .viz-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .viz-header {
+            margin-bottom: 15px;
+        }
+
+        .viz-title {
+            font-size: 1.5em;
+            margin-bottom: 5px;
+        }
+
+        .viz-formula {
+            font-family: 'Courier New', monospace;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 0.9em;
+            margin: 10px 0;
+        }
+
+        .viz-description {
+            opacity: 0.9;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .canvas-container {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .controls {
+            margin-top: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .control-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .control-label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: rgba(255, 255, 255, 0.3);
+            outline: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: white;
+            cursor: pointer;
+        }
+
+        .control-value {
+            display: inline-block;
+            margin-left: 10px;
+            font-weight: 600;
+            font-family: 'Courier New', monospace;
+        }
+
+        button {
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        button:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        button.active {
+            background: rgba(255, 255, 255, 0.4);
+            border-color: white;
+        }
+
+        .info-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            margin-top: 30px;
+        }
+
+        .info-box h3 {
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .info-box ul {
+            margin-left: 20px;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            .canvas-container {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Operational Geometry: Emergent Topological Structures</h1>
+            <p class="subtitle">Complex forms from simple operational sequences</p>
+        </header>
+
+        <div class="grid">
+            <!-- Double Helix -->
+            <div class="viz-card">
+                <div class="viz-header">
+                    <h2 class="viz-title">Double Helix (DNA Structure)</h2>
+                    <div class="viz-formula">σ = Thread<sub>z</sub>(vt) ∘ Rotate<sub>z</sub>(ωt) ∘ Circle<sub>2</sub></div>
+                    <p class="viz-description">
+                        Two antipodal tracers on a rotating circle with linear threading create the fundamental structure of DNA.
+                    </p>
+                </div>
+                <div class="canvas-container" id="helix-container"></div>
+                <div class="controls">
+                    <div class="control-group">
+                        <label class="control-label">
+                            Rotation Speed (ω): <span class="control-value" id="helix-omega-val">2.0</span>
+                        </label>
+                        <input type="range" id="helix-omega" min="0.5" max="5" step="0.1" value="2">
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            Thread Speed (v): <span class="control-value" id="helix-v-val">0.3</span>
+                        </label>
+                        <input type="range" id="helix-v" min="0.1" max="1" step="0.05" value="0.3">
+                    </div>
+                    <button id="helix-animate">Pause</button>
+                </div>
+            </div>
+
+            <!-- Trefoil Knot -->
+            <div class="viz-card">
+                <div class="viz-header">
+                    <h2 class="viz-title">Trefoil Knot (2,3) Torus Knot</h2>
+                    <div class="viz-formula">σ = Rotate<sub>y</sub>(Ωt) ∘ Thread<sub>z</sub>(vt) ∘ Rotate<sub>z</sub>(ωt), ω/Ω = 2</div>
+                    <p class="viz-description">
+                        Adding a secondary rotation (tumbling) with frequency ratio 2:3 creates the simplest non-trivial knot.
+                    </p>
+                </div>
+                <div class="canvas-container" id="trefoil-container"></div>
+                <div class="controls">
+                    <div class="control-group">
+                        <label class="control-label">
+                            Frequency Ratio (ω/Ω): <span class="control-value" id="trefoil-ratio-val">2.0</span>
+                        </label>
+                        <input type="range" id="trefoil-ratio" min="1" max="4" step="0.1" value="2">
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            Radius: <span class="control-value" id="trefoil-r-val">2.0</span>
+                        </label>
+                        <input type="range" id="trefoil-r" min="1" max="4" step="0.1" value="2">
+                    </div>
+                    <button id="trefoil-animate">Pause</button>
+                </div>
+            </div>
+
+            <!-- Lissajous Curve -->
+            <div class="viz-card">
+                <div class="viz-header">
+                    <h2 class="viz-title">Lissajous Figure (2D Harmonic)</h2>
+                    <div class="viz-formula">σ = Rotate<sub>x</sub>(aωt) ∘ Rotate<sub>y</sub>(bωt)</div>
+                    <p class="viz-description">
+                        Two perpendicular rotations with different frequency ratios create parametric Lissajous curves.
+                    </p>
+                </div>
+                <div class="canvas-container" id="lissajous-container"></div>
+                <div class="controls">
+                    <div class="control-group">
+                        <label class="control-label">
+                            Frequency A: <span class="control-value" id="lissajous-a-val">3</span>
+                        </label>
+                        <input type="range" id="lissajous-a" min="1" max="7" step="1" value="3">
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            Frequency B: <span class="control-value" id="lissajous-b-val">2</span>
+                        </label>
+                        <input type="range" id="lissajous-b" min="1" max="7" step="1" value="2">
+                    </div>
+                    <button id="lissajous-animate">Pause</button>
+                </div>
+            </div>
+
+            <!-- Torus -->
+            <div class="viz-card">
+                <div class="viz-header">
+                    <h2 class="viz-title">Torus (Circle × Circle)</h2>
+                    <div class="viz-formula">σ = Rotate<sub>major</sub>(θ) ∘ Thread<sub>r</sub> ∘ Rotate<sub>minor</sub>(φ)</div>
+                    <p class="viz-description">
+                        Rotating a circle around an axis creates a torus - the Cartesian product of two operational circles.
+                    </p>
+                </div>
+                <div class="canvas-container" id="torus-container"></div>
+                <div class="controls">
+                    <div class="control-group">
+                        <label class="control-label">
+                            Major Radius (R): <span class="control-value" id="torus-R-val">3.0</span>
+                        </label>
+                        <input type="range" id="torus-R" min="2" max="5" step="0.1" value="3">
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label">
+                            Minor Radius (r): <span class="control-value" id="torus-r-val">1.0</span>
+                        </label>
+                        <input type="range" id="torus-r" min="0.5" max="2" step="0.1" value="1">
+                    </div>
+                    <button id="torus-animate">Pause</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3>Operational Principles</h3>
+            <ul>
+                <li><strong>Thread:</strong> Linear advancement along an axis (creates length)</li>
+                <li><strong>Rotate:</strong> Circular motion around an axis (creates curvature)</li>
+                <li><strong>Compose (∘):</strong> Sequential application of operations</li>
+                <li><strong>Frequency Ratios:</strong> Rational ratios (p/q) create closed curves; irrational ratios create space-filling curves</li>
+                <li><strong>Topological Stability:</strong> Knots cannot be unknotted without cutting - they are operationally robust</li>
+                <li><strong>Emergence:</strong> Complex 3D structures emerge from simple 1D operational sequences</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        // Utility function to create a scene
+        function createScene(container) {
+            const scene = new THREE.Scene();
+            const camera = new THREE.PerspectiveCamera(50, container.clientWidth / container.clientHeight, 0.1, 1000);
+            const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+            
+            renderer.setSize(container.clientWidth, container.clientHeight);
+            renderer.setClearColor(0x000000, 0);
+            container.appendChild(renderer.domElement);
+            
+            camera.position.z = 10;
+            
+            const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+            scene.add(ambientLight);
+            
+            const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+            directionalLight.position.set(5, 5, 5);
+            scene.add(directionalLight);
+            
+            return { scene, camera, renderer };
+        }
+
+        // Double Helix
+        function createDoubleHelix(omega, v) {
+            const points1 = [];
+            const points2 = [];
+            const steps = 500;
+            
+            for (let i = 0; i < steps; i++) {
+                const t = (i / steps) * 4 * Math.PI;
+                const z = v * t;
+                
+                // Tracer 1 (starts at angle π)
+                const x1 = -2 * Math.cos(omega * t);
+                const y1 = -2 * Math.sin(omega * t);
+                points1.push(new THREE.Vector3(x1, y1, z));
+                
+                // Tracer 2 (starts at angle 0)
+                const x2 = 2 * Math.cos(omega * t);
+                const y2 = 2 * Math.sin(omega * t);
+                points2.push(new THREE.Vector3(x2, y2, z));
+            }
+            
+            const geometry1 = new THREE.BufferGeometry().setFromPoints(points1);
+            const geometry2 = new THREE.BufferGeometry().setFromPoints(points2);
+            
+            const material1 = new THREE.LineBasicMaterial({ color: 0x00ffff, linewidth: 2 });
+            const material2 = new THREE.LineBasicMaterial({ color: 0xff00ff, linewidth: 2 });
+            
+            const line1 = new THREE.Line(geometry1, material1);
+            const line2 = new THREE.Line(geometry2, material2);
+            
+            const group = new THREE.Group();
+            group.add(line1);
+            group.add(line2);
+            
+            return group;
+        }
+
+        // Trefoil Knot
+        function createTrefoilKnot(ratio, radius) {
+            const points = [];
+            const steps = 600;
+            const omega = 3;
+            const Omega = omega / ratio;
+            
+            for (let i = 0; i <= steps; i++) {
+                const t = (i / steps) * 2 * Math.PI;
+                
+                const x = radius * Math.cos(omega * t) * Math.cos(Omega * t);
+                const y = radius * Math.sin(omega * t);
+                const z = radius * Math.cos(omega * t) * Math.sin(Omega * t);
+                
+                points.push(new THREE.Vector3(x, y, z));
+            }
+            
+            const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            const material = new THREE.LineBasicMaterial({ color: 0xffff00, linewidth: 3 });
+            
+            return new THREE.Line(geometry, material);
+        }
+
+        // Lissajous Curve
+        function createLissajous(a, b) {
+            const points = [];
+            const steps = 1000;
+            const amplitude = 3;
+            
+            for (let i = 0; i <= steps; i++) {
+                const t = (i / steps) * 2 * Math.PI;
+                
+                const x = amplitude * Math.sin(a * t);
+                const y = amplitude * Math.sin(b * t);
+                const z = 0;
+                
+                points.push(new THREE.Vector3(x, y, z));
+            }
+            
+            const geometry = new THREE.BufferGeometry().setFromPoints(points);
+            const material = new THREE.LineBasicMaterial({ color: 0x00ff00, linewidth: 2 });
+            
+            return new THREE.Line(geometry, material);
+        }
+
+        // Torus
+        function createTorus(R, r) {
+            const points = [];
+            const majorSteps = 100;
+            const minorSteps = 30;
+            
+            for (let i = 0; i <= majorSteps; i++) {
+                const theta = (i / majorSteps) * 2 * Math.PI;
+                const ringPoints = [];
+                
+                for (let j = 0; j <= minorSteps; j++) {
+                    const phi = (j / minorSteps) * 2 * Math.PI;
+                    
+                    const x = (R + r * Math.cos(phi)) * Math.cos(theta);
+                    const y = (R + r * Math.cos(phi)) * Math.sin(theta);
+                    const z = r * Math.sin(phi);
+                    
+                    ringPoints.push(new THREE.Vector3(x, y, z));
+                }
+                
+                const geometry = new THREE.BufferGeometry().setFromPoints(ringPoints);
+                const material = new THREE.LineBasicMaterial({ 
+                    color: new THREE.Color().setHSL(i / majorSteps, 1, 0.5),
+                    linewidth: 1 
+                });
+                const ring = new THREE.Line(geometry, material);
+                points.push(ring);
+            }
+            
+            const group = new THREE.Group();
+            points.forEach(ring => group.add(ring));
+            
+            return group;
+        }
+
+        // Setup visualizations
+        const helixContainer = document.getElementById('helix-container');
+        const helixSetup = createScene(helixContainer);
+        let helixObj = createDoubleHelix(2, 0.3);
+        helixSetup.scene.add(helixObj);
+        helixSetup.camera.position.set(8, 8, 8);
+        helixSetup.camera.lookAt(0, 0, 0);
+        let helixAnimating = true;
+
+        const trefoilContainer = document.getElementById('trefoil-container');
+        const trefoilSetup = createScene(trefoilContainer);
+        let trefoilObj = createTrefoilKnot(2, 2);
+        trefoilSetup.scene.add(trefoilObj);
+        trefoilSetup.camera.position.set(8, 8, 8);
+        trefoilSetup.camera.lookAt(0, 0, 0);
+        let trefoilAnimating = true;
+
+        const lissajousContainer = document.getElementById('lissajous-container');
+        const lissajousSetup = createScene(lissajousContainer);
+        let lissajousObj = createLissajous(3, 2);
+        lissajousSetup.scene.add(lissajousObj);
+        lissajousSetup.camera.position.set(0, 0, 10);
+        lissajousSetup.camera.lookAt(0, 0, 0);
+        let lissajousAnimating = true;
+
+        const torusContainer = document.getElementById('torus-container');
+        const torusSetup = createScene(torusContainer);
+        let torusObj = createTorus(3, 1);
+        torusSetup.scene.add(torusObj);
+        torusSetup.camera.position.set(8, 8, 8);
+        torusSetup.camera.lookAt(0, 0, 0);
+        let torusAnimating = true;
+
+        // Update functions
+        function updateHelix() {
+            const omega = parseFloat(document.getElementById('helix-omega').value);
+            const v = parseFloat(document.getElementById('helix-v').value);
+            
+            document.getElementById('helix-omega-val').textContent = omega.toFixed(1);
+            document.getElementById('helix-v-val').textContent = v.toFixed(2);
+            
+            helixSetup.scene.remove(helixObj);
+            helixObj = createDoubleHelix(omega, v);
+            helixSetup.scene.add(helixObj);
+        }
+
+        function updateTrefoil() {
+            const ratio = parseFloat(document.getElementById('trefoil-ratio').value);
+            const r = parseFloat(document.getElementById('trefoil-r').value);
+            
+            document.getElementById('trefoil-ratio-val').textContent = ratio.toFixed(1);
+            document.getElementById('trefoil-r-val').textContent = r.toFixed(1);
+            
+            trefoilSetup.scene.remove(trefoilObj);
+            trefoilObj = createTrefoilKnot(ratio, r);
+            trefoilSetup.scene.add(trefoilObj);
+        }
+
+        function updateLissajous() {
+            const a = parseInt(document.getElementById('lissajous-a').value);
+            const b = parseInt(document.getElementById('lissajous-b').value);
+            
+            document.getElementById('lissajous-a-val').textContent = a;
+            document.getElementById('lissajous-b-val').textContent = b;
+            
+            lissajousSetup.scene.remove(lissajousObj);
+            lissajousObj = createLissajous(a, b);
+            lissajousSetup.scene.add(lissajousObj);
+        }
+
+        function updateTorus() {
+            const R = parseFloat(document.getElementById('torus-R').value);
+            const r = parseFloat(document.getElementById('torus-r').value);
+            
+            document.getElementById('torus-R-val').textContent = R.toFixed(1);
+            document.getElementById('torus-r-val').textContent = r.toFixed(1);
+            
+            torusSetup.scene.remove(torusObj);
+            torusObj = createTorus(R, r);
+            torusSetup.scene.add(torusObj);
+        }
+
+        // Event listeners
+        document.getElementById('helix-omega').addEventListener('input', updateHelix);
+        document.getElementById('helix-v').addEventListener('input', updateHelix);
+        document.getElementById('trefoil-ratio').addEventListener('input', updateTrefoil);
+        document.getElementById('trefoil-r').addEventListener('input', updateTrefoil);
+        document.getElementById('lissajous-a').addEventListener('input', updateLissajous);
+        document.getElementById('lissajous-b').addEventListener('input', updateLissajous);
+        document.getElementById('torus-R').addEventListener('input', updateTorus);
+        document.getElementById('torus-r').addEventListener('input', updateTorus);
+
+        document.getElementById('helix-animate').addEventListener('click', function() {
+            helixAnimating = !helixAnimating;
+            this.textContent = helixAnimating ? 'Pause' : 'Play';
+        });
+
+        document.getElementById('trefoil-animate').addEventListener('click', function() {
+            trefoilAnimating = !trefoilAnimating;
+            this.textContent = trefoilAnimating ? 'Pause' : 'Play';
+        });
+
+        document.getElementById('lissajous-animate').addEventListener('click', function() {
+            lissajousAnimating = !lissajousAnimating;
+            this.textContent = lissajousAnimating ? 'Pause' : 'Play';
+        });
+
+        document.getElementById('torus-animate').addEventListener('click', function() {
+            torusAnimating = !torusAnimating;
+            this.textContent = torusAnimating ? 'Pause' : 'Play';
+        });
+
+        // Animation loop
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            if (helixAnimating) {
+                helixObj.rotation.x += 0.003;
+                helixObj.rotation.y += 0.005;
+            }
+            
+            if (trefoilAnimating) {
+                trefoilObj.rotation.x += 0.005;
+                trefoilObj.rotation.y += 0.007;
+            }
+            
+            if (lissajousAnimating) {
+                lissajousObj.rotation.z += 0.01;
+            }
+            
+            if (torusAnimating) {
+                torusObj.rotation.x += 0.003;
+                torusObj.rotation.y += 0.005;
+            }
+            
+            helixSetup.renderer.render(helixSetup.scene, helixSetup.camera);
+            trefoilSetup.renderer.render(trefoilSetup.scene, trefoilSetup.camera);
+            lissajousSetup.renderer.render(lissajousSetup.scene, lissajousSetup.camera);
+            torusSetup.renderer.render(torusSetup.scene, torusSetup.camera);
+        }
+
+        animate();
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            const containers = [
+                { setup: helixSetup, container: helixContainer },
+                { setup: trefoilSetup, container: trefoilContainer },
+                { setup: lissajousSetup, container: lissajousContainer },
+                { setup: torusSetup, container: torusContainer }
+            ];
+            
+            containers.forEach(({ setup, container }) => {
+                setup.camera.aspect = container.clientWidth / container.clientHeight;
+                setup.camera.updateProjectionMatrix();
+                setup.renderer.setSize(container.clientWidth, container.clientHeight);
+            });
+        });
+    </script>
+</body>
+</html>
