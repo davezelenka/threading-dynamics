@@ -71,7 +71,7 @@ Creative Commons Attribution 4.0 International. All mathematical content is free
 ##
 _"Every form is merely the memory of an act."_
 
-_"Operational Geometry begins where Euclid ended: with Action as the unprovable, irreducible primitive."_
+
 
 
 
