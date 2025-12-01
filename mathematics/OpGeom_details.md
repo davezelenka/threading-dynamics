@@ -1,5 +1,7 @@
 ## 💡 Operational Geometry ($\mathbf{OpGeom}$): A New Foundation for Form
 
+_"Operational Geometry begins where Euclid ended: with Action as the unprovable, irreducible primitive."_
+
 Operational Geometry ($\mathbf{OpGeom}$) is a novel mathematical framework that redefines the **foundation of geometry** by making **process (operations)** the primitive entity, rather than **static objects** like points or sets. Instead of starting with "What is a line?", $\mathbf{OpGeom}$ starts with "What is the operation that *generates* a line?" This shift aligns formal mathematics with the observable reality in natural sciences, where dynamic processes consistently drive stable structures.
 
 ---
