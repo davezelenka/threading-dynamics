@@ -68,4 +68,6 @@ Each prime generates a constant from the fixed point:
 
 To be determined. All mathematical content is freely available for research and educational purposes.
 
-_"The structure of reality is the structure of operations."_
+
+_"Every form is merely the memory of an act."_
+_"Operational Geometry begins where Euclid ended: with Action as the unprovable, irreducible primitive."_
