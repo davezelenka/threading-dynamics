@@ -1,4 +1,4 @@
-# Operational Geometry
+# Fabric Mathematics
 
 **A mathematical framework where operations are fundamental**
 
@@ -70,6 +70,7 @@ Creative Commons Attribution 4.0 International. All mathematical content is free
 
 ##
 _"Every form is merely the memory of an act."_
+
 
 
 
