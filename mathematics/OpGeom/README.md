@@ -85,7 +85,7 @@ The framework is not limited to simple numbers; it demonstrates the constructive
 Examples /[https://www.discomath.com/Operational_Geometry_Topological_Structures_Visualization]
 
 * **Double Helix:** Constructed as a simple composition of $\mathrm{Rotate}$ and $\mathrm{Thread}$ applied to a two-point object. This sequence naturally generates the structure of **DNA**.
-* **Trefoil Knot:** Created when a helix generation sequence is subject to a secondary tumbling rotation ($\mathrm{Rotate}_y$) at a specific frequency ratio.
+* **Trefoil Knot:** Created when a helix generation sequence is subject to a secondary tumbling rotation ($\mathrm{Rotate}_y$) at a specific frequency ratio. /[https://www.desmos.com/3d/qfnopq8b4l]
 * **Giza Pyramid:** The Egyptian wheel method demonstrates that mathematical truth can be discovered through direct physical engagement--performing operations reveals constants without symbolic calculation. https://www.desmos.com/calculator/800ce5cd70
 
 This leads to the highly speculative but fertile **Topological Particle Hypothesis**: the idea that elementary particles could correspond to these stable, knotted operational configurations. In this view, a particle's **quantum numbers** would be encoded by the knot's **topological invariants** (like its crossing number or Jones polynomial), suggesting that physics is the study of stable operational topologies.
