@@ -1,7 +1,5 @@
 # Fabric Mathematics
 
-**A mathematical framework where operations are fundamental**
-
 ## Overview
 
 This repository contains computational tools, visualizations, and examples for **Operational Geometry**: a category-theoretic framework in which operations (rather than points, sets, or manifolds) are the primitive entities of mathematics.
@@ -70,6 +68,7 @@ Creative Commons Attribution 4.0 International. All mathematical content is free
 
 ##
 _"Every form is merely the memory of an act."_
+
 
 
 
