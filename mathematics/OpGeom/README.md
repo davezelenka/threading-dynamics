@@ -82,6 +82,7 @@ Each prime generates a constant from the fixed point:
 ## 🧬 Application and Future Directions
 
 The framework is not limited to simple numbers; it demonstrates the constructive generation of complex, stable **topological structures**:
+Examples /[https://www.discomath.com/Operational_Geometry_Topological_Structures_Visualization]
 
 * **Double Helix:** Constructed as a simple composition of $\mathrm{Rotate}$ and $\mathrm{Thread}$ applied to a two-point object. This sequence naturally generates the structure of **DNA**.
 * **Trefoil Knot:** Created when a helix generation sequence is subject to a secondary tumbling rotation ($\mathrm{Rotate}_y$) at a specific frequency ratio.
