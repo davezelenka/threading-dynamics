@@ -76,6 +76,14 @@ Each prime generates a constant from the fixed point:
 | 5   |     | 1.221... | Pentic Constant |
 | 137 |     | ≈ 1.007? | Fine-structure? |
 
+---
+## Pedagogical Implications:
+
+Agency: Students see themselves as generators of mathematical structure, not just consumers.
+
+Conceptual Understanding: The golden ratio isn't a mysterious number, it's what happens when you recursively divide and add.
+
+Growth Mindset: When constants emerge from processes, students see that mathematical truth is constructed through persistent discovery.
 
 ---
 
