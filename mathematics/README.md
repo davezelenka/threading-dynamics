@@ -1,7 +1,7 @@
 # Fabric Mathematics
 
-See Discovery Math for educational
-\[Math Investigations and Mini-Lessons]
+See Discovery Math for freely available Math Investigations and Mini-Lessons.
+\[https://www.discomath.com/]
 
 ## Overview
 
@@ -33,6 +33,7 @@ Creative Commons Attribution 4.0 International. All mathematical content is free
 
 ##
 _"Every form is merely the memory of an act."_
+
 
 
 
