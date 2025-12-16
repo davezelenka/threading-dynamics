@@ -95,14 +95,8 @@ Consider Boolean satisfiability (SAT) with *n* variables:
 ## The Gradient Symbol Interpretation
 
 The gradient symbol ∇ itself encodes the proof:
-```
-    /\      ← Two lines spreading (exponential branching: 2^n possibilities)
-   /  \
-  /    \
- /______\
-    |       ← Converging to single point (canonical direction)
-    ↓
-```
+- Two lines spreading (exponential branching: 2^n possibilities)
+- Converging to single point (canonical direction)
 
 **In physics**: ∇*V* points downhill—objects fall naturally
 **In computation**: ∇Φ points toward increasing potential—exploration costs energy
@@ -284,7 +278,3 @@ print(f"Polynomial limitation: {result['polynomial_achievable']}")
 **Key innovation**: Shifts from "Can we find the algorithm?" to "Does physics permit it?" The answer is no—not because we're not clever enough, but because the universe forbids it through thermodynamic irreversibility and information-theoretic constraints.
 
 **Status**: Framework is rigorous and grounded in experimentally verified physics. Community acceptance depends on willingness to treat computation as physical rather than purely Platonic.
-
----
-
-*For more OpGeom examples, see the [examples directory](../examples/). For theoretical foundations, see the [main OpGeom paper](../papers/operational_geometry_foundations.pdf).*
