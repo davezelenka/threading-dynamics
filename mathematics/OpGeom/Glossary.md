@@ -222,34 +222,6 @@ Distributed operational potential—a continuous mapping that assigns operationa
 
 ---
 
-## Quantum Concepts
-
-### Wave Function (ψ)
-Coherence field—the substrate's operational possibility space before threading localizes it. The wave function encodes all potential threading paths.
-
-### Superposition
-Unthreaded potential—operational ambiguity before memory stabilizes. Superposition is the state of operations not yet performed.
-
-### Entanglement
-Shared operational history—correlated threading between separated configurations. Entangled particles have coupled operational memories.
-
-### Measurement
-Threading localization—an operation that increases memory density past the coherence threshold, forcing configuration selection. Measurement is operational commitment.
-
-### Collapse
-Coherence resolution—the transition from distributed operational potential to localized memory. Collapse is when threading becomes irreversible.
-
-### Probability Amplitude
-Operational weight—the substrate's preference for different threading paths. Amplitude squared gives the probability of each operational outcome.
-
-### Uncertainty Principle
-Operational incompatibility—certain pairs of operations interfere such that increasing precision in one decreases precision in the other. Position and momentum cannot both be threaded with arbitrary precision.
-
-### Tunneling
-Non-classical threading—operations that bypass energetic barriers through coherence effects. Tunneling exploits the wave-like nature of operational potential.
-
----
-
 ## Computational Concepts
 
 ### Algorithm
