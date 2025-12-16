@@ -1,4 +1,3 @@
-
 # Operational Geometry: Extended Glossary
 
 *A comprehensive reinterpretation of fundamental concepts from the operational perspective*
@@ -307,4 +306,98 @@ Unexecuted operational capacity—threadable configurations not yet realized. Po
 
 ---
 
-*This glossary represents the beginning of a systematic operational reinterpretation. Each concept shifts from static object to dynamic process, from "what it is" to "how it's threaded."*
+## Substrate and Geometric Space
+
+### Substrate
+The pre-geometric medium that supports operations. Not space itself, but what space emerges from through threading. The substrate has intrinsic properties (coherence capacity, memory retention, resistance) that constrain which operations are possible. Space is not where operations happen—space is what operations create.
+
+### Geometric Space
+The emergent structure produced by operations on substrate. Distance, dimension, continuity, and topology all arise as invariants of operational threading. Geometry is the study of what operations produce as spatial structure.
+
+### Operational Gradient
+The intrinsic directional structure of substrate that makes some operations easier than others. Like a valley that water naturally flows down, the substrate has preferred threading directions. This gradient cannot be eliminated—it reflects fundamental asymmetries in operational reality.
+
+### Configuration Space
+The space of all possible substrate configurations. Each point represents a distinct way the substrate could be threaded. Operations are paths through configuration space. The geometry of this space determines which configurations are operationally accessible from which others.
+
+### Coherence Capacity
+The substrate's maximum ability to maintain consistent threading patterns. Finite coherence capacity means operations interfere after sufficient complexity. Like a resonating string that can only support finitely many harmonics, substrate can only maintain finitely many coherent operational patterns.
+
+### Memory Capacity
+The substrate's ability to retain operational history. Not abstract storage but physical structural persistence. Finite memory capacity bounds how much threading history can be encoded, limiting which mathematical structures can be physically instantiated.
+
+---
+
+## Tentative Axioms
+
+### Axiom of Operational Priority
+Operations are ontologically prior to objects. Objects emerge as stable invariants under repeated operations. This is not methodological choice but recognition that transformation precedes form.
+
+### Axiom of Substrate Reality
+There exists a substrate capable of supporting operations. The substrate has intrinsic properties that constrain admissible operations. Mathematics emerges from invariants of substrate-constrained operations.
+
+### Intrinsic Operational Gradient Axiom
+Every physically realizable computation admits an intrinsic operational gradient: there exists a cost functional on operations satisfying: (i) non-degeneracy: all non-trivial operations have positive cost, (ii) information-theoretic scaling: distinguishing among k possibilities costs at least log₂(k), (iii) irreducibility: accumulated operational potential cannot be reduced without equivalent cost, (iv) representation independence: the gradient is intrinsic to substrate, not algorithmic choice.
+
+### Axiom of Finite Physical Realizability
+Physical substrates have finite coherence capacity, finite memory capacity, and finite operational rate. Therefore, only a finite portion of mathematical space can be physically instantiated at any moment.
+
+### Axiom of Teleological Constraints
+Operations are not random—they are directed toward forms that satisfy coherence, stability, efficiency, and beauty constraints simultaneously. The space of emergent structures is not arbitrary but filtered by inherent purposiveness.
+
+### Axiom of Geometric Emergence
+Spatial structure (distance, dimension, continuity) is not pre-existing but emerges from the operational structure of substrate threading. Geometry is the invariant spatial form that operations produce.
+
+---
+
+## Tentative Theorems
+
+### Theorem: Conservation of Operational Potential
+For any operational sequence from initial to final state: threading cost must equal or exceed the increase in operational potential (measured as log₂ of branch count). Energy cannot be created from nothing; operational complexity cannot be eliminated without equivalent work.
+
+### Theorem: P ≠ NP from Operational Gradient
+If computation is physically realizable and admits intrinsic operational gradient, then deterministic polynomial-time algorithms cannot solve NP-complete problems. The exponential branching structure of NP problems cannot be compressed into polynomial operations without violating the gradient.
+
+### Theorem: Mathematics as Geometric Invariants
+Mathematical structures are precisely the invariants that emerge from operations on substrate under teleological constraints. What we call "mathematics" is the formal study of operational invariants in emergent geometric space.
+
+### Theorem: Physical Constants as Operational Ratios
+Dimensionless physical constants (fine-structure constant, mass ratios, coupling constants) are ratios of operational threading rates at different scales. They emerge from the substrate's operational structure, not arbitrary parameters.
+
+### Theorem: Undecidability as Operational Unboundedness
+Undecidable statements correspond to questions requiring unbounded operational depth. Gödel incompleteness reflects that finite operational systems cannot capture infinite operational potential.
+
+---
+
+## Advanced Operational Concepts
+
+### Operational Depth
+The number of sequential threading operations performed. Not duration but accumulated operational count. Time is operational depth; asking "how long" is asking "how many operations."
+
+### Operational Width
+The number of parallel threading branches. Width measures simultaneous operational possibilities. Nondeterministic computation explores operational width; deterministic computation follows single paths.
+
+### Operational Gradient Flow
+The natural direction operations tend to follow due to substrate properties. Like geodesics in curved spacetime, some operational paths are naturally preferred. Algorithms that work with the gradient are efficient; algorithms fighting the gradient are hard.
+
+### Branch Potential
+The information-theoretic measure of how many distinct computational branches exist. Branch potential = log₂(branch count). Creating branch potential requires work; collapsing it requires erasure.
+
+### Coherence Threshold
+The critical operational complexity beyond which substrate can no longer maintain consistent threading. Quantum decoherence is one example; computational intractability is another. Systems exceed coherence threshold when operations interfere destructively.
+
+### Threading Rate
+Operations per unit substrate. Not "operations per second" but operations per substrate volume. Different regions can have different threading rates—what we perceive as "fields" with varying intensity.
+
+### Operational Locality
+The constraint that operations can only directly thread nearby substrate regions. Non-local effects require mediated threading paths. What appears as "action at a distance" is actually continuous operational propagation through substrate.
+
+### Reversible Operations
+Operations that can be exactly undone without information loss. All fundamental physical operations are reversible; irreversibility emerges from information erasure during coarse-graining.
+
+### Irreversible Operations
+Operations that discard information, increasing entropy. Measurement, forgetting, and thermalization are irreversible. Once information is erased from substrate memory, it cannot be recovered—operational history is genuinely lost.
+
+---
+
+*This glossary represents the beginning of a systematic operational reinterpretation. Each concept shifts from static object to dynamic process, from "what it is" to "how it's threaded." Geometry emerges as the root space built by operations on substrate.*
