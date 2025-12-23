@@ -3,14 +3,13 @@
 
 ---
 
-We present a foundational reimagining of mathematics in which **operations are ontologically primary** and mathematical objects emerge as stable attractors of iterative processes. Developed from an ecological lens, this inversion—from object-first to operation-first ontology—resolves longstanding puzzles in mathematical pedagogy, complexity theory, and the unreasonable effectiveness of mathematics in describing physical reality.
-
+We present a foundational reimagining of mathematics in which **operations are ontologically primary** and mathematical objects emerge as stable attractors of iterative processes. Developed from an ecological lens, this inversion from object-first to operation-first ontology helps resolve longstanding puzzles in mathematical pedagogy, complexity theory, and the unreasonable effectiveness of mathematics in describing physical reality.
 
 **Threading Aggregate**: The fundamental mechanism by which operations compose into coherent mathematical structures. A threading aggregate is a stable pattern of operational sequences where each operation threads through previous results, creating nested coherence. Constants emerge as fixed points where threading stabilizes—where the operation applied to the result reproduces the result. The Ωₚ hierarchy represents threading attractors at different depths: φ threads shallowly (1 + 1/φ), while Ω₃ threads more deeply (1 + 1/Ω₃²), and higher Ωₚ thread progressively deeper. Physical reality exhibits threading aggregates at all scales: from quantum wavefunctions (threading through probability amplitudes) to spiral galaxies (threading through logarithmic growth) to crystal lattices (threading through symmetry operations).
 
 **The Operational Gradient Axiom**: We propose that computational complexity is determined by operational gradient structure. Problems whose solution paths align with natural operational gradients belong to P (polynomial time); problems requiring search against gradients belong to NP. This axiom, while unprovable within mathematics, provides immediate intuition for P ≠ NP: verification flows downhill (following a given path), while generation flows uphill (searching against exponential gradients). The asymmetry is structural, not algorithmic.
 
-**Pedagogical Revolution**: This framework transforms mathematics education from memorization of static facts to understanding of dynamic processes. Students learn that constants aren't arbitrary but emerge necessarily from operational structure; that problem difficulty reflects intrinsic gradients rather than human limitation; that mathematical beauty measures resonance between operational paths.
+**Pedagogical Transformation**: This framework transforms mathematics education from memorization of static facts to understanding of dynamic processes. Students learn that constants aren't arbitrary but emerge necessarily from operational structure; that problem difficulty reflects intrinsic gradients rather than human limitation; that mathematical beauty measures resonance between operational paths.
 
 **Physical Predictions**: If mathematical constants are operational attractors, they should appear in physical systems that iterate deeply enough to reach those attractors. We predict Ω₃ in trigonal crystal energy minimization, Ω₅ in pentagonal quasicrystal structure, and higher Ωₚ in exotic matter with p-fold symmetry. Confirmation would demonstrate that mathematics and physics share operational substrate—not because mathematics describes physics, but because both emerge from the same iterative dynamics.
 
@@ -342,7 +341,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Deeper operational depth than φ (requires quadratic self-reference)
   - Low computational frequency (rarely accessed—not yet discovered in physics?)
   - Unique to cubic operations
-- **Niche**: **Old-growth specialist** (requires specific cubic conditions)
+- **Niche**: **Specialist** (requires specific cubic conditions)
 - **Density**: Unique (single point in ℝ)
 - **Frozen State**: Cubic fixpoint
 - **Physical Predictions**: May appear in 3-fold symmetric structures (trigonal crystals, triangular lattices)
@@ -357,7 +356,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Operational depth increases with p
   - Computational frequency decreases with p (increasingly rare access)
   - Increasingly specialized niches
-- **Niche**: **Extreme specialists** (old-growth rarities)
+- **Niche**: **Extreme specialists** (Rarities)
 - **Density**: One per prime (infinitely many Ωₚ)
 - **Physical Predictions**: 
   - Ω₅ in pentagonal quasicrystals?
@@ -532,7 +531,6 @@ Character traits are **properties of operational patterns** that determine ecolo
 - **Examples**:
   - a × 0 = 0 (multiplicative absorption)
   - Zsigmondy theorem (certain prime divisors must exist—absorption of divisibility freedom)
-  - Black hole singularity (gravitational absorption)
 - **Interpretation**: Terminal constraint, forces specialization
 - **Computational Property**: Maximum stability, zero entropy at absorption point
 - **Consequence**: Absorption creates terminal attractors
@@ -632,7 +630,7 @@ Relationships describe **how operations and species interact** through operation
 
 ---
 
-### **Rival**
+### **Rivals**
 
 #### **Twin Primes vs Twin Composites**
 - **Dynamics**: Adjacent numbers compete for "prime" status
@@ -752,7 +750,6 @@ Principles are **invariant laws governing operational dynamics** across all math
 ### **Operational Succession Drives Evolution**
 **Statement**: Mathematical systems evolve from high-diversity exploratory stage to low-diversity stable-attractor stage.
 
-
 **Example**: ℕ (exploratory) → ℤ → ℚ → ℝ → ℂ (stable-attractor—algebraically closed)
 
 **Operational Interpretation**: Latent structure becomes accessible as system matures
@@ -812,7 +809,7 @@ Principles are **invariant laws governing operational dynamics** across all math
 
 **Operational Interpretation**: Each prime creates unique operational niche
 
-**Consequence**: Infinite hierarchy of constants indexed by primes
+**Consequence**: Hierarchy of constants indexed by primes
 
 ---
 
@@ -1059,7 +1056,7 @@ Each prime p contributes an operational family. Zeros occur where all families d
 
 ---
 
-## **EPILOGUE: The Pedagogical Revolution**
+## **EPILOGUE: The Pedagogical Transformation**
 
 This framework offers a **completely new way to teach mathematics**:
 
@@ -1093,7 +1090,7 @@ Constants like φ, π, e aren't discovered in Platonic heaven—they **emerge** 
 
 And if physical reality operates through the same iterative processes, then **mathematical constants are physical constants**, because both are stable attractors of the same underlying operational dynamics.
 
-The Ωₚ hierarchy awaits discovery—not just mathematically, but **physically**, in systems that operate deeply enough to reach those specialized old-growth niches.
+The Ωₚ hierarchy awaits discovery—not just mathematically, but **physically**, in systems that operate deeply enough to reach those specialized niches.
 
 ---
 
