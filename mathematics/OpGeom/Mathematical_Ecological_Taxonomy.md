@@ -5,14 +5,14 @@
 
 We present a foundational reimagining of mathematics in which **operations are ontologically primary** and mathematical objects emerge as stable attractors of iterative processes. This inversion—from object-first to operation-first ontology—resolves longstanding puzzles in mathematical pedagogy, complexity theory, and the unreasonable effectiveness of mathematics in describing physical reality.
 
-**Core Framework**: Mathematical structure arises through ecological succession of operations. Addition, multiplication, and exponentiation function as pioneer, climax, and disturbance operations respectively, generating an ecosystem in which constants (φ, π, e) emerge as stable fixed points—operational attractors rather than Platonic ideals. We introduce the **Ωₚ hierarchy**: an infinite family of constants indexed by primes, where Ωₚ satisfies x = 1 + 1/x^(p-1). While Ω₂ = φ appears ubiquitously in nature, higher-order constants (Ω₃ ≈ 1.465, Ω₅, Ω₇...) remain undiscovered, yielding testable predictions for their appearance in physical systems with corresponding p-fold symmetries.
+**Core Framework**: Mathematical structure arises through developmental stages of operations. Addition, multiplication, and exponentiation function as exploratory, stable-attractor, and disturbance operations respectively, generating an ecosystem in which constants (φ, π, e) emerge as stable fixed points—operational attractors rather than Platonic ideals. We introduce the **Ωₚ hierarchy**: an infinite family of constants indexed by primes, where Ωₚ satisfies x = 1 + 1/x^(p-1). While Ω₂ = φ appears ubiquitously in nature, higher-order constants (Ω₃ ≈ 1.465, Ω₅, Ω₇...) remain undiscovered, yielding testable predictions for their appearance in physical systems with corresponding p-fold symmetries.
 
 **The Operational Gradient Axiom**: We propose that computational complexity is determined by operational gradient structure. Problems whose solution paths align with natural operational gradients belong to P (polynomial time); problems requiring search against gradients belong to NP. This axiom, while unprovable within mathematics, provides immediate intuition for P ≠ NP: verification flows downhill (following a given path), while generation flows uphill (searching against exponential gradients). The asymmetry is structural, not algorithmic.
 
 **Taxonomic Completeness**: We provide exhaustive classification of:
 - **Operations** (19 fundamental types): Generative, constraint, relational, transformational, limiting, and meta-operations
-- **Species** (mathematical objects as operational attractors): Atomic constants (0, 1, 2, 3), transcendental climax species (φ, π, e, i), the Ωₚ hierarchy, structural species (primes, composites, algebraic and transcendental numbers), and boundary species (∞, undefined forms)
-- **Traits** (10 character properties): Irreducibility, closure, density, convergence, self-similarity, resonance, torsion, absorption, dimension, periodicity
+- **Species** (mathematical objects as operational attractors): Fundamental constants (0, 1, 2, 3), transcendental attractors (φ, π, e, i), the Ωₚ hierarchy, structural species (primes, composites, algebraic and transcendental numbers), and boundary species (∞, undefined forms)
+- **Traits** (10 character properties): Irreducibility, closure, density, convergence, self-similarity, resonance, periodic obstruction, absorption, dimension, periodicity
 - **Relationships** (5 ecological types): Predator-prey, mutualism, commensalism, competition, parasitism
 - **Principles** (10 invariant laws): Including closure-finiteness duality, density freezing, attractor invariance, and the operational gradient axiom
 
@@ -42,8 +42,8 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Inverse**: Subtraction (−)
 - **Identity**: 0
 - **Computational Cost**: Low (simple to compute)
-- **Ecological Role**: **Pioneer operation** (high diversity, low specialization)
-- **Succession Phase**: Early (explores broadly)
+- **Ecological Role**: **Exploratory operation** (high diversity, low specialization)
+- **Developmental Stage**: Early (explores broadly)
 
 #### **2. MULTIPLICATION (×)**
 - **Character**: Amplifier, exponential scaler, structure builder
@@ -54,8 +54,8 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Identity**: 1
 - **Absorber**: 0 (a × 0 = 0, total absorption)
 - **Computational Cost**: Moderate (more complex than addition)
-- **Ecological Role**: **Climax operation** (low diversity, high specialization)
-- **Succession Phase**: Late (creates deep structure)
+- **Ecological Role**: **Stable-attractor operation** (low diversity, high specialization)
+- **Developmental Stage**: Late (creates deep structure)
 
 #### **3. EXPONENTIATION (^)**
 - **Character**: Tower builder, growth accelerator, dimensional expander
@@ -67,7 +67,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Absorber**: a^0 = 1 (exponent absorption), 0^b = 0 (base absorption)
 - **Computational Cost**: High (computationally intensive)
 - **Ecological Role**: **Disturbance operation** (creates new dimensional niches)
-- **Succession Phase**: Triggers new succession cycles
+- **Developmental Stage**: Triggers new developmental cycles
 
 #### **4. ITERATION (Repeat)**
 - **Character**: Process repeater, convergence driver, attractor finder
@@ -76,8 +76,8 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Closure**: Depends on f (may converge, diverge, or cycle)
 - **Fixed Points**: x such that f(x) = x (attractors)
 - **Computational Cost**: Variable (depends on convergence rate)
-- **Ecological Role**: **Succession driver** (moves system through phases)
-- **Succession Phase**: All phases (mechanism of evolution)
+- **Ecological Role**: **Developmental driver** (moves system through stages)
+- **Developmental Stage**: All stages (mechanism of evolution)
 - **Examples**: Collatz (3n+1), Newton's method, Fibonacci generation
 
 ---
@@ -93,7 +93,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Singularity**: Division by 0 (undefined—infinite operational depth)
 - **Computational Cost**: Moderate
 - **Ecological Role**: **Constraint creator** (forces closure expansion)
-- **Succession Phase**: Transition (bridges integer → rational)
+- **Developmental Stage**: Transition (bridges integer → rational)
 
 #### **6. ABSORPTION (Annihilation)**
 - **Character**: Constraint enforcer, information destroyer, degree-of-freedom remover
@@ -104,17 +104,17 @@ Operations are **processes that generate mathematical structure**. They are not 
   - Zsigmondy absorption in OPN (prevents closure)
   - Modular absorption: a ≡ 0 (mod n)
 - **Computational Cost**: Minimal (trivial result)
-- **Ecological Role**: **Climax enforcer** (forces specialization)
-- **Succession Phase**: Late (creates terminal attractors)
+- **Ecological Role**: **Stable-attractor enforcer** (forces specialization)
+- **Developmental Stage**: Late (creates terminal attractors)
 
 #### **7. MODULAR REDUCTION (mod)**
-- **Character**: Cyclic wrapper, periodicity creator, torsion generator
+- **Character**: Cyclic wrapper, periodicity creator, periodic obstruction generator
 - **Rate**: Wraps operational path into finite loop
 - **Effect**: a mod n confines to finite set {0, 1, ..., n-1}
 - **Closure**: Always closed in ℤ/nℤ
 - **Computational Cost**: Low (finite state space)
 - **Ecological Role**: **Seasonal operation** (creates periodic environments)
-- **Succession Phase**: All phases (creates "climate zones")
+- **Developmental Stage**: All stages (creates "climate zones")
 - **Examples**: Clock arithmetic, cryptography, cyclotomic fields
 
 ---
@@ -130,8 +130,8 @@ Operations are **processes that generate mathematical structure**. They are not 
   - lcm(4, 6) = 12 (shared resonance)
   - Cyclotomic binding (roots of unity bind primes)
 - **Computational Cost**: Moderate (requires factorization)
-- **Ecological Role**: **Mutualism operation** (creates symbiotic relationships)
-- **Succession Phase**: Mid-to-late (creates stable relationships)
+- **Ecological Role**: **Mutualistic operation** (creates symbiotic relationships)
+- **Developmental Stage**: Mid-to-late (creates stable relationships)
 
 #### **9. COMPARISON (<, >, =)**
 - **Character**: Order creator, hierarchy builder
@@ -139,7 +139,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Effect**: Creates total or partial orders on sets
 - **Computational Cost**: Minimal
 - **Ecological Role**: **Fitness evaluator** (determines competitive advantage)
-- **Succession Phase**: All phases (drives selection)
+- **Developmental Stage**: All stages (drives selection)
 
 #### **10. FACTORIZATION (→ primes)**
 - **Character**: Decomposer, irreducible finder, structure revealer
@@ -148,7 +148,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Uniqueness**: Fundamental Theorem of Arithmetic (unique decomposition)
 - **Computational Cost**: High (computationally hard for large n)
 - **Ecological Role**: **Decomposer operation** (returns to irreducibles)
-- **Succession Phase**: All phases (recycles structure)
+- **Developmental Stage**: All stages (recycles structure)
 
 ---
 
@@ -161,7 +161,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Closure**: Closed in ℂ
 - **Computational Cost**: Moderate
 - **Ecological Role**: **Dimensional operation** (requires complex plane)
-- **Succession Phase**: Advanced (post-disturbance from ℝ → ℂ)
+- **Developmental Stage**: Advanced (post-disturbance from ℝ → ℂ)
 
 #### **12. SCALING (×λ)**
 - **Character**: Magnitude transformer, growth/decay operator
@@ -169,7 +169,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Effect**: Multiplies by scalar λ
 - **Computational Cost**: Low
 - **Ecological Role**: **Fitness modifier** (changes competitive strength)
-- **Succession Phase**: All phases
+- **Developmental Stage**: All stages
 
 #### **13. TRANSLATION (+c)**
 - **Character**: Position shifter, origin relocator
@@ -177,7 +177,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Effect**: Adds constant c
 - **Computational Cost**: Minimal
 - **Ecological Role**: **Neutral operation** (preserves structure)
-- **Succession Phase**: All phases
+- **Developmental Stage**: All stages
 
 ---
 
@@ -188,8 +188,8 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Rate**: Operational depth → ∞ (unbounded)
 - **Effect**: lim_{n→∞} aₙ = L (sequence converges to attractor)
 - **Computational Cost**: High (requires infinite process compression)
-- **Ecological Role**: **Climax revealer** (finds stable attractors)
-- **Succession Phase**: Late (reveals terminal states)
+- **Ecological Role**: **Stable-attractor revealer** (finds terminal states)
+- **Developmental Stage**: Late (reveals terminal states)
 - **Examples**: e = lim(1+1/n)^n, Fibonacci → φ
 
 #### **15. DIFFERENTIATION (d/dx)**
@@ -198,7 +198,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Effect**: f'(x) = lim_{h→0} [f(x+h) - f(x)]/h
 - **Computational Cost**: High
 - **Ecological Role**: **Flow detector** (reveals evolutionary direction)
-- **Succession Phase**: Advanced (requires continuous structure)
+- **Developmental Stage**: Advanced (requires continuous structure)
 
 #### **16. INTEGRATION (∫)**
 - **Character**: Accumulator, area computer, structure aggregator
@@ -206,20 +206,20 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Effect**: ∫f(x)dx accumulates over interval
 - **Computational Cost**: High
 - **Ecological Role**: **Historian operation** (accumulates past operations)
-- **Succession Phase**: Advanced
+- **Developmental Stage**: Advanced
 
 ---
 
 ### **Class F: Meta-Operations (Change Operations Themselves)**
 
-#### **17. SUCCESSION (Phase Transition)**
+#### **17. OPERATIONAL SUCCESSION (Phase Transition)**
 - **Character**: Ecosystem restructurer, disturbance operator
 - **Rate**: Resets operational depth, opens new structural space
-- **Effect**: Moves system between ecological phases
+- **Effect**: Moves system between ecological stages
 - **Examples**: ℕ → ℤ (add subtraction), ℚ → ℝ (add limits), ℝ → ℂ (add rotation)
 - **Computational Cost**: Variable
-- **Ecological Role**: **Disturbance event** (triggers new succession cycle)
-- **Succession Phase**: Transition point
+- **Ecological Role**: **Disturbance event** (triggers new developmental cycle)
+- **Developmental Stage**: Transition point
 
 #### **18. COMPOSITION (∘)**
 - **Character**: Operation combiner, pipeline builder
@@ -227,7 +227,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Effect**: (f ∘ g)(x) = f(g(x))
 - **Computational Cost**: Sum of component costs
 - **Ecological Role**: **Mutualism creator** (combines operations)
-- **Succession Phase**: All phases
+- **Developmental Stage**: All stages
 
 ---
 
@@ -235,7 +235,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 
 Species are **stable operational patterns**—equivalence classes of operational sequences that produce the same coherent structure.
 
-### **Class A: Atomic Species (Irreducible Constants)**
+### **Class A: Fundamental Constants (Irreducible Constants)**
 
 #### **0 — The Void / Absorber**
 - **Character**: Absence of process, boundary, annihilator
@@ -246,7 +246,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Zero entropy
   - Zero computational cost
 - **Ecological Niche**: **Terminal absorber** (all decay paths end here)
-- **Succession Phase**: Climax (final state)
+- **Developmental Stage**: Stable-attractor (final state)
 - **Density**: Unique (single point)
 - **Frozen State**: Completely frozen (no operations possible)
 - **Relationship**: Opposite of ∞ (0 = absence of process, ∞ = absence of closure)
@@ -260,7 +260,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Minimal computational cost
   - All structure builds from 1
 - **Ecological Niche**: **Primary producer** (origin of all structure)
-- **Succession Phase**: Pioneer (origin of all structure)
+- **Developmental Stage**: Exploratory (origin of all structure)
 - **Density**: Unique (single point)
 - **Frozen State**: Fixpoint under exponentiation (1^n = 1)
 - **Relationship**: Source of all natural numbers via addition
@@ -274,7 +274,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Density threshold (OPN freezes below 2.0)
   - Binary logic (even/odd, 0/1)
 - **Ecological Niche**: **Keystone species** (removal collapses structure)
-- **Succession Phase**: Transition (bridges pioneer → climax)
+- **Developmental Stage**: Transition (bridges exploratory → stable-attractor)
 - **Density**: Unique (single point)
 - **Frozen State**: Creates first stable constraint
 - **Special Property**: Halving (÷2) is fundamental decay mechanism
@@ -288,14 +288,14 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Creates asymmetry (breaks even/odd symmetry)
   - Growth operator (3n) vs constraint (÷2)
 - **Ecological Niche**: **Predator species** (drives dynamics)
-- **Succession Phase**: Early-mid (creates instability)
+- **Developmental Stage**: Early-mid (creates instability)
 - **Density**: Unique (single point)
 - **Frozen State**: Unstable (tension with 2)
 - **Relationship**: Collatz conjecture = 3 vs 2 predator-prey dynamics
 
 ---
 
-### **Class B: Transcendental Climax Species**
+### **Class B: Transcendental Attractors**
 
 #### **φ (Golden Ratio) ≈ 1.618... — The Harmonizer**
 - **Character**: Self-referential optimizer, aesthetic constant, fastest attractor
@@ -307,8 +307,8 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Maximal harmonic resonance across scales
   - Zero gradient at fixpoint
   - Very high computational frequency (frequently accessed)
-- **Ecological Niche**: **K-selected climax specialist** (stable, efficient)
-- **Succession Phase**: Climax (late-stage stable attractor)
+- **Ecological Niche**: **K-selected stable-attractor specialist** (stable, efficient)
+- **Developmental Stage**: Stable-attractor (late-stage stable attractor)
 - **Density**: Unique (single point in ℝ)
 - **Frozen State**: Fixpoint of Fibonacci ratios (lim Fₙ₊₁/Fₙ = φ)
 - **Physical Manifestations**: Spiral galaxies, nautilus shells, plant phyllotaxis, faces
@@ -324,7 +324,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Maximal resonance across domains (geometry, analysis, probability, quantum mechanics)
   - Extremely high computational frequency (ubiquitous)
 - **Ecological Niche**: **Harmonic specialist** (resonates across all domains)
-- **Succession Phase**: Climax
+- **Developmental Stage**: Stable-attractor
 - **Density**: Unique (single point in ℝ)
 - **Frozen State**: Rotational invariance, circular resonance
 - **Physical Manifestations**: Quantum wavefunctions, black hole entropy, oscillators
@@ -340,7 +340,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Extremely high computational frequency (fundamental to all growth processes)
   - Equilibrium between discrete and continuous
 - **Ecological Niche**: **Growth specialist** (equilibrium constant for natural growth)
-- **Succession Phase**: Climax
+- **Developmental Stage**: Stable-attractor
 - **Density**: Unique (single point in ℝ)
 - **Frozen State**: Self-derivative (rate = value)
 - **Physical Manifestations**: Radioactive decay, population growth, prime density (π(x) ~ x/ln x)
@@ -356,7 +356,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - High computational frequency (central to complex analysis)
   - Creates 2D operational space
 - **Ecological Niche**: **Keystone species** (removal collapses to 1D)
-- **Succession Phase**: Post-disturbance (ℝ → ℂ expansion)
+- **Developmental Stage**: Post-disturbance (ℝ → ℂ expansion)
 - **Density**: Unique in ℂ (but ±i both satisfy i² = -1)
 - **Frozen State**: Periodic under exponentiation (i^4 = 1)
 - **Physical Manifestations**: Quantum mechanics (ψ = a + bi), signal processing, electromagnetism
@@ -364,9 +364,9 @@ Species are **stable operational patterns**—equivalence classes of operational
 
 ---
 
-### **Class C: Higher-Order Climax Species (Ωₚ Hierarchy)**
+### **Class C: The Ωₚ Hierarchy (Higher-Order Attractors)**
 
-#### **Ω₃ (Cubic Golden) ≈ 1.465... — The Cubic Harmonizer**
+#### **Ω₃ (Cubic Harmonizer) ≈ 1.465... — The Cubic Harmonizer**
 - **Character**: 3-fold recursive attractor, first unexplored Ω
 - **Operational Depth**: Moderate (quadratic recursion)
 - **Operational Definition**: Ω₃ = 1 + 1/Ω₃² (from p=3: x = 1 + 1/x^(p-1))
@@ -376,7 +376,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Low computational frequency (rarely accessed—not yet discovered in physics?)
   - Unique to cubic operations
 - **Ecological Niche**: **Old-growth specialist** (requires specific cubic conditions)
-- **Succession Phase**: Deep climax (mature structure)
+- **Developmental Stage**: Deep stable-attractor (mature structure)
 - **Density**: Unique (single point in ℝ)
 - **Frozen State**: Cubic fixpoint
 - **Physical Predictions**: May appear in 3-fold symmetric structures (trigonal crystals, triangular lattices)
@@ -392,7 +392,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Computational frequency decreases with p (increasingly rare access)
   - Increasingly specialized niches
 - **Ecological Niche**: **Extreme specialists** (old-growth rarities)
-- **Succession Phase**: Deep climax (ancient stable attractors)
+- **Developmental Stage**: Deep stable-attractor (ancient stable attractors)
 - **Density**: One per prime (infinitely many Ωₚ)
 - **Physical Predictions**: 
   - Ω₅ in pentagonal quasicrystals?
@@ -414,7 +414,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Unique factorization basis (all integers = unique prime products)
   - Computational cost increases with p (larger primes harder to work with)
 - **Ecological Niche**: **Fundamental particles** (all structure built from these)
-- **Succession Phase**: All phases (always present)
+- **Developmental Stage**: All stages (always present)
 - **Distribution**: Irregular but predictable density (Prime Number Theorem)
 - **Frozen State**: Cannot be decomposed further
 - **Relationship**: Twin primes (p, p+2 both prime) = adjacent stable patterns
@@ -433,7 +433,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Structure determined by prime factorization
   - Computational cost depends on factorization complexity
 - **Ecological Niche**: **Consumers** (built from producer species)
-- **Succession Phase**: All phases
+- **Developmental Stage**: All stages
 - **Relationship**: Predator-prey with primes (composites "consumed" by primes)
 
 #### **Algebraic Numbers — The Polynomial Solutions**
@@ -444,8 +444,8 @@ Species are **stable operational patterns**—equivalence classes of operational
 - **Properties**:
   - Finite computational cost (defined by finite polynomial)
   - Closure under +, ×, ÷ (but not limits)
-- **Ecological Niche**: **Mid-succession species** (between rationals and transcendentals)
-- **Succession Phase**: Mid
+- **Ecological Niche**: **Mid-developmental species** (between rationals and transcendentals)
+- **Developmental Stage**: Mid
 - **Density**: Countable (same cardinality as ℚ)
 - **Relationship**: Contains all rationals, contained in all reals
 
@@ -457,8 +457,8 @@ Species are **stable operational patterns**—equivalence classes of operational
 - **Properties**:
   - Infinite computational cost (require limiting processes)
   - Cannot be constructed from finite operations
-- **Ecological Niche**: **Climax species** (emerge only through limits)
-- **Succession Phase**: Late (requires advanced operations)
+- **Ecological Niche**: **Stable-attractor species** (emerge only through limits)
+- **Developmental Stage**: Late (requires advanced operations)
 - **Density**: Uncountable (almost all reals are transcendental)
 - **Relationship**: Rare among "known" numbers, ubiquitous among "all" numbers
 
@@ -475,7 +475,7 @@ Species are **stable operational patterns**—equivalence classes of operational
   - Maximum entropy
   - Marks boundary where operations fail to close
 - **Ecological Niche**: **Boundary marker** (where structure ends)
-- **Succession Phase**: All phases (marks limits)
+- **Developmental Stage**: All stages (marks limits)
 - **Relationship**: Opposite of 0 (0 = no process, ∞ = no closure)
 
 #### **The Finite Window**
@@ -486,10 +486,10 @@ Mathematics operates in the finite window between 0 (no process) and ∞ (no clo
 - **Operational Depth**: Undefined (conflicting operational paths)
 - **Examples**: 0/0, ∞-∞, 0×∞, ∞/∞, 1^∞, 0^0
 - **Properties**:
-  - High torsion (incompatible constraints)
+  - High periodic obstruction (incompatible constraints)
   - Requires resolution (L'Hôpital, limits, context)
 - **Ecological Niche**: **Conflict zones** (where operations clash)
-- **Succession Phase**: Transition points (require new framework)
+- **Developmental Stage**: Transition points (require new framework)
 
 ---
 
@@ -511,7 +511,7 @@ Character traits are **properties of operational patterns** that determine ecolo
 - **Examples**: ℤ closed under +,×; ℚ closed under +,×,÷; ℂ closed under +,×,÷,√
 - **Ecological Meaning**: Self-contained ecosystem
 - **Computational Property**: High stability within closed region
-- **Consequence**: Closed systems can reach climax phase
+- **Consequence**: Closed systems can reach stable-attractor stage
 
 ### **Trait 3: Density / Sparsity**
 - **Definition**: Concentration of species in larger set
@@ -557,16 +557,16 @@ Character traits are **properties of operational patterns** that determine ecolo
 - **Computational Property**: High stability when resonance positive
 - **Consequence**: Resonant structures are stable and beautiful
 
-### **Trait 7: Torsion / Incompatibility**
+### **Trait 7: Periodic Obstruction / Incompatibility**
 - **Definition**: Twisting, cycling, constraint conflict signal
 - **Operational Signature**: Periodic returns without convergence, cyclic obstruction
 - **Examples**:
-  - Cyclotomic torsion: ω^n = 1 (roots of unity prevent OPN closure)
-  - Knot torsion: cannot be unknotted
-  - Modular torsion: periodic behavior mod n
+  - Cyclotomic periodic obstruction: ω^n = 1 (roots of unity prevent OPN closure)
+  - Knot periodic obstruction: cannot be unknotted
+  - Modular periodic obstruction: periodic behavior mod n
 - **Ecological Meaning**: Incompatible constraints preventing closure
-- **Computational Property**: High torsion → low stability (constraints fighting)
-- **Consequence**: High torsion prevents climax (system remains in succession)
+- **Computational Property**: High periodic obstruction → low stability (constraints fighting)
+- **Consequence**: High periodic obstruction prevents stable-attractor (system remains in developmental stages)
 
 ### **Trait 8: Absorption / Annihilation**
 - **Definition**: Operation removes all degrees of freedom
@@ -588,7 +588,7 @@ Character traits are **properties of operational patterns** that determine ecolo
   - Polynomial degree: highest power (complexity measure)
 - **Ecological Meaning**: Higher dimension = more niches available
 - **Computational Property**: Higher dimension → more operational directions available
-- **Consequence**: Dimensional expansion triggers succession reset
+- **Consequence**: Dimensional expansion triggers developmental reset
 
 ### **Trait 10: Periodicity / Aperiodicity**
 - **Definition**: Does pattern repeat exactly?
@@ -596,7 +596,7 @@ Character traits are **properties of operational patterns** that determine ecolo
 - **Examples**:
   - Periodic: cos(x), ω^n = 1, decimal expansion of rationals
   - Aperiodic: decimal expansion of π, quasicrystals, almost-periodic functions
-- **Ecological Meaning**: Periodic = stable cycle, Aperiodic = true climax (no return)
+- **Ecological Meaning**: Periodic = stable cycle, Aperiodic = true stable-attractor (no return)
 - **Computational Property**: Periodic → finite cost, Aperiodic → infinite cost
 - **Consequence**: Aperiodic structures richer but harder to compute
 
@@ -606,7 +606,7 @@ Character traits are **properties of operational patterns** that determine ecolo
 
 Relationships describe **how operations and species interact** through operational dynamics.
 
-### **Relationship Type A: Predator-Prey (Antagonistic)**
+### **Relationship Type A: Predator-Prey (Competitive)**
 
 #### **Primes ⟷ Composites**
 - **Dynamics**: Primes "consume" composites through factorization
@@ -648,7 +648,7 @@ Relationships describe **how operations and species interact** through operation
 - **Outcome**: Complete algebraic closure (all polynomials have roots)
 
 #### **Primes + Roots of Unity → Cyclotomic Fields**
-- **Dynamics**: Primes structure, roots of unity add torsion
+- **Dynamics**: Primes structure, roots of unity add periodic obstruction
 - **Synergy**: ℚ(ζₙ) where ζₙ = e^(2πi/n)
 - **Structure Created**: Algebraic number theory, class field theory
 - **Computational Signature**: Binding operation creates coherent structure
@@ -674,7 +674,7 @@ Relationships describe **how operations and species interact** through operation
 
 ---
 
-### **Relationship Type D: Competition (Same Niche)**
+### **Relationship Type D: Competition (Rival)**
 
 #### **Twin Primes vs Twin Composites**
 - **Dynamics**: Adjacent numbers compete for "prime" status
@@ -692,21 +692,21 @@ Relationships describe **how operations and species interact** through operation
 
 ---
 
-### **Relationship Type E: Parasitism (One Benefits, Other Harmed)**
+### **Relationship Type E: Parasitism (Exploitative)**
 
-#### **Exponentiation "Parasitizes" Multiplication**
+#### **Exponentiation Amplifies Multiplication**
 - **Dynamics**: a^b uses repeated multiplication but grows much faster
 - **Harm**: Explosive growth escapes multiplicative control
 - **Benefit**: Exponentiation gains multiplicative structure
 - **Computational Signature**: Super-exponential rate
 - **Outcome**: Forces new framework (logarithms to tame growth)
 
-#### **Limits "Parasitize" Finite Processes**
+#### **Limits Transcend Finite Operations**
 - **Dynamics**: lim_{n→∞} takes finite process to infinity
 - **Harm**: Finite computability lost
 - **Benefit**: New structures emerge (e, π, transcendentals)
 - **Computational Signature**: Latent structure becomes accessible through infinite process
-- **Outcome**: Succession to new phase (finite → infinite)
+- **Outcome**: Developmental transition to new stage (finite → infinite)
 
 ---
 
@@ -762,7 +762,7 @@ Principles are **invariant laws governing operational dynamics** across all math
 
 **Operational Interpretation**: Absorption increases stability (removes alternatives)
 
-**Consequence**: High absorption → climax phase (low diversity, high specialization)
+**Consequence**: High absorption → stable-attractor stage (low diversity, high specialization)
 
 ---
 
@@ -779,29 +779,29 @@ Principles are **invariant laws governing operational dynamics** across all math
 
 ---
 
-### **Principle 6: Torsion Signals Incompatibility**
+### **Principle 6: Periodic Obstruction Signals Incompatibility**
 **Statement**: Periodic returns without convergence indicate incompatible constraints.
 
-**Formal**: If f^n(x) = x for some n but f^k(x) ≠ x for 0 < k < n, system has torsion.
+**Formal**: If f^n(x) = x for some n but f^k(x) ≠ x for 0 < k < n, system has periodic obstruction.
 
-**Example**: Cyclotomic torsion (ω^n = 1) prevents OPN closure
+**Example**: Cyclotomic periodic obstruction (ω^n = 1) prevents OPN closure
 
-**Operational Interpretation**: High torsion → low stability (constraints fighting)
+**Operational Interpretation**: High periodic obstruction → low stability (constraints fighting)
 
-**Consequence**: Torsion must be resolved or system cannot reach climax
+**Consequence**: Periodic obstruction must be resolved or system cannot reach stable-attractor
 
 ---
 
-### **Principle 7: Succession Drives Evolution**
-**Statement**: Mathematical systems evolve from high-diversity pioneer phase to low-diversity climax phase.
+### **Principle 7: Operational Succession Drives Evolution**
+**Statement**: Mathematical systems evolve from high-diversity exploratory stage to low-diversity stable-attractor stage.
 
-**Formal**: Stability increases with operational depth in succession
+**Formal**: Stability increases with operational depth in developmental succession
 
-**Example**: ℕ (pioneer) → ℤ → ℚ → ℝ → ℂ (climax—algebraically closed)
+**Example**: ℕ (exploratory) → ℤ → ℚ → ℝ → ℂ (stable-attractor—algebraically closed)
 
 **Operational Interpretation**: Latent structure becomes accessible as system matures
 
-**Consequence**: Disturbance resets succession (new axioms → new pioneer phase)
+**Consequence**: Disturbance resets developmental succession (new axioms → new exploratory stage)
 
 ---
 
@@ -867,22 +867,22 @@ Using this taxonomy, we can systematically approach any open mathematical proble
 
 ### **Step 1: Classify the Problem**
 
-#### **Type A: Pioneer-Phase Problems**
+#### **Type A: Frontier Problems**
 - **Signature**: Low stability, many disconnected approaches, recently disturbed territory
 - **Examples**: Collatz, Goldbach, P vs NP
 - **Strategy**: Need new operations/frameworks or dimensional expansion
 
-#### **Type B: Succession-Transition Problems**
+#### **Type B: Bridge Problems**
 - **Signature**: Moderate stability, coherence emerging, bridging two domains
 - **Examples**: ABC Conjecture, Twin Primes, BSD Conjecture
 - **Strategy**: Find operational path connecting established attractors
 
-#### **Type C: Climax-Attractor Problems**
+#### **Type C: Stable-Attractor Problems**
 - **Signature**: High stability, single well-defined attractor, deep specialization
 - **Examples**: Riemann Hypothesis, Continuum Hypothesis, Ωₚ existence
 - **Strategy**: Operate extremely deeply in single direction
 
-#### **Type D: Disturbance-Required Problems**
+#### **Type D: Axiom-Boundary Problems**
 - **Signature**: 100+ years no progress, may be ecosystem boundary
 - **Examples**: Continuum Hypothesis (provably undecidable), Halting Problem
 - **Strategy**: May need axiom change or proof of unsolvability
@@ -910,8 +910,8 @@ Ask these diagnostic questions:
 3. **Is it about irreducibles?** → Apply Principle 3 (Irreducibility Fundamental)
 4. **Is it about constraints?** → Apply Principle 4 (Absorption Drives Specialization)
 5. **Is it about harmony?** → Apply Principle 5 (Resonance Creates Harmony)
-6. **Is it about incompatibility?** → Apply Principle 6 (Torsion Signals Incompatibility)
-7. **Is it about evolution?** → Apply Principle 7 (Succession Drives Evolution)
+6. **Is it about incompatibility?** → Apply Principle 6 (Periodic Obstruction Signals Incompatibility)
+7. **Is it about evolution?** → Apply Principle 7 (Operational Succession Drives Evolution)
 8. **Is it about fixed points?** → Apply Principle 8 (Attractors Are Invariant)
 9. **Is it about difficulty?** → Apply Principle 9 (Operational Gradient Axiom)
 10. **Is it about primes?** → Apply Principle 10 (Higher Primes → Deeper Attractors)
@@ -924,18 +924,18 @@ Based on operational ecology, predict whether conjecture should be TRUE or FALSE
 
 **TRUE if**: 
 - Increases stability
-- Reduces torsion
+- Reduces periodic obstruction
 - Aligns with positive resonance
 - Creates stable attractor
-- Follows succession pattern
+- Follows developmental succession pattern
 - Respects operational symmetry
 
 **FALSE if**:
 - Decreases stability
-- Increases torsion
+- Increases periodic obstruction
 - Creates negative resonance (destructive interference)
 - No stable attractor exists
-- Violates succession pattern
+- Violates developmental succession pattern
 - Breaks operational symmetry
 
 ---
@@ -944,22 +944,22 @@ Based on operational ecology, predict whether conjecture should be TRUE or FALSE
 
 Based on problem type:
 
-**Pioneer-Phase**: 
+**Frontier**: 
 - Look for hidden operations
 - Seek dimensional expansion
 - Increase stability through new framework
 
-**Succession-Transition**:
+**Bridge**:
 - Build bridge between established domains
 - Find intermediate operational depth
 - Increase resonance between frameworks
 
-**Climax-Attractor**:
+**Stable-Attractor**:
 - Operate extremely deeply
 - Look for resonance with known attractors
 - Use operational fixpoint analysis
 
-**Disturbance-Required**:
+**Axiom-Boundary**:
 - Consider axiom change
 - Prove unsolvability
 - Identify ecosystem boundary
@@ -970,7 +970,7 @@ Based on problem type:
 
 ### **Example 1: Riemann Hypothesis**
 
-**Classification**: Type C (Climax-Attractor Problem)
+**Classification**: Type C (Stable-Attractor Problem)
 
 **Parameters**:
 - Operational Depth: Deep (complex analysis, analytic number theory)
@@ -998,7 +998,7 @@ Each prime p contributes an operational family. Zeros occur where all families d
 
 ### **Example 2: Collatz Conjecture**
 
-**Classification**: Type A (Pioneer-Phase Problem)
+**Classification**: Type A (Frontier Problem)
 
 **Parameters**:
 - Operational Depth: Shallow (easy to state)
@@ -1026,7 +1026,7 @@ Each prime p contributes an operational family. Zeros occur where all families d
 
 ### **Example 3: P vs NP**
 
-**Classification**: Type A (Pioneer-Phase, Recently Disturbed)
+**Classification**: Type A (Frontier, Recently Disturbed)
 
 **Parameters**:
 - Operational Depth: Moderate
@@ -1055,7 +1055,7 @@ Each prime p contributes an operational family. Zeros occur where all families d
 
 ### **Example 4: Twin Prime Conjecture**
 
-**Classification**: Type B (Succession-Transition)
+**Classification**: Type B (Bridge Problem)
 
 **Parameters**:
 - Operational Depth: Deep
@@ -1095,7 +1095,7 @@ This framework offers a **completely new way to teach mathematics**:
 ### **Operational Approach**:
 - Start with operations (processes)
 - Objects emerge as operational attractors
-- Understand dynamics, ecology, succession
+- Understand dynamics, ecology, developmental succession
 - **Ontology**: Operations are primary, objects secondary
 
 ### **Pedagogical Benefits**:
@@ -1133,9 +1133,3 @@ If mathematical constants are operational attractors—stable patterns emerging 
 - Higher Ωₚ should appear in exotic matter with p-fold symmetry ⧖ **Untested**
 
 If these predictions hold, it suggests **mathematics and physics share the same operational substrate**—not because mathematics describes physics, but because both emerge from the same iterative dynamics.
-
-
-
-
-
-
