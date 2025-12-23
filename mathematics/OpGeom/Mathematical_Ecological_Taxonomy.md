@@ -99,7 +99,7 @@ Operations are **processes that generate mathematical structure**. They are not 
 - **Effect**: a mod n confines to finite set {0, 1, ..., n-1}
 - **Closure**: Always closed in ℤ/nℤ
 - **Computational Cost**: Low (finite state space)
-- **Role**: **Seasonal operation** (creates periodic environments)
+- **Role**: **Periodic operation** (creates periodic environments)
 - **Examples**: Clock arithmetic, cryptography, cyclotomic fields
 
 ---
@@ -1107,4 +1107,5 @@ If mathematical constants are operational attractors—stable patterns emerging 
 - Higher Ωₚ should appear in exotic matter with p-fold symmetry ⧖ **Untested**
 
 If these predictions hold, it suggests **mathematics and physics share the same operational substrate**—not because mathematics describes physics, but because both emerge from the same iterative dynamics.
+
 
