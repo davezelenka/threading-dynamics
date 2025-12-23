@@ -1137,3 +1137,4 @@ If these predictions hold, it suggests **mathematics and physics share the same 
 **This completes the taxonomy. Mathematics reimagined as operational ecology.**
 
 
+
