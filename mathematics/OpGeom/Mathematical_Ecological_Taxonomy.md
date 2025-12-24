@@ -967,6 +967,8 @@ Each prime p contributes an operational family. Zeros occur where all families d
 - Prove operational symmetry requirement
 - Show asymmetric zeros violate conservation laws
 - Connect to operational balance principles
+- Worked solution: An Operational-Spectral Framework for the Riemann Hypothesis
+- https://zenodo.org/records/18041437
 
 ---
 
@@ -1112,6 +1114,7 @@ If mathematical constants are operational attractors—stable patterns emerging 
 - Higher Ωₚ should appear in exotic matter with p-fold symmetry ⧖ **Untested**
 
 If these predictions hold, it suggests **mathematics and physics share the same operational substrate**—not because mathematics describes physics, but because both emerge from the same iterative dynamics.
+
 
 
 
