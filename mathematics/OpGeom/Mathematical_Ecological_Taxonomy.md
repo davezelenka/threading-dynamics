@@ -1025,6 +1025,11 @@ Each prime p contributes an operational family. Zeros occur where all families d
 - Show exponential search is intrinsic to gradient-opposed problems
 - Prove gradient cannot be eliminated by clever algorithms
 
+**Fully worked**: 
+- The Operational Gradient: A Framework for P ≠ NP
+- Conditional Proof for Abstract Computation, Unconditional for Physical Reality
+- https://zenodo.org/records/17913205
+  
 ---
 
 ### **Example 4: Twin Prime Conjecture**
@@ -1107,5 +1112,6 @@ If mathematical constants are operational attractors—stable patterns emerging 
 - Higher Ωₚ should appear in exotic matter with p-fold symmetry ⧖ **Untested**
 
 If these predictions hold, it suggests **mathematics and physics share the same operational substrate**—not because mathematics describes physics, but because both emerge from the same iterative dynamics.
+
 
 
