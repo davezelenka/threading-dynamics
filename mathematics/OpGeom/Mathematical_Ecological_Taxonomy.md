@@ -925,11 +925,9 @@ Within Operational Geometry:
 
 Full paper: https://zenodo.org/records/18116837
 Explanatory Video: https://youtu.be/DS3NAeXWSzc
-Animation: 
+Python animation: mathematics/OpGeom/examples/animations/Omega_3_symmetry_breaking_v5.py
 
 ---
-
-
 
 ## **PROBLEM-SOLVING FRAMEWORK**
 
@@ -1214,6 +1212,7 @@ If mathematical constants are operational attractors—stable patterns emerging 
 - Higher Ωₚ should appear in exotic matter with p-fold symmetry ⧖ **Untested**
 
 If these predictions hold, it suggests **mathematics and physics share the same operational substrate**—not because mathematics describes physics, but because both emerge from the same iterative dynamics.
+
 
 
 
