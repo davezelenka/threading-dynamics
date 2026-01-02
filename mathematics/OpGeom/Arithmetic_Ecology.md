@@ -254,3 +254,138 @@ This reframes number theory as a coherence ecology — not a collection of accid
 ## One‑Sentence Summary
 
 **Arithmetic is an ecological system in which irreversible compositional pressure generates latent constraint memory that must be periodically dissipated through admissible configurations; twin primes arise as the minimal, ground‑state geometry of this dissipation rather than as isolated curiosities.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Appendix A: Non-Ecological Reformulation in Pure Number-Theoretic Terms
+
+This appendix restates the core structural ideas of the paper without ecological metaphor. All concepts are expressed in arithmetic, combinatorial, and information-theoretic terms so that the conjectural content can be evaluated independently of interpretive framing.
+
+---
+
+### A.1 Constraint Systems on Residue Classes
+
+Let
+[
+\mathcal{P}*k = {p_1, p_2, \dots, p_k}
+]
+denote the first (k) primes, and define
+[
+M_k = \prod*{i=1}^k p_i.
+]
+
+For a finite set of integer shifts
+[
+\mathcal{H} = {h_1, \dots, h_m},
+]
+define the admissible residue classes modulo (M_k) by
+[
+\mathcal{A}_k(\mathcal{H}) =
+{a \bmod M_k : \gcd(a + h_j, M_k) = 1 \text{ for all } h_j \in \mathcal{H}}.
+]
+
+This definition coincides with the standard notion of admissibility used in the Hardy–Littlewood prime (k)-tuple conjecture.
+
+---
+
+### A.2 Residue-Class Constraint Entropy
+
+Define the **residue-class constraint entropy** at scale (k) as
+[
+H_k(\mathcal{H}) = -\sum_{a \in \mathcal{A}_k(\mathcal{H})} p_k(a)\log p_k(a),
+]
+where (p_k(a)) is the uniform distribution on (\mathcal{A}_k(\mathcal{H})).
+
+Equivalently,
+[
+H_k(\mathcal{H}) = \log |\mathcal{A}_k(\mathcal{H})|.
+]
+
+Thus, (H_k) measures the logarithmic size of the admissible residue-class space after all congruence constraints up to the first (k) primes are imposed.
+
+---
+
+### A.3 Maximal Entropy and Entropy Deficit
+
+Let
+[
+H_k^{\max}(\mathcal{H}) = \sum_{p \le p_k} \log(p - |\mathcal{H}|)
+]
+denote the entropy predicted by local congruence considerations alone, assuming independence of residue exclusions.
+
+Define the **entropy deficit**
+[
+\Delta H_k(\mathcal{H}) = H_k^{\max}(\mathcal{H}) - H_k(\mathcal{H}).
+]
+
+Small (\Delta H_k) indicates that admissible residue classes remain evenly distributed across moduli; large (\Delta H_k) indicates concentration or collapse of admissible structure.
+
+---
+
+### A.4 Structural Role of Minimal Admissible Gaps
+
+For the pattern (\mathcal{H} = {0,2}) (twin primes), admissibility excludes exactly one residue class modulo 2 and one modulo 3, with no further forced exclusions.
+
+Observations:
+
+* For every (k), (\mathcal{A}_k({0,2})) is nonempty.
+* The size of (\mathcal{A}_k({0,2})) decreases multiplicatively but remains asymptotically comparable to Hardy–Littlewood predictions.
+
+This minimality distinguishes gap 2 from larger even gaps, which introduce additional residue-class exclusions modulo small primes and reduce admissible density more rapidly.
+
+---
+
+### A.5 Conjectural Entropy Stability Principle
+
+**Conjecture A (Entropy Stability).**
+For admissible patterns (\mathcal{H}) of minimal diameter, the entropy deficit
+[
+\Delta H_k(\mathcal{H})
+]
+remains bounded as (k \to \infty).
+
+Equivalently, admissible residue-class spaces for minimal patterns do not undergo asymptotic entropy collapse under increasing congruence constraints.
+
+---
+
+### A.6 Relation to Bounded Gaps and Sieve Theory
+
+Results on bounded gaps between primes imply that admissible patterns of bounded diameter occur infinitely often. These results are consistent with, but do not establish, boundedness of (\Delta H_k).
+
+The entropy formulation isolates the following intermediate question:
+
+> Does the admissible residue-class space for minimal patterns retain asymptotically maximal logarithmic size?
+
+This question is strictly weaker than the Twin Prime Conjecture but stronger than admissibility alone.
+
+---
+
+### A.7 Summary
+
+In purely mathematical terms, the framework asserts:
+
+1. Congruence constraints impose multiplicative exclusions on residue classes.
+2. The cumulative effect of these exclusions can be quantified by entropy.
+3. Minimal admissible patterns minimize entropy loss per added constraint.
+4. Structural persistence corresponds to bounded entropy deficit across scales.
+
+This appendix places the conjectural content squarely within analytic number theory and information theory, without reliance on ecological analogy.
+
+
+
