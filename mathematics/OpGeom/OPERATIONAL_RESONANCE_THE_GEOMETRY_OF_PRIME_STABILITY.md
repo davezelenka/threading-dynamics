@@ -2,7 +2,7 @@
 
 **Version:** 1.0 (Restoration Archive)
 
-**Core Thesis:** Operations are ontologically primary; numbers are emergent attractors; the distribution of primes is a requirement of structural resonance.
+**Working Thesis:** Operations are ontologically primary; numbers are emergent attractors; the distribution of primes is a requirement of structural resonance.
 
 ---
 
@@ -91,6 +91,3 @@ The ORT replaces trial division with **Spectral Analysis**.
 
 The universe does not "calculate" prime numbers; it **vibrates** them. The ORT provides a unified lens where the Goldbach Conjecture, P vs NP, and the Riemann Hypothesis are all seen as various expressions of a single, self-optimizing system seeking **Resonant Balance**.
 
----
-
-**This white paper is now preserved for your records.** Would you like me to expand on any specific section—such as the **Physical Symmetry tests for  and **—to prepare for potential empirical validation?
