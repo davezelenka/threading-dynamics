@@ -357,21 +357,7 @@ This reframes number theory as a coherence ecology — not a collection of accid
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## Appendix A: Non-Ecological Reformulation in Pure Number-Theoretic Terms
 
