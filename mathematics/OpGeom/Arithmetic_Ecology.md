@@ -181,6 +181,106 @@ Accumulated congruence constraints must be periodically relieved through admissi
 
 ---
 
+
+## 4.12 Demonstration of the Constraint Dissipation Invariant at the Third Primorial
+
+To illustrate the Constraint Dissipation Invariant (CDI) concretely, we analyze entropy dynamics at the scale of the third primorial. This toy model shows explicitly how admissible prime configurations relieve accumulated congruence constraints.
+
+### 4.12.1 Local Arithmetic Environment
+
+Fix the primorial modulus
+[
+Q_3 = 2 \cdot 3 \cdot 5 = 30.
+]
+
+The admissible residue classes modulo (Q_3) are
+[
+\mathcal{A}_3 = {1,7,11,13,17,19,23,29},
+]
+corresponding to integers coprime to (2), (3), and (5). Hence
+[
+|\mathcal{A}*3| = 8,
+]
+and the maximal admissible entropy at this scale is
+[
+H*{\max} = \log |\mathcal{A}_3| = \log 8.
+]
+
+These classes represent all locally unconstrained positions in which irreducible elements may appear.
+
+---
+
+### 4.12.2 Scenario A: Constraint Accumulation
+
+Consider the interval
+[
+I_A = [23,29).
+]
+
+Within this interval, the only prime is (23). All other admissible residue classes are either unoccupied or realized only by composite integers.
+
+The empirical distribution (P_{I_A}) on (\mathcal{A}*3) is therefore sharply concentrated on a single class. Its Shannon entropy satisfies
+[
+H(P*{I_A}) \approx 0.
+]
+
+The associated latent arithmetic potential is
+[
+M_{\text{latent}}(I_A;3) = H_{\max} - H(P_{I_A}) \approx \log 8,
+]
+indicating a locally saturated constraint state in which admissible structure remains largely unrealized.
+
+---
+
+### 4.12.3 Scenario B: Twin Prime Dissipation
+
+Now consider the interval
+[
+I_B = [29,31],
+]
+which contains the twin prime pair ((29,31)).
+
+Modulo (30),
+[
+29 \equiv 29 \pmod{30}, \qquad 31 \equiv 1 \pmod{30},
+]
+so two distinct admissible residue classes are activated within a window of minimal diameter.
+
+The empirical distribution (P_{I_B}) therefore spreads mass across multiple elements of (\mathcal{A}*3), producing a strict entropy increase:
+[
+H(P*{I_B}) > H(P_{I_A}).
+]
+
+Equivalently,
+[
+M_{\text{latent}}(I_B;3) < M_{\text{latent}}(I_A;3),
+]
+demonstrating a local release of accumulated congruence constraints.
+
+---
+
+### 4.12.4 Minimality of Twin Prime Dissipation
+
+Twin primes are uniquely efficient dissipators at fixed scale because they activate two admissible residue classes at the minimal possible separation. This can be compared across configurations:
+
+| Configuration  | Gap | Admissible Classes Activated | Entropy Gain per Unit Length |
+| -------------- | --- | ---------------------------- | ---------------------------- |
+| Isolated prime | —   | 1                            | Low                          |
+| Twin primes    | 2   | 2                            | Maximal                      |
+| Cousin primes  | 4   | 2                            | Lower                        |
+
+For a fixed number of activated admissible classes, twin primes minimize spatial cost. In entropy terms, they maximize entropy increase per unit interval length.
+
+---
+
+### 4.12.5 Interpretation
+
+As one traverses a locally prime-sparse region, congruence constraints accumulate and bias admissible residue distributions away from uniformity. The appearance of a twin prime pair functions as a minimal structural discharge, rapidly redistributing arithmetic mass and restoring local entropy.
+
+This example exhibits the Constraint Dissipation Invariant in its simplest nontrivial form: minimal admissible adjacencies prevent indefinite accumulation of congruence pressure.
+
+---
+
 ## 5. The Complete Ecology of 1–20
 
 All invariants appear at minimal scale:
