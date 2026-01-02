@@ -1,6 +1,5 @@
-#Operational Resonance
+###Operational Resonance
 
-### A New Foundation for Arithmetic
 
 ## 1. The Ontological Shift: Operations Over Objects
 
