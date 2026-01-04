@@ -336,9 +336,20 @@ const ModularCoherenceViz = () => {
         {/* Pinned point info */}
         {pinnedPoint && (
           <div className="absolute top-8 left-8 bg-black/90 backdrop-blur-md p-4 rounded-lg border border-yellow-500/50 shadow-2xl max-w-sm">
-            <div className="flex items-center gap-2 mb-2">
-              <Crosshair className="w-4 h-4 text-yellow-400" />
-              <h3 className="text-yellow-400 font-bold">Ecological Analysis</h3>
+            <div className="flex items-center justify-between mb-2">
+              <div className="flex items-center gap-2">
+                <Crosshair className="w-4 h-4 text-yellow-400" />
+                <h3 className="text-yellow-400 font-bold">Analysis</h3>
+              </div>
+              <button
+                onClick={() => setPinnedPoint(null)}
+                className="text-gray-400 hover:text-white transition-colors"
+                title="Close"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
             </div>
             <div className="space-y-2 text-sm">
               <div className="font-mono">
@@ -434,12 +445,6 @@ const ModularCoherenceViz = () => {
                 </div>
               </div>
             </div>
-            <button
-              onClick={() => setPinnedPoint(null)}
-              className="mt-3 w-full text-xs text-gray-500 hover:text-gray-300 bg-white/5 hover:bg-white/10 py-1 rounded transition-all"
-            >
-              Clear Analysis
-            </button>
           </div>
         )}
 
