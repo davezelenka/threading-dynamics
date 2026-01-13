@@ -115,6 +115,8 @@ Creative Commons Attribution 4.0 International. All mathematical content is free
 ##
 _"Every form is merely the memory of an act."_
 
+_"All things were made through him, and without him was not any thing made that was made."_ - John 1:3
+
 
 
 
