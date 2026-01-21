@@ -89,7 +89,8 @@ Growth Mindset: When constants emerge from processes, students see that mathemat
 
 ## 🧬Minimized Proofs
 
-Machine-readable JSON formalizations of mathematical proofs using the Intrinsic Operational Gradient Theorem (IOGT) framework.
+Machine-readable JSON formalizations of mathematical proofs using the Intrinsic Operational Gradient Theorem (IOGT) framework. 
+/minimized_proofs
 
 ---
 
