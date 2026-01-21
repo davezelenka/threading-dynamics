@@ -145,15 +145,25 @@ savefig("divergence_field.png")
 # -------------------------
 
 plt.figure()
-plt.scatter(
+#plt.scatter(
+#   df["compression_rate"],
+#    df["release_rate"],
+#    s=4,
+#    alpha=0.3
+#)
+plt.hexbin(
     df["compression_rate"],
     df["release_rate"],
-    s=4,
-    alpha=0.3
+    gridsize=60,
+    bins="log"
 )
+plt.xscale("symlog", linthresh=1e-3)
+plt.yscale("symlog", linthresh=1e-3)
+
+plt.colorbar(label="log density")
 plt.xlabel("compression rate")
 plt.ylabel("release rate")
-plt.title("Load Accumulation vs Release")
+plt.title("Phase-space density of load accumulation and release rates")
 savefig("compression_vs_release.png")
 
 # -------------------------
