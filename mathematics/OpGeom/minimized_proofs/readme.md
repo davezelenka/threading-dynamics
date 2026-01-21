@@ -189,12 +189,6 @@ These proofs build upon centuries of mathematical tradition. Key influences incl
 
 - **v1.0** (January 2025-2026) - Initial release of 6 proofs in JSON format
 
-## File Checksums (SHA-256)
-
-```
-[To be generated upon final commit]
-```
-
 ---
 
 **Note**: While these proofs represent rigorous mathematical arguments within the IOGT framework, they have not yet undergone formal peer review or been formalized in proof assistants. The conditional proofs (RH, Collatz) depend on specific lemmas that remain open problems. The unconditional proofs (NS, P≠NP) and foundational theorems (IOGT, IOT) present complete arguments within their stated frameworks.
