@@ -87,10 +87,21 @@ Growth Mindset: When constants emerge from processes, students see that mathemat
 
 ---
 
-## 🧬Minimized Proofs
+## Minimized Proofs
 
 Machine-readable JSON formalizations of mathematical proofs using the Intrinsic Operational Gradient Theorem (IOGT) framework. 
 /minimized_proofs
+
+
+| Proof | Type | Conditionality | Key Result |
+|-------|------|----------------|------------|
+| **IOGT** | Foundation | Axiomatic | Operations induce intrinsic difficulty gradients |
+| **IOT** | Foundation | Information-theoretic | T·P ≥ (1+c)·2^n, equality unattainable |
+| **Navier-Stokes** | Unconditional | None | Global smooth solutions for all t ≥ 0 |
+| **Riemann** | Conditional | Assumes IOGT | All zeros on Re(s) = 1/2 |
+| **P≠NP** | Unconditional | None | No polynomial algorithm for NP-complete problems |
+| **Collatz** | Conditional | Assumes Conformal Mixing | All trajectories reach n=1 |
+
 
 ---
 
