@@ -173,8 +173,7 @@ Under the following terms:
 
 This is a research archive. For questions, corrections, or discussions:
 - Open an issue in this repository
-- Contact via Zenodo record comment sections
-- Email: [contact information if desired]
+- Email: davez[at]interactive-earth[dot]com
 
 ## Acknowledgments
 
