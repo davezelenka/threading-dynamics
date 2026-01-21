@@ -99,7 +99,7 @@ The **Intrinsic Operational Gradient Theorem** (IOGT) is the foundational princi
 ### General Citation
 ```
 Zelenka, D. D. (2025-2026). Minimized Proofs Collection. 
-GitHub repository. https://github.com/[username]/[repo]/minimized_proofs
+GitHub repository. [https://github.com/davezelenka/threading-dynamics/edit/main/mathematics/OpGeom/minimized_proofs]
 ```
 
 ### Individual Proofs
