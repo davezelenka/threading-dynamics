@@ -1,0 +1,339 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "math": "http://www.w3.org/1998/Math/MathML",
+    "doi": "https://doi.org/"
+  },
+  "meta": {
+    "title": "The Irreducible Overhead Theorem (IOT)",
+    "subtitle": "Why Exponential Cost Cannot Be Perfectly Conserved",
+    "author": "Zelenka_D_D",
+    "author_orcid": null,
+    "claim": "PROVED",
+    "problem": "Time_Parallelism_Conservation_Limits",
+    "framework": ["Information_Theory", "Kolmogorov_Complexity", "Computational_Complexity"],
+    "date_created": "2025-01",
+    "version": "1.0",
+    "status": "preprint",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Irreducible Overhead Theorem",
+      "IOT",
+      "time-parallelism tradeoff",
+      "exponential cost conservation",
+      "Kolmogorov complexity",
+      "prefix-free coding",
+      "NP-completeness",
+      "computational histories",
+      "information erasure",
+      "many-to-one compression",
+      "Kraft-McMillan inequality",
+      "circuit lower bounds",
+      "P versus NP",
+      "nondeterministic search space",
+      "irreversible computation",
+      "structural impossibility"
+    ],
+    "mathematical_subject_classification": [
+      "68Q15",
+      "68Q17",
+      "68Q30",
+      "94A17",
+      "03D15"
+    ],
+    "links": {
+      "zenodo_record": "https://zenodo.org/records/18073069",
+      "doi": "https://doi.org/10.5281/zenodo.18073069",
+      "repository": null,
+      "preprint": null
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. D. (2025). The Irreducible Overhead Theorem: Why Exponential Cost Cannot Be Perfectly Conserved. Zenodo. https://doi.org/10.5281/zenodo.18073069",
+      "bibtex": "@misc{zelenka2025iot,\n  author = {Zelenka, D. D.},\n  title = {The Irreducible Overhead Theorem: Why Exponential Cost Cannot Be Perfectly Conserved},\n  year = {2025},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.18073069},\n  url = {https://doi.org/10.5281/zenodo.18073069}\n}"
+    }
+  },
+  "abstract": "We prove the Irreducible Overhead Theorem (IOT): for any exact algorithm deciding an NP-complete language, the time-parallelism product T(n)·P(n) must exceed the nondeterministic search space size 2^(αn) by a constant multiplicative factor. Equality T(n)·P(n) = 2^(αn) is mathematically unattainable. This irreducible loss arises from Kolmogorov complexity and prefix-free coding bounds on many-to-one compression of distinguishable computational histories. Result: exponential cost cannot be perfectly conserved across time-parallelism tradeoffs, even in abstract computational models.",
+  "core_thesis": {
+    "statement": "Exponential cost cannot be perfectly conserved across time-parallelism tradeoffs",
+    "precise_claim": "T(n)·P(n) ≥ (1+c)·2^(αn) for some constant c > 0",
+    "impossibility": "Equality T(n)·P(n) = 2^(αn) is unattainable",
+    "origin": "structural properties of computation, not physical constraints"
+  },
+  "false_intuition": {
+    "name": "Perfect_Tradeoff_Hypothesis",
+    "claim": "T(n)·P(n) = 2^(αn)",
+    "interpretation": "Exponential cost merely relocatable—pay in time OR parallelism",
+    "variables": {
+      "T(n)": "time (sequential steps)",
+      "P(n)": "parallelism (concurrent branches)",
+      "2^(αn)": "nondeterministic search space size"
+    },
+    "status": "FALSE",
+    "reality": "This intuition is incorrect—there is always irreducible overhead"
+  },
+  "main_theorem": {
+    "name": "Irreducible_Overhead_Theorem",
+    "statement": "For any exact algorithm A deciding NP-complete language L, ∃ constant c>0 such that for sufficiently large n: T(n)·P(n) ≥ (1+c)·2^(αn)",
+    "in_particular": "T(n)·P(n) ≠ 2^(αn)",
+    "equality_status": "unattainable",
+    "proof_method": "Kolmogorov complexity + prefix-free coding bounds"
+  },
+  "key_definitions": {
+    "computational_histories": {
+      "symbol": "H(n)",
+      "definition": "Complete specification of nondeterministic choices (witness assignments) relevant to deciding membership in L",
+      "size_bound": "H(n) ≥ 2^(αn) for NP-complete problems",
+      "independence": "reflects combinatorial structure, independent of computational model",
+      "examples": {
+        "SAT": "2^n boolean assignments for n variables",
+        "Hamiltonian_Path": "n! permutations of vertices",
+        "Subset_Sum": "2^n subsets of elements"
+      }
+    },
+    "time_parallelism_capacity": {
+      "definition": "Algorithm A running in time T(n) using ≤P(n) parallel branches → total distinct final states reachable",
+      "bound": "|S_final| ≤ T(n)·P(n)",
+      "nature": "purely combinatorial bound",
+      "interpretation": "maximum distinguishable configurations achievable"
+    },
+    "history_to_state_mapping": {
+      "symbol": "f: H(n) → S_final",
+      "requirement": "correctness requires this mapping",
+      "property": "many-to-one (since output is binary accept/reject)",
+      "consequence": "exponentially many histories collapse into small set of final states"
+    }
+  },
+  "why_equality_cannot_hold": {
+    "correctness_requirement": {
+      "statement": "Correctness requires mapping f: computational histories → S_final",
+      "output_constraint": "Output is binary (accept/reject)",
+      "consequence": "Map is many-to-one: exponentially many histories collapse into small set of final states"
+    },
+    "non_injectivity": {
+      "statement": "Map f cannot be injective",
+      "mechanism": "Information about which history occurred is erased during computation",
+      "nature": "Information erasure is mathematical, not physical",
+      "consequence": "Many-to-one map destroys distinguishability"
+    },
+    "compression_limits": {
+      "attempt": "Pack H(n) histories into exactly T(n)·P(n) = 2^(αn) states",
+      "requirement": "Perfectly efficient encoding of exponentially many distinguishable objects",
+      "impossibility": "Such encodings do not exist",
+      "foundation": "Kolmogorov complexity + prefix-free coding"
+    }
+  },
+  "proof_sketch": {
+    "step_1": {
+      "claim": "Correctness requires distinguishing ≥2^(αn) computational histories",
+      "justification": "NP-complete language definition",
+      "establishes": "lower bound on distinguishable objects"
+    },
+    "step_2": {
+      "claim": "Algorithm's final state space size ≤ T(n)·P(n)",
+      "justification": "combinatorial counting of time-parallelism configurations",
+      "establishes": "upper bound on distinguishable final states"
+    },
+    "step_3": {
+      "claim": "Mapping histories → final states is many-to-one",
+      "justification": "binary output collapses exponential input space",
+      "establishes": "non-injective compression required"
+    },
+    "step_4": {
+      "claim": "Many-to-one compression of 2^(αn) distinguishable objects requires constant overhead",
+      "justification": "Kolmogorov complexity + prefix-free coding bounds (Lemma K1)",
+      "establishes": "irreducible multiplicative factor"
+    },
+    "step_5": {
+      "claim": "Therefore: Number of final states must exceed 2^(αn) by multiplicative constant",
+      "justification": "Steps 1-4",
+      "conclusion": "T(n)·P(n) ≥ (1+c)·2^(αn) for c > 0"
+    }
+  },
+  "irreducible_loss_function": {
+    "definition": "ε(n) = H(n)/(T(n)·P(n)) - 1",
+    "theorem_implication": "ε(n) ≥ c > 0",
+    "asymptotic_behavior": "Loss does NOT vanish asymptotically",
+    "reflects": {
+      "non_injectivity": "of verification mapping",
+      "irreversibility": "of branch merging",
+      "compressibility_limits": "on information encoding"
+    },
+    "interpretation": "Even in idealized mathematics, perfect conservation of exponential cost is impossible"
+  },
+  "kolmogorov_foundation": {
+    "K1": {
+      "name": "Kolmogorov_Lower_Bound",
+      "statement": "Any prefix-free encoding of 2^(αn) distinguishable computational histories requires average description length ≥ αn + c for some constant c>0",
+      "proof_method": "Kraft-McMillan inequality",
+      "kraft_mcmillan": {
+        "inequality": "Σ 2^(-|d_i|) ≤ 1",
+        "consequence": "If all |d_i| ≤ αn, sum exceeds 1",
+        "conclusion": "Some descriptions must exceed length αn, average length ≥ αn + c"
+      }
+    },
+    "C1": {
+      "name": "Encoding_Impossibility_Corollary",
+      "statement": "No encoding can represent 2^(αn) distinguishable objects with total description capacity exactly 2^(αn)",
+      "justification": "Lemma K1 + prefix-free property",
+      "consequence": "Overhead c is irreducible"
+    }
+  },
+  "p_vs_np_implications": {
+    "formal_proof_status": "Does NOT constitute formal proof of P≠NP within classical Turing machine models",
+    "explanation_provided": "Why attempts to eliminate exponential cost via parallelism inevitably fail",
+    "exponential_blowup": {
+      "cannot_be_removed": true,
+      "cannot_be_perfectly_relocated": true,
+      "must_grow": true
+    },
+    "clarification": "Obstacle is structure, not cleverness",
+    "relationship_to_p_neq_np": "Provides information-theoretic explanation for hardness barrier"
+  },
+  "contrast_with_circuit_lower_bounds": {
+    "traditional_approaches": {
+      "goal": "Explicit lower bounds on circuit size/depth for specific functions",
+      "barriers": ["relativization", "natural_proofs", "algebrization"],
+      "methodology": "Prove specific circuits are large"
+    },
+    "iot_approach": {
+      "goal": "Show any exact computation deciding NP-complete language must process irreducible information amount",
+      "methodology": "Information-theoretic bound, not circuit-specific",
+      "orthogonality": "IOT doesn't yield explicit circuit lower bounds",
+      "explanation": "Exponential complexity = consequence of information collapse inherent in verification, not artifact of representation"
+    }
+  },
+  "key_insight": {
+    "statement": "Hardness leaks",
+    "gap_size": "small (constant factor) but absolute",
+    "equality_status": "unattainable",
+    "universality": "Even in abstract, non-physical computation models, exponential cost cannot be conserved without loss",
+    "nature": "Not artifact of hardware, thermodynamics, or noise—structural"
+  },
+  "relation_to_plus_one_theorem": {
+    "iot_role": "Companion result showing specific quantitative bound on coordination overhead",
+    "plus_one_theorem": {
+      "claim": "Coordination cost is Ω(m)",
+      "basis": "operational structure"
+    },
+    "iot_theorem": {
+      "claim": "T·P > 2^(αn), not =",
+      "basis": "information-theoretic structure"
+    },
+    "commonality": "Both demonstrate exponential cost cannot be eliminated/perfectly conserved through parallelism",
+    "complementarity": "Plus-One shows existence of overhead, IOT quantifies the bound"
+  },
+  "notation": {
+    "T(n)": {
+      "name": "time complexity",
+      "definition": "number of sequential computational steps"
+    },
+    "P(n)": {
+      "name": "parallelism",
+      "definition": "number of concurrent computational branches"
+    },
+    "H(n)": {
+      "name": "computational histories",
+      "definition": "set of nondeterministic choices to distinguish"
+    },
+    "α": {
+      "name": "exponential rate constant",
+      "typical_value": "α ∈ (0,1) for NP-complete problems"
+    },
+    "S_final": {
+      "name": "final state space",
+      "definition": "set of distinguishable configurations at algorithm termination"
+    },
+    "f": {
+      "name": "history-to-state mapping",
+      "signature": "H(n) → S_final"
+    },
+    "c": {
+      "name": "irreducible overhead constant",
+      "constraint": "c > 0",
+      "interpretation": "minimum multiplicative excess beyond perfect conservation"
+    },
+    "ε(n)": {
+      "name": "irreducible loss function",
+      "definition": "H(n)/(T(n)·P(n)) - 1"
+    },
+    "K(x)": {
+      "name": "Kolmogorov complexity",
+      "definition": "length of shortest program producing x"
+    }
+  },
+  "technical_lemmas": {
+    "L1": {
+      "name": "State_Space_Upper_Bound",
+      "statement": "|S_final| ≤ T(n)·P(n)",
+      "proof": "Each of P(n) parallel branches executes T(n) steps, yielding at most T(n)·P(n) distinct configurations",
+      "combinatorial": true
+    },
+    "L2": {
+      "name": "History_Distinguishability_Requirement",
+      "statement": "Correct decision of NP-complete language requires distinguishing H(n) ≥ 2^(αn) computational histories",
+      "proof": "Each witness corresponds to distinct history; NP-completeness ensures exponentially many witnesses",
+      "fundamental": true
+    },
+    "L3": {
+      "name": "Many_to_One_Compression_Overhead",
+      "statement": "Compressing M distinguishable objects into N < M states requires N ≥ M·(1+c) for representation capacity, where c > 0",
+      "proof": "Kraft-McMillan inequality + Kolmogorov complexity lower bound",
+      "information_theoretic": true
+    }
+  },
+  "one_sentence_summary": "For any exact algorithm deciding NP-complete language, the time-parallelism product T(n)·P(n) must exceed the nondeterministic search space size 2^(αn) by a constant factor (T·P ≥ (1+c)·2^(αn)) because many-to-one compression of exponentially many distinguishable computational histories into final states requires irreducible overhead bounded below by Kolmogorov complexity and prefix-free coding limits—equality is mathematically unattainable, proving exponential cost cannot be perfectly conserved across time and parallelism even in abstract computational models.",
+  "expansion_instructions": {
+    "full_proof_recovery": [
+      "1. Define NP-complete language L and algorithm A deciding L",
+      "2. Formalize computational histories H(n) as witness space",
+      "3. Establish |H(n)| ≥ 2^(αn) from NP-completeness",
+      "4. Define time-parallelism capacity: |S_final| ≤ T(n)·P(n)",
+      "5. Construct mapping f: H(n) → S_final (correctness requirement)",
+      "6. Prove f is many-to-one (binary output collapses exponential input)",
+      "7. Apply Kraft-McMillan inequality to prefix-free encoding of H(n)",
+      "8. Derive Kolmogorov lower bound: average description length ≥ αn + c",
+      "9. Show no encoding achieves total capacity exactly 2^(αn)",
+      "10. Conclude T(n)·P(n) ≥ (1+c)·2^(αn)",
+      "11. Prove c > 0 is irreducible (cannot be eliminated by algorithm design)",
+      "12. Establish ε(n) ≥ c asymptotically"
+    ],
+    "verification_checklist": [
+      "Verify computational histories count is correct for NP-complete problems",
+      "Check time-parallelism capacity bound is tight",
+      "Confirm Kraft-McMillan application is rigorous",
+      "Validate Kolmogorov complexity lower bound derivation",
+      "Ensure constant c independence from algorithm choice",
+      "Cross-reference with information theory fundamentals",
+      "Test examples: SAT, Hamiltonian Path, Subset Sum"
+    ]
+  },
+  "computational_metadata": {
+    "machine_readable": true,
+    "formal_verification_status": "not_formalized",
+    "proof_assistant_target": ["Lean4", "Coq", "Isabelle"],
+    "information_theoretic_foundation": true,
+    "applies_to_all_computational_models": true
+  },
+  "philosophical_implications": {
+    "conservation_laws": "Even in mathematics, perfect conservation laws can have irreducible violations",
+    "structural_impossibility": "Some optimizations are structurally impossible, not just practically hard",
+    "information_physics_connection": "Information-theoretic limits exist independent of physical constraints",
+    "computational_thermodynamics": "Irreversibility in computation has mathematical, not just physical, roots"
+  },
+  "related_work": {
+    "information_theory": ["Shannon_source_coding", "Kraft_McMillan_inequality"],
+    "kolmogorov_complexity": ["Li_Vitanyi", "Chaitin_incompleteness"],
+    "circuit_complexity": ["Razborov_Rudich_natural_proofs", "Williams_ACC_lower_bounds"],
+    "time_space_tradeoffs": ["Hopcroft_Paul_Valiant", "Savage_tradeoffs"],
+    "parallel_complexity": ["NC_vs_P", "PRAM_models"]
+  },
+  "open_questions": {
+    "constant_c_value": "Determine tight bounds on irreducible overhead constant c",
+    "model_dependence": "Characterize how c varies across computational models (if at all)",
+    "quantum_computation": "Does IOT extend to quantum algorithms (BQP)?",
+    "approximation": "Do approximate algorithms avoid overhead (likely no)?",
+    "connections_to_physics": "Relationship to Landauer's principle and physical thermodynamics"
+  }
+}

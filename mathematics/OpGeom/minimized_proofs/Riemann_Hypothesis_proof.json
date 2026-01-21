@@ -1,0 +1,407 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "math": "http://www.w3.org/1998/Math/MathML",
+    "doi": "https://doi.org/"
+  },
+  "meta": {
+    "title": "Riemann Hypothesis via IOGT: Conditional Proof",
+    "subtitle": "Operational Attractor Framework",
+    "author": "Zelenka_D_D",
+    "author_orcid": null,
+    "claim": "CONDITIONAL_PROOF",
+    "problem": "Riemann_Hypothesis_Millennium_Problem",
+    "framework": ["IOGT", "Operational_Geometry", "Functional_Analysis", "Spectral_Theory"],
+    "date_created": "2026-01",
+    "version": "1.0",
+    "status": "preprint",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "Riemann Hypothesis",
+      "Millennium Prize Problem",
+      "zeta function",
+      "critical line",
+      "IOGT",
+      "Intrinsic Operational Gradient Theorem",
+      "operational geometry",
+      "prime threading",
+      "self-adjoint operator",
+      "spectral theory",
+      "Hilbert space",
+      "functional equation",
+      "gradient minimum",
+      "operational potential",
+      "prime number theorem",
+      "Weil explicit formula",
+      "attractor stability",
+      "conditional proof",
+      "operations-primary ontology"
+    ],
+    "mathematical_subject_classification": [
+      "11M26",
+      "11M06",
+      "47B25",
+      "81Q10",
+      "46N50"
+    ],
+    "links": {
+      "zenodo_record": "https://zenodo.org/records/18190384",
+      "doi": "https://doi.org/10.5281/zenodo.18190384",
+      "repository": null,
+      "preprint": null
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. D. (2026). The Riemann Hypothesis as an Operational Attractor Problem: A Conditional Analysis via IOGT. Zenodo. https://doi.org/10.5281/zenodo.18190384",
+      "bibtex": "@misc{zelenka2026rh,\n  author = {Zelenka, D. D.},\n  title = {The Riemann Hypothesis as an Operational Attractor Problem: A Conditional Analysis via IOGT},\n  year = {2026},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.18190384},\n  url = {https://doi.org/10.5281/zenodo.18190384}\n}"
+    }
+  },
+  "abstract": "We prove the Riemann Hypothesis conditionally on the validity of the Intrinsic Operational Gradient Theorem (IOGT). Key insight: nontrivial zeros are stable objects in the operational landscape of prime threading. Self-adjointness forces σ=1/2 as the unique gradient minimum in the critical strip. Off-line zeros would require unbounded reconstruction cost, violating IOGT stability conditions. Result: IOGT ⟹ RH.",
+  "core_claim": {
+    "conditional_theorem": "IF IOGT (operations-primary ontology) is valid, THEN all nontrivial zeros of ζ(s) satisfy Re(s) = 1/2",
+    "logical_form": "IOGT ⟹ RH",
+    "status": "conditional on IOGT validity",
+    "interpretation": "If operations are ontologically primary, RH follows as structural necessity"
+  },
+  "primitives": {
+    "P1": {
+      "name": "Hilbert_Space",
+      "symbol": "ℋ",
+      "definition": "L²(ℝ, e^(-t)dt)",
+      "inner_product": "⟨f,g⟩ = ∫ f(t)‾g(t) e^(-t)dt",
+      "properties": ["complete", "separable", "weighted_measure"]
+    },
+    "P2": {
+      "name": "Shift_Operator",
+      "symbol": "S_a",
+      "definition": "(S_a f)(t) = f(t+a)",
+      "action": "translates functions by parameter a",
+      "domain": "dense subset of ℋ"
+    },
+    "P3": {
+      "name": "Adjoint_Relation",
+      "statement": "S_a* = e^a S_{-a}",
+      "derivation": "by weighted inner product computation",
+      "significance": "breaks naive self-adjointness, key to σ=1/2"
+    },
+    "P4": {
+      "name": "Test_Space",
+      "symbol": "Φ",
+      "definition": "Schwartz functions with exponential decay in Fourier space",
+      "properties": ["dense in ℋ", "invariant under S_a", "smooth"]
+    },
+    "P5": {
+      "name": "Renormalized_Prime_Operator",
+      "symbol": "𝒮̃_σ",
+      "definition": "𝒮̃_σ φ(t) = Σ_p p^(-σ)[φ(t+log p) + φ(t-log p)] - ∫_2^∞ x^(-σ)[φ(t+log x) + φ(t-log x)] dx/log x",
+      "components": {
+        "discrete_part": "sum over primes",
+        "continuous_part": "integral regularization",
+        "symmetry": "±log p reflection"
+      },
+      "purpose": "captures prime threading with renormalization"
+    }
+  },
+  "axioms": {
+    "A1": {
+      "name": "IOGT_Foundation",
+      "statement": "In composable operational systems with non-invertibility, stable objects occupy local minima of operational potential V(x) where ∇V = 0",
+      "components": {
+        "composability": "operations can be chained",
+        "non_invertibility": "information loss in composition",
+        "stability": "persistent under perturbations",
+        "gradient_condition": "∇V = 0 at stable points"
+      },
+      "ontological_claim": "operations are primary, objects are secondary"
+    },
+    "A2": {
+      "name": "Zeros_Are_Stable",
+      "statement": "Nontrivial zeros of ζ(s) are stable objects",
+      "evidence": {
+        "analytic_persistence": "invariant under analytic continuation",
+        "computational_stability": "numerically reproducible to high precision",
+        "theoretical_invariance": "preserved by functional equation ζ(s) = ζ(1-s̄)"
+      },
+      "implication": "zeros must satisfy stability conditions from A1"
+    },
+    "A3": {
+      "name": "Prime_Threading_Satisfies_IOGT",
+      "statement": "The system (𝒟(𝒮), {S_{log p}}_{p prime}, ‖·‖_ℋ) satisfies IOGT conditions",
+      "conditions": {
+        "composability": "S_{log p} ∘ S_{log q} = S_{log(pq)}",
+        "bounded_cost": "‖S_{log p}‖_{op} ≤ p",
+        "non_invertibility": "renormalized sum Σ_p - ∫ collapses ∞ operational histories"
+      },
+      "verification": "follows from operator algebra and renormalization structure"
+    }
+  },
+  "lemmas": {
+    "L1": {
+      "name": "Self_Adjointness_Forces_Critical_Line",
+      "statement": "𝒮̃_σ* = 𝒮̃_{1-σ}. Self-adjointness requires 𝒮̃_σ = 𝒮̃_σ* ⟹ σ = 1-σ ⟹ σ = 1/2",
+      "proof_sketch": "By P3, adjoint operation flips σ to 1-σ. Self-adjointness (𝒮̃_σ = 𝒮̃_σ*) forces σ = 1-σ",
+      "algebraic_necessity": true,
+      "dependencies": ["P3"]
+    },
+    "L2": {
+      "name": "Critical_Line_Is_Unique_Gradient_Minimum",
+      "statement": "σ = 1/2 is unique critical point of operational potential V(σ,γ) = |λ(σ,γ)| in critical strip",
+      "proof_steps": {
+        "step_1": "Functional equation symmetry about σ=1/2 ⟹ ∂V/∂σ|_{σ=1/2} = 0",
+        "step_2": "For σ ≠ 1/2: weight mismatch p^(-σ) ≠ p^(-(1-σ)) ⟹ ∂V/∂σ ≠ 0",
+        "conclusion": "σ = 1/2 is unique critical point"
+      },
+      "geometric_interpretation": "critical line is saddle point in operational landscape",
+      "dependencies": ["L1", "A1"]
+    },
+    "L3": {
+      "name": "Threading_Coherence_Only_At_Critical_Line",
+      "statement": "Discrete-continuous cancellation (λ=0) requires weight calibration at σ=1/2",
+      "eigenvalue_formula": "λ(γ,σ) = 2[Σ_p p^(-σ)cos(γ log p) - ∫_2^∞ x^(-σ)cos(γ log x) dx/log x]",
+      "analysis": {
+        "prime_number_theorem": "governs asymptotic behavior of discrete sum",
+        "mismatch_growth": "For σ ≠ 1/2: Δ(σ,N) = |Σ_{p≤N} p^(-σ) - ∫_2^N x^(-σ) dx/log x| → ∞",
+        "critical_line_balance": "σ = 1/2 allows exact cancellation"
+      },
+      "dependencies": ["P5", "Prime_Number_Theorem"]
+    },
+    "L4": {
+      "name": "Off_Line_Reconstruction_Cost_Unbounded",
+      "statement": "Zeros off critical line violate IOGT finite potential requirement",
+      "costs": {
+        "forward_cost": "C_fwd(N,σ) = O(N/log N)",
+        "reverse_cost_on_line": "C_rev(N,σ=1/2) = O(N/log N)",
+        "reverse_cost_off_line": "C_rev(N,σ≠1/2) = Ω(e^(cN/log N))"
+      },
+      "mechanism": {
+        "reason": "Must distinguish among 2^(π(N)) possible resonance patterns with wrong weights",
+        "ratio": "C_rev/C_fwd → ∞ as N → ∞",
+        "violation": "unbounded cost ratio violates IOGT finite potential requirement"
+      },
+      "combinatorial_explosion": "exponential in number of primes",
+      "dependencies": ["A1", "A3"]
+    },
+    "L5": {
+      "name": "Spectral_Correspondence",
+      "statement": "Spectrum of 𝒮 (where λ(γ)=0) ⟺ imaginary parts of zeros ρ = 1/2 + iγ of ζ(s)",
+      "mechanism": "Weil explicit formula: Fourier transform of operator action = sum over zeros",
+      "bidirectional": true,
+      "references": ["Weil_1952", "Connes_1999"],
+      "dependencies": ["P5"]
+    }
+  },
+  "main_theorem": {
+    "name": "Riemann_Hypothesis_Conditional",
+    "statement": "All nontrivial zeros of ζ(s) satisfy Re(s) = 1/2",
+    "conditionality": "Conditional on IOGT validity",
+    "proof_structure": "logical_chain",
+    "proof_steps": [
+      {
+        "step": 1,
+        "claim": "Prime threading system satisfies IOGT conditions",
+        "justification": "Axiom A3",
+        "establishes": "IOGT framework applies"
+      },
+      {
+        "step": 2,
+        "claim": "Stable objects → gradient minima",
+        "justification": "Axiom A1 (IOGT foundation)",
+        "establishes": "stability condition"
+      },
+      {
+        "step": 3,
+        "claim": "Zeros are stable objects",
+        "justification": "Axiom A2",
+        "establishes": "zeros subject to stability condition"
+      },
+      {
+        "step": 4,
+        "claim": "∴ Zeros must lie at gradient minima",
+        "justification": "Steps 2 + 3",
+        "logical_operation": "modus_ponens"
+      },
+      {
+        "step": 5,
+        "claim": "σ = 1/2 is unique gradient minimum in critical strip",
+        "justification": "Lemma L2",
+        "establishes": "location constraint"
+      },
+      {
+        "step": 6,
+        "claim": "∴ Zeros must satisfy σ = 1/2",
+        "justification": "Steps 4 + 5",
+        "logical_operation": "uniqueness_argument"
+      },
+      {
+        "step": 7,
+        "claim": "Confirmation: Threading coherence (λ=0) only at σ=1/2",
+        "justification": "Lemma L3",
+        "role": "positive_verification"
+      },
+      {
+        "step": 8,
+        "claim": "Exclusion: Off-line zeros violate IOGT (unbounded reconstruction cost)",
+        "justification": "Lemma L4",
+        "role": "negative_verification"
+      },
+      {
+        "step": 9,
+        "claim": "Operator spectrum = zero locations",
+        "justification": "Lemma L5",
+        "establishes": "spectral_correspondence"
+      },
+      {
+        "step": 10,
+        "claim": "∴ All nontrivial zeros satisfy Re(s) = 1/2",
+        "justification": "Steps 6 + 9",
+        "status": "QED_conditional"
+      }
+    ]
+  },
+  "key_structural_insights": {
+    "why_sigma_half": {
+      "question": "Why σ = 1/2?",
+      "answer": "Self-adjointness forces it as unique balance point between forward/reverse threading operations",
+      "mechanism": "algebraic_constraint"
+    },
+    "why_not_off_line": {
+      "question": "Why not σ ≠ 1/2?",
+      "answer": "Weight mismatch creates unbounded operational cost, violating attractor stability requirements",
+      "mechanism": "cost_explosion"
+    },
+    "paradigm_shift": {
+      "traditional_approach": "Where do zeros exist? (location-based)",
+      "IOGT_approach": "Where can zeros exist? (constraint-based)",
+      "advantage": "converts existence problem to admissibility problem"
+    }
+  },
+  "conditionality": {
+    "logical_form": "IOGT ⟹ RH",
+    "interpretation": "If operations are ontologically primary (as IOGT claims), then RH follows as structural necessity",
+    "status": "conditional theorem",
+    "unconditional_path": "requires independent validation of IOGT axioms"
+  },
+  "falsification_criteria": {
+    "direct_falsification": {
+      "method": "Finding zero off critical line",
+      "consequence": "falsifies RH directly"
+    },
+    "cost_falsification": {
+      "method": "Showing bounded reconstruction cost for σ≠1/2",
+      "consequence": "falsifies Lemma L4"
+    },
+    "spectral_falsification": {
+      "method": "Breaking spectral correspondence",
+      "consequence": "falsifies Lemma L5"
+    },
+    "applicability_falsification": {
+      "method": "Demonstrating IOGT doesn't apply to prime threading",
+      "consequence": "falsifies Axiom A3"
+    }
+  },
+  "notation": {
+    "ζ(s)": {
+      "name": "Riemann zeta function",
+      "definition": "ζ(s) = Σ_{n=1}^∞ n^(-s) for Re(s) > 1, analytically continued"
+    },
+    "σ": {
+      "name": "real part of s",
+      "definition": "σ = Re(s)"
+    },
+    "γ": {
+      "name": "imaginary part of s",
+      "definition": "γ = Im(s)"
+    },
+    "ℋ": {
+      "name": "Hilbert space",
+      "definition": "L²(ℝ, e^(-t)dt)"
+    },
+    "S_a": {
+      "name": "shift operator",
+      "definition": "(S_a f)(t) = f(t+a)"
+    },
+    "𝒮̃_σ": {
+      "name": "renormalized prime-threading operator",
+      "parameter": "σ ∈ (0,1)"
+    },
+    "λ(γ,σ)": {
+      "name": "eigenvalue",
+      "domain": "(γ,σ) ∈ ℝ × (0,1)"
+    },
+    "V(σ,γ)": {
+      "name": "operational potential",
+      "definition": "|λ(σ,γ)|"
+    },
+    "Φ": {
+      "name": "Schwartz test function space",
+      "properties": "dense in ℋ"
+    },
+    "π(N)": {
+      "name": "prime counting function",
+      "asymptotic": "~ N/log N"
+    },
+    "C_fwd": {
+      "name": "forward operational cost",
+      "measures": "cost to construct operator"
+    },
+    "C_rev": {
+      "name": "reverse operational cost",
+      "measures": "cost to verify zero"
+    },
+    "IOGT": {
+      "name": "Intrinsic Operational Gradient Theorem",
+      "status": "axiomatic framework"
+    }
+  },
+  "logical_symbols": {
+    "⟹": "implies",
+    "⟺": "if and only if",
+    "∇": "gradient operator",
+    "‾": "complex conjugate",
+    "∎": "end of proof",
+    "∀": "for all",
+    "∃": "there exists"
+  },
+  "one_sentence_summary": "If stable mathematical objects must occupy operational gradient minima (IOGT), then self-adjointness forces the critical line σ=1/2 as the unique such minimum for prime threading, making it the only location where zeros can exist.",
+  "expansion_instructions": {
+    "full_proof_recovery": [
+      "1. Construct Hilbert space ℋ = L²(ℝ, e^(-t)dt) with weighted inner product",
+      "2. Define shift operators S_a and compute adjoint S_a* = e^a S_{-a}",
+      "3. Build renormalized prime operator 𝒮̃_σ with discrete-continuous structure",
+      "4. Verify IOGT conditions: composability, bounded forward cost, non-invertibility",
+      "5. Prove self-adjointness relation 𝒮̃_σ* = 𝒮̃_{1-σ} using P3",
+      "6. Show self-adjointness forces σ = 1/2 (Lemma L1)",
+      "7. Analyze operational potential V(σ,γ) via functional equation symmetry",
+      "8. Prove σ = 1/2 is unique critical point (Lemma L2)",
+      "9. Compute eigenvalue λ(γ,σ) and analyze cancellation conditions",
+      "10. Show threading coherence requires σ = 1/2 (Lemma L3)",
+      "11. Calculate forward/reverse costs, prove exponential gap for σ≠1/2 (Lemma L4)",
+      "12. Establish spectral correspondence via Weil explicit formula (Lemma L5)",
+      "13. Apply IOGT: stable zeros → gradient minima → σ = 1/2",
+      "14. Conclude RH conditionally on IOGT"
+    ],
+    "verification_checklist": [
+      "Verify weighted inner product computation for adjoint",
+      "Check renormalization cancels divergences",
+      "Confirm self-adjointness algebra",
+      "Validate cost estimates (forward polynomial, reverse exponential)",
+      "Cross-reference Prime Number Theorem application",
+      "Verify Weil formula connection to operator spectrum",
+      "Check IOGT axioms apply to this system"
+    ]
+  },
+  "computational_metadata": {
+    "machine_readable": true,
+    "formal_verification_status": "not_formalized",
+    "proof_assistant_target": ["Lean4", "Coq", "Isabelle", "Metamath"],
+    "complexity_class": "conditional_on_IOGT",
+    "numerical_validation": "zeros can be computed and verified to lie on critical line to arbitrary precision"
+  },
+  "related_work": {
+    "spectral_approaches": ["Connes_trace_formula", "Berry_Keating_conjecture"],
+    "operator_theory": ["Beurling_Nyman_criterion", "Báez_Duarte_approach"],
+    "operational_frameworks": ["IOGT_foundational_papers"],
+    "classical_methods": ["Hadamard_de_la_Vallée_Poussin", "Hardy_Littlewood", "Selberg"]
+  }
+}
