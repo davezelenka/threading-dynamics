@@ -1,0 +1,667 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "math": "http://www.w3.org/1998/Math/MathML",
+    "doi": "https://doi.org/"
+  },
+  "meta": {
+    "title": "Operational Geometry: A Framework for Operations-Primary Mathematics",
+    "subtitle": "Condensed Reference",
+    "author": "Zelenka_D_D",
+    "author_orcid": null,
+    "type": "FRAMEWORK",
+    "status": "foundational_theory",
+    "framework": ["Operational_Mathematics", "Category_Theory", "Dynamical_Systems"],
+    "date_created": "2025-01",
+    "version": "1.0",
+    "document_status": "preprint",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "operational geometry",
+      "operations-primary mathematics",
+      "operational attractors",
+      "threading aggregate",
+      "Omega_p hierarchy",
+      "operational gradient",
+      "IOGT",
+      "IOT",
+      "mathematical constants",
+      "fixed points",
+      "dynamical systems",
+      "emergence",
+      "phi",
+      "pi",
+      "e",
+      "golden ratio",
+      "problem-solving framework",
+      "pedagogical revolution"
+    ],
+    "mathematical_subject_classification": [
+      "00A05",
+      "18M05",
+      "37B10",
+      "11B39",
+      "97D40"
+    ],
+    "links": {
+      "zenodo_record": "https://zenodo.org/records/18039583",
+      "doi": "https://doi.org/10.5281/zenodo.18039583",
+      "repository": null,
+      "preprint": null
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. D. (2025). Operational Geometry: A Framework for Operations-Primary Mathematics. Zenodo. https://doi.org/10.5281/zenodo.18039583",
+      "bibtex": "@misc{zelenka2025opgeom,\n  author = {Zelenka, D. D.},\n  title = {Operational Geometry: A Framework for Operations-Primary Mathematics},\n  year = {2025},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.18039583},\n  url = {https://doi.org/10.5281/zenodo.18039583}\n}"
+    }
+  },
+  "core_thesis": {
+    "ontological_claim": "Operations are ontologically primary",
+    "emergence_principle": "Objects emerge as stable attractors of iterative processes",
+    "definition_of_mathematics": "Mathematics = study of stable operational patterns",
+    "paradigm_shift": "From 'objects with operations' to 'operations generating objects'"
+  },
+  "key_mechanisms": {
+    "threading_aggregate": {
+      "definition": "Operations compose by threading through previous results, creating nested coherence",
+      "mechanism": "Each operation carries context from prior operations",
+      "stability_condition": "Threading stabilizes when f(x) = x (fixed point)",
+      "constants_as_fixed_points": "Mathematical constants = points where threading stabilizes",
+      "examples": [
+        "φ = 1 + 1/φ (golden ratio)",
+        "e = lim(1 + 1/n)^n",
+        "π from exp(iθ) periodicity"
+      ]
+    },
+    "omega_p_hierarchy": {
+      "definition": "Each prime p generates unique attractor Ω_p from x = 1 + 1/x^(p-1)",
+      "structure": {
+        "Ω_2": {
+          "value": "φ ≈ 1.618 (golden ratio)",
+          "depth": "shallow",
+          "equation": "x = 1 + 1/x"
+        },
+        "Ω_3": {
+          "value": "≈ 1.465",
+          "depth": "deeper",
+          "equation": "x = 1 + 1/x^2"
+        },
+        "Ω_5": {
+          "value": "≈ 1.194 (predicted)",
+          "depth": "deeper still",
+          "equation": "x = 1 + 1/x^4"
+        },
+        "Ω_7": {
+          "value": "≈ 1.106 (predicted)",
+          "depth": "progressively deeper",
+          "equation": "x = 1 + 1/x^6"
+        },
+        "general": {
+          "formula": "x = 1 + 1/x^(p-1)",
+          "convergence": "Ω_p → 1 as p → ∞"
+        }
+      },
+      "physical_predictions": {
+        "Ω_2": "2-fold optimization (spirals, plants, phyllotaxis) - VERIFIED",
+        "Ω_3": "trigonal crystals - UNTESTED",
+        "Ω_5": "pentagonal quasicrystals - UNTESTED",
+        "general": "p-fold symmetric matter should exhibit Ω_p"
+      },
+      "significance": "Each prime indexes a unique depth in operational space"
+    },
+    "operational_gradient_axiom": {
+      "principle": "Complexity determined by gradient direction",
+      "gradient_aligned": {
+        "name": "P (polynomial)",
+        "direction": "downhill (with gradient)",
+        "operations": ["evaluation", "verification", "construction"],
+        "cost": "polynomial in input size"
+      },
+      "gradient_opposed": {
+        "name": "NP (nondeterministic polynomial)",
+        "direction": "uphill (against gradient)",
+        "operations": ["search", "inversion", "discovery"],
+        "cost": "exponential in input size"
+      },
+      "impossibility_claim": "No polynomial algorithm can reverse exponential gradient",
+      "consequence": "P ≠ NP follows from operational structure"
+    }
+  },
+  "taxonomy": {
+    "operations": {
+      "category": "VERBS",
+      "subcategories": {
+        "generative": {
+          "addition": {
+            "symbol": "+",
+            "type": "linear",
+            "properties": ["associative", "commutative", "identity:0"]
+          },
+          "multiplication": {
+            "symbol": "×",
+            "type": "amplifier",
+            "properties": ["associative", "commutative", "identity:1", "distributes_over:+"]
+          },
+          "exponentiation": {
+            "symbol": "^",
+            "type": "tower",
+            "properties": ["non-associative", "non-commutative", "rapid_growth"]
+          },
+          "iteration": {
+            "symbol": "f^n",
+            "type": "attractor_finder",
+            "properties": ["discovers_fixed_points", "reveals_cycles"]
+          }
+        },
+        "constraint": {
+          "division": {
+            "symbol": "÷",
+            "type": "boundary",
+            "properties": ["inverse_of_×", "undefined_at:0"]
+          },
+          "absorption": {
+            "example": "a × 0 = 0",
+            "type": "collapse",
+            "properties": ["irreversible", "information_loss"]
+          },
+          "modular": {
+            "symbol": "mod",
+            "type": "cyclic",
+            "properties": ["periodic", "bounded", "residue_classes"]
+          }
+        },
+        "relational": {
+          "gcd_lcm": {
+            "type": "binding",
+            "properties": ["lattice_structure", "prime_factorization"]
+          },
+          "ordering": {
+            "symbol": "<",
+            "type": "order",
+            "properties": ["transitive", "antisymmetric", "total"]
+          },
+          "factorization": {
+            "type": "decomposer",
+            "properties": ["unique", "multiplicative_structure"]
+          }
+        },
+        "transform": {
+          "rotation": {
+            "domain": "plane/space",
+            "properties": ["preserves_distance", "preserves_angle"]
+          },
+          "scaling": {
+            "domain": "metric_spaces",
+            "properties": ["multiplicative", "origin_fixed"]
+          },
+          "translation": {
+            "domain": "affine_spaces",
+            "properties": ["additive", "no_fixed_points"]
+          }
+        },
+        "limiting": {
+          "limit": {
+            "symbol": "lim",
+            "type": "asymptotic",
+            "properties": ["captures_tendency", "defines_continuity"]
+          },
+          "derivative": {
+            "symbol": "d/dx",
+            "type": "rate",
+            "properties": ["local_linearity", "tangent_approximation"]
+          },
+          "integral": {
+            "symbol": "∫",
+            "type": "accumulation",
+            "properties": ["inverse_of_derivative", "area_under_curve"]
+          }
+        },
+        "meta": {
+          "succession": {
+            "sequence": "ℕ → ℤ → ℚ → ℝ → ℂ",
+            "mechanism": "closure_forcing",
+            "properties": ["exploratory_to_stable", "expansion"]
+          },
+          "composition": {
+            "symbol": "∘",
+            "type": "higher_order",
+            "properties": ["associative", "creates_structure"]
+          }
+        }
+      }
+    },
+    "species": {
+      "category": "NOUNS",
+      "subcategories": {
+        "irreducible": {
+          "zero": {
+            "symbol": "0",
+            "role": "absorber",
+            "properties": ["additive_identity", "multiplicative_absorber"]
+          },
+          "one": {
+            "symbol": "1",
+            "role": "generator",
+            "properties": ["multiplicative_identity", "basis_of_ℕ"]
+          },
+          "two": {
+            "symbol": "2",
+            "role": "bifurcator",
+            "properties": ["first_prime", "binary_base", "parity"]
+          },
+          "three": {
+            "symbol": "3",
+            "role": "amplifier",
+            "properties": ["first_odd_prime", "triangular_symmetry"]
+          },
+          "primes": {
+            "role": "irreducibles",
+            "properties": ["multiplicative_atoms", "infinite", "irregular_distribution"]
+          }
+        },
+        "attractors": {
+          "phi": {
+            "symbol": "φ",
+            "value": "≈ 1.618",
+            "role": "harmonizer",
+            "equation": "x = 1 + 1/x",
+            "alternate": "Ω_2"
+          },
+          "pi": {
+            "symbol": "π",
+            "value": "≈ 3.14159",
+            "role": "resonator",
+            "equation": "exp(iπ) = -1",
+            "geometry": "circle_circumference/diameter"
+          },
+          "e": {
+            "symbol": "e",
+            "value": "≈ 2.71828",
+            "role": "growth_rate",
+            "equation": "lim(1+1/n)^n as n→∞",
+            "calculus": "d/dx e^x = e^x"
+          },
+          "i": {
+            "symbol": "i",
+            "value": "√(-1)",
+            "role": "dimension_expander",
+            "equation": "i² = -1",
+            "geometry": "90°_rotation"
+          },
+          "omega_p": {
+            "symbol": "Ω_p",
+            "role": "prime_indexed_attractors",
+            "definition": "fixed points of x = 1 + 1/x^(p-1)"
+          }
+        },
+        "structural": {
+          "composites": {
+            "definition": "products of primes",
+            "properties": ["non_prime", "factorizable"]
+          },
+          "algebraics": {
+            "definition": "roots of polynomials with integer coefficients",
+            "properties": ["countable", "includes_√2,_φ"]
+          },
+          "transcendentals": {
+            "definition": "not algebraic",
+            "examples": ["π", "e"],
+            "properties": ["uncountable", "transcend_polynomial_equations"]
+          }
+        },
+        "boundary": {
+          "infinity": {
+            "symbol": "∞",
+            "role": "unbounded",
+            "types": ["countable", "uncountable", "cardinal", "ordinal"]
+          },
+          "indeterminate": {
+            "symbol": "0/0",
+            "role": "conflict",
+            "resolution": "limit_analysis"
+          }
+        }
+      }
+    },
+    "traits": {
+      "category": "ADJECTIVES",
+      "list": [
+        "irreducibility",
+        "closure",
+        "density",
+        "convergence",
+        "self-similarity",
+        "resonance",
+        "periodic_obstruction",
+        "absorption",
+        "dimension",
+        "periodicity",
+        "stability",
+        "coherence"
+      ]
+    },
+    "interactions": {
+      "category": "ECOLOGICAL_RELATIONSHIPS",
+      "types": {
+        "competitive": {
+          "examples": [
+            "primes ↔ composites (multiplicative structure)",
+            "× ↔ ÷ (inverse operations)",
+            "growth ↔ decay (exponential dynamics)"
+          ]
+        },
+        "mutualistic": {
+          "examples": [
+            "+ × → rings (combined structure)",
+            "ℝ + i → ℂ (dimension expansion)",
+            "primes + roots → cyclotomic (algebraic closure)"
+          ]
+        },
+        "commensal": {
+          "examples": [
+            "transcendentals ⊂ reals (one benefits, other unaffected)",
+            "constants ⊂ mathematics (exist within larger structure)"
+          ]
+        },
+        "exploitative": {
+          "examples": [
+            "exponentiation exploits × (towers on multiplication)",
+            "limits transcend finite (exceed discrete operations)"
+          ]
+        }
+      }
+    }
+  },
+  "principles": {
+    "1_closure_forces_finiteness": {
+      "statement": "Finite closure → finite components",
+      "examples": ["finite_groups", "finite_fields", "cyclic_structures"],
+      "consequence": "Seeking closure constrains system size"
+    },
+    "2_density_freezing": {
+      "statement": "Constrained systems → frozen densities",
+      "examples": ["π(x) ~ x/ln(x) (prime density)", "√2 density in ℝ"],
+      "consequence": "Distributions stabilize under iteration"
+    },
+    "3_irreducibility_fundamental": {
+      "statement": "All structure = composition of irreducibles",
+      "examples": ["fundamental_theorem_of_arithmetic", "prime_factorization"],
+      "consequence": "Primes are mathematical atoms"
+    },
+    "4_absorption_drives_specialization": {
+      "statement": "Absorbing operations → stable-attractor stage",
+      "examples": ["0_absorbs_in_×", "∞_absorbs_in_+"],
+      "consequence": "Systems evolve toward absorbing states"
+    },
+    "5_resonance_creates_harmony": {
+      "statement": "Aligned constraints → stability + beauty",
+      "examples": ["φ_in_Fibonacci", "π_in_circles", "e_in_growth"],
+      "consequence": "Mathematical beauty = structural resonance"
+    },
+    "6_periodic_obstruction_signals_incompatibility": {
+      "statement": "Cycles without convergence → fighting constraints",
+      "examples": ["√2_irrational", "transcendence_obstructions"],
+      "consequence": "Incompatibility manifests as non-termination"
+    },
+    "7_succession_drives_evolution": {
+      "statement": "Exploratory → stable-attractor stages",
+      "examples": ["ℕ→ℤ→ℚ→ℝ→ℂ", "axiom_development"],
+      "mechanism": "Closure requirements force expansion"
+    },
+    "8_attractors_are_invariant": {
+      "statement": "f(x*) = x* → x* is operational invariant",
+      "examples": ["fixed_points", "stable_orbits", "eigenvalues"],
+      "consequence": "Constants = operational equilibria"
+    },
+    "9_intrinsic_operational_gradient_theorem": {
+      "statement": "Difficulty = gradient direction (with/against)",
+      "forward": "gradient-aligned (polynomial)",
+      "reverse": "gradient-opposed (exponential)",
+      "consequence": "P ≠ NP from structural asymmetry"
+    },
+    "10_higher_primes_deeper_attractors": {
+      "statement": "Each prime p → unique Ω_p at depth ~ f(p)",
+      "sequence": "Ω_2 > Ω_3 > Ω_5 > Ω_7 > ... → 1",
+      "consequence": "Prime hierarchy creates depth structure"
+    },
+    "11_threading_aggregates_generate_structure": {
+      "statement": "Nested coherence → stable patterns",
+      "examples": ["continued_fractions", "recursive_definitions", "fractal_generation"],
+      "consequence": "Iteration reveals hidden structure"
+    }
+  },
+  "problem_solving_framework": {
+    "step_1_classify": {
+      "type_A_frontier": {
+        "characteristics": "Low stability, disconnected approaches",
+        "action": "Need new operations/dimensions",
+        "examples": ["Collatz", "Goldbach", "P≠NP"]
+      },
+      "type_B_bridge": {
+        "characteristics": "Moderate stability, emerging coherence",
+        "action": "Connect attractors",
+        "examples": ["Twin_Primes", "ABC_Conjecture", "BSD_Conjecture"]
+      },
+      "type_C_stable_attractor": {
+        "characteristics": "High stability, single framework",
+        "action": "Operate deeply within framework",
+        "examples": ["Riemann_Hypothesis", "Continuum_Hypothesis", "Ω_p_exploration"]
+      },
+      "type_D_axiom_boundary": {
+        "characteristics": "100+ years no progress",
+        "action": "May be undecidable",
+        "examples": ["Continuum_Hypothesis (proven undecidable)"]
+      }
+    },
+    "step_2_measure": {
+      "metrics": [
+        "operational_depth (definition unfoldings required)",
+        "stability (converging approaches / total approaches)",
+        "computational_cost (prerequisite knowledge)",
+        "resonance (do partial results align?)",
+        "progress_rate (recent momentum)"
+      ]
+    },
+    "step_3_apply_principles": {
+      "matching": {
+        "closure_problems": "Principle 1",
+        "density_problems": "Principle 2",
+        "irreducible_problems": "Principle 3",
+        "constraint_problems": "Principle 4",
+        "harmony_problems": "Principle 5",
+        "incompatibility_problems": "Principle 6",
+        "evolution_problems": "Principle 7",
+        "fixed_point_problems": "Principle 8",
+        "difficulty_problems": "Principle 9",
+        "prime_problems": "Principle 10",
+        "coherence_problems": "Principle 11"
+      }
+    },
+    "step_4_predict": {
+      "predict_TRUE_if": [
+        "↑ stability (increasing convergence)",
+        "↓ obstruction (decreasing barriers)",
+        "+ resonance (aligned constraints)",
+        "has attractor (stable fixed point exists)",
+        "follows succession (natural progression)",
+        "respects symmetry (structural balance)"
+      ],
+      "predict_FALSE_if": [
+        "↓ stability (diverging approaches)",
+        "↑ obstruction (increasing barriers)",
+        "- resonance (conflicting constraints)",
+        "no attractor (no stable equilibrium)",
+        "violates succession (forced jumps)",
+        "breaks symmetry (structural imbalance)"
+      ]
+    },
+    "step_5_strategy": {
+      "frontier": "Find hidden operations, seek dimension expansion",
+      "bridge": "Connect domains, find intermediate depth, increase resonance",
+      "stable_attractor": "Operate deeply, seek resonance with known attractors",
+      "axiom_boundary": "Consider axiom change or prove undecidable"
+    }
+  },
+  "worked_examples": {
+    "riemann_hypothesis": {
+      "classification": "Type C (Stable-Attractor)",
+      "structure": "ζ(s) = ∏(1/(1-p^(-s)))",
+      "zeros_as": "destructive interference of prime families",
+      "prediction": "TRUE",
+      "reasoning": "Critical line Re(s)=1/2 is symmetric depth; asymmetry violates resonance principle; all families must balance",
+      "principle": "Resonance (5) + Attractors (8)"
+    },
+    "collatz_conjecture": {
+      "classification": "Type A (Frontier)",
+      "operations": "3n+1 (growth) vs ÷2 (decay)",
+      "prediction": "TRUE",
+      "reasoning": "1 is unique attractor (gradient=0 only there); all paths have gradient toward 1; decay dominates growth",
+      "principle": "Attractors (8) + Operational Gradient (9)"
+    },
+    "p_vs_np": {
+      "classification": "Type A (Frontier)",
+      "operations": "P = gradient-aligned, NP = gradient-opposed",
+      "prediction": "P ≠ NP",
+      "reasoning": "Verification flows downhill, generation flows uphill; no polynomial reverses exponential gradient",
+      "example": "Multiplication easy (with gradient), factorization hard (against gradient)",
+      "principle": "Operational Gradient (9)"
+    },
+    "twin_primes": {
+      "classification": "Type B (Bridge)",
+      "prediction": "TRUE (infinitely many)",
+      "reasoning": "Operational space self-similar; π(x)~x/ln(x) shows logarithmic compression; pattern repeats all scales; adjacent patterns reinforce (positive resonance)",
+      "principle": "Density Freezing (2) + Resonance (5)"
+    }
+  },
+  "physical_predictions": {
+    "verified": {
+      "phi_in_nature": {
+        "contexts": ["spirals", "plant_phyllotaxis", "2-fold_optimization"],
+        "status": "VERIFIED"
+      },
+      "pi_in_rotation": {
+        "contexts": ["circles", "waves", "periodic_phenomena"],
+        "status": "VERIFIED"
+      },
+      "e_in_growth": {
+        "contexts": ["compound_interest", "population_growth", "radioactive_decay"],
+        "status": "VERIFIED"
+      }
+    },
+    "untested": {
+      "omega_3_in_trigonal": {
+        "context": "trigonal_crystal_systems",
+        "prediction": "Ω₃ ≈ 1.465 should appear in optimization",
+        "status": "UNTESTED"
+      },
+      "omega_5_in_pentagonal": {
+        "context": "pentagonal_quasicrystals",
+        "prediction": "Ω₅ ≈ 1.194 should appear in structure",
+        "status": "UNTESTED"
+      },
+      "omega_p_in_p_fold": {
+        "context": "p-fold_symmetric_matter",
+        "prediction": "Ω_p should appear in systems with prime-p symmetry",
+        "status": "UNTESTED"
+      }
+    },
+    "implication": "If confirmed: math & physics share operational substrate (both emerge from same iterative dynamics)"
+  },
+  "pedagogical_shift": {
+    "traditional_approach": {
+      "sequence": "Objects first → operations on objects → theorems",
+      "paradigm": "static entities with relations",
+      "pedagogy": "definition-heavy, abstract"
+    },
+    "operational_approach": {
+      "sequence": "Operations first → objects emerge as attractors → dynamics",
+      "paradigm": "processes generating stability",
+      "pedagogy": "action-based, intuitive"
+    },
+    "benefits": [
+      "Intuitive (doing before being)",
+      "Unified (same principles across domains)",
+      "Predictive (anticipate solvability)",
+      "Reveals beauty (constants as attractors not accidents)"
+    ]
+  },
+  "key_insight": {
+    "statement": "Mathematical constants aren't discovered in Platonic realm—they EMERGE necessarily from operational structure",
+    "consequence": "If physical reality iterates same operations, mathematical constants ARE physical constants (same attractors, same depths)",
+    "prediction": "Ω_p hierarchy awaits discovery physically in systems operating deeply enough to reach those niches"
+  },
+  "foundational_theorems_included": {
+    "IOGT": {
+      "name": "Intrinsic Operational Gradient Theorem",
+      "tagline": "Composable operations create irreversible difficulty gradients—forward ≠ reverse",
+      "doi": "10.5281/zenodo.18062553"
+    },
+    "IOT": {
+      "name": "Irreducible Overhead Theorem",
+      "tagline": "Exponential cost cannot be perfectly conserved across time-parallelism",
+      "doi": "10.5281/zenodo.18073069"
+    }
+  },
+  "applications_to_major_problems": {
+    "navier_stokes": {
+      "result": "Global regularity proved",
+      "mechanism": "Angular entropy gradients, threading deficit",
+      "doi": "10.5281/zenodo.18214940"
+    },
+    "riemann_hypothesis": {
+      "result": "Conditional proof (on IOGT)",
+      "mechanism": "σ=1/2 as unique operational minimum",
+      "doi": "10.5281/zenodo.18190384"
+    },
+    "p_neq_np": {
+      "result": "Proved",
+      "mechanism": "Structural irreducibility, coordination cost",
+      "doi": "10.5281/zenodo.18063338"
+    },
+    "collatz": {
+      "result": "Conditional proof (on Conformal Mixing)",
+      "mechanism": "Dissipative integer manifold, ln(3/4) < 0",
+      "doi": "10.5281/zenodo.18273351"
+    }
+  },
+  "notation": {
+    "Ω_p": "Attractor from prime p via x = 1 + 1/x^(p-1)",
+    "φ": "Golden ratio (Ω_2)",
+    "π": "Circle constant",
+    "e": "Natural base",
+    "i": "Imaginary unit",
+    "ℕ": "Natural numbers",
+    "ℤ": "Integers",
+    "ℚ": "Rationals",
+    "ℝ": "Reals",
+    "ℂ": "Complex numbers",
+    "∘": "Composition",
+    "f^n": "n-fold iteration",
+    "→": "Maps to, converges to",
+    "↔": "Interaction, bidirectional",
+    "≈": "Approximately equal"
+  },
+  "one_sentence_summary": "Operational Geometry is a framework where operations are ontologically primary, objects emerge as stable attractors of iterative processes, and mathematical constants arise necessarily from fixed points in operational space—unifying problems across domains through principles of threading, resonance, and gradient structure.",
+  "computational_metadata": {
+    "machine_readable": true,
+    "formal_verification_status": "framework_definition",
+    "proof_assistant_target": ["Lean4", "Agda", "Coq"],
+    "pedagogical_application": true,
+    "research_program": true
+  },
+  "related_work": {
+    "category_theory": ["Mac_Lane", "Lawvere"],
+    "dynamical_systems": ["Poincaré", "Smale", "Mandelbrot"],
+    "constructive_mathematics": ["Brouwer", "Bishop", "Martin-Löf"],
+    "process_philosophy": ["Whitehead", "Wheeler_participatory_universe"],
+    "emergence_theory": ["Anderson_more_is_different", "Wolfram_NKS"]
+  },
+  "open_questions": {
+    "omega_p_computation": "Precise values and convergence rates for Ω_p",
+    "physical_verification": "Experimental detection of Ω_3, Ω_5, Ω_7 in physical systems",
+    "formalization": "Complete formalization in proof assistant",
+    "pedagogical_implementation": "Curriculum based on operational-first approach",
+    "unified_theory": "Single operational framework subsuming all mathematical structures"
+  }
+}
