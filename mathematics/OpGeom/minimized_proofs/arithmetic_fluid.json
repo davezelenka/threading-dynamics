@@ -47,7 +47,7 @@
       "zenodo_record": "https://zenodo.org/records/18331204",
       "doi": "https://doi.org/10.5281/zenodo.18331204",
       "repository": "https://github.com/davezelenka/threading-dynamics/tree/main/mathematics/OpGeom",
-      "preprint": "https://zenodo.org/records/18331204",
+      "preprint": null,
     },
     "citations": {
       "cite_as": "Zelenka, D. D. (2026). Arithmetic Fluid Diagnostics: Empirical Evidence for Density, Pressure, and Shock Structure on ℕ. GitHub repository.",
