@@ -1,0 +1,676 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "math": "http://www.w3.org/1998/Math/MathML",
+    "doi": "https://doi.org/"
+  },
+  "meta": {
+    "title": "A Light-Substrate Ontology: Research Framework for Emergent Spacetime",
+    "subtitle": "Mathematical Template for Independent Investigation",
+    "author": "Zelenka_D_D",
+    "author_orcid": null,
+    "type": "SPECULATIVE_FRAMEWORK",
+    "status": "hypothesis",
+    "claim": "RESEARCH_TEMPLATE",
+    "problem": "Emergent_Spacetime_and_Particle_Genesis",
+    "framework": ["Emergent_Spacetime", "Topological_Solitons", "Operational_Geometry"],
+    "date_created": "2026-01",
+    "version": "1.0",
+    "document_status": "preprint",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "emergent spacetime",
+      "light substrate",
+      "threading patterns",
+      "topological defects",
+      "knotted vortices",
+      "phase coherence",
+      "Hopfions",
+      "fine structure constant",
+      "particle genesis",
+      "pre-geometric substrate",
+      "fitness landscape",
+      "Faddeev-Skyrme model",
+      "XY model",
+      "phase-locking transition",
+      "consciousness",
+      "agency",
+      "testable predictions"
+    ],
+    "mathematical_subject_classification": [
+      "81T13",
+      "53Z05",
+      "57M25",
+      "82B26",
+      "83C27"
+    ],
+    "links": {
+      "zenodo_record": null,
+      "doi": null,
+      "repository": null,
+      "preprint": null
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. D. (2026). A Light-Substrate Ontology: Research Framework for Emergent Spacetime. Unpublished manuscript.",
+      "bibtex": "@misc{zelenka2026fabric,\n  author = {Zelenka, D. D.},\n  title = {A Light-Substrate Ontology: Research Framework for Emergent Spacetime},\n  year = {2026},\n  note = {Mathematical Template for Independent Investigation}\n}"
+    }
+  },
+  "abstract": "We present a comprehensive mathematical framework proposing that spacetime, particles, and fundamental forces emerge from threading patterns in a pre-geometric substrate. Rather than treating space as fundamental, we derive spatial structure from phase coherence relations established by light threading at rate c. Particles arise as topologically stable defects (knotted vortices) in this threading field, with properties determined by a fitness landscape favoring configurations with optimal beauty, resonance, and topological stability. This document provides: (1) complete mathematical formalism, (2) explicit calculation protocols, (3) falsifiable predictions, and (4) identified research gaps. The framework is designed for independent verification and collaborative exploration across theoretical physics, numerical topology, and experimental testing.",
+  "purpose_and_scope": {
+    "intended_audience": [
+      "Mathematical physicists interested in emergent spacetime",
+      "Numerical topologists working on soliton solutions",
+      "Graduate students seeking novel dissertation topics",
+      "Experimentalists looking for testable deviations from Standard Model",
+      "Philosophers of physics examining ontological foundations"
+    ],
+    "document_provides": [
+      "Complete mathematical formalism - all equations needed to perform calculations",
+      "Explicit calculation protocols - step-by-step instructions for numerical work",
+      "Falsifiable predictions - concrete tests that could rule out the framework",
+      "Research gaps - honest assessment of what remains unknown",
+      "Collaboration hooks - specific problems for independent groups to tackle"
+    ],
+    "what_this_does_NOT_claim": [
+      "Replace or contradict established physics (QFT, GR)",
+      "Claim to have solved the fine structure constant problem",
+      "Present completed calculations (these remain to be done)",
+      "Assert certainty about consciousness or agency"
+    ],
+    "goal": "Provide a calculable framework that can be tested, not a finished theory",
+    "status": "SPECULATIVE and UNVERIFIED"
+  },
+  "fabric_foundation": {
+    "core_ontology": "Reality is light threading itself into coherent geometry through agency",
+    "unified_principle": "All phenomena are expressions of the same threading dynamics guided by choice",
+    "ontological_inversion": {
+      "standard_physics": "Space exists → Light propagates through space",
+      "fabric_theory": "Light threads → Space emerges from threading patterns"
+    },
+    "implications": [
+      "Space is not fundamental - it is a record of threading history",
+      "Distance is not primitive - it measures phase coherence between points",
+      "Particles are not objects in space - they are stable knots in the threading field"
+    ]
+  },
+  "three_layer_architecture": {
+    "layer_1_substrate": {
+      "name": "Pre-Geometric Substrate",
+      "contents": "Latent memory field M_latent(x) with infinite potential configurations Φ_∞",
+      "properties": {
+        "no_space": true,
+        "no_time": true,
+        "no_geometry": true,
+        "pure_potentiality": true
+      },
+      "mathematical_representation": "M_latent: ℝ³ → ℂ, |M_latent| < ∞",
+      "constraint": "Bounded by fitness landscape"
+    },
+    "layer_2_threading": {
+      "name": "Light Substrate (LS) Threading",
+      "mechanism": "Light emerges from point-horizon at invariant rate c",
+      "establishes": "Phase relationships: φ_i(τ) = cτ + δφ_i",
+      "creates": "Topological (not yet spatial) coherence relations",
+      "accumulation": "Threading depth: τ = ∫(LS·dM)",
+      "dynamics": "∂φ/∂τ = c + η(x,τ), where ⟨η⟩ = 0",
+      "fluctuations": "η represents substrate fluctuations"
+    },
+    "layer_3_emergent_space": {
+      "name": "Emergent Space",
+      "mechanism": "Space emerges as the metric of threading coherence",
+      "distance": "Measures phase coherence, not fundamental separation",
+      "geometry": "Crystallizes from accumulated threading patterns",
+      "metric_emergence": "g_μν(τ) = lim_{coarse-grain} ⟨∂²φ/∂x^μ∂x^ν⟩"
+    }
+  },
+  "core_equations": {
+    "threading_depth": {
+      "symbol": "τ = t",
+      "interpretation": "Threading depth equals time"
+    },
+    "local_threading_rate": {
+      "symbol": "c = ΔΦ/Δτ",
+      "interpretation": "Local light threading rate"
+    },
+    "path_dependent_threading": {
+      "symbol": "c_path = (ΔΦ/Δτ) × f(∇M)",
+      "interpretation": "Threading rate modulated by memory gradient"
+    },
+    "quantum_probability": {
+      "symbol": "P = |ψ|² / Σ|ψ|²",
+      "interpretation": "Quantum decision probability"
+    },
+    "agency_influenced_probability": {
+      "symbol": "P → f(P,A)",
+      "interpretation": "Probability influenced by agency A"
+    },
+    "consciousness_evolution": {
+      "symbol": "dΨ/dτ = f(P, A, c)",
+      "interpretation": "Consciousness rate of change"
+    },
+    "recursive_consciousness": {
+      "symbol": "Ψ = R(Ψ)",
+      "interpretation": "Consciousness as recursive threading"
+    },
+    "recursive_function": {
+      "symbol": "R(Ψ) = Ψ + g(P, A, c, τ)",
+      "interpretation": "Recursive consciousness function"
+    },
+    "total_memory": {
+      "symbol": "M = M_active + M_latent",
+      "interpretation": "Active plus latent memory states"
+    },
+    "energy_mass": {
+      "symbol": "E = Mc²",
+      "interpretation": "Energy as memory density"
+    },
+    "gravity": {
+      "symbol": "g = k∇M",
+      "interpretation": "Gravity flows toward memory density gradients"
+    },
+    "memory_transformation": {
+      "symbol": "δ(M_latent → M_active)",
+      "interpretation": "Memory state transformation"
+    },
+    "agency_activation": {
+      "symbol": "M_latent + A → M_active",
+      "interpretation": "Agency converts latent to active memory"
+    },
+    "coherence_evolution": {
+      "symbol": "∂C/∂τ = f(B, R, M_active, M_latent, A)",
+      "interpretation": "Coherence evolves based on beauty, resonance, memory, agency"
+    },
+    "beauty": {
+      "symbol": "B = ∇C",
+      "interpretation": "Beauty as coherence gradient"
+    },
+    "resonance": {
+      "symbol": "R = Σ cos(Δφ)",
+      "interpretation": "Sum of phase coherences"
+    },
+    "entropy": {
+      "symbol": "S = -∂C/∂τ",
+      "interpretation": "Entropy as negative coherence change rate"
+    }
+  },
+  "variables": {
+    "Φ": "Configuration space",
+    "τ": "Threading depth (time)",
+    "ΔΦ": "Configuration change",
+    "Δτ": "Threading step",
+    "c": "Coherence rate (light speed)",
+    "M": "Memory/mass field",
+    "M_active": "Active memory (manifest constraints)",
+    "M_latent": "Latent memory (potential configurations)",
+    "E": "Energy",
+    "I": "Information",
+    "S": "Entropy",
+    "Ω": "State count",
+    "ψ": "Amplitude (wavefunction)",
+    "P": "Probability",
+    "R": "Resonance",
+    "Δφ": "Phase difference",
+    "B": "Beauty (coherence gradient)",
+    "C": "Coherence",
+    "g": "Gravity",
+    "k": "Constant (gravity-memory coupling)",
+    "Ψ": "Consciousness order parameter",
+    "A": "Agency (unmeasurable, philosophical)"
+  },
+  "phase_metric_bootstrap": {
+    "core_mechanism": "Solves the '20 orders of magnitude' problem",
+    "proto_distance": {
+      "phase_difference": "Δφ_ij = φ_i - φ_j",
+      "definition": "d_ij^(proto) = |Δφ_ij|/(2π)",
+      "interpretation": {
+        "close": "Δφ ≈ 0 (phase-locked, constructive interference)",
+        "far": "Δφ ≈ π (phase-orthogonal, destructive interference)"
+      }
+    },
+    "phase_locking_transition": {
+      "initial_state": "Δφ_ij(τ=0) ~ random",
+      "hamiltonian": "H_phase = -J Σ_{⟨ij⟩} cos(Δφ_ij)",
+      "transition_condition": "βJ > (βJ)_c ⟹ ⟨cos(Δφ_ij)⟩ > 0",
+      "significance": "Birth of proto-space",
+      "universality_class": "3D XY model with ν ≈ 0.67"
+    },
+    "metric_emergence": {
+      "equation": "g_μν(x) = lim_{Δx→0} ∂²/∂x^μ∂x^ν [⟨φ²⟩ - ⟨φ⟩²]",
+      "interpretation": {
+        "high_coherence": "Smooth Δφ ⟹ flat geometry",
+        "phase_discontinuities": "Sharp Δφ gradients ⟹ curvature"
+      }
+    }
+  },
+  "scale_emergence": {
+    "hierarchy_solution": "Electron size r_e ~ 10^(-15) m is coherence length where simplest stable threading vortex (trefoil knot) stabilizes",
+    "three_critical_scales": {
+      "scale_1_planck": {
+        "length": "ℓ_P ~ 10^(-35) m",
+        "description": "Individual threading events at substrate resolution",
+        "property": "Phase fluctuations maximal: ⟨(Δφ)²⟩ ~ 2π"
+      },
+      "scale_2_compton": {
+        "length": "λ_C = ℏ/(mc) ~ 10^(-13) m for electron",
+        "description": "Phase-locking creates coherence domains",
+        "property": "Stable vortex forms (trefoil topology)",
+        "significance": "Where particles crystallize"
+      },
+      "scale_3_macroscopic": {
+        "length": "L ≫ λ_C",
+        "description": "Long-range phase correlations establish",
+        "property": "Metric becomes quasi-Euclidean",
+        "appearance": "Space appears as 'container'"
+      }
+    },
+    "scale_progression": "ℓ_P →^(phase-lock) λ_C →^(coarse-grain) L_macro"
+  },
+  "fundamental_field_equations": {
+    "substrate_dynamics": {
+      "evolution": "∂M/∂τ = -δH_threading[M]/δM + η(x,τ)",
+      "fluctuations": "⟨η(x,τ) η(x',τ')⟩ = 2D δ³(x-x') δ(τ-τ')"
+    },
+    "threading_hamiltonian": {
+      "full_form": "H_threading[M] = ∫d³x [(1/2)(∇M)² + V(M) + (λ/4)(∇²M)² + H_topo]",
+      "terms": {
+        "gradient_energy": "(∇M)² - penalizes rapid phase changes",
+        "self_interaction": "V(M) - controls field magnitude",
+        "skyrme_stabilization": "λ(∇²M)² - prevents collapse",
+        "topological_term": "H_topo - creates quantized vortices"
+      }
+    },
+    "topological_term": {
+      "form": "H_topo = κ ∫d³x ε^ijk (∂M/∂x^i)(∂M/∂x^j)(∂M/∂x^k)",
+      "properties": [
+        "Breaks parity (essential for chiral particles)",
+        "Creates quantized vortices with integer winding",
+        "Stabilizes knot structures against untying"
+      ],
+      "winding_number": "Q = (1/8π²) ∫d³x ε^ijk Tr[F_i F_j F_k], Q ∈ ℤ"
+    },
+    "metric_evolution": {
+      "equation": "∂g_μν/∂τ = k₁⟨(∂M/∂x^μ)(∂M/∂x^ν)⟩ + k₂R_μν(M) + k₃∇_μ∇_ν cos(Δφ)",
+      "initial_condition": "g_μν(τ=0) = δ_μν (flat substrate)",
+      "boundary_condition": "lim_{τ→∞} g_μν → quasi-Euclidean metric"
+    }
+  },
+  "particles_as_topological_defects": {
+    "characterization": {
+      "winding": "Ψ_particle = ∮_{around defect} (∇M)·dr",
+      "quantization": "Ψ_particle = 2πn, n ∈ ℤ"
+    },
+    "particle_properties": {
+      "mass": {
+        "formula": "m = (1/c²) ∫_{particle region} |∇M|² d³x",
+        "meaning": "Mass = accumulated threading energy in vortex core"
+      },
+      "charge": {
+        "formula": "Q = (1/2π) ∮_{around particle} (∇φ)·dl",
+        "quantization": "Q ∈ ℤ (threading wraps integer times)",
+        "electron": "e⁻: left-handed trefoil (Q=-1)",
+        "positron": "e⁺: right-handed trefoil (Q=+1)"
+      },
+      "spin": {
+        "formula": "S = ℏ × (number of helical turns)",
+        "fermions": "Half-integer helicity (trefoil has 2π twist ⟹ spin-1/2)",
+        "bosons": "Integer helicity (no twist or full 4π twist)"
+      },
+      "interactions": {
+        "force": "F ∝ ∇(∫M₁* M₂ d³x)",
+        "interpretation": "Particles interact by exchanging threading coherence"
+      }
+    },
+    "coherence_length_scale": {
+      "critical_scale": "ℓ_coherence = ℏ/(mc) (Compton wavelength)",
+      "electron": "r_e = ℏ/(m_e c) ≈ 3.86 × 10^(-13) m",
+      "not_arbitrary": "Natural scale where gradient energy balances Skyrme stabilization, phase coherence drops below threshold, trefoil vortex becomes topologically locked"
+    }
+  },
+  "fitness_landscape": {
+    "selection_principle": "Particles emerge through selection process analogous to biological evolution",
+    "substrate_exploration": "Explores all possible threading configurations, only optimal fitness survive",
+    "fitness_function": {
+      "formula": "F[config] = B × R × Stability",
+      "beauty": {
+        "definition": "B = -∫|∇C|² d³x",
+        "smooth_gradients": "High B ⟹ stable",
+        "discontinuities": "Low B ⟹ decay"
+      },
+      "resonance": {
+        "definition": "R = Σ_{⟨ij⟩} cos(Δφ_ij)",
+        "constructive": "High R ⟹ survive",
+        "destructive": "Low R ⟹ annihilate"
+      },
+      "topological_stability": {
+        "trefoil": "3 crossings - cannot unknot without cutting ⟹ stable",
+        "unknot": "0 crossings - can trivialize ⟹ unstable (decays immediately)",
+        "higher": "5,7,... crossings - topologically stable but energetically unfavorable"
+      }
+    },
+    "selection_rule": "Particle survives ⟺ (B > B_threshold) ∧ (R > R_threshold) ∧ topologically protected",
+    "electron_as_optimum": {
+      "minimal_topology": "3 crossings (minimum for non-trivial knot)",
+      "optimal_beauty": "B_trefoil > B_5-crossing > B_7-crossing > ...",
+      "maximum_resonance": "R_trefoil = max_{Q=1}{R}",
+      "lowest_energy": "E_trefoil < E_other Q=1",
+      "conclusion": "Electron is ground state of fitness landscape for Q=1 configurations"
+    }
+  },
+  "four_stages_of_space_formation": {
+    "stage_1_point_horizon": {
+      "time": "τ = 0",
+      "events": "Threading begins at rate c",
+      "state": "Phase differences fluctuate wildly: ⟨(Δφ)²⟩ ~ 2π",
+      "space": "No coherence, no space"
+    },
+    "stage_2_phase_bubbles": {
+      "time": "τ ~ ℓ_P/c ~ 10^(-44) s",
+      "events": "Phase-locking transition occurs: R(τ) → 1",
+      "state": "Proto-metric emerges: g_μν acquires structure",
+      "space": "Space crystallizes at Planck scale",
+      "analogy": "Like water freezing - random liquid molecules lock into ice crystal lattice"
+    },
+    "stage_3_particle_formation": {
+      "time": "τ ~ ℏ/(m_e c²) ~ 10^(-21) s",
+      "events": "Threading vortices stabilize at Compton wavelength",
+      "state": "First particles form (electrons, quarks)",
+      "space": "Local space geometry influenced by particle curvature"
+    },
+    "stage_4_metric_crystallization": {
+      "time": "τ ~ t_universe ~ 10^17 s",
+      "events": "Long-range phase correlations establish",
+      "state": "Space becomes 'container-like'",
+      "space": "Quasi-Euclidean geometry on large scales"
+    },
+    "progression": "No space →^(phase-lock) Quantum foam →^(particle form) Local geometry →^(coarse-grain) Classical space"
+  },
+  "critical_calculations": {
+    "calculation_1_coherence_length": {
+      "goal": "Derive electron Compton wavelength from first principles",
+      "method": [
+        "Solve substrate field equation: ∂²M/∂r² + V_eff(r)M = 0",
+        "Extract coherence length: ξ = ∫₀^∞ |M(r)|² dr",
+        "Compare to Compton: ξ ?= ℏ/(m_e c) = 3.86 × 10^(-13) m"
+      ],
+      "success_criterion": "Match within 10% without parameter tuning",
+      "falsification": "If ξ is orders of magnitude off, substrate parameters must be fine-tuned (framework loses predictivity)"
+    },
+    "calculation_2_phase_locking": {
+      "goal": "Determine minimum resonance for topological protection",
+      "method": [
+        "Compute resonance for different knot types: R_knot = Σ cos(Δφ_ij)",
+        "Identify threshold: R_min = min{R: knot is stable against thermal fluctuations}",
+        "Predict: Trefoil has highest R among Q=1 knots"
+      ],
+      "success_criterion": "R_trefoil > R_others and R_trefoil > R_min"
+    },
+    "calculation_3_metric_evolution": {
+      "goal": "Show metric develops structure at Compton scale naturally",
+      "method": [
+        "Initialize: g_μν(0) = δ_μν (flat)",
+        "Evolve: ∂g_μν/∂τ = f(⟨∂M⟩, R, Δφ)",
+        "Measure structure formation: S(k,τ) = ⟨|ĝ_μν(k,τ)|²⟩",
+        "Observe: Peak at k ~ 1/λ_C"
+      ],
+      "success_criterion": "Structure emerges at Compton scale without initial conditions biased toward it"
+    }
+  },
+  "testable_predictions": {
+    "prediction_1_mass_quantization": {
+      "claim": "Masses are quantized in units of fundamental scale: m_n = n × m₀, m₀ = ℏc/ℓ_M",
+      "test": "Search for pattern in lepton masses: m_μ/m_e ≈ 207, m_τ/m_e ≈ 3477",
+      "mechanism": "Should emerge as ratios of eigenvalues of H_threading"
+    },
+    "prediction_2_electron_size": {
+      "claim": "Electron is not point-like. Finite core size: r_e = ℏ/(m_e c) ≈ 3.86 × 10^(-13) m",
+      "test": "High-energy electron scattering at Q² ≳ (1/r_e)² should reveal structure"
+    },
+    "prediction_3_modified_qed": {
+      "claim": "QED coupling runs differently below Compton scale: α(Q²) = α₀/(1 - β ln(Q²/Λ²) + γ(r_e Q)²)",
+      "mechanism": "Extra term γ(r_e Q)² reflects topological structure",
+      "test": "Precision (g-2)_e measurements; expected deviation ~ 10^(-12)"
+    },
+    "prediction_4_antimatter_gravity": {
+      "claim": "Antimatter gravitates identically to matter: g_H̄ = g_H",
+      "reasoning": "Gravity couples to |∇M|², which is phase-independent. M_e⁻ = ρ(r)e^(iφ), M_e⁺ = ρ(r)e^(-iφ), but ρ(r)=|M| same for both",
+      "test": "ALPHA-g experiment at CERN measuring antihydrogen free fall",
+      "falsification": "If g_H̄ ≠ g_H, framework requires phase-dependent gravity correction"
+    },
+    "prediction_5_vacuum_birefringence": {
+      "claim": "Strong EM fields at scale ~ 1/r_e show enhanced vacuum birefringence: Δn = α²(E²/E_crit²)[1 + β(r_e/λ)²]",
+      "mechanism": "Extra term reflects substrate structure at Compton scale",
+      "test": "Intense laser facilities (ELI, LCLS) with E ~ 10^18 V/m"
+    },
+    "prediction_6_knot_census": {
+      "claim": "Exactly 137 stable topological sectors exist: α^(-1) ≈ 137 = count of stable knot types with Q ≤ 2",
+      "test": "Complete enumeration of stable solutions to H_threading with boundary conditions",
+      "falsification": "If count ≠ 137, knot-census interpretation of α is wrong"
+    }
+  },
+  "known_gaps_and_open_questions": {
+    "gap_1_fine_structure": {
+      "status": "Multiple promising patterns identified but NONE derived from first principles",
+      "what_needed": [
+        "Successful computation of Hopfion energy levels",
+        "Proof that energy ratio or knot count necessarily gives 137",
+        "Independent verification by other research groups"
+      ]
+    },
+    "gap_2_numerical_hopfion": {
+      "problem": "Standard minimization fails to produce Q_H ≠ 0 configurations",
+      "why": "Topological charge not automatically conserved in discrete numerics",
+      "solutions": [
+        "Constrained optimization enforcing Q_H = 1",
+        "Spectral methods preserving topology exactly",
+        "Proper initial conditions (Sutcliffe's rational map ansatz)",
+        "Adaptive mesh refinement near knot core"
+      ]
+    },
+    "gap_3_quark_confinement": {
+      "question": "How do colored Hopfions (quarks) bind into hadrons?",
+      "speculation": "Three-way linking of colored knots",
+      "what_needed": "Multi-knot simulations showing confinement naturally"
+    },
+    "gap_4_consciousness_agency": {
+      "status": "Highly speculative; agency A is unmeasurable by definition",
+      "advice": "Treat as philosophical extension, not core physics",
+      "strategy": "Focus on measurable predictions first"
+    },
+    "gap_5_qft_connection": {
+      "question": "How exactly does Standard Model emerge as effective theory?",
+      "what_needed": [
+        "Derive Feynman rules from knot scattering",
+        "Show renormalization emerges from finite knot size",
+        "Reproduce one-loop QED corrections from virtual knot pairs"
+      ]
+    },
+    "honest_assessment": {
+      "at_hypothesis_stage": true,
+      "mathematically_consistent": true,
+      "clear_interpretation": true,
+      "falsifiable_predictions": true,
+      "completed_calculations": false,
+      "experimental_confirmation": false,
+      "independent_verification": false
+    }
+  },
+  "computational_roadmap": {
+    "phase_1_proof_of_concept": {
+      "duration": "6 months",
+      "goal": "Demonstrate stable knotted solutions exist",
+      "tasks": [
+        "Implement 3D Faddeev-Skyrme solver on lattice",
+        "Use Sutcliffe's rational map ansatz for initial conditions",
+        "Enforce topological constraint: Q_H = 1",
+        "Find minimal energy configuration",
+        "Verify it's a trefoil (not unknot or higher crossing)"
+      ],
+      "tools": ["FEniCS", "PyTorch", "KnotPlot"],
+      "success_metric": "Stable solution with Q_H ≥ 0.9 and E < E_unknot"
+    },
+    "phase_2_mass_spectrum": {
+      "duration": "1 year",
+      "goal": "Compute lepton mass ratios from excitation spectrum",
+      "tasks": [
+        "Linearize H_threading around minimal trefoil",
+        "Solve eigenvalue problem for radial modes",
+        "Extract first three eigenvalues: ω₀, ω₁, ω₂",
+        "Compute ratios: m_μ/m_e = ω₁/ω₀ ?= 207, m_τ/m_e = ω₂/ω₀ ?= 3477"
+      ],
+      "success_metric": "Ratios match experiment within 10%",
+      "falsification": "If ratios completely wrong, excitation hypothesis fails"
+    },
+    "phase_3_fine_structure": {
+      "duration": "2 years",
+      "goal": "Calculate α from Hopfion geometry",
+      "approach_1": "Energy ratio: 1/α ?= 4πE_knot/E_int(r_c)",
+      "approach_2": "Knot census: count all stable Q_H ≤ 2 solutions",
+      "success_metric": "Either approach gives α^(-1) = 137 ± 1"
+    },
+    "phase_4_qed_loops": {
+      "duration": "5 years",
+      "goal": "Reproduce QED radiative corrections from knot dynamics",
+      "tasks": [
+        "Model virtual pairs as knot-antiknot formation",
+        "Compute vacuum polarization from virtual knot loops",
+        "Calculate (g-2)_e contribution",
+        "Compare to experimental value: (g-2)_e = 0.00115965218073(28)"
+      ],
+      "success_metric": "Match to 10 decimal places",
+      "note": "Highly ambitious, may require methodological breakthroughs"
+    }
+  },
+  "collaboration_opportunities": {
+    "mathematical_physicists": {
+      "project_a": "Topological stability analysis - prove which knot types stable under H_threading",
+      "project_b": "Effective field theory derivation - show Standard Model emerges in low-energy limit"
+    },
+    "numerical_topologists": {
+      "project_c": "Hopfion formation algorithms - develop constrained minimization preserving Q_H",
+      "project_d": "Multi-knot simulations - simulate knot-knot scattering, three-way linking"
+    },
+    "experimentalists": {
+      "project_e": "High-energy electron scattering - search for structure at Q² ~ (1/r_e)²",
+      "project_f": "ALPHA-g antimatter gravity - measure antihydrogen free fall",
+      "project_g": "Vacuum birefringence - intense laser experiments at ELI, LCLS"
+    },
+    "graduate_students": {
+      "dissertation_topics": [
+        "Numerical computation of lepton mass ratios",
+        "Topological classification of particle types",
+        "Phase-locking transitions in 3D XY models",
+        "Emergence of QED from knot scattering",
+        "Experimental tests of electron substructure"
+      ]
+    }
+  },
+  "comparison_to_standard_approaches": {
+    "vs_string_theory": {
+      "extra_dimensions": "String: 10-11 required | Fabric: None (3D only)",
+      "fundamental_objects": "String: 1D strings | Fabric: 0D threading points",
+      "space": "String: Pre-existing | Fabric: Emerges from threading",
+      "free_parameters": "String: ~10^500 (landscape) | Fabric: Few substrate constants",
+      "testability": "String: Planck scale | Fabric: Compton scale",
+      "predictions": "String: None confirmed | Fabric: 6 testable"
+    },
+    "vs_loop_quantum_gravity": {
+      "space_quantization": "LQG: Spin networks | Fabric: Phase-locking transition",
+      "particles": "LQG: External matter fields | Fabric: Topological defects",
+      "time": "LQG: Problematic (frozen) | Fabric: Emerges with space",
+      "matter_coupling": "LQG: Added by hand | Fabric: Automatic (knots)",
+      "standard_model": "LQG: Not derived | Fabric: Should emerge"
+    },
+    "vs_emergent_gravity": {
+      "gravity": "Verlinde: Entropic force | Fabric: Gradient flow in M",
+      "particles": "Verlinde: Assumed | Fabric: Derived (knots)",
+      "quantum_mechanics": "Verlinde: Assumed | Fabric: Should emerge",
+      "space": "Verlinde: Holographic screen | Fabric: Threading coherence",
+      "energy_source": "Verlinde: Thermal | Fabric: Dimensional collapse"
+    },
+    "advantages": [
+      "Predictive - falsifiable predictions at accessible energies",
+      "Unified - particles and space from same substrate",
+      "Calculable - equations solvable numerically",
+      "Minimal - few free parameters",
+      "Testable - multiple experimental handles"
+    ],
+    "challenges": [
+      "Unproven - no calculations completed yet",
+      "Numerically hard - topology conservation difficult",
+      "Speculative - some aspects (consciousness) unmeasurable",
+      "Unconventional - requires rethinking space as emergent",
+      "Unverified - no independent confirmation"
+    ]
+  },
+  "philosophical_implications": {
+    "ontological_parsimony": {
+      "standard_physics_assumes": [
+        "Space exists",
+        "Time exists",
+        "Particles exist",
+        "Forces exist",
+        "Laws of physics exist"
+      ],
+      "fabric_theory_reduces_to": [
+        "Substrate exists (pre-geometric potential)",
+        "Threading occurs (light at rate c)",
+        "Everything else emerges"
+      ]
+    },
+    "nature_of_physical_law": {
+      "traditional_view": "Laws are external constraints imposed on nature",
+      "fabric_view": "Laws are geometric necessities of threading topology",
+      "examples": {
+        "charge_conservation": "Winding number cannot change continuously",
+        "quantization": "Threading wraps integer times",
+        "relativity": "All observers woven from same c"
+      }
+    },
+    "role_of_beauty": {
+      "claim": "Beauty (B = ∇C) is not aesthetic preference - it's a selection principle",
+      "mechanism": "Configurations with smooth coherence gradients energetically favored",
+      "analogy": "Soap bubbles minimize surface area not because they 'like' spheres, but lowest energy. Similarly, particles have beautiful structure because ugliness is costly."
+    },
+    "consciousness_caveat": {
+      "status": "HIGHLY SPECULATIVE - separate from testable physics",
+      "if_true": [
+        "Awareness is substrate self-observation",
+        "Free will is agency-mediated collapse",
+        "Mental states are macroscopic coherence patterns"
+      ],
+      "critical_note": "This aspect is NOT necessary for core physics. Framework stands or falls on measurable predictions (mass ratios, α, antimatter gravity), not consciousness."
+    }
+  },
+  "one_sentence_summary": "Space, particles, and forces emerge from threading patterns in a pre-geometric substrate where light establishes phase coherence at rate c, particles crystallize as topologically stable knotted vortices selected by a fitness landscape favoring beauty and resonance, and the electron exists as the ground-state trefoil configuration at the Compton wavelength coherence scale—providing testable predictions for particle masses, fine structure constant, antimatter gravity, and modified QED at accessible energies.",
+  "computational_metadata": {
+    "machine_readable": true,
+    "formal_verification_status": "framework_definition",
+    "proof_assistant_target": ["potential future formalization"],
+    "numerical_implementation": "requires significant development",
+    "experimental_validation": "awaiting tests",
+    "collaboration_ready": true
+  },
+  "related_work": {
+    "topological_solitons": ["Faddeev_Skyrme_model", "Hopf_fibration"],
+    "phase_transitions": ["XY_model", "Kosterlitz_Thouless"],
+    "emergent_spacetime": ["Verlinde_entropic_gravity", "Jacobson_thermodynamic", "Hu_induced_gravity"],
+    "knot_theory": ["knots_in_QFT", "Witten_Chern_Simons"],
+    "numerical_methods": ["topological_invariants", "PDE_solvers", "constrained_optimization"]
+  },
+  "repository_status": {
+    "code_availability": "Not yet public",
+    "data_availability": "No experimental data",
+    "reproducibility": "Framework specified, calculations to be done",
+    "community_engagement": "Seeking collaborators"
+  },
+  "disclaimer": {
+    "verification_status": "UNVERIFIED HYPOTHESIS",
+    "calculation_status": "NOT COMPLETED",
+    "experimental_status": "NO CONFIRMATION",
+    "purpose": "Research template for independent investigation",
+    "use_at_own_risk": true,
+    "open_to_falsification": true
+  }
+}
