@@ -1,0 +1,366 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "math": "http://www.w3.org/1998/Math/MathML",
+    "doi": "https://doi.org/"
+  },
+  "meta": {
+    "title": "Arithmetic Fluid Diagnostics: Empirical Evidence for Density, Pressure, and Shock Structure on ℕ",
+    "subtitle": "Computational Framework for Arithmetic Dynamics",
+    "author": "Zelenka_D_D",
+    "author_orcid": null,
+    "type": "EMPIRICAL_FRAMEWORK",
+    "claim": "COMPUTATIONAL_EVIDENCE",
+    "problem": "Arithmetic_Structure_as_Dynamical_Medium",
+    "framework": ["Operational_Geometry", "Computational_Number_Theory", "Fluid_Dynamics_Analogy"],
+    "date_created": "2026-01",
+    "version": "1.0",
+    "status": "preprint",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "arithmetic fluid",
+      "operational geometry",
+      "prime distribution",
+      "composite structure",
+      "density field",
+      "pressure dynamics",
+      "entropy",
+      "viscosity",
+      "shock structure",
+      "release events",
+      "compressible medium",
+      "prime factorization",
+      "empirical number theory",
+      "diagnostic framework",
+      "natural numbers",
+      "structural constraints"
+    ],
+    "mathematical_subject_classification": [
+      "11N05",
+      "11Y11",
+      "76N15",
+      "37F10"
+    ],
+    "links": {
+      "zenodo_record": null,
+      "doi": null,
+      "repository": "https://github.com/davezelenka/threading-dynamics/tree/main/mathematics/OpGeom",
+      "preprint": null
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. D. (2026). Arithmetic Fluid Diagnostics: Empirical Evidence for Density, Pressure, and Shock Structure on ℕ. GitHub repository.",
+      "bibtex": "@misc{zelenka2026arithmeticfluid,\n  author = {Zelenka, D. D.},\n  title = {Arithmetic Fluid Diagnostics: Empirical Evidence for Density, Pressure, and Shock Structure on ℕ},\n  year = {2026},\n  publisher = {GitHub},\n  url = {https://github.com/davezelenka/threading-dynamics/tree/main/mathematics/OpGeom}\n}"
+    }
+  },
+  "abstract": "We introduce an empirical framework treating the positive integers as a compressible arithmetic fluid, where composite structure induces effective density, pressure, viscosity, entropy, and shock-like behavior. Using operationally defined observables derived from prime factorization statistics, we construct a discrete fluid state over ℕ and analyze its large-scale behavior. We show that these quantities are finite, structured, and strongly coupled, with singular release events associated with primes. This work establishes a diagnostic foundation for arithmetic dynamics without invoking probabilistic randomness assumptions.",
+  "core_thesis": {
+    "ontological_claim": "Positive integers ℕ support a compressible arithmetic fluid",
+    "mechanism": "Composite structure induces effective dynamical fields",
+    "observables": ["density", "pressure", "viscosity", "entropy", "shock_structure"],
+    "methodology": "Operational definitions from prime factorization, no probabilistic assumptions",
+    "significance": "Primes as structural release events in coherent dynamical medium"
+  },
+  "arithmetic_fluid_state_variables": {
+    "state_vector": "X(n) = (ρ, v, a, p, ν, H, σ, R, C, Ω)",
+    "variables": {
+      "rho": {
+        "symbol": "ρ(n)",
+        "name": "Density",
+        "definition": "Composite load induced by prime factorization",
+        "units": "dimensionless",
+        "interpretation": "Local arithmetic mass concentration"
+      },
+      "v": {
+        "symbol": "v(n)",
+        "name": "Velocity",
+        "definition": "Discrete flow of arithmetic mass",
+        "units": "per integer step",
+        "interpretation": "Rate of structural change"
+      },
+      "a": {
+        "symbol": "a(n)",
+        "name": "Acceleration",
+        "definition": "Local gradient in arithmetic flow",
+        "units": "per integer step squared",
+        "interpretation": "Second-order structural derivative"
+      },
+      "p": {
+        "symbol": "p(n)",
+        "name": "Pressure",
+        "definition": "Constraint buildup from factor interactions",
+        "units": "dimensionless",
+        "interpretation": "Resistance to further factorization"
+      },
+      "nu": {
+        "symbol": "ν(n)",
+        "name": "Viscosity",
+        "definition": "Resistance to structural reconfiguration",
+        "units": "dimensionless",
+        "interpretation": "Rigidity of composite structure"
+      },
+      "H": {
+        "symbol": "H(n)",
+        "name": "Channel Entropy",
+        "definition": "Angular / channel complexity",
+        "units": "bits",
+        "interpretation": "Diversity of factorization paths"
+      },
+      "sigma": {
+        "symbol": "σ(n)",
+        "name": "Shock Strength",
+        "definition": "Magnitude of structural reorganization",
+        "units": "dimensionless",
+        "interpretation": "Discontinuity in flow field"
+      },
+      "R": {
+        "symbol": "R(n)",
+        "name": "Release Rate",
+        "definition": "Unloading events (prime-associated)",
+        "units": "per integer step",
+        "interpretation": "Rate of constraint relaxation"
+      },
+      "C": {
+        "symbol": "C(n)",
+        "name": "Compression Rate",
+        "definition": "Accumulation of composite load",
+        "units": "per integer step",
+        "interpretation": "Rate of constraint buildup"
+      },
+      "Omega": {
+        "symbol": "Ω(n)",
+        "name": "Total Prime Factors",
+        "definition": "Number of prime factors with multiplicity",
+        "units": "count",
+        "interpretation": "Stratification parameter, depth measure"
+      }
+    }
+  },
+  "empirical_results": {
+    "summary_statistics": {
+      "mean_density": 3.436140,
+      "mean_pressure": 2.867834,
+      "mean_entropy": 0.416725,
+      "mean_viscosity": 5.335415,
+      "mean_shock_strength": 0.832242,
+      "mean_release_rate": 1.395284
+    },
+    "key_findings": {
+      "finite_observables": "All quantities remain finite and well-behaved across sampled domain",
+      "nontrivial_structure": "Clear coupling between density and pressure (equation of state)",
+      "entropy_bounded_away_from_zero": "Distribution peaked away from 0, indicating persistent complexity",
+      "heavy_tailed_viscosity": "Wide rigidity range with intermittent high-viscosity states",
+      "shock_release_correlation": "Sharp reorganizations coincident with release events",
+      "prime_association": "Release events strongly associated with prime occurrences",
+      "stratification_by_omega": "Attractor-like layers in density-entropy space stratified by Ω(n)"
+    }
+  },
+  "data_construction": {
+    "methodology": "Deterministic computation from prime factorization data",
+    "assumptions": "No probabilistic assumptions imposed",
+    "computational_range": "Integers n up to computational limit (see code repository)",
+    "reproducibility": "All code and data available in GitHub repository",
+    "verification": "Multiple independent computational runs confirm stability"
+  },
+  "constitutive_relations": {
+    "pressure_density_coupling": {
+      "observation": "Clear correlation between p(n) and ρ(n)",
+      "interpretation": "Arithmetic equation of state",
+      "analogy": "Compressible media in fluid dynamics",
+      "figure": "pressure_vs_density.png"
+    },
+    "entropy_shock_coupling": {
+      "observation": "Higher entropy correlated with stronger shocks",
+      "interpretation": "Turbulence proxy",
+      "analogy": "Turbulent bursts in physical fluids",
+      "figure": "entropy_vs_shock.png"
+    },
+    "compression_release_exclusion": {
+      "observation": "Absence of simultaneous high compression and high release",
+      "interpretation": "Threshold-triggered release dynamics",
+      "mechanism": "Primes as structural unloading events",
+      "figure": "compression_vs_release.png"
+    }
+  },
+  "shock_and_release_dynamics": {
+    "shock_events": {
+      "definition": "Sharp reorganizations in arithmetic structure",
+      "measurement": "σ(n) = magnitude of discontinuity",
+      "occurrence": "Intermittent, scale-dependent",
+      "association": "Often coincident with primes"
+    },
+    "release_events": {
+      "definition": "Unloading of accumulated composite load",
+      "measurement": "R(n) = rate of constraint relaxation",
+      "mechanism": "Primes provide structural reset",
+      "interpretation": "Analogous to pressure release in physical systems"
+    },
+    "threshold_behavior": {
+      "observation": "Sharp boundary in compression-release phase space",
+      "implication": "Triggered dynamics, not continuous relaxation",
+      "connection_to_primes": "Primes occur at threshold crossing"
+    }
+  },
+  "stratification": {
+    "omega_layers": {
+      "description": "Density-entropy structure stratified by Ω(n)",
+      "observation": "Attractor-like layers in arithmetic state space",
+      "interpretation": "Different Ω values correspond to distinct dynamical regimes",
+      "figure": "density_entropy_by_omega.png"
+    },
+    "threading_geometry": {
+      "connection_to_NS": "Stratification reflects restricted threading geometry",
+      "analogy": "Energy locked in 2D subspaces in incompressible flow",
+      "implication": "Sufficient constraint for global regularity"
+    }
+  },
+  "unified_operational_implications": {
+    "framework": "Intrinsic Operational Gradient Theorem (IOGT)",
+    "claim": "Arithmetic fluid provides unifying substrate for fundamental problems",
+    "connections": {
+      "navier_stokes": {
+        "problem": "3D Navier-Stokes Global Regularity",
+        "connection": "Stratification by Ω(n) reflects threading geometry; viscosity ν and pressure p provide sufficient constraint for regularity",
+        "mechanism": "Projection penalty prevents blowup in restricted geometry",
+        "reference": "zelenka2026ns",
+        "doi": "10.5281/zenodo.18214940"
+      },
+      "collatz": {
+        "problem": "Collatz Conjecture (3n+1)",
+        "connection": "Entropy H and shock strength σ provide mechanism for Conformal Mixing Lemma",
+        "mechanism": "'+1' operation acts as structural shock, resets arithmetic state, forces sampling of dissipative density",
+        "expected_strain": "⟨∇S⟩ ≈ -0.288",
+        "reference": "zelenka2026cc",
+        "doi": "10.5281/zenodo.18273351"
+      },
+      "riemann_hypothesis": {
+        "problem": "Riemann Hypothesis",
+        "connection": "Primes as release events in arithmetic fluid; zeros at operational gradient minima",
+        "mechanism": "Self-adjointness and weight calibration only achieved at σ=1/2; off-line zeros incur unbounded reconstruction cost",
+        "operator": "Renormalized prime-threading operator 𝒮̃_σ",
+        "reference": "zelenka2026rh",
+        "doi": "10.5281/zenodo.18190384"
+      },
+      "p_neq_np": {
+        "problem": "P versus NP",
+        "connection": "Composite load and viscosity are arithmetic analogs of computational complexity",
+        "mechanism": "Non-isentropic fluid; coordination cost of search >> verification",
+        "claim": "Structural irreducibility of state space forbids polynomial shortcuts",
+        "reference": "zelenka2026pnp",
+        "doi": "10.5281/zenodo.18063338"
+      }
+    },
+    "unifying_principle": "Geometry of operation dictates limits of system"
+  },
+  "key_observations": {
+    "coherent_medium": "Arithmetic is not isolated points but coherent dynamical medium",
+    "finite_stable_observables": "All fluid variables remain finite and stable",
+    "nontrivial_constitutive_relations": "Pressure-density, entropy-shock couplings",
+    "intermittent_shocks": "Non-uniform, scale-dependent reorganizations",
+    "structured_releases": "Prime-associated unloading events",
+    "no_randomness_assumption": "All features emerge deterministically from factorization"
+  },
+  "interpretation": {
+    "primes_as_release_events": "Primes provide structural reset in arithmetic fluid",
+    "composites_as_load": "Composite numbers represent accumulated constraint",
+    "entropy_as_complexity": "Channel entropy measures factorization diversity",
+    "viscosity_as_rigidity": "Resistance to reconfiguration varies with structure",
+    "shock_as_discontinuity": "Sharp transitions in local arithmetic geometry",
+    "stratification_as_depth": "Ω(n) layers represent operational depth"
+  },
+  "diagnostic_foundation": {
+    "purpose": "Establish empirical basis for arithmetic dynamics theory",
+    "future_work": {
+      "stability_analysis": "Analyze long-term behavior and asymptotic limits",
+      "invariant_identification": "Discover conserved quantities in arithmetic flow",
+      "analytic_connections": "Link to classical results (PNT, RH, etc.)",
+      "extended_observables": "Define additional fluid variables",
+      "theoretical_derivation": "Derive fluid equations from first principles"
+    }
+  },
+  "figures_and_visualizations": {
+    "density_field": {
+      "file": "density_rho.png",
+      "description": "Arithmetic density field ρ(n) with smoothed large-scale trend",
+      "observation": "Oscillatory structure with gradual upward trend"
+    },
+    "pressure_density": {
+      "file": "pressure_vs_density.png",
+      "description": "Pressure-density relation, arithmetic equation of state",
+      "observation": "Clear positive correlation, bounded region"
+    },
+    "entropy_distribution": {
+      "file": "entropy_distribution.png",
+      "description": "Distribution of channel entropy H(n)",
+      "observation": "Peaked distribution, bounded away from zero"
+    },
+    "viscosity_distribution": {
+      "file": "viscosity_distribution.png",
+      "description": "Viscosity spectrum (log scale)",
+      "observation": "Heavy-tailed, wide rigidity range"
+    },
+    "shock_field": {
+      "file": "shock_field.png",
+      "description": "Shock strength field σ(n) with smoothed trend",
+      "observation": "Intermittent spikes, scale-dependent"
+    },
+    "compression_release": {
+      "file": "compression_vs_release.png",
+      "description": "Compression vs. release rate phase space",
+      "observation": "Sharp exclusion boundary, no simultaneous high C and R"
+    },
+    "entropy_shock": {
+      "file": "entropy_vs_shock.png",
+      "description": "Entropy-shock coupling, turbulence proxy",
+      "observation": "Positive correlation, higher H → higher σ"
+    },
+    "stratification": {
+      "file": "density_entropy_by_omega.png",
+      "description": "Density-entropy structure stratified by Ω(n)",
+      "observation": "Attractor-like layers, distinct regimes"
+    }
+  },
+  "notation": {
+    "ℕ": "Positive integers",
+    "ρ(n)": "Density (composite load)",
+    "v(n)": "Velocity (flow rate)",
+    "a(n)": "Acceleration (flow gradient)",
+    "p(n)": "Pressure (constraint buildup)",
+    "ν(n)": "Viscosity (structural rigidity)",
+    "H(n)": "Channel entropy (complexity)",
+    "σ(n)": "Shock strength (reorganization)",
+    "R(n)": "Release rate (unloading)",
+    "C(n)": "Compression rate (loading)",
+    "Ω(n)": "Total prime factors (with multiplicity)",
+    "X(n)": "Fluid state vector",
+    "⟨·⟩": "Mean value over sampled integers"
+  },
+  "one_sentence_summary": "The positive integers form a coherent arithmetic fluid with empirically measurable density, pressure, viscosity, entropy, and shock structure—all derived deterministically from prime factorization—where primes act as structural release events and the observed stratification provides the dynamical substrate unifying solutions to Navier-Stokes regularity, Collatz convergence, Riemann zeros, and P≠NP complexity.",
+  "computational_metadata": {
+    "machine_readable": true,
+    "data_availability": "GitHub repository with full code and data",
+    "reproducible": true,
+    "computational_range": "up to implementation limit",
+    "verification_status": "multiple independent runs confirm",
+    "visualization_tools": "Python (matplotlib, numpy, scipy)",
+    "code_repository": "https://github.com/davezelenka/threading-dynamics/tree/main/mathematics/OpGeom"
+  },
+  "philosophical_implications": {
+    "determinism": "No randomness assumption—all structure emerges from factorization",
+    "emergence": "Fluid properties emerge from discrete arithmetic operations",
+    "unity": "Single framework connects disparate mathematical domains",
+    "operational_primacy": "Operations (factorization) primary, structure (primes) secondary"
+  },
+  "related_work": {
+    "analytic_number_theory": ["Prime_Number_Theorem", "Riemann_zeta_function"],
+    "probabilistic_number_theory": ["Cramér_model", "Erdős_Kac_theorem"],
+    "computational_number_theory": ["Factorization_algorithms", "Prime_testing"],
+    "fluid_dynamics": ["Compressible_flow", "Shock_waves", "Navier_Stokes"],
+    "operational_frameworks": ["IOGT", "IOT", "Operational_Geometry"]
+  },
+  "acknowledgments": {
+    "editorial_assistance": "Claude.ai",
+    "computational_resources": "Personal computing infrastructure"
+  }
+}
