@@ -47,9 +47,9 @@
       "83C27"
     ],
     "links": {
-      "zenodo_record": null,
-      "doi": null,
-      "repository": null,
+      "zenodo_record": "https://zenodo.org/records/17411110",
+      "doi": "https://doi.org/10.6084/m9.figshare.30227890",
+      "repository": "https://github.com/davezelenka/threading-dynamics",
       "preprint": null
     },
     "citations": {
