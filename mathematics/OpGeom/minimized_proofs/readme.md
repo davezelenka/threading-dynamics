@@ -33,6 +33,8 @@ This repository contains compressed, structured proofs for several major mathema
 | File | Problem | Status | DOI | Size |
 |------|---------|--------|-----|------|
 | `Collatz_conjecture_proof.json` | Collatz Conjecture (3n+1 Problem) | **Conditional** (on Conformal Mixing Lemma) | [10.5281/zenodo.18273351](https://doi.org/10.5281/zenodo.18273351) | 16.7 KB |
+| `lehmer_conjecture.json` | Lehmer Conjecture | **Conditional** (on Three Pillars) | [10.5281/zenodo.18354484](https://doi.org/10.5281/zenodo.18354484) | 21 KB |
+
 
 ## Proof Architecture
 
@@ -93,6 +95,7 @@ The **Intrinsic Operational Gradient Theorem** (IOGT) is the foundational princi
 | **Riemann** | Conditional | Assumes IOGT | All zeros on Re(s) = 1/2 |
 | **P≠NP** | Unconditional | None | No polynomial algorithm for NP-complete problems |
 | **Collatz** | Conditional | Assumes Conformal Mixing | All trajectories reach n=1 |
+| **Lehmer** | Conditional | Three Pillars |  Structural impossibility under the fundamental limits of computation |
 
 ## Citation
 
