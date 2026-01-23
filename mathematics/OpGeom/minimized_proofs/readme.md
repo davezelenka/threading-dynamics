@@ -27,6 +27,7 @@ This repository contains compressed, structured proofs for several major mathema
 | `Navier-Stokes_global_regularity_proof.json` | 3D Navier-Stokes Global Regularity | **Proved** | [10.5281/zenodo.18214940](https://doi.org/10.5281/zenodo.18214940) | 12.8 KB |
 | `Riemann_Hypothesis_proof.json` | Riemann Hypothesis | **Conditional** (on IOGT) | [10.5281/zenodo.18190384](https://doi.org/10.5281/zenodo.18190384) | 16.4 KB |
 | `P_neq_NP_proof.json` | P versus NP | **Proved** | [10.5281/zenodo.18063338](https://doi.org/10.5281/zenodo.18063338) | 17.9 KB |
+| `bsd_conjecture.json` | The Birch and Swinnerton-Dyer Conjecture | **Conditional** | [10.5281/zenodo.18356347](https://doi.org/10.5281/zenodo.18356347) | 17.9 KB |
 
 ### Other Major Conjectures
 
@@ -96,6 +97,7 @@ The **Intrinsic Operational Gradient Theorem** (IOGT) is the foundational princi
 | **P≠NP** | Unconditional | None | No polynomial algorithm for NP-complete problems |
 | **Collatz** | Conditional | Assumes Conformal Mixing | All trajectories reach n=1 |
 | **Lehmer** | Conditional | Three Pillars |  Structural impossibility under the fundamental limits of computation |
+| **BSD** | Conditional | Assumes IOT |  L-function zero as arithmetic shock |
 
 ## Citation
 
