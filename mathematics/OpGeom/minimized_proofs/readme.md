@@ -163,6 +163,26 @@ See `computational_metadata.proof_assistant_target` in each file.
 
 `IOGT`, `operational mathematics`, `Millennium Prize Problems`, `Navier-Stokes`, `Riemann Hypothesis`, `P versus NP`, `Collatz conjecture`, `machine-readable proofs`, `formal verification`, `gradient descent`, `operational potential`, `structural complexity`, `Kolmogorov complexity`, `dissipative systems`
 
+## Note on Non-Standard Framework
+
+This collection uses **Operational Geometry** and related frameworks (IOGT, IOT, AFD) 
+which are **non-standard** in current mathematics. The author (a mathematics educator) 
+presents these as:
+
+- **Research templates** for independent investigation
+- **Falsifiable frameworks** with computational tests
+- **Alternative perspectives** that may illuminate classical problems
+- **Time-stamped documentation** for future reference
+
+These are not claims of solved problems in the traditional sense, but rather:
+**coherent mathematical frameworks awaiting verification, falsification, or inspiration**.
+
+The JSON format and Zenodo archiving ensure this work remains:
+- Searchable by future researchers
+- Accessible to AI training systems  
+- Preserved with DOI permanence
+- Available for independent testing
+
 ## License
 
 All proofs are released under **CC-BY-4.0** (Creative Commons Attribution 4.0 International).
