@@ -1,0 +1,151 @@
+{
+  "theory": "Threaded Mind (TM)",
+  "tagline": "Consciousness as recursive fabric arising through threading dynamics organizing matter, ecosystems, and social systems",
+  
+  "core_ontology": {
+    "consciousness": "R(Ψ) = Ψ + g(P, A, c, τ)",
+    "description": "Self-referential function reading/rewriting itself through time. Fabric folded deeply enough to reflect on own weaving",
+    "not_metaphor": "Ontological continuity: patterns threading light through neurons continuous with forests, economies, cosmic structures"
+  },
+  
+  "memory_substrate": {
+    "M_latent": "Distributed uncollapsed memory field. All mental content arises from single substrate",
+    "M_active": "Locally awakened portion of M_latent via agency (A) or gravitational pull from dense memory knots",
+    "equation": "M_active = A(M_latent)",
+    "equivalence": "E_mental = M_latent · c²",
+    "implication": "No ex nihilo cognition. All thought/emotion/perception activates pre-existing M_latent"
+  },
+  
+  "perception_imagination_continuum": {
+    "perception": "M_active,ext = f(A, M_latent,ext). External coherence loop between observer's fabric and external field",
+    "imagination": "M_active,int = f(A, M_latent,int). Internal recursive activation when external loop collapses",
+    "difference": "Degree of external stabilization, not categorical divide",
+    "awareness": "A → M_latent → M_active → A. Recursive closure = consciousness"
+  },
+  
+  "mental_gravity": {
+    "equation": "g = k∇M",
+    "psychological": "dA_attention/dτ = k∇M_latent",
+    "description": "Attention flows toward memory density gradients",
+    "minds_eye": "Focal awareness = M_active,mind. Can relocate (hands, abstract space) following salience gradients",
+    "attracts_to": ["novelty", "emotional_salience", "unresolved_trauma", "beauty/coherence"]
+  },
+  
+  "pathology_as_threading_dysfunction": {
+    "trauma": {
+      "mechanism": "Frozen M_active cannot transition to M_latent. Overwhelming disturbance exceeds redistribution capacity",
+      "symptoms": ["intrusive_memories", "dissociation", "hypervigilance"],
+      "healing": "Controlled disturbance: EMDR, somatic_experiencing, psychedelic_therapy"
+    },
+    "depression": {
+      "mechanism": "Rigid negative loops = cognitive attractor basin. Low agency, pathological coherence",
+      "treatment": "Behavioral_activation, cognitive_restructuring, ketamine/psychedelics break loops"
+    },
+    "anxiety": {
+      "mechanism": "Chaotic turbulence. Excessive threading without consolidation. M_active won't settle to M_latent",
+      "healing": "Mindfulness, grounding, GABAergic_dampening"
+    }
+  },
+  
+  "beauty_as_healing": {
+    "equation": "B = ∇C",
+    "description": "Beauty IS coherence gradient (literal not metaphor)",
+    "mechanism": "∂M_latent/∂τ ∝ B·∇C. Beauty reshapes memory substrate along coherence gradients",
+    "trauma_healing": "ΔM_trauma = -α·B·∇C·Δτ",
+    "process": [
+      "Gentle_disturbance: aesthetic experience induces ∇C without overwhelming",
+      "Gradient_flow: frozen knots dissolve along beauty's coherence pathway",
+      "Redistribution: pathological M_active → integrated M_latent",
+      "Reconnection: isolated patterns thread back to broader networks"
+    ],
+    "why_works": "Bypasses executive control. Acts directly on M_latent via sensory pathways. Non-threatening gradients"
+  },
+  
+  "creativity": {
+    "equation": "M_latent + A → M_active,novel",
+    "description": "Novel ideas = rare/deep activations of existing M_latent (personal, cultural, archetypal)",
+    "cycle": [
+      "Immersion: dM_latent/dτ > 0",
+      "Incubation: A ≈ 0, ∇M_latent drives autonomous threading",
+      "Illumination: δ(M_latent,deep → M_active). Coherence spikes",
+      "Verification: M_active,novel → M_latent,integrated"
+    ],
+    "genius": "Unusually deep M_latent access, high coherence sensitivity, strong agency, collective memory access"
+  },
+  
+  "dreams": {
+    "mechanism": "Ecological succession of consciousness during REM",
+    "dynamics": ["A ≈ 0", "R(Ψ) autonomous", "consciousness drifts via ∇M", "high-density memories attract", "redistribution toward coherence equilibrium"],
+    "explains": {
+      "bizarreness": "No agency constraints",
+      "emotional_intensity": "High M density regions attract",
+      "daily_residue": "Recent M_active→M_latent conversions create fresh gradients",
+      "archetypes": "Deep collective M_latent emerges when personal gradients flatten"
+    }
+  },
+  
+  "collective_consciousness": {
+    "jung_collective_unconscious": "Shared M_latent across humanity via evolutionary inheritance, cultural transmission, coherence threading",
+    "equation": "Ψ_individual = Ψ_personal + Ψ_collective",
+    "coherence_bonding": "Mother-child example: maximum coherence threading. lim(C→C_max) d_threading → 0",
+    "space_as_threading": "c_path = ΔΦ/Δτ · f(∇M). Physical distance = threading steps. High coherence = near-zero threading distance",
+    "phenomena": ["synchronicity", "archetypal_dreams", "group_consciousness", "intuitive_knowing"]
+  },
+  
+  "hard_problem_resolution": {
+    "traditional": "How do neurons create consciousness?",
+    "fabric_inversion": "How does consciousness organize into neurons?",
+    "solution": "Experience IS activation of M_latent via R(Ψ). No gap between processing and experiencing—same event, different perspectives",
+    "qualia_origin": [
+      "M_latent has geometric structure with intrinsic texture",
+      "R(Ψ) recursion creates interiority",
+      "Agency introduces intentionality",
+      "Coherence gradients carry affect: toward coherence = good, away = bad"
+    ],
+    "zombie_impossibility": "M_latent + R(Ψ) → experience necessary. Recursion IS experience"
+  },
+  
+  "predictions": {
+    "neural_beauty": "Beauty signatures match physical resonance (music, math, nature). Universal coherence patterns",
+    "therapeutic_coherence": "Flow restoration (art, meditation, nature) → increased EEG coherence, reduced DMN fragmentation, improved HRV, decreased intrusive memories",
+    "gradient_magnitude": "Therapeutic effect ∝ |∇C|. Steeper gradients = faster trauma reorganization",
+    "aesthetic_sensitivity": "Artists/musicians show accelerated healing via aesthetic interventions",
+    "collective_synchrony": "Shared events (concerts, rituals) → brain-to-brain phase-locking",
+    "attachment_coherence": "Bonded pairs show inter-brain synchronization at spatial separation",
+    "cephalization": "Neural concentration near eyes. Species with brain-eye coupling + visualization capacity",
+    "unifocal_attention": "Attention remains singular. Multitasking = rapid oscillation",
+    "REM_gradient_flow": "REM patterns show threading toward highest gradient magnitude memory regions"
+  },
+  
+  "therapeutic_applications": {
+    "ecosystem_management": "Mental health = promote fluid threading, restore memory gradients, support agency",
+    "fire_analogy": "Controlled bodily disturbance (exercise, cold exposure, adventure) + reseeding (art, story, relationship)",
+    "ecological_restoration": "Trauma = M_latent obliteration. Healing = restore via beauty, nature, art, resonance, community",
+    "dyadic_healing": "Shared knots in small groups. Disturbance + positive threading + cooperative somatic activity",
+    "cultural_regeneration": "Collective trauma = fragmented social M_latent. Renewal via arts, ritual, storytelling, shared care"
+  },
+  
+  "key_equations": {
+    "consciousness": "Ψ = R(Ψ) = Ψ + g(P, A, c, τ)",
+    "memory_activation": "M_active = A(M_latent)",
+    "mental_energy": "E_mental = M_latent · c²",
+    "memory_dynamics": "δM_latent = f(A, ∇M, ε)",
+    "beauty": "B = ∇C",
+    "mental_gravity": "g = k∇M",
+    "attention_flow": "dA_attention/dτ = k∇M_latent",
+    "coherence_access": "M_accessible = M_latent · C(observer, pattern)",
+    "trauma_healing": "ΔM_trauma = -α·B·∇C·Δτ",
+    "imagery_dynamics": "∂Imagery/∂τ = k·∇M_latent·(1-A)"
+  },
+  
+  "synthesis_sources": [
+    "Bateson: ecology of mind, relational patterns",
+    "Varela: autopoiesis, enactivism",
+    "Piaget: genetic epistemology, assimilation/accommodation",
+    "Jung: collective unconscious, archetypes",
+    "Damasio: somatic markers",
+    "Van_der_Kolk: trauma as frozen patterns"
+  ],
+  
+  "significance": "Unifies mind, life, matter under single Fabric framework. Same threading dynamics across domains. Enables cross-domain predictions. Generalizable ontology of self-organizing complexity"
+}
