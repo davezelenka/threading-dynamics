@@ -49,8 +49,8 @@
       "37N25"
     ],
     "links": {
-      "zenodo_record": null,
-      "doi": null,
+      "zenodo_record": "https://zenodo.org/records/17496986",
+      "doi": "https://doi.org/10.6084/m9.figshare.30505811",
       "repository": "https://github.com/davezelenka/threading-dynamics",
       "preprint": null
     },
@@ -507,4 +507,5 @@
   },
   
   "significance": "Treats mind as ecology—self-organizing, memory-laden, disturbance-responsive system. Reframes mental health as ecosystem management. Provides ontological foundation for consciousness (fabric reflecting on own weaving) that resolves hard problem. Generates testable predictions linking neural coherence to therapeutic outcomes, creative emergence, collective synchronization. Bridges mind, life, matter under unified threading dynamics."
+
 }
