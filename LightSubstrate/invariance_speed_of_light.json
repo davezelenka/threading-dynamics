@@ -1,0 +1,279 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "math": "http://www.w3.org/1998/Math/MathML",
+    "doi": "https://doi.org/"
+  },
+  "meta": {
+    "title": "The Invariance of Light Speed in Fabric Theory: A Light-Substrate Ontology",
+    "subtitle": "Why c is Constant: Light as Generative Substrate of Space and Time",
+    "author": "Zelenka_D",
+    "author_orcid": null,
+    "claim": "ONTOLOGICAL_RESOLUTION",
+    "problem": "Why_is_Speed_of_Light_Frame_Invariant",
+    "framework": ["Fabric_Theory", "Light_Substrate", "Threading_Dynamics", "Memory_Field"],
+    "date_created": "2025-01",
+    "version": "1.0",
+    "status": "preprint",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "speed of light",
+      "invariance of c",
+      "light substrate",
+      "fabric theory",
+      "emergent spacetime",
+      "threading depth",
+      "time as threading",
+      "reference frames",
+      "coherence patterns",
+      "M_latent",
+      "M_active",
+      "memory field",
+      "special relativity",
+      "ontological foundation",
+      "CMB substrate equilibrium",
+      "primordial coherence",
+      "generative substrate",
+      "operational phenomenology"
+    ],
+    "subject_classification": [
+      "Physics - Foundations of Physics",
+      "Physics - General Relativity and Quantum Cosmology",
+      "Physics - History and Philosophy of Physics",
+      "Physics - Cosmology and Nongalactic Astrophysics",
+      "Philosophy - Philosophy of Science"
+    ],
+    "links": {
+      "zenodo_record": "https://zenodo.org/records/17662598",
+      "doi": "https://doi.org/10.5281/zenodo.17662598",
+      "repository": "https://github.com/davezelenka/threading-dynamics",
+      "preprint": null
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. (2025). The Invariance of Light Speed in Fabric Theory: A Light-Substrate Ontology. Zenodo. https://doi.org/10.5281/zenodo.17662598",
+      "bibtex": "@misc{zelenka2025lightspeed,\n  author = {Zelenka, D.},\n  title = {The Invariance of Light Speed in Fabric Theory: A Light-Substrate Ontology},\n  year = {2025},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.17662598},\n  url = {https://doi.org/10.5281/zenodo.17662598}\n}"
+    }
+  },
+  "abstract": "The invariance of the speed of light across all reference frames has been a foundational postulate of modern physics since Einstein's special relativity. While experimentally verified, the ontological basis for this constancy remains unexplained. This paper presents Fabric Theory's resolution: the speed of light c is invariant because light itself constitutes the generative substrate—the Light Substrate (LS)—from which space, geometry, and temporal progression emerge. In a light-substrate ontology, reference frames are not independent containers that measure light, but rather coherence patterns that emerge from the LS itself. We demonstrate that c is invariant not as a speed limit imposed on spacetime, but as the foundational coherence rate at which reality is threaded. Furthermore, we clarify that time in Fabric is not a dimension but rather 'threading depth'—the cumulative action of light propagating through active memory density M_active(x,t). This reconceptualization dissolves the mystery of c's constancy and provides a naturalistic, operationally complete phenomenology for relativistic phenomena. The framework is falsifiable through predictions about substrate coherence fluctuations and threading-rate variations in extreme environments.",
+  
+  "classical_problem": {
+    "question": "Why is c frame-invariant?",
+    "empirical_fact": "c ≈ 2.998 × 10⁸ m/s constant across all reference frames",
+    "verification": "Michelson-Morley experiment, precision tests of special relativity",
+    "einstein_resolution": "Postulated as axiom → Lorentz transformations, time dilation, length contraction",
+    "remaining_mystery": "Postulating invariance ≠ explaining it. Why does nature privilege this speed? Why same for all observers?",
+    "classical_puzzle": "Newtonian velocity addition fails for light. Train + ball = v+u. Light remains c regardless of source/observer motion"
+  },
+  
+  "existing_approaches": {
+    "geometric": {
+      "framework": "Spacetime as Lorentzian manifold with metric signature (-,+,+,+)",
+      "limitation": "c emerges from geometry, but geometry itself assumed"
+    },
+    "symmetry": {
+      "framework": "c as consequence of Poincaré invariance",
+      "limitation": "Explains how c behaves, not why it exists"
+    },
+    "emergent_spacetime": {
+      "framework": "Spacetime emergent from quantum entanglement or information",
+      "limitation": "Promising but doesn't specifically address c's role as generative rate"
+    }
+  },
+  
+  "fabric_resolution": {
+    "core_claim": "c is constant because it is the coherence rate of the substrate from which all frames emerge",
+    "ontological_inversion": {
+      "traditional": "Spacetime is pre-existing stage; light propagates through it",
+      "fabric": "Light comes first. LS is primordial coherence medium from which space/geometry/time emerge"
+    },
+    "c_redefined": "Not speed light 'travels' through space, but rate at which LS generates spatial and temporal structure through threading activity"
+  },
+  
+  "light_substrate": {
+    "definition": "Primordial coherence medium from which space itself is constructed. Not EM radiation propagating through space, but ur-substrate—foundational coherence medium",
+    "properties": {
+      "pre_geometric": "LS exists prior to spatial extension or metric structure",
+      "generative": "All subsequent space, topology, physical structures emerge from LS threading activity",
+      "self_referential": "LS defines its own propagation rate, identified as c",
+      "universal": "Spatially uniform in local coherence rate, accounting for observed isotropy of c"
+    },
+    "threading_activity": "Continuous process weaving fabric of spacetime. First light threaded first space, establishing metric relationships we call distance",
+    "operational_characterization": [
+      "Invariant local coherence rate c",
+      "Generation of spatial metric structure through threading",
+      "Equilibrium emission field observable as CMB"
+    ],
+    "methodology": "Operationally complete phenomenological approach: LS characterized through observable effects, not detailed microphysical mechanism"
+  },
+  
+  "space_emergence": {
+    "principle": "Spatial geometry not container but consequence of LS threading activity",
+    "equation": "g_μν = F[LS, M(x,t)]",
+    "description": "Metric tensor emerges from interaction between LS and memory field. Geometry is derived, not assumed",
+    "low_density_regions": "Intergalactic voids: LS threads uniformly → approximately flat Euclidean geometry",
+    "high_density_regions": "Near M_active concentrations (galactic cores, massive objects): threading denser → curvature (gravitational effects)"
+  },
+  
+  "primordial_origin": {
+    "initial_state": "Point-horizon: dimensionless initiation of coherence without metric structure",
+    "pre_space": "LS did not exist in space; space had not yet been generated",
+    "first_threading": "Spatial extension arose when first LS threading interaction produced distinguishability and memory accumulation",
+    "space_generation": "Universe did not grow into space but generated space through its own history",
+    "accumulated_depth": "Increasing M_active depth produced increasing geometric structure",
+    "current_appearance": "Substrate appears spatially distributed, but is projection of fundamentally non-spatial process extended through continued threading"
+  },
+  
+  "reference_frames_reconceptualized": {
+    "traditional": "Independent coordinate systems",
+    "fabric": "Coherence patterns emerging from LS",
+    "components": "Observers, measuring rods, clocks = structures woven from substrate's threading activity",
+    "measurement_paradox": {
+      "implication": "When observer measures speed of light, they measure substrate against itself",
+      "analogy": "Using ruler to measure ruler → result necessarily invariant",
+      "equation": "c_measured = Δs/Δτ",
+      "key_insight": "Both Δs (spatial interval) and Δτ (temporal interval) are LS coherence patterns",
+      "scaling": "Numerator and denominator scale identically with observer motion through substrate → ratio constant"
+    }
+  },
+  
+  "time_reconceptualization": {
+    "rejected": "Time as fourth dimension (coordinate t or x⁰ = ct)",
+    "fabric_definition": "Time is threading depth—cumulative action of LS threading through memory density M(x,t)",
+    "equation": "τ = ∫LS·dM(x,t)",
+    "not_coordinate": "Measure of how much light has threaded through active memory configuration",
+    "time_as": "Depth of coherence accumulation, not dimension through which objects move"
+  },
+  
+  "time_dilation_reinterpreted": {
+    "traditional": "Time 'slows down'",
+    "fabric": "Change in threading rate. Light threads through denser/more complex M_active configurations, slowing threading rate",
+    "gravitational": {
+      "equation": "dτ/dt = √(1 + 2Φ/c²)",
+      "interpretation": "Not time slowing but LS taking longer to thread through denser memory fabric"
+    },
+    "velocity": {
+      "equation": "dτ/dt = √(1 - v²/c²)",
+      "interpretation": "Observer motion through LS increases effective threading depth per coordinate time unit"
+    },
+    "no_backward_travel": "Since time is threading depth not dimension, no 'going backward'. LS threads forward through M(x,t), increasing depth monotonically. Temporal paradoxes dissolve"
+  },
+  
+  "c_constancy_resolution": {
+    "core_insight": "c is not speed light travels through space. c is rate at which Light Substrate generates space and time through threading activity",
+    "invariance_explanation": "Every reference frame, measuring device, observer constructed from same substrate at same coherence rate",
+    "why_invariant": "c is the definition of rate itself. Asking why c is constant = asking why 1 is multiplicative identity. True by system structure",
+    "canvas_metaphor": "LS is canvas upon which reality painted. Frames don't measure light against space; frames are patterns emerging from LS",
+    "tautological_necessity": "Of course c is constant—it is the generative medium, not something moving through it"
+  },
+  
+  "comparison_to_einstein": {
+    "einstein_approach": "c is constant (postulated as axiom)",
+    "fabric_approach": "c is constant because all frames are coherence patterns emerging from LS (derived from ontology)",
+    "mathematical_equivalence": "Both lead to same structure (Lorentz transformations)",
+    "fabric_advantage": "Provides ontological foundation that Einstein's postulate lacks"
+  },
+  
+  "cmb_reinterpretation": {
+    "traditional": "Relic radiation from early universe",
+    "fabric_hypothesis": "Present-time equilibrium emission field of LS—global steady-state coherence level of substrate",
+    "status": "Provisional, requires further development",
+    "deferred": "Full treatment of acoustic peak formation, polarization, damping",
+    "potential_resolution": "Horizon problem: large-scale homogeneity/isotropy may be natural consequences of substrate equilibration rather than requiring inflation"
+  },
+  
+  "memory_field": {
+    "decomposition": "M(x,t) = M_active(x,t) + M_latent(x,t)",
+    "M_active": "Concentrated, dynamically relevant structure (galactic cores, dense regions)",
+    "M_latent": "Diffuse background coherence stored in substrate",
+    "M_latent_as_reservoir": {
+      "definition": "Infinite reservoir of potential memory density from which M_active emerges",
+      "primordial_manifestation": "Primordial LS is first manifestation from M_latent—initial threading establishing substrate itself",
+      "equation": "M_total = M_active + M_latent, M_latent → ∞",
+      "interface": "LS is interface between M_latent and M_active. Through light, potential becomes actual, infinite reservoir manifests as finite observable reality"
+    },
+    "energy_conservation": "Not violation but recognition: universe is open system with respect to M_latent. Localized M_active increases (structure formation, nucleation) draw from latent reservoir without depleting it",
+    "naturalistic_framing": "M_latent resonates with theological concepts but treated as physical (non-observable) component. Not identified with God. Remains within natural philosophy while acknowledging empirical access limits"
+  },
+  
+  "falsifiable_predictions": {
+    "substrate_coherence_fluctuations": {
+      "hypothesis": "If LS is physical substrate not merely mathematical structure, should exhibit quantum fluctuations",
+      "manifestations": [
+        "Tiny variations in local c at quantum scales",
+        "Correlations in vacuum fluctuations differing from standard QED",
+        "Detectable signatures in precision Lorentz invariance tests"
+      ]
+    },
+    "threading_density_variations": {
+      "extreme_environments": "Neutron star surfaces, early universe",
+      "event_horizons": "Threading rate → 0, producing infinite redshift (consistent with GR but derived from substrate dynamics)",
+      "cosmic_voids": "Very low M_active: threading maximally uniform → precisely linear Hubble flow",
+      "high_redshift": "Signatures of different substrate equilibrium states if CMB interpretation correct"
+    },
+    "M_latent_interactions": {
+      "hypothesis": "If M_latent accessible under certain conditions",
+      "observations": [
+        "Anomalous energy injection in extreme astrophysical events",
+        "Deviations from strict energy conservation in cosmological structure formation",
+        "Correlations between baryonic surface density and rotational normalization in galaxies"
+      ]
+    }
+  },
+  
+  "cosmological_implications": {
+    "new_picture": "Not singular Big Bang explosion in space, but continuous nucleation of M_active from M_latent through LS threading",
+    "galaxies_as": "Nucleation centers, not debris from initial explosion",
+    "cmb_as": "Substrate equilibrium, not relic radiation",
+    "lambda_cdm_tensions": {
+      "horizon_problem": "Homogeneity from substrate equilibration, not inflation",
+      "flatness": "Emergent Euclidean geometry from uniform LS threading",
+      "early_massive_structure": "Continuous nucleation allows mature galaxies at high z without fine-tuning",
+      "hubble_tension": "Redshift from cumulative threading effects may resolve early/late-universe discrepancies"
+    }
+  },
+  
+  "quantum_unification": {
+    "questions": [
+      "Relationship between LS and quantum vacuum?",
+      "Can LS be identified with zero-point field?",
+      "Does substrate provide natural ultraviolet cutoff for QFT?"
+    ],
+    "status": "Merits further investigation"
+  },
+  
+  "philosophical_implications": {
+    "challenges": "Both Newtonian absolute space and Einsteinian spacetime manifolds",
+    "proposes": "Dynamic, generative substrate",
+    "debates": [
+      "Reality of spacetime: substantivalism vs relationalism",
+      "Nature of time: eternalism vs presentism",
+      "Relationship between mathematics and physical reality",
+      "Role of consciousness and agency in substrate-based ontology"
+    ]
+  },
+  
+  "key_equations": {
+    "space_emergence": "g_μν = F[LS, M(x,t)]",
+    "time_as_threading": "τ = ∫LS·dM(x,t)",
+    "measurement": "c_measured = Δs/Δτ",
+    "gravitational_threading": "dτ/dt = √(1 + 2Φ/c²)",
+    "velocity_threading": "dτ/dt = √(1 - v²/c²)",
+    "memory_decomposition": "M(x,t) = M_active(x,t) + M_latent(x,t)",
+    "memory_total": "M_total = M_active + M_latent, M_latent → ∞"
+  },
+  
+  "methodology": "Operationally complete phenomenological approach: characterize LS through observable effects rather than requiring detailed microphysical derivation. Allows falsifiable predictions without complete quantum theory of substrate",
+  
+  "companion_work": "Galaxy rotation and cosmological redshift paper establishes memory field M(x,t) dynamics",
+  
+  "significance": "Dissolves mystery of c's constancy by grounding physics in primordial Light Substrate emerging from infinite reservoir M_latent. Provides naturalistic, operationally complete phenomenology that is empirically adequate and conceptually elegant. Establishes LS as foundational element of Fabric Theory—the hinge upon which all subsequent structure, dynamics, and observation depend.",
+  
+  "core_resolution_summary": {
+    "question": "Why is c constant?",
+    "answer": "Because c is not a speed but the generative rate of reality itself. All observers, frames, and measurements are coherence patterns emerging from the Light Substrate at rate c. Measuring light's speed = substrate measuring itself → necessarily invariant",
+    "analogy": "Ruler measuring ruler. Number 1 being multiplicative identity. True by system structure, not empirical accident",
+    "ontological_foundation": "What Einstein postulated as axiom, Fabric derives from ontology: frames ARE LS coherence patterns"
+  }
+}
