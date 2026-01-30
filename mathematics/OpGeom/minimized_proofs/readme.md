@@ -28,7 +28,7 @@ This repository contains compressed, structured proofs for several major mathema
 | `Riemann_Hypothesis_proof.json` | Riemann Hypothesis | **Conditional** (on IOGT) | [10.5281/zenodo.18190384](https://doi.org/10.5281/zenodo.18190384) | 16.4 KB |
 | `P_neq_NP_proof.json` | P versus NP | **Proved** | [10.5281/zenodo.18063338](https://doi.org/10.5281/zenodo.18063338) | 17.9 KB |
 | `bsd_conjecture_arithmetic_shock_dynamics.json` | BSD Conjecture via Arithmetic Shock Dynamics | **Conditional** | [10.5281/zenodo.18356347](https://doi.org/10.5281/zenodo.18356347) | 
-| `bsd_conjecture_operational_selmer_geometry.json` | BSD Conjecture via Operational Selmer Geometry | **Conditional** | [10.5281/zenodo.18356347](https://doi.org/10.5281/zenodo.18356347)(https://doi.org/10.5281/zenodo.18426335) | 26 KB |
+| `bsd_conjecture_operational_selmer_geometry.json` | BSD Conjecture via Operational Selmer Geometry | **Conditional** | [10.5281/zenodo.18356347](https://doi.org/10.5281/zenodo.18356347) | 26 KB |
 
 
 ### Other Major Conjectures
