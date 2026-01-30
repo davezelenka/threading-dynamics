@@ -17,64 +17,45 @@ from scipy.optimize import curve_fit
 from scipy.stats import linregress
 import requests
 import json
+from urllib.parse import quote
+import time
 
 # ============================================================================
 # PART 1: FETCH ELLIPTIC CURVE DATA FROM LMFDB
 # ============================================================================
 
-def fetch_elliptic_curves(conductor_bound=1000, rank_max=3):
-    """
-    Fetch elliptic curves from LMFDB with known ranks and heights.
-    
-    Args:
-        conductor_bound: Maximum conductor to search
-        rank_max: Maximum rank to include
-    
-    Returns:
-        List of elliptic curve data dictionaries
-    """
-    print("Fetching elliptic curves from LMFDB...")
-    print(f"  Conductor bound: {conductor_bound}")
-    print(f"  Max rank: {rank_max}")
-    
+def fetch_stratified_curves(max_conductor=1000, step=200):
     base_url = "https://www.lmfdb.org/api/ec_curves/"
+    all_curves = []
     
-    curves = []
-    
-    # Fetch curves with different ranks
-    for rank in range(0, rank_max + 1):
-        print(f"\n  Fetching rank {rank} curves...")
-        
-        params = {
-            'conductor': {'$lte': conductor_bound},
-            'rank': rank,
-            '_format': 'json',
-            '_limit': 500,  # Limit per request
-        }
-        
-        try:
-            # Build query string manually
-            query_str = f"conductor={{'$lte':{conductor_bound}}}&rank={rank}&_format=json&_limit=500"
-            url = base_url + "?" + query_str
+    for start in range(1, max_conductor, step):
+        end = start + step - 1
+        for rank in [1, 2]:
+            # Simple top-level parameters often bypass the query-parser errors
+            params = {
+                "conductor": f"{start}-{end}", # LMFDB supports range syntax
+                "rank": rank,
+                "_format": "json",
+                "_limit": 100
+            }
             
-            response = requests.get(url, timeout=30)
-            response.raise_for_status()
-            data = response.json()
-            
-            if 'data' in data:
-                rank_curves = data['data']
-                print(f"    Found {len(rank_curves)} curves")
-                curves.extend(rank_curves)
-            else:
-                print(f"    No data returned")
-        
-        except Exception as e:
-            print(f"    Error: {e}")
-            continue
-    
-    print(f"\nTotal curves fetched: {len(curves)}")
-    return curves
-
+            try:
+                print(f"Querying Conductor {start}-{end}, Rank {rank}...")
+                response = requests.get(base_url, params=params, timeout=20)
+                
+                if response.ok:
+                    data = response.json()
+                    if 'data' in data:
+                        all_curves.extend(data['data'])
+                        print(f"  Success: Added {len(data['data'])} curves.")
+                else:
+                    print(f"  HTTP {response.status_code} at window {start}")
+                
+                time.sleep(0.5) 
+            except Exception as e:
+                print(f"  Request failed: {e}")
+                
+    return all_curves
 
 def parse_lmfdb_curve(curve_data):
     """
@@ -352,37 +333,37 @@ def create_visualization(results, output_file='height_floor_scaling.png'):
 # ============================================================================
 
 def main():
-    """
-    Main execution: fetch data, analyze, visualize.
-    """
     print("="*70)
     print("Prediction 2: Elliptic Curve Height Floor Scaling")
     print("The Unreachability Principle (Zelenka 2025)")
     print("="*70)
     
-    # Try to fetch from LMFDB
-    print("\nAttempting to fetch data from LMFDB...")
-    curves = fetch_elliptic_curves(conductor_bound=1000, rank_max=3)
+    # Use the Stratified Fetcher to bypass LMFDB API blocks
+    # We rename it here to match your main() call, or just update the call.
+    print("\nAttempting to fetch data from LMFDB using stratified windows...")
     
-    # Parse curves
+    # UPDATED CALL: Matches the new stratified function
+    curves = fetch_stratified_curves(max_conductor=1000, step=200)
+    
     if curves:
-        print(f"\nParsing {len(curves)} curves...")
         parsed_curves = []
         for curve in curves:
             parsed = parse_lmfdb_curve(curve)
             if parsed:
                 parsed_curves.append(parsed)
         
-        print(f"Successfully parsed: {len(parsed_curves)} curves")
+        print(f"\nSuccessfully parsed: {len(parsed_curves)} curves with valid heights")
         
-        if len(parsed_curves) < 10:
-            print("\nWarning: Few curves parsed. Using synthetic data instead.")
+        if len(parsed_curves) < 5:
+            print("Warning: Insufficient real data. Falling back to synthetic.")
             curves_data = generate_synthetic_curves(100)
         else:
             curves_data = parsed_curves
     else:
-        print("\nNo curves fetched from LMFDB. Using synthetic data.")
+        print("\nNo curves fetched. Check internet or API status.")
         curves_data = generate_synthetic_curves(100)
+
+    # ... rest of your analysis code ...
     
     # Analyze
     print(f"\n{'='*70}")
