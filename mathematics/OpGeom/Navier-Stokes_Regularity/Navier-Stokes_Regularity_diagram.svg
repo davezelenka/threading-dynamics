@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1632"
+   height="1056"
+   viewBox="0 0 1632 1056"
+   version="1.1"
+   id="svg352"
+   sodipodi:docname="Navier-Stokes_Regularity_diagram.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <metadata
+     id="metadata356">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <desc>
+    This graphic provides a formal visualization of the global regularity proof for the 3D incompressible Navier-Stokes equations using the Operational Geometry (OpGeom) framework. Contrary to traditional analytical approaches that focus solely on a priori estimates, this framework identifies a geometric bottleneck inherent in the incompressibility constraint that prevents finite-time blowup.
+	The graphic details the logical chain from Intrinsic Operational Gradient theory to the Beale-Kato-Majda (BKM) criterion, mapping the cost of angular refinement in a 3D fluid.
+	Zelenka_D_D | Operational Geometry Framework | DOI: 10.5281/zenodo.18214940
+  </desc>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="847"
+     id="namedview354"
+     showgrid="false"
+     inkscape:zoom="0.51893939"
+     inkscape:cx="771.13816"
+     inkscape:cy="533.75892"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1518" />
+  <!-- Background -->
+  <!-- Styles and Definitions -->
+  <defs
+     id="defs18">
+    <style
+       id="style4">
+      .title { font-family: Arial, sans-serif; font-weight: bold; }
+      .subtitle { font-family: Arial, sans-serif; font-style: italic; }
+      .math { font-family: 'Times New Roman', serif; font-style: italic; }
+      .label { font-family: Arial, sans-serif; }
+    </style>
+    <marker
+       id="arrowhead"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#2C3E50"
+         id="polygon6" />
+    </marker>
+    <marker
+       id="arrowhead-red"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#E74C3C"
+         id="polygon9" />
+    </marker>
+    <marker
+       id="arrowhead-blue"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#3498DB"
+         id="polygon12" />
+    </marker>
+    <marker
+       id="arrowhead-green"
+       markerWidth="10"
+       markerHeight="10"
+       refX="9"
+       refY="3"
+       orient="auto">
+      <polygon
+         points="0 0, 10 3, 0 6"
+         fill="#27AE60"
+         id="polygon15" />
+    </marker>
+  </defs>
+  <!-- HEADER SECTION -->
+  <text
+     x="814.59521"
+     y="105"
+     class="title"
+     font-size="42px"
+     fill="#2c3e50"
+     text-anchor="middle"
+     stroke="#ffffff"
+     stroke-width="3"
+     paint-order="stroke"
+     id="text20">3D Navier-Stokes Global Regularity Proof</text>
+  <text
+     x="814.59521"
+     y="105"
+     class="title"
+     font-size="42px"
+     fill="#2c3e50"
+     text-anchor="middle"
+     id="text22">3D Navier-Stokes Global Regularity Proof</text>
+  <text
+     x="815.29199"
+     y="140"
+     class="subtitle"
+     font-size="20px"
+     fill="#3498db"
+     text-anchor="middle"
+     id="text24">Operational Geometry Framework | Clay Millennium Problem</text>
+  <!-- PANEL 1: Threading Subspace (Row 1, Col 1) -->
+  <!-- PANEL 2: Dyadic Shells (Row 1, Col 2) -->
+  <!-- PANEL 3: Angular Entropy (Row 1, Col 3) -->
+  <!-- PANEL 4: Threading Deficit (Row 1, Col 4) -->
+  <!-- PANEL 5: Deficit Decay (Row 2, Col 1) -->
+  <!-- PANEL 6: Scaling Separation (Row 2, Col 2) -->
+  <!-- PANEL 7: Entropy Bound (Row 2, Col 3) -->
+  <!-- PANEL 8: Proof Flow (Row 2, Col 4) -->
+  <g
+     id="panel8"
+     transform="translate(1270, 480)">
+    <!-- Box 1: Incompressibility -->
+    <!-- Arrow 1 -->
+    <!-- Box 2: 2D Threading -->
+    <!-- Arrow 2 -->
+    <!-- Box 3: Deficit Decay -->
+    <!-- Arrow 3 -->
+    <!-- Box 4: Entropy Bound -->
+    <!-- Arrow 4 -->
+    <!-- Box 5: Global Regularity -->
+    <g
+       id="g1518"
+       transform="translate(-9.7592773)">
+      <rect
+         x="-894.24072"
+         y="435.00238"
+         width="900"
+         height="35"
+         rx="8"
+         fill="#ecf0f1"
+         stroke="#e74c3c"
+         stroke-width="2"
+         id="rect26" />
+      <text
+         x="-444.5415"
+         y="458.00238"
+         class="label"
+         font-size="16px"
+         fill="#e74c3c"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text28">Key Insight: Incompressibility forces 2D threading → Angular entropy bounded → No blowup</text>
+      <g
+         id="panel1"
+         transform="translate(-1240,-242)">
+        <text
+           x="190"
+           y="-10"
+           class="title"
+           font-size="18px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text30">Threading Subspace Constraint</text>
+        <!-- 3D coordinate system -->
+        <line
+           x1="190"
+           y1="125"
+           x2="280"
+           y2="125"
+           stroke="#2c3e50"
+           stroke-width="2"
+           marker-end="url(#arrowhead)"
+           id="line32" />
+        <line
+           x1="190"
+           y1="125"
+           x2="190"
+           y2="35"
+           stroke="#2c3e50"
+           stroke-width="2"
+           marker-end="url(#arrowhead)"
+           id="line34" />
+        <line
+           x1="190"
+           y1="125"
+           x2="145"
+           y2="170"
+           stroke="#2c3e50"
+           stroke-width="2"
+           stroke-dasharray="5, 5"
+           opacity="0.5"
+           marker-end="url(#arrowhead)"
+           id="line36" />
+        <!-- Wavevector k -->
+        <line
+           x1="190"
+           y1="125"
+           x2="250"
+           y2="65"
+           stroke="#e74c3c"
+           stroke-width="3"
+           marker-end="url(#arrowhead-red)"
+           id="line38" />
+        <text
+           x="260"
+           y="60"
+           class="math"
+           font-size="20px"
+           fill="#e74c3c"
+           font-weight="bold"
+           id="text40">k</text>
+        <!-- 2D plane perpendicular to k -->
+        <ellipse
+           cx="190"
+           cy="125"
+           rx="80"
+           ry="50"
+           fill="#3498db"
+           opacity="0.3"
+           stroke="#3498db"
+           stroke-width="2"
+           transform="rotate(-30,190,125)"
+           id="ellipse42" />
+        <rect
+           x="90"
+           y="210"
+           width="200"
+           height="30"
+           rx="5"
+           fill="#ffffff"
+           stroke="#3498db"
+           stroke-width="2"
+           id="rect44" />
+        <text
+           x="190"
+           y="230"
+           class="math"
+           font-size="14px"
+           fill="#3498db"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text46">V⊥ₖ (2D threading plane)</text>
+        <rect
+           x="70"
+           y="5"
+           width="240"
+           height="25"
+           rx="5"
+           fill="#ecf0f1"
+           opacity="0.9"
+           id="rect48" />
+        <text
+           x="190"
+           y="22"
+           class="math"
+           font-size="13px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text50">∇·u = 0 ⇒ û(k) ⊥ k</text>
+      </g>
+      <g
+         id="panel2"
+         transform="translate(-830,-242)">
+        <text
+           x="190"
+           y="-10"
+           class="title"
+           font-size="18px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text53">Dyadic Shell Structure</text>
+        <!-- Concentric circles -->
+        <circle
+           cx="190"
+           cy="125"
+           r="40"
+           fill="none"
+           stroke="#27ae60"
+           stroke-width="3"
+           id="circle55" />
+        <circle
+           cx="190"
+           cy="125"
+           r="70"
+           fill="none"
+           stroke="#3498db"
+           stroke-width="3"
+           id="circle57" />
+        <circle
+           cx="190"
+           cy="125"
+           r="100"
+           fill="none"
+           stroke="#f39c12"
+           stroke-width="3"
+           id="circle59" />
+        <circle
+           cx="190"
+           cy="125"
+           r="130"
+           fill="none"
+           stroke="#e74c3c"
+           stroke-width="3"
+           id="circle61" />
+        <!-- Labels -->
+        <circle
+           cx="220"
+           cy="95"
+           r="15"
+           fill="#ffffff"
+           stroke="#27ae60"
+           stroke-width="2"
+           id="circle63" />
+        <text
+           x="220"
+           y="100"
+           class="math"
+           font-size="14px"
+           fill="#27ae60"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text65">S₀</text>
+        <circle
+           cx="240"
+           cy="75"
+           r="15"
+           fill="#ffffff"
+           stroke="#3498db"
+           stroke-width="2"
+           id="circle67" />
+        <text
+           x="240"
+           y="80"
+           class="math"
+           font-size="14px"
+           fill="#3498db"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text69">S₁</text>
+        <circle
+           cx="260"
+           cy="55"
+           r="15"
+           fill="#ffffff"
+           stroke="#f39c12"
+           stroke-width="2"
+           id="circle71" />
+        <text
+           x="260"
+           y="60"
+           class="math"
+           font-size="14px"
+           fill="#f39c12"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text73">S₂</text>
+        <circle
+           cx="280"
+           cy="35"
+           r="15"
+           fill="#ffffff"
+           stroke="#e74c3c"
+           stroke-width="2"
+           id="circle75" />
+        <text
+           x="280"
+           y="40"
+           class="math"
+           font-size="14px"
+           fill="#e74c3c"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text77">S₃</text>
+        <rect
+           x="60"
+           y="210"
+           width="260"
+           height="30"
+           rx="5"
+           fill="#ecf0f1"
+           opacity="0.9"
+           id="rect79" />
+        <text
+           x="190"
+           y="230"
+           class="math"
+           font-size="13px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text81">Sⱼ = {k: 2ʲ ≤ |k| &lt; 2ʲ⁺¹}</text>
+        <text
+           x="190"
+           y="15"
+           class="label"
+           font-size="13px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text83">Energy shells in Fourier space</text>
+      </g>
+      <g
+         id="panel3"
+         transform="translate(-420,-242)">
+        <text
+           x="190"
+           y="-10"
+           class="title"
+           font-size="18px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text86">Angular Entropy Hⱼ</text>
+        <!-- Pie chart showing angular bins -->
+        <path
+           d="M 190,125 V 25 a 100,100 0 0 1 70.36,21.45 z"
+           fill="#440154"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path88" />
+        <path
+           d="m 190,125 70.36,-78.55 a 100,100 0 0 1 23.42,38.91 z"
+           fill="#482878"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path90" />
+        <path
+           d="m 190,125 93.78,-39.64 a 100,100 0 0 1 0,79.28 z"
+           fill="#3e4a89"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path92" />
+        <path
+           d="m 190,125 93.78,39.64 a 100,100 0 0 1 -23.42,38.91 z"
+           fill="#31688e"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path94" />
+        <path
+           d="m 190,125 70.36,78.55 A 100,100 0 0 1 190,225 Z"
+           fill="#26828e"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path96" />
+        <path
+           d="M 190,125 V 225 A 100,100 0 0 1 119.64,203.55 Z"
+           fill="#1f9e89"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path98" />
+        <path
+           d="m 190,125 -70.36,78.55 A 100,100 0 0 1 96.22,164.64 Z"
+           fill="#35b779"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path100" />
+        <path
+           d="M 190,125 96.22,164.64 A 100,100 0 0 1 190,25 Z"
+           fill="#fde725"
+           opacity="0.7"
+           stroke="#ffffff"
+           stroke-width="2"
+           id="path102" />
+        <rect
+           x="40"
+           y="210"
+           width="300"
+           height="30"
+           rx="5"
+           fill="#ecf0f1"
+           opacity="0.9"
+           id="rect104" />
+        <text
+           x="190"
+           y="230"
+           class="math"
+           font-size="12px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text106">Hⱼ = -Σ (Eⱼ,α/Eⱼ) log(Eⱼ,α/Eⱼ)</text>
+        <text
+           x="190"
+           y="15"
+           class="label"
+           font-size="13px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text108">Directional energy distribution</text>
+      </g>
+      <g
+         id="panel4"
+         transform="translate(-10,-242)">
+        <text
+           x="190"
+           y="-10"
+           class="title"
+           font-size="18px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text111">Threading Deficit Dⱼ</text>
+        <!-- Noncoplanar triad vectors -->
+        <line
+           x1="190"
+           y1="125"
+           x2="260"
+           y2="95"
+           stroke="#e74c3c"
+           stroke-width="3"
+           marker-end="url(#arrowhead-red)"
+           id="line113" />
+        <text
+           x="270"
+           y="95"
+           class="math"
+           font-size="16px"
+           fill="#e74c3c"
+           font-weight="bold"
+           id="text115">k₁</text>
+        <line
+           x1="190"
+           y1="125"
+           x2="160"
+           y2="55"
+           stroke="#3498db"
+           stroke-width="3"
+           marker-end="url(#arrowhead-blue)"
+           id="line117" />
+        <text
+           x="150"
+           y="50"
+           class="math"
+           font-size="16px"
+           fill="#3498db"
+           font-weight="bold"
+           id="text119">k₂</text>
+        <line
+           x1="190"
+           y1="125"
+           x2="130"
+           y2="185"
+           stroke="#27ae60"
+           stroke-width="3"
+           marker-end="url(#arrowhead-green)"
+           id="line121" />
+        <text
+           x="120"
+           y="195"
+           class="math"
+           font-size="16px"
+           fill="#27ae60"
+           font-weight="bold"
+           id="text123">k₃</text>
+        <!-- Parallelepiped volume indicator -->
+        <polygon
+           points="260,95 230,65 190,125 "
+           fill="#f39c12"
+           opacity="0.2"
+           stroke="#f39c12"
+           stroke-width="2"
+           id="polygon125" />
+        <rect
+           x="60"
+           y="210"
+           width="260"
+           height="30"
+           rx="5"
+           fill="#ecf0f1"
+           opacity="0.9"
+           id="rect127" />
+        <text
+           x="190"
+           y="230"
+           class="math"
+           font-size="12px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text129">Dⱼ ~ |k₁·(k₂×k₃)|</text>
+        <text
+           x="190"
+           y="15"
+           class="label"
+           font-size="13px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text131">Noncoplanar triad penalty</text>
+      </g>
+      <g
+         id="panel5"
+         transform="translate(-1240,100)">
+        <text
+           x="190"
+           y="-10"
+           class="title"
+           font-size="18px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text134">Exponential Deficit Decay</text>
+        <!-- Axes -->
+        <line
+           x1="50"
+           y1="200"
+           x2="330"
+           y2="200"
+           stroke="#2c3e50"
+           stroke-width="2"
+           id="line136" />
+        <line
+           x1="50"
+           y1="200"
+           x2="50"
+           y2="30"
+           stroke="#2c3e50"
+           stroke-width="2"
+           id="line138" />
+        <!-- Grid -->
+        <line
+           x1="50"
+           y1="170"
+           x2="330"
+           y2="170"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line140" />
+        <line
+           x1="50"
+           y1="140"
+           x2="330"
+           y2="140"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line142" />
+        <line
+           x1="50"
+           y1="110"
+           x2="330"
+           y2="110"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line144" />
+        <line
+           x1="50"
+           y1="80"
+           x2="330"
+           y2="80"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line146" />
+        <line
+           x1="50"
+           y1="50"
+           x2="330"
+           y2="50"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line148" />
+        <!-- Decay curves -->
+        <path
+           d="m 50,50 q 70,10 140,50 70,40 140,80"
+           fill="none"
+           stroke="#e74c3c"
+           stroke-width="3"
+           opacity="0.8"
+           id="path150" />
+        <path
+           d="m 50,50 q 50,30 100,80 50,50 180,65"
+           fill="none"
+           stroke="#3498db"
+           stroke-width="3"
+           opacity="0.8"
+           id="path152" />
+        <path
+           d="m 50,50 q 30,50 60,100 30,50 220,48"
+           fill="none"
+           stroke="#27ae60"
+           stroke-width="3"
+           opacity="0.8"
+           id="path154" />
+        <!-- Labels -->
+        <text
+           x="190"
+           y="225"
+           class="label"
+           font-size="14px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text156">Time t</text>
+        <text
+           x="30"
+           y="125"
+           class="math"
+           font-size="14px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           font-weight="bold"
+           transform="rotate(-90,30,125)"
+           id="text158">Dⱼ(t)</text>
+        <!-- Legend -->
+        <rect
+           x="250"
+           y="40"
+           width="70"
+           height="60"
+           rx="5"
+           fill="#ffffff"
+           stroke="#2c3e50"
+           stroke-width="1"
+           opacity="0.9"
+           id="rect160" />
+        <line
+           x1="255"
+           y1="50"
+           x2="275"
+           y2="50"
+           stroke="#e74c3c"
+           stroke-width="3"
+           id="line162" />
+        <text
+           x="280"
+           y="53"
+           class="label"
+           font-size="10px"
+           fill="#2c3e50"
+           id="text164">j=0</text>
+        <line
+           x1="255"
+           y1="70"
+           x2="275"
+           y2="70"
+           stroke="#3498db"
+           stroke-width="3"
+           id="line166" />
+        <text
+           x="280"
+           y="73"
+           class="label"
+           font-size="10px"
+           fill="#2c3e50"
+           id="text168">j=1</text>
+        <line
+           x1="255"
+           y1="90"
+           x2="275"
+           y2="90"
+           stroke="#27ae60"
+           stroke-width="3"
+           id="line170" />
+        <text
+           x="280"
+           y="93"
+           class="label"
+           font-size="10px"
+           fill="#2c3e50"
+           id="text172">j=2</text>
+        <rect
+           x="80"
+           y="215"
+           width="220"
+           height="30"
+           rx="5"
+           fill="#ecf0f1"
+           stroke="#e74c3c"
+           stroke-width="2"
+           id="rect174" />
+        <text
+           x="190"
+           y="235"
+           class="math"
+           font-size="11px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text176">dDⱼ/dt ≤ -ν2³ʲDⱼ + inflow</text>
+      </g>
+      <g
+         id="panel6"
+         transform="translate(-830,100)">
+        <text
+           x="190"
+           y="-10"
+           class="title"
+           font-size="18px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text179">Dissipation vs Inflow</text>
+        <!-- Log scale axes -->
+        <line
+           x1="50"
+           y1="200"
+           x2="330"
+           y2="200"
+           stroke="#2c3e50"
+           stroke-width="2"
+           id="line181" />
+        <line
+           x1="50"
+           y1="200"
+           x2="50"
+           y2="30"
+           stroke="#2c3e50"
+           stroke-width="2"
+           id="line183" />
+        <!-- Grid lines -->
+        <line
+           x1="50"
+           y1="180"
+           x2="330"
+           y2="180"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line185" />
+        <line
+           x1="50"
+           y1="140"
+           x2="330"
+           y2="140"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line187" />
+        <line
+           x1="50"
+           y1="100"
+           x2="330"
+           y2="100"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line189" />
+        <line
+           x1="50"
+           y1="60"
+           x2="330"
+           y2="60"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line191" />
+        <!-- Dissipation curve (steep) -->
+        <path
+           d="m 70,195 46,-15 46,-40 46,-60 46,-40 46,-10"
+           fill="none"
+           stroke="#27ae60"
+           stroke-width="3"
+           marker-start="url(#circle-green)"
+           marker-mid="url(#circle-green)"
+           marker-end="url(#circle-green)"
+           id="path193" />
+        <circle
+           cx="70"
+           cy="195"
+           r="5"
+           fill="#27ae60"
+           id="circle195" />
+        <circle
+           cx="116"
+           cy="180"
+           r="5"
+           fill="#27ae60"
+           id="circle197" />
+        <circle
+           cx="162"
+           cy="140"
+           r="5"
+           fill="#27ae60"
+           id="circle199" />
+        <circle
+           cx="208"
+           cy="80"
+           r="5"
+           fill="#27ae60"
+           id="circle201" />
+        <circle
+           cx="254"
+           cy="40"
+           r="5"
+           fill="#27ae60"
+           id="circle203" />
+        <circle
+           cx="300"
+           cy="30"
+           r="5"
+           fill="#27ae60"
+           id="circle205" />
+        <!-- Inflow curve (shallow) -->
+        <path
+           d="m 70,195 46,-5 46,-10 46,-15 46,-20 46,-25"
+           fill="none"
+           stroke="#e74c3c"
+           stroke-width="3"
+           id="path207" />
+        <rect
+           x="65"
+           y="190"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect209" />
+        <rect
+           x="111"
+           y="185"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect211" />
+        <rect
+           x="157"
+           y="175"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect213" />
+        <rect
+           x="203"
+           y="160"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect215" />
+        <rect
+           x="249"
+           y="140"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect217" />
+        <rect
+           x="295"
+           y="115"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect219" />
+        <!-- Labels -->
+        <text
+           x="190"
+           y="225"
+           class="label"
+           font-size="14px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text221">Shell j</text>
+        <text
+           x="30"
+           y="125"
+           class="label"
+           font-size="14px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           font-weight="bold"
+           transform="rotate(-90,30,125)"
+           id="text223">Rate</text>
+        <!-- Legend -->
+        <rect
+           x="60"
+           y="40"
+           width="130"
+           height="50"
+           rx="5"
+           fill="#ffffff"
+           stroke="#2c3e50"
+           stroke-width="1"
+           opacity="0.9"
+           id="rect225" />
+        <circle
+           cx="70"
+           cy="56"
+           r="4"
+           fill="#27ae60"
+           id="circle227" />
+        <text
+           x="80"
+           y="59"
+           class="label"
+           font-size="10px"
+           fill="#2c3e50"
+           id="text229">Dissipation ~ν2³ʲ</text>
+        <rect
+           x="66"
+           y="70"
+           width="8"
+           height="8"
+           fill="#e74c3c"
+           id="rect231" />
+        <text
+           x="80"
+           y="77"
+           class="label"
+           font-size="10px"
+           fill="#e74c3c"
+           id="text233">Inflow ~2²ʲ</text>
+        <rect
+           x="120"
+           y="233"
+           width="140"
+           height="30"
+           rx="5"
+           fill="#27ae60"
+           opacity="0.8"
+           id="rect235" />
+        <text
+           x="190"
+           y="251"
+           class="label"
+           font-size="12px"
+           fill="#ffffff"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text237">Separation: 2⁵ʲ ≫ 1</text>
+      </g>
+      <g
+         id="panel7"
+         transform="translate(-420,100)">
+        <text
+           x="190"
+           y="-10"
+           class="title"
+           font-size="18px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text240">Bounded Angular Entropy</text>
+        <!-- Axes -->
+        <line
+           x1="50"
+           y1="200"
+           x2="330"
+           y2="200"
+           stroke="#2c3e50"
+           stroke-width="2"
+           id="line242" />
+        <line
+           x1="50"
+           y1="200"
+           x2="50"
+           y2="30"
+           stroke="#2c3e50"
+           stroke-width="2"
+           id="line244" />
+        <!-- Grid -->
+        <line
+           x1="50"
+           y1="170"
+           x2="330"
+           y2="170"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line246" />
+        <line
+           x1="50"
+           y1="140"
+           x2="330"
+           y2="140"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line248" />
+        <line
+           x1="50"
+           y1="110"
+           x2="330"
+           y2="110"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line250" />
+        <line
+           x1="50"
+           y1="80"
+           x2="330"
+           y2="80"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line252" />
+        <line
+           x1="50"
+           y1="50"
+           x2="330"
+           y2="50"
+           stroke="#2c3e50"
+           stroke-width="0.5"
+           opacity="0.3"
+           stroke-dasharray="3, 3"
+           id="line254" />
+        <!-- Initial entropy -->
+        <path
+           d="m 60,150 35,-5 35,-3 35,-2 35,-1 35,-1 35,-1 h 35"
+           fill="none"
+           stroke="#3498db"
+           stroke-width="3"
+           opacity="0.7"
+           id="path256" />
+        <circle
+           cx="60"
+           cy="150"
+           r="5"
+           fill="#3498db"
+           id="circle258" />
+        <circle
+           cx="95"
+           cy="145"
+           r="5"
+           fill="#3498db"
+           id="circle260" />
+        <circle
+           cx="130"
+           cy="142"
+           r="5"
+           fill="#3498db"
+           id="circle262" />
+        <circle
+           cx="165"
+           cy="140"
+           r="5"
+           fill="#3498db"
+           id="circle264" />
+        <circle
+           cx="200"
+           cy="139"
+           r="5"
+           fill="#3498db"
+           id="circle266" />
+        <circle
+           cx="235"
+           cy="138"
+           r="5"
+           fill="#3498db"
+           id="circle268" />
+        <circle
+           cx="270"
+           cy="137"
+           r="5"
+           fill="#3498db"
+           id="circle270" />
+        <circle
+           cx="305"
+           cy="137"
+           r="5"
+           fill="#3498db"
+           id="circle272" />
+        <!-- Bounded entropy -->
+        <path
+           d="m 60,120 35,-2 35,-1 35,-1 h 35 l 35,-1 h 35 35"
+           fill="none"
+           stroke="#e74c3c"
+           stroke-width="3"
+           id="path274" />
+        <rect
+           x="55"
+           y="115"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect276" />
+        <rect
+           x="90"
+           y="113"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect278" />
+        <rect
+           x="125"
+           y="112"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect280" />
+        <rect
+           x="160"
+           y="111"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect282" />
+        <rect
+           x="195"
+           y="111"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect284" />
+        <rect
+           x="230"
+           y="110"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect286" />
+        <rect
+           x="265"
+           y="110"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect288" />
+        <rect
+           x="300"
+           y="110"
+           width="10"
+           height="10"
+           fill="#e74c3c"
+           id="rect290" />
+        <!-- Fill between curves -->
+        <polygon
+           points="60,120 60,150 95,145 130,142 165,140 200,139 235,138 270,137 305,137 305,115 270,115 235,115 200,116 165,116 130,117 95,118 "
+           fill="#f39c12"
+           opacity="0.2"
+           id="polygon292" />
+        <!-- Labels -->
+        <text
+           x="190"
+           y="225"
+           class="label"
+           font-size="14px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           font-weight="bold"
+           id="text294">Shell j</text>
+        <text
+           x="30"
+           y="125"
+           class="math"
+           font-size="14px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           font-weight="bold"
+           transform="rotate(-90,30,125)"
+           id="text296">Hⱼ(t)</text>
+        <!-- Legend -->
+        <rect
+           x="60"
+           y="40"
+           width="100"
+           height="50"
+           rx="5"
+           fill="#ffffff"
+           stroke="#2c3e50"
+           stroke-width="1"
+           opacity="0.9"
+           id="rect298" />
+        <circle
+           cx="70"
+           cy="52"
+           r="4"
+           fill="#3498db"
+           id="circle300" />
+        <text
+           x="80"
+           y="55"
+           class="label"
+           font-size="10px"
+           fill="#3498db"
+           id="text302">Hⱼ(0)</text>
+        <rect
+           x="66"
+           y="66"
+           width="8"
+           height="8"
+           fill="#e74c3c"
+           id="rect304" />
+        <text
+           x="80"
+           y="73"
+           class="label"
+           font-size="10px"
+           fill="#e74c3c"
+           id="text306">Hⱼ(t) bound</text>
+        <rect
+           x="70"
+           y="215"
+           width="240"
+           height="30"
+           rx="5"
+           fill="#ecf0f1"
+           stroke="#3498db"
+           stroke-width="2"
+           id="rect308" />
+        <text
+           x="190"
+           y="235"
+           class="math"
+           font-size="11px"
+           fill="#2c3e50"
+           text-anchor="middle"
+           id="text310">Hⱼ(t) ≤ Hⱼ(0) + C/(ν2⁴ʲ)</text>
+      </g>
+      <text
+         x="180"
+         y="90"
+         class="title"
+         font-size="18px"
+         fill="#2c3e50"
+         text-anchor="middle"
+         id="text313">Proof Chain</text>
+      <rect
+         x="50"
+         y="130"
+         width="260"
+         height="30"
+         rx="8"
+         fill="#3498db"
+         stroke="#ffffff"
+         stroke-width="2"
+         opacity="0.8"
+         id="rect315" />
+      <text
+         x="180"
+         y="146"
+         class="label"
+         font-size="11px"
+         fill="#ffffff"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text317">Incompressibility</text>
+      <text
+         x="180"
+         y="156"
+         class="math"
+         font-size="10px"
+         fill="#ffffff"
+         text-anchor="middle"
+         id="text319">∇·u = 0</text>
+      <line
+         x1="180"
+         y1="160"
+         x2="180"
+         y2="175"
+         stroke="#000000"
+         stroke-width="2"
+         marker-end="url(#arrowhead)"
+         id="line321" />
+      <rect
+         x="50"
+         y="175"
+         width="260"
+         height="25"
+         rx="8"
+         fill="#3498db"
+         stroke="#ffffff"
+         stroke-width="2"
+         opacity="0.8"
+         id="rect323" />
+      <text
+         x="180"
+         y="192"
+         class="label"
+         font-size="11px"
+         fill="#ffffff"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text325">2D Threading Constraint</text>
+      <line
+         x1="180"
+         y1="200"
+         x2="180"
+         y2="215"
+         stroke="#000000"
+         stroke-width="2"
+         marker-end="url(#arrowhead)"
+         id="line327" />
+      <rect
+         x="50"
+         y="215"
+         width="260"
+         height="30"
+         rx="8"
+         fill="#27ae60"
+         stroke="#ffffff"
+         stroke-width="2"
+         opacity="0.8"
+         id="rect329" />
+      <text
+         x="180"
+         y="233"
+         class="label"
+         font-size="11px"
+         fill="#ffffff"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text331">Deficit Decay</text>
+      <text
+         x="180"
+         y="241"
+         class="math"
+         font-size="10px"
+         fill="#ffffff"
+         text-anchor="middle"
+         id="text333">Dⱼ ~ e⁻ᵛ²³ʲᵗ</text>
+      <line
+         x1="180"
+         y1="245"
+         x2="180"
+         y2="260"
+         stroke="#000000"
+         stroke-width="2"
+         marker-end="url(#arrowhead)"
+         id="line335" />
+      <rect
+         x="50"
+         y="260"
+         width="260"
+         height="30"
+         rx="8"
+         fill="#f39c12"
+         stroke="#ffffff"
+         stroke-width="2"
+         opacity="0.8"
+         id="rect337" />
+      <text
+         x="180"
+         y="276"
+         class="label"
+         font-size="11px"
+         fill="#ffffff"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text339">Entropy Bound</text>
+      <text
+         x="180"
+         y="286"
+         class="math"
+         font-size="10px"
+         fill="#ffffff"
+         text-anchor="middle"
+         id="text341">Σⱼ 2⁻⁴ʲ &lt; ∞</text>
+      <line
+         x1="180"
+         y1="290"
+         x2="180"
+         y2="305"
+         stroke="#000000"
+         stroke-width="2"
+         marker-end="url(#arrowhead)"
+         id="line343" />
+      <rect
+         x="50"
+         y="305"
+         width="260"
+         height="30"
+         rx="8"
+         fill="#e74c3c"
+         stroke="#ffffff"
+         stroke-width="2"
+         opacity="0.8"
+         id="rect345" />
+      <text
+         x="180"
+         y="323"
+         class="label"
+         font-size="11px"
+         fill="#ffffff"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text347">Global Regularity</text>
+      <text
+         x="180"
+         y="333"
+         class="label"
+         font-size="12px"
+         fill="#ffffff"
+         text-anchor="middle"
+         font-weight="bold"
+         id="text349">✓ QED</text>
+    </g>
+  </g>
+</svg>
