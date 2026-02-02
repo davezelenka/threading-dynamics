@@ -674,11 +674,6 @@
         "tags": ["axiom", "foundational"]
       },
       
-      "intrinsic_operational_gradient_axiom": {
-        "definition": "Every physically realizable computation admits intrinsic operational gradient satisfying non-degeneracy, information-theoretic scaling, irreducibility, and representation independence.",
-        "tags": ["axiom", "IOGT"]
-      },
-      
       "axiom_of_finite_physical_realizability": {
         "definition": "Physical substrates have finite coherence capacity, finite memory capacity, and finite operational rate.",
         "tags": ["axiom", "physics"]
@@ -696,6 +691,11 @@
     },
     
     "Specific_Theorems": {
+            
+      "Intrinsic_Operational_Gradient_Theorem": {
+        "definition": "Every physically realizable computation admits intrinsic operational gradient satisfying non-degeneracy, information-theoretic scaling, irreducibility, and representation independence.",
+        "tags": ["theorem", "IOGT"]
+      },
       
       "Plus_One_Theorem": {
         "definition": "Addition of unity (+1) is the minimal non-trivial operational increment; generates natural numbers and their structure.",
