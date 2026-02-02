@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "math": "http://www.w3.org/1998/Math/MathML",
+    "doi": "https://doi.org/"
+  },
+  "meta": {
+    "title": "The Plus-One Theorem: Coordination as the Irreducible Bottleneck in Parallel Computation",
+    "subtitle": "Why Parallelism Cannot Collapse Exponential Search",
+    "author": "Zelenka_D",
+    "author_orcid": null,
+    "claim": "PROVED",
+    "problem": "P_vs_NP_Coordination_Lower_Bound",
+    "framework": ["Operational_Computation", "Causal_Consistency", "Coordination_Theory", "Information_Theory"],
+    "date_created": "2025-01",
+    "version": "1.0",
+    "status": "preprint",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "keywords": [
+      "P vs NP",
+      "coordination cost",
+      "parallel computation",
+      "causal consistency",
+      "Plus-One theorem",
+      "operational computation",
+      "enumeration lower bound",
+      "nondeterminism",
+      "Turing machines",
+      "PRAM",
+      "quantum computing limits",
+      "relativization barrier",
+      "information-theoretic lower bound"
+    ],
+    "subject_classification": [
+      "Computer Science - Computational Complexity",
+      "Computer Science - Theory of Computation",
+      "Physics - Information Theory",
+      "Mathematics - Logic"
+    ],
+    "links": {
+      "zenodo_record": "https://zenodo.org/records/18168395",
+      "doi": "https://doi.org/10.5281/zenodo.18168395",
+      "repository": "https://github.com/davezelenka/threading-dynamics",
+      "companion_work": "https://doi.org/10.5281/zenodo.18063338"
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. (2025). The Plus-One Theorem: Coordination as the Irreducible Bottleneck in Parallel Computation. Zenodo. https://doi.org/10.5281/zenodo.18168395",
+      "bibtex": "@misc{zelenka2025plusone,\n  author = {Zelenka, D.},\n  title = {The Plus-One Theorem: Coordination as the Irreducible Bottleneck in Parallel Computation},\n  year = {2025},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.18168395},\n  url = {https://doi.org/10.5281/zenodo.18168395}\n}"
+    },
+    "references": {
+      "cook1971": "Cook, S.A. (1971). The Complexity of Theorem-Proving Procedures. STOC '71, pp.151-158",
+      "baker1975": "Baker, T., Gill, J., Solovay, R. (1975). Relativizations of the P=?NP Question. SIAM J. Computing 4(4), pp.431-442",
+      "razborov1997": "Razborov, A.A. & Rudich, S. (1997). Natural Proofs. J. Computer and System Sciences 55(1), pp.24-35",
+      "aaronson2009": "Aaronson, S. & Wigderson, A. (2009). Algebrization: A New Barrier in Complexity Theory. ACM TOCT 1(1)",
+      "shannon1948": "Shannon, C.E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal 27, pp.379-423",
+      "landauer1961": "Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. IBM J. R&D 5(3), pp.183-191",
+      "berut2012": "Bérut, A. et al. (2012). Experimental Verification of Landauer's Principle. Nature 483, pp.187-189",
+      "grover1996": "Grover, L.K. (1996). A Fast Quantum Mechanical Algorithm for Database Search. STOC '96, pp.212-219",
+      "nielsen2000": "Nielsen, M.A. & Chuang, I.L. (2000). Quantum Computation and Quantum Information. Cambridge University Press",
+      "zelenka2025pnp": "Zelenka, D. (2025). P≠NP from the Intrinsic Operational Gradient Theorem. Zenodo. doi:10.5281/zenodo.18063338"
+    }
+  },
+
+  "abstract": "We establish that for any computational problem requiring examination of m distinct possibilities, coordination cost is Ω(m) in all computational models that obey causal consistency—including abstract Turing machines when their operational structure is made explicit. We prove the Plus-One Theorem: even with m processors executing m tasks, an additional coordination layer must perform Ω(m) sequential work to enumerate, distribute, collect, and aggregate. This holds for both physical implementations (where thermodynamics enforces causality) and abstract models (where the axioms of computation themselves enforce it). The result demonstrates that P ≠ NP for all computational models where the existential quantifier must be operationally constructed rather than assumed as a primitive oracle.",
+
+  "central_question": {
+    "statement": "Can exponential parallelism collapse exponential search to polynomial time?",
+    "specific": "For SAT with n variables and 2^n candidate assignments, does deploying 2^n processors (each verifying one assignment in polynomial time) yield a polynomial-time algorithm?",
+    "intuitive_answer": "Yes—each processor works polynomially, so wall-clock time is polynomial",
+    "actual_answer": "No. Coordination of 2^n processors requires Ω(2^n) work. Total computational cost exponential regardless of work distribution"
+  },
+
+  "foundational_definitions": {
+    "operational_computation": {
+      "definition": "Computation is a causal process consisting of: (1) States: configurations of substrate, (2) Operations: transitions between states, (3) Causal ordering: operations occur in sequence; later depend on earlier, (4) Identifiability: distinct entities (processors, memory, tape cells) are distinguishable",
+      "applies_to": [
+        "Physical computers: states = physical configurations, operations = energy-driven transitions",
+        "Abstract TMs: states = (tape, head position, state), operations = transition function δ",
+        "Parallel models: states = processor configurations, operations = local computation + communication"
+      ]
+    },
+    "causal_consistency": {
+      "definition": "Computational model is causally consistent if: (a) Temporal precedence: effects follow causes, (b) No action-at-a-distance: information transfer requires explicit communication, (c) Distinct identity: entities have distinguishable addresses/IDs, (d) Assignment causality: for processor P to execute task T, prior operation establishing P←T must exist",
+      "justification": {
+        "physical_computers": "Required by special relativity, thermodynamics, information theory",
+        "abstract_TMs": "Required by model definition—transition function δ operates sequentially on well-defined states",
+        "any_operational_model": "Required by notion of 'operation' as state transformation with temporal extent"
+      }
+    },
+    "coordination_layer": {
+      "definition": "For parallel system with k processors executing m tasks T={T_1,...,T_m}, coordination layer must perform four phases",
+      "phases": {
+        "enumeration_E": "Identify all m tasks",
+        "distribution_D": "Assign each task T_i to some processor P_j",
+        "collection_C": "Gather results from all processors",
+        "aggregation_A": "Compute final output from collected results"
+      }
+    }
+  },
+
+  "plus_one_theorem": {
+    "statement": "In any causally consistent computational model examining m distinct possibilities: Cost_coord = Cost_E + Cost_D + Cost_C + Cost_A = Ω(m). Holds regardless of processor count k, even if k ≥ m",
+    "proof": {
+      "enumeration_bound": {
+        "claim": "Cost_E = Ω(m)",
+        "argument": "Distributing m tasks requires identifying what they are. Enumerating m distinct objects requires generating m distinct objects = Ω(m) operations",
+        "objection": "'Enumeration is trivial—just count 0 to m-1!'",
+        "response": "Counting IS enumeration. Each increment is an operation. Counting 0 to m-1 requires exactly m state transitions. Cannot be reduced"
+      },
+      "distribution_bound": {
+        "claim": "Cost_D = Ω(m)",
+        "argument": "For each task T_i, coordinator must: identify target processor (address computation), communicate task specification to that processor. Must happen for all m tasks",
+        "objection": "'In PRAM, processors read shared memory—no explicit distribution needed!'",
+        "response": "Hides distribution in addressing mechanism. For P_i to read correct task: (1) P_i must know identity i, (2) P_i must compute addr(i), (3) Someone must have written T_i to addr(i). Step 3 requires Ω(m) write operations. Distribution relocated to memory initialization, not eliminated"
+      },
+      "collection_bound": {
+        "claim": "Cost_C = Ω(k)",
+        "argument": "Coordinator must receive results from all k processors that performed work. If k=m, this is Ω(m) communication operations"
+      },
+      "aggregation_bound": {
+        "claim": "Cost_A = Ω(k)",
+        "argument": "Final output requires examining all k results. Existential ('any YES?') requires checking all if answer NO. Universal ('all YES?') requires checking all if answer YES. Both Ω(k) worst case",
+        "objection": "'Binary tree aggregation achieves O(log m) time!'",
+        "response": "Binary tree achieves O(log m) DEPTH (wall-clock) but Ω(m) WORK (total operations). Tree has m leaves, m-1 internal nodes, each performing OR. Total: Ω(m) operations. Tree structure IS coordination hierarchy—organizes but does not eliminate work"
+      },
+      "total": "Cost_coord = Ω(m) + Ω(m) + Ω(k) + Ω(k) = Ω(m) for k ≤ m"
+    }
+  },
+
+  "coordination_cannot_be_parallelized": {
+    "proposition": "Attempts to parallelize coordination lead to infinite regress without reducing total cost below Ω(m)",
+    "proof": {
+      "setup": "Deploy c sub-coordinators C_1,...,C_c to distribute m tasks in parallel",
+      "meta_coordinator_required": [
+        "Meta-coordinator C' must partition m tasks among c sub-coordinators",
+        "C' must enumerate all m tasks: Ω(m) operations",
+        "C' must distribute m/c tasks to each sub-coordinator: Ω(c) operations"
+      ],
+      "total_meta_cost": "Ω(m) + Ω(c). For c < m this is Ω(m)—no improvement",
+      "regress": "Parallelizing meta-coordinator requires meta-meta-coordinator, etc. At every level, someone must enumerate all m tasks: Ω(m)",
+      "fundamental_barrier": "Enumeration of m distinct objects requires Ω(m) operations regardless of organizational structure"
+    }
+  },
+
+  "application_to_turing_machines": {
+    "dtm_sequential_bottleneck": {
+      "definition": "M = (Q, Σ, Γ, δ, q_0, q_accept, q_reject). δ: Q×Γ → Q×Γ×{L,R}",
+      "key_insight": "State set Q is finite. For DTM to resolve NP-complete search space of 2^n possibilities, information must pass through finite δ sequentially. Unrolling into parallel structure redistributes complexity into coordination of multiple heads—does not eliminate it"
+    },
+    "parallelism_hidden_costs": {
+      "multi_tape_multi_head": "If k heads, δ must process input vector of length k. δ itself becomes the Plus-One coordinator. Examining and updating k heads requires Ω(k) internal work per step",
+      "PRAM": "Assumes m processors access shared memory in O(1). Ignores address decoder logic. In any causal implementation, routing m requests to m locations requires structure with Ω(m) total gates",
+      "NTM": "Specification language, not operational model. Defines existence of path but provides no mechanism for 'Global OR' required to halt machine"
+    },
+    "branch_construction_cost": {
+      "fallacy": "'Branches cost nothing'",
+      "enumeration": "Splitting into m branches requires m-1 fork operations",
+      "selection": "Final result depends on ultimate Plus-One (root/observer) aggregating results. Even if branches free, ultimate selection from 2^n possibilities is Ω(2^n) information-gathering task"
+    },
+    "model_classification": {
+      "sequential_TM": { "nature": "Operational", "plus_one_status": "Explicit (single head is bottleneck)" },
+      "parallel_PRAM": { "nature": "Operational", "plus_one_status": "Hidden (cost resides in bus/routing)" },
+      "NTM_oracle": { "nature": "Specification", "plus_one_status": "Absent (assumes 'magic' selection)" },
+      "quantum_QTM": { "nature": "Probabilistic", "plus_one_status": "Ghostly (selection via collapse)" }
+    }
+  },
+
+  "quantum_exception": {
+    "proposition": "Quantum computing does not bypass Plus-One",
+    "probabilistic_barrier": "If wavefunction collapse viewed as 'Agency of Nature' performing global selection (ultimate Plus-One), it remains non-deterministic. To achieve certainty P=1 for NP-complete problem, QC generally requires samples or gate complexity reflecting underlying search space",
+    "grover_limit": "Grover's algorithm provides only quadratic speedup Ω(√m), not exponential. Optimality proved by Nielsen & Chuang (2000)",
+    "resolution": "The 'Ghost' can guess but cannot guarantee. To turn quantum guess into deterministic answer, coordination cost returns via repeated trials or error correction. Plus-One invariant maintained"
+  },
+
+  "barriers_addressed": {
+    "relativization": {
+      "barrier": "Proofs that relativize cannot separate P from NP—oracles exist relative to which P=NP (Baker, Gill, Solovay 1975)",
+      "response": "Plus-One does not relativize. It analyzes coordination cost, not oracle queries. Relativization applies to proofs counting queries to oracle. We analyze operational structure of parallelism itself",
+      "irrelevance_of_oracle_worlds": "Oracles where P=NP are magical—solve NP-complete in one query. Our theorem: in models WITHOUT magic oracles, coordination unavoidable"
+    },
+    "natural_proofs": {
+      "barrier": "Circuit lower bounds using 'natural' properties face cryptographic obstacles (Razborov & Rudich 1997)",
+      "response": "Not proving circuit lower bounds. Proving coordination lower bounds in parallel models. Different argument type—does not rely on circuit complexity or pseudo-random functions"
+    },
+    "algebrization": {
+      "barrier": "Extension of relativization to algebraic oracles (Aaronson & Wigderson 2009)",
+      "response": "Same as relativization—not reasoning about algebraic oracle access. Analyzing coordination structure"
+    },
+    "why_barriers_dont_apply": {
+      "barriers_restrict": ["Reasoning about computational power via oracle queries", "Proving lower bounds via circuit complexity", "Using properties of Boolean functions"],
+      "plus_one_uses": ["Analyzes coordination as operational primitive", "Proves lower bounds via causal structure requirements", "Uses information-theoretic arguments (distinguishing m tasks requires Ω(m) operations)"],
+      "conclusion": "Fundamentally different argument type. Does not engage with machinery barriers restrict"
+    }
+  },
+
+  "metaphysical_resolution": {
+    "turing_machine_nature": {
+      "as_computability_definition": "When defining computability (Church-Turing thesis), TMs are mathematical formalisms. Specify what functions are computable, not how efficiently. P vs NP not answered by formalism—only tells us SAT is decidable, not efficiently decidable",
+      "as_operational_model": "When analyzing complexity (time/space), TMs become operational models. Asking 'how many steps?'. Must be analyzed as causal process—each step follows previous. Transition function operates sequentially. Plus-One applies to this interpretation"
+    },
+    "agency_question": {
+      "question": "Could hierarchical meta-processors with emergent oracle-like properties defeat Plus-One?",
+      "flat_parallelism": "One coordinator manages all m processors. Cost: Ω(m)",
+      "hierarchical_parallelism": "Tree of coordinators. Each level has coordination cost. Total across all levels: still Ω(m). May reduce DEPTH (log tree height) but not TOTAL WORK",
+      "emergent_agency_as_oracle": "If hierarchical organization creates genuine emergent properties (whole exceeding sum of parts), amounts to assuming oracle. Such oracles violate causal consistency—extract global information without requisite Ω(m) information-gathering",
+      "biological_mechanisms": {
+        "pre_wired_structure": "Evolutionary cost already paid—amortizes but doesn't eliminate coordination",
+        "analog_dynamics": "Approximate rather than exact solutions—relaxes problem",
+        "parallel_sampling": "Trading accuracy for speed—still requires Ω(m) total samples for m distinct possibilities"
+      },
+      "invariance_principle": "Whether systems viewed as having agency (biological), being mechanical (switching), or possessing emergent integration (IIT)—coordination requirements remain. Switches need wiring. Agents need communication. Emergent wholes need information flow from parts. Plus-One unavoidable: distinguishing m possibilities requires processing Ω(m) bits regardless of substrate's organizational philosophy"
+    }
+  },
+
+  "main_corollary": {
+    "statement": "P ≠ NP for all causally consistent computational models (including DTMs, parallel TMs, physical computers)",
+    "proof": {
+      "setup": "Let Π be NP-complete (e.g. SAT) with solution space m = 2^n",
+      "plus_one_application": "By Plus-One Theorem, any causally consistent model requires Cost_coord = Ω(2^n)",
+      "processor_cases": {
+        "1_processor": "Time Ω(2^n)",
+        "poly_n_processors": "Time Ω(2^n / poly(n)) = Ω(2^n / n^k) = exponential",
+        "2^n_processors": "Coordination Ω(2^n)"
+      },
+      "conclusion": "All cases: total work exponential in n. P defined by polynomial time/work. Therefore Π ∉ P. As Π arbitrary NP-complete: P ≠ NP"
+    },
+    "scope": {
+      "applies_to": ["All physical computers (thermodynamics)", "All operational TM models (causal structure)", "All models treating computation as sequential process"],
+      "does_not_apply_to": ["Nondeterministic TMs (assume guessing primitive)", "Oracle TMs (assume one-step answers)", "Specification models (define classes, not algorithms)"],
+      "note": "Latter are not realistic computational models—abstractions for studying computability"
+    }
+  },
+
+  "key_insight": "NP was never hard—OR was. OR requires coordination. Coordination requires a coordinator. The coordinator is the Plus-One. The Plus-One pays the price",
+
+  "summary_of_results": [
+    "Parallelism relocates cost from time to coordination—does not eliminate it",
+    "P ≠ NP for all operational models (including abstract TMs analyzed operationally)",
+    "Existential quantifier in NP is irreducible—manifests as coordination cost",
+    "Models appearing to evade this (NTMs, oracles) are specification languages, not operational models"
+  ],
+
+  "key_equations": {
+    "coordination_cost": "Cost_coord = Cost_E + Cost_D + Cost_C + Cost_A = Ω(m)",
+    "enumeration": "Cost_E = Ω(m)",
+    "distribution": "Cost_D = Ω(m)",
+    "collection": "Cost_C = Ω(k)",
+    "aggregation": "Cost_A = Ω(k)",
+    "sat_coordination": "Cost_coord(SAT, n variables) = Ω(2^n)",
+    "parallel_time_1proc": "T(1 processor) = Ω(2^n)",
+    "parallel_time_poly": "T(poly(n) processors) = Ω(2^n / n^k) = exponential",
+    "parallel_time_exp": "T(2^n processors) = coordination Ω(2^n)",
+    "grover_bound": "T(quantum search) = Ω(√m) — quadratic not exponential speedup"
+  }
+}
