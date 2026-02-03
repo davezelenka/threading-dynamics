@@ -11,874 +11,1113 @@
     "date_created": "2025-02",
     "language": "en",
     "license": "CC-BY-4.0",
-    "purpose": "Formal vocabulary reference",
-    "framework": "Operational_Geometry"
+    "purpose": "Formal vocabulary reference for operations-primary mathematics framework",
+    "framework": "Operational_Geometry",
+    "author": "Zelenka_D_D",
+    "total_entries": 108
   },
-  
+
   "glossary": {
     
-    "Core_Operational_Primitives": {
-      
-      "operation": {
-        "definition": "The ontologically primitive notion; operations generate objects as stable invariants, not performed on pre-existing objects.",
-        "equation": "f: X → X",
-        "tags": ["foundational", "ontology"]
-      },
-      
-      "substrate": {
-        "definition": "The continuous field capable of supporting operations; an active medium with coherence capacity, memory retention, and resistance to threading.",
-        "tags": ["foundational", "physical"]
-      },
-      
-      "threading": {
-        "definition": "The act of performing operations on substrate, leaving traces (memory) and creating paths through configuration space; threading depth corresponds to operational accumulation.",
-        "tags": ["foundational", "process"]
-      },
-      
-      "configuration": {
-        "definition": "A possible arrangement of substrate after operations; temporary stabilities in ongoing operational processes, not static snapshots.",
-        "tags": ["foundational", "state"]
-      },
-      
-      "coherence": {
-        "definition": "The degree to which operational patterns reinforce rather than interfere; substrate's ability to maintain consistent threading patterns.",
-        "tags": ["foundational", "stability"]
-      },
-      
-      "memory": {
-        "definition": "Accumulated operational history encoded in substrate; persistent structural changes from operations, not storage of information.",
-        "equation": "mass ∝ memory_density",
-        "tags": ["foundational", "physical"]
-      },
-      
-      "invariant": {
-        "definition": "What remains unchanged under specified operations; stable structures emerging from operational constraints.",
-        "tags": ["foundational", "mathematics"]
-      },
-      
-      "teleology": {
-        "definition": "Directedness toward intended forms inherent in operational structure; forms are attractors satisfying coherence, stability, and efficiency constraints.",
-        "tags": ["foundational", "philosophy"]
-      }
+    "operation": {
+      "definition": "The ontologically primitive notion; operations generate objects as stable invariants, not performed on pre-existing objects.",
+      "equation": "f: X → X",
+      "tags": ["foundational", "ontology", "primitive"],
+      "related_terms": ["substrate", "threading", "configuration"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Operational_Gradient_Theory": {
-      
-      "IOGT": {
-        "full_name": "Intrinsic Operational Gradient Theorem",
-        "definition": "Composable operations induce intrinsic gradients of difficulty; forward construction and reverse reconstruction are generically asymmetric.",
-        "doi": "10.5281/zenodo.18062553",
-        "tags": ["theorem", "foundational"]
-      },
-      
-      "operational_gradient": {
-        "definition": "Intrinsic directional structure of substrate making some operations easier than others; cannot be eliminated, reflects fundamental asymmetries.",
-        "equation": "∇V(x) where V is operational potential",
-        "tags": ["IOGT", "geometry"]
-      },
-      
-      "gradient_aligned": {
-        "definition": "Operations proceeding with (downhill along) the operational gradient; polynomial cost, includes evaluation and verification.",
-        "complexity": "P (polynomial time)",
-        "tags": ["IOGT", "complexity"]
-      },
-      
-      "gradient_opposed": {
-        "definition": "Operations proceeding against (uphill) the operational gradient; exponential cost, includes search and inversion.",
-        "complexity": "NP (nondeterministic polynomial)",
-        "tags": ["IOGT", "complexity"]
-      },
-      
-      "operational_potential": {
-        "definition": "Minimal effort to reach state x from initial state; V(x) = inf{C(w) | w(x₀) = x}.",
-        "equation": "V: X → ℝ≥0",
-        "tags": ["IOGT", "cost"]
-      },
-      
-      "operational_cost": {
-        "definition": "Effort/resources required to execute operation sequence; C: O* → ℝ≥0 satisfying monotonicity and subadditivity.",
-        "properties": ["monotonic", "subadditive", "nontrivial"],
-        "tags": ["IOGT", "complexity"]
-      },
-      
-      "forward_construction": {
-        "definition": "Building output from input by applying operations; typically gradient-aligned with polynomial cost.",
-        "example": "multiplication: a × b",
-        "tags": ["IOGT", "operations"]
-      },
-      
-      "reverse_reconstruction": {
-        "definition": "Determining input from output by inverting operations; typically gradient-opposed with exponential cost.",
-        "example": "factorization: find a,b given a×b",
-        "tags": ["IOGT", "operations"]
-      },
-      
-      "composition_amplification": {
-        "definition": "Asymmetry magnifies under operational composition; ε-forward-easy can require exp(n)-reverse-hard.",
-        "tags": ["IOGT", "complexity"]
-      }
+
+    "substrate": {
+      "definition": "The continuous field capable of supporting operations; an active medium with coherence capacity, memory retention, and resistance to threading. Ontological foundation.",
+      "properties": ["coherence_capacity", "memory_retention", "operational_resistance"],
+      "tags": ["foundational", "ontology", "medium"],
+      "related_terms": ["operation", "threading", "coherence"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Overhead_and_Coordination": {
-      
-      "IOT": {
-        "full_name": "Irreducible Overhead Theorem",
-        "definition": "Exponential operational cost cannot be perfectly conserved across time-parallelism trade; overhead factor (1+c) is irreducible.",
-        "doi": "10.5281/zenodo.18073069",
-        "tags": ["theorem", "complexity"]
-      },
-      
-      "coordination_cost": {
-        "definition": "Extra operational overhead required to synchronize parallel branches; arises from substrate limitations.",
-        "equation": "overhead ≥ (1+c)·base_cost where c > 0",
-        "tags": ["IOT", "parallelism"]
-      },
-      
-      "branch_potential": {
-        "definition": "Information-theoretic measure of distinct computational branches; log₂(branch_count).",
-        "equation": "H = log₂(N) where N = number of branches",
-        "tags": ["IOT", "information"]
-      },
-      
-      "irreducible_overhead": {
-        "definition": "Minimum unavoidable coordination cost in parallel operations; cannot be eliminated by algorithmic optimization.",
-        "tags": ["IOT", "fundamental_limit"]
-      }
+
+    "threading": {
+      "definition": "The act of performing operations on substrate, leaving traces (memory) and creating paths through configuration space; threading depth corresponds to operational accumulation.",
+      "tags": ["foundational", "process", "core_concept"],
+      "related_terms": ["operation", "substrate", "memory", "configuration_space"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Mathematical_Constants_as_Attractors": {
-      
-      "attractor": {
-        "definition": "Stable configuration toward which operations converge; fixed points where f(x*) = x*.",
-        "tags": ["dynamical_systems", "stability"]
-      },
-      
-      "fixed_point": {
-        "definition": "Configuration unchanged by operation; x* satisfying f(x*) = x*.",
-        "equation": "f(x*) = x*",
-        "tags": ["dynamical_systems", "attractors"]
-      },
-      
-      "phi": {
-        "symbol": "φ",
-        "value": "≈ 1.618033988749...",
-        "definition": "Golden ratio; fixed point of x = 1 + 1/x; self-similar growth ratio emerging from additive operations.",
-        "equation": "φ = (1 + √5)/2 = 1 + 1/φ",
-        "alternate_name": "Ω₂",
-        "tags": ["constant", "attractor", "Omega_p"]
-      },
-      
-      "pi": {
-        "symbol": "π",
-        "value": "≈ 3.14159265358979...",
-        "definition": "Ratio of circumference to diameter; operational cost of rotation; emerges from exp(iθ) periodicity.",
-        "equation": "exp(iπ) + 1 = 0",
-        "tags": ["constant", "attractor", "geometry"]
-      },
-      
-      "e": {
-        "symbol": "e",
-        "value": "≈ 2.71828182845904...",
-        "definition": "Natural base; rate at which operations compound continuously; fixed point of continuous growth.",
-        "equation": "e = lim_{n→∞}(1 + 1/n)ⁿ, d/dx eˣ = eˣ",
-        "tags": ["constant", "attractor", "calculus"]
-      },
-      
-      "i": {
-        "symbol": "i",
-        "definition": "Imaginary unit; 90-degree rotation operator; represents orthogonal threading in perpendicular operational dimension.",
-        "equation": "i² = -1",
-        "tags": ["constant", "complex", "rotation"]
-      },
-      
-      "Omega_p": {
-        "symbol": "Ωₚ",
-        "definition": "Prime-indexed attractor family; fixed point of x = 1 + 1/x^(p-1) for prime p; each prime generates unique depth.",
-        "equation": "Ωₚ = fixed point of x = 1 + 1/x^(p-1)",
-        "examples": {
-          "Omega_2": "φ ≈ 1.618 (golden ratio)",
-          "Omega_3": "≈ 1.465",
-          "Omega_5": "≈ 1.194",
-          "Omega_7": "≈ 1.106"
-        },
-        "convergence": "Ωₚ → 1 as p → ∞",
-        "tags": ["constant", "attractor", "prime"]
-      },
-      
-      "threading_aggregate": {
-        "definition": "Operations compose by threading through previous results, creating nested coherence; mechanism stabilizing at fixed points.",
-        "tags": ["mechanism", "stability"]
-      }
+
+    "configuration": {
+      "definition": "A possible arrangement of substrate after operations; temporary stabilities in ongoing operational processes, not static snapshots.",
+      "tags": ["foundational", "state", "dynamic"],
+      "related_terms": ["configuration_space", "operation", "substrate"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Arithmetic_and_Number_Theory": {
-      
-      "number": {
-        "definition": "Operational invariant of counting and grouping operations; repeatable procedures yielding same structural pattern.",
-        "tags": ["foundational", "arithmetic"]
-      },
-      
-      "zero": {
-        "symbol": "0",
-        "definition": "Additive identity; operation that changes nothing; configuration before any counting operation begins.",
-        "properties": ["additive_identity", "multiplicative_absorber"],
-        "tags": ["number", "fundamental"]
-      },
-      
-      "one": {
-        "symbol": "1",
-        "definition": "Multiplicative identity; minimal threading; single operational step; unit by which all operations are measured.",
-        "properties": ["multiplicative_identity", "generator"],
-        "tags": ["number", "fundamental"]
-      },
-      
-      "prime": {
-        "definition": "Irreducible multiplicative atom; number divisible only by 1 and itself; fundamental building blocks of multiplication.",
-        "properties": ["irreducible", "infinite", "irregular_distribution"],
-        "tags": ["number", "structure"]
-      },
-      
-      "composite": {
-        "definition": "Product of primes; non-prime natural number greater than 1; factorizable into irreducible components.",
-        "tags": ["number", "structure"]
-      },
-      
-      "addition": {
-        "symbol": "+",
-        "definition": "Sequential threading; performing one operation after another; operational composition along single dimension.",
-        "properties": ["associative", "commutative", "identity:0"],
-        "tags": ["operation", "arithmetic"]
-      },
-      
-      "multiplication": {
-        "symbol": "×",
-        "definition": "Repeated threading; iterating an operation; operational iteration creating amplification.",
-        "properties": ["associative", "commutative", "identity:1", "distributes_over:+"],
-        "tags": ["operation", "arithmetic"]
-      },
-      
-      "exponentiation": {
-        "symbol": "^",
-        "definition": "Iterated multiplication; operations on operations; meta-operational counting of iteration depth.",
-        "properties": ["non-associative", "non-commutative", "rapid_growth"],
-        "tags": ["operation", "arithmetic"]
-      },
-      
-      "factorial": {
-        "symbol": "!",
-        "definition": "Cascading multiplication; product of all threading operations up to n; measures permutation space size.",
-        "equation": "n! = n × (n-1) × ... × 2 × 1",
-        "tags": ["operation", "combinatorics"]
-      }
+
+    "configuration_space": {
+      "definition": "Space of all possible substrate configurations; each point represents distinct threading arrangement; operations are paths through this space.",
+      "tags": ["foundational", "geometry", "space"],
+      "related_terms": ["configuration", "operation", "manifold"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Navier_Stokes_Specific": {
-      
-      "angular_entropy": {
-        "symbol": "Hⱼ",
-        "definition": "Shannon entropy of directional energy distribution in dyadic shell j; measures angular complexity of velocity field.",
-        "equation": "Hⱼ = -Σ_α (Eⱼ,α/Eⱼ)·log(Eⱼ,α/Eⱼ)",
-        "tags": ["Navier-Stokes", "entropy"]
-      },
-      
-      "threading_deficit": {
-        "symbol": "Dⱼ",
-        "definition": "Energy locked in 3D noncoplanar triads; quantifies steepness of operational gradient for angular refinement.",
-        "equation": "Dⱼ = Σ_{k₁+k₂+k₃=0} |k₁·(k₂×k₃)|·|û^(k₁)||û^(k₂)||û^(k₃)|",
-        "tags": ["Navier-Stokes", "geometry"]
-      },
-      
-      "dyadic_shell": {
-        "symbol": "Sⱼ",
-        "definition": "Fourier modes in frequency band {k: 2ʲ ≤ |k| < 2^(j+1)}; partitions frequency space by scale.",
-        "tags": ["Navier-Stokes", "Fourier"]
-      },
-      
-      "threading_subspace": {
-        "symbol": "V_k^⊥",
-        "definition": "2D plane perpendicular to wavevector k; incompressibility forces velocity modes into this reduced dimensional space.",
-        "equation": "V_k^⊥ = {ξ: ξ·k = 0}",
-        "dimension": 2,
-        "tags": ["Navier-Stokes", "geometry"]
-      },
-      
-      "incompressibility": {
-        "definition": "Constraint div(u) = 0 forcing energy to thread through 2D planes; provides geometric penalty preventing blowup.",
-        "equation": "∇·u = 0",
-        "tags": ["Navier-Stokes", "constraint"]
-      },
-      
-      "viscous_dissipation": {
-        "definition": "Energy decay from viscosity ν; rate ~ν|k|² dominates deficit growth by factor 2^(4j) at shell j.",
-        "equation": "-ν|k|²|û^(k)|²",
-        "tags": ["Navier-Stokes", "physics"]
-      },
-      
-      "BKM_criterion": {
-        "full_name": "Beale-Kato-Majda criterion",
-        "definition": "Bounded vorticity gradients imply global regularity; operational geometry achieves this via bounded angular entropy.",
-        "tags": ["Navier-Stokes", "regularity"]
-      }
+
+    "coherence": {
+      "definition": "The degree to which operational patterns reinforce rather than interfere; substrate's ability to maintain consistent threading patterns. Measure of structural stability.",
+      "tags": ["foundational", "stability", "measure"],
+      "related_terms": ["coherence_capacity", "coherence_threshold", "substrate"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Geometry_and_Topology": {
-      
-      "point": {
-        "definition": "Minimal operational localization; configuration with zero extension; operational address in substrate space.",
-        "tags": ["geometry", "foundational"]
-      },
-      
-      "line": {
-        "definition": "One-dimensional threading path; configurations reachable by threading in single direction; operational trajectory.",
-        "tags": ["geometry", "foundational"]
-      },
-      
-      "plane": {
-        "definition": "Two-dimensional operational surface; configurations reachable by threading in two independent directions.",
-        "tags": ["geometry", "foundational"]
-      },
-      
-      "dimension": {
-        "definition": "Operational degrees of freedom; number of independent threading directions available.",
-        "tags": ["geometry", "foundational"]
-      },
-      
-      "distance": {
-        "definition": "Operational separation; minimum threading required to transform one configuration into another; measured in operational steps.",
-        "tags": ["geometry", "metric"]
-      },
-      
-      "continuity": {
-        "definition": "Operational smoothness; arbitrarily small input changes produce arbitrarily small output changes; coherence preservation under infinitesimal threading.",
-        "tags": ["geometry", "analysis"]
-      },
-      
-      "derivative": {
-        "symbol": "d/dx",
-        "definition": "Rate of operational change; how fast threading produces new configurations; instantaneous threading velocity.",
-        "tags": ["calculus", "rate"]
-      },
-      
-      "integral": {
-        "symbol": "∫",
-        "definition": "Accumulated operational effect; total structural change from continuous threading; sums infinitesimal operations.",
-        "tags": ["calculus", "accumulation"]
-      },
-      
-      "limit": {
-        "symbol": "lim",
-        "definition": "Operational convergence; configuration approached as threading depth increases; asymptotic attractor of operational sequences.",
-        "tags": ["calculus", "convergence"]
-      },
-      
-      "symmetry": {
-        "definition": "Operational invariance under transformation; threading that leaves structure unchanged; operations that are their own inverse.",
-        "tags": ["geometry", "invariance"]
-      },
-      
-      "manifold": {
-        "definition": "Locally flat operational space appearing linear under small threading but curving globally; space where local operations compose into global structure.",
-        "tags": ["geometry", "topology"]
-      },
-      
-      "topology": {
-        "definition": "Operational connectedness; properties preserved under continuous threading; studies structures surviving deformation without tearing.",
-        "tags": ["geometry", "invariance"]
-      }
+
+    "coherence_capacity": {
+      "definition": "Substrate's maximum ability to maintain consistent threading patterns; finite capacity limits instantiable mathematical structures. Physical constraint on mathematics.",
+      "tags": ["foundational", "constraint", "physical"],
+      "related_terms": ["coherence", "substrate", "axiom_finite_physical_realizability"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Physical_Quantities": {
-      
-      "mass": {
-        "definition": "Memory density; accumulated operational history in substrate region; quantifies threading retention.",
-        "tags": ["physics", "conservation"]
-      },
-      
-      "energy": {
-        "definition": "Operational potential; capacity for future threading stored in current configuration; unexecuted operations.",
-        "tags": ["physics", "conservation"]
-      },
-      
-      "momentum": {
-        "definition": "Directed operational potential; energy with preferred threading direction; vectored capacity for future operations.",
-        "tags": ["physics", "conservation"]
-      },
-      
-      "force": {
-        "definition": "Coherence gradient; operational pressure from memory density differences; substrate's tendency toward operational equilibrium.",
-        "equation": "F = -∇V",
-        "tags": ["physics", "dynamics"]
-      },
-      
-      "charge": {
-        "definition": "Operational polarity; sign of electromagnetic threading coupling; determines whether operations attract or repel.",
-        "tags": ["physics", "electromagnetism"]
-      },
-      
-      "spin": {
-        "definition": "Topological winding; rotational threading depth encoded in substrate structure; operational chirality.",
-        "tags": ["physics", "quantum"]
-      },
-      
-      "time": {
-        "definition": "Threading depth; operational accumulation, not duration; counted in operations performed.",
-        "tags": ["physics", "foundational"]
-      },
-      
-      "space": {
-        "definition": "Operational separation; distance measured in threading steps needed to connect configurations; metric of operational accessibility.",
-        "tags": ["physics", "foundational"]
-      },
-      
-      "gravity": {
-        "definition": "Memory density gradient; operational flow toward regions of accumulated threading; substrate's response to mass concentration.",
-        "tags": ["physics", "general_relativity"]
-      },
-      
-      "field": {
-        "definition": "Distributed operational potential; continuous mapping assigning operational capacity to every point; substrate property guiding threading.",
-        "tags": ["physics", "classical"]
-      }
+
+    "coherence_threshold": {
+      "definition": "Critical operational complexity beyond which substrate cannot maintain consistent threading; quantum decoherence and computational intractability. Boundary of realizability.",
+      "tags": ["foundational", "boundary", "critical_point"],
+      "related_terms": ["coherence", "coherence_capacity"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Computational_Concepts": {
-      
-      "algorithm": {
-        "definition": "Determinate operational sequence; specified path through configuration space guaranteed to terminate; reproducible threading procedure.",
-        "tags": ["computation", "process"]
-      },
-      
-      "complexity": {
-        "definition": "Threading depth requirement; operational cost to reach result; time/space complexity measures steps/memory.",
-        "tags": ["computation", "cost"]
-      },
-      
-      "P": {
-        "full_name": "Polynomial time",
-        "definition": "Problems solvable by gradient-aligned operations; deterministic polynomial-time algorithms; forward construction class.",
-        "tags": ["complexity", "class"]
-      },
-      
-      "NP": {
-        "full_name": "Nondeterministic polynomial time",
-        "definition": "Problems verifiable in polynomial time; gradient-opposed search problems; reverse reconstruction class.",
-        "tags": ["complexity", "class"]
-      },
-      
-      "recursion": {
-        "definition": "Self-referential threading; operations invoking themselves as sub-operations; operational self-similarity.",
-        "tags": ["computation", "structure"]
-      },
-      
-      "iteration": {
-        "definition": "Repeated operational application; threading same operation multiple times; controlled operational repetition.",
-        "tags": ["computation", "process"]
-      },
-      
-      "information": {
-        "definition": "Operational distinguishability; minimum threading required to differentiate states; operational content of memory.",
-        "tags": ["information_theory", "foundational"]
-      },
-      
-      "entropy": {
-        "definition": "Operational uncertainty; logarithm of indistinguishable threading histories producing same macroscopic configuration; hidden operational degrees of freedom.",
-        "equation": "S = k_B·ln(Ω)",
-        "tags": ["information_theory", "thermodynamics"]
-      },
-      
-      "Turing_machine": {
-        "definition": "Minimal universal threader; simplest operational system capable of any computable threading sequence; defines algorithmic operations boundary.",
-        "tags": ["computation", "foundational"]
-      }
+
+    "memory": {
+      "definition": "Accumulated operational history encoded in substrate; persistent structural changes from operations, not storage of information.",
+      "equation": "mass ∝ memory_density",
+      "tags": ["foundational", "accumulation", "physical"],
+      "related_terms": ["threading", "mass", "substrate"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Set_Theory_and_Logic": {
-      
-      "set": {
-        "definition": "Collection defined by operational membership; predicate determining whether threading included a configuration; operational boundaries.",
-        "tags": ["set_theory", "foundational"]
-      },
-      
-      "union": {
-        "symbol": "∪",
-        "definition": "Combining operational domains; configurations reachable by either operation A or B; operational aggregation.",
-        "tags": ["set_theory", "operation"]
-      },
-      
-      "intersection": {
-        "symbol": "∩",
-        "definition": "Overlapping operational domains; configurations reachable by both operations A and B; operational constraint satisfaction.",
-        "tags": ["set_theory", "operation"]
-      },
-      
-      "function": {
-        "definition": "Operational mapping; rule threading configurations from one domain into another; deterministic operation sequence.",
-        "equation": "f: X → Y",
-        "tags": ["set_theory", "mapping"]
-      },
-      
-      "domain": {
-        "definition": "Operational input space; configurations on which function can operate; where threading begins.",
-        "tags": ["set_theory", "function"]
-      },
-      
-      "range": {
-        "definition": "Operational output space; configurations function can produce; where threading ends.",
-        "tags": ["set_theory", "function"]
-      },
-      
-      "composition": {
-        "symbol": "∘",
-        "definition": "Sequential function application; threading one operation after another; (f∘g)(x) = f(g(x)).",
-        "tags": ["set_theory", "operation"]
-      }
+
+    "attractor": {
+      "definition": "Stable configuration toward which operations converge; fixed points where f(x*) = x*. Mathematical constants (φ, π, e) are attractors in their respective operational spaces.",
+      "equation": "f(x*) = x*",
+      "tags": ["foundational", "stability", "convergence"],
+      "related_terms": ["fixed_point", "limit", "mathematical_constants"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Problem_Classification": {
-      
-      "frontier_problem": {
-        "definition": "Type A problem with low stability and disconnected approaches; needs new operations/dimensions.",
-        "examples": ["Collatz", "Goldbach", "P≠NP"],
-        "tags": ["classification", "open_problems"]
-      },
-      
-      "bridge_problem": {
-        "definition": "Type B problem with moderate stability and emerging coherence; needs attractor connection.",
-        "examples": ["Twin_Primes", "ABC_Conjecture", "BSD_Conjecture"],
-        "tags": ["classification", "open_problems"]
-      },
-      
-      "stable_attractor_problem": {
-        "definition": "Type C problem with high stability and single framework; operate deeply within established structure.",
-        "examples": ["Riemann_Hypothesis"],
-        "tags": ["classification", "open_problems"]
-      },
-      
-      "axiom_boundary_problem": {
-        "definition": "Type D problem with 100+ years no progress; may be undecidable in current axiom system.",
-        "examples": ["Continuum_Hypothesis"],
-        "tags": ["classification", "undecidability"]
-      }
+
+    "axiom_operational_priority": {
+      "definition": "Operations are ontologically prior to objects; objects emerge as stable invariants under repeated operations. Foundational claim of operations-primary mathematics.",
+      "tags": ["axiom", "foundational", "ontology"],
+      "related_terms": ["operation", "attractor"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Advanced_Operational_Concepts": {
-      
-      "operational_depth": {
-        "definition": "Number of sequential threading operations performed; time as operational count, not duration.",
-        "tags": ["operational", "metric"]
-      },
-      
-      "operational_width": {
-        "definition": "Number of parallel threading branches; simultaneous operational possibilities; nondeterministic computation dimension.",
-        "tags": ["operational", "parallelism"]
-      },
-      
-      "operational_locality": {
-        "definition": "Constraint that operations directly thread only nearby substrate regions; non-local effects require mediated paths.",
-        "tags": ["operational", "constraint"]
-      },
-      
-      "coherence_capacity": {
-        "definition": "Substrate's maximum ability to maintain consistent threading patterns; finite capacity limits instantiable mathematical structures.",
-        "tags": ["operational", "substrate"]
-      },
-      
-      "coherence_threshold": {
-        "definition": "Critical operational complexity beyond which substrate cannot maintain consistent threading; quantum decoherence and computational intractability.",
-        "tags": ["operational", "limit"]
-      },
-      
-      "threading_rate": {
-        "definition": "Operations per unit substrate volume; different regions have different rates, perceived as field intensity variations.",
-        "tags": ["operational", "physics"]
-      },
-      
-      "reversible_operation": {
-        "definition": "Operation that can be exactly undone without information loss; all fundamental physical operations are reversible.",
-        "tags": ["operational", "physics"]
-      },
-      
-      "irreversible_operation": {
-        "definition": "Operation discarding information, increasing entropy; measurement, forgetting, thermalization; genuinely loses operational history.",
-        "tags": ["operational", "thermodynamics"]
-      },
-      
-      "configuration_space": {
-        "definition": "Space of all possible substrate configurations; each point represents distinct threading arrangement; operations are paths through this space.",
-        "tags": ["operational", "geometry"]
-      },
-      
-      "operational_flow": {
-        "definition": "Natural direction operations follow due to gradient; geodesics in configuration space; efficient algorithms work with flow.",
-        "tags": ["operational", "dynamics"]
-      }
+
+    "axiom_substrate_reality": {
+      "definition": "There exists a substrate capable of supporting operations with intrinsic properties constraining admissible operations. The medium in which threading occurs.",
+      "tags": ["axiom", "foundational", "ontology"],
+      "related_terms": ["substrate", "operation"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Principles_and_Laws": {
-      
-      "closure_forces_finiteness": {
-        "definition": "Finite closure implies finite components; seeking closure constrains system size.",
-        "tags": ["principle", "structure"]
-      },
-      
-      "density_freezing": {
-        "definition": "Constrained systems develop frozen densities; distributions stabilize under iteration (e.g., π(x) ~ x/ln(x)).",
-        "tags": ["principle", "distribution"]
-      },
-      
-      "irreducibility_fundamental": {
-        "definition": "All structure equals composition of irreducibles; primes are mathematical atoms (Fundamental Theorem of Arithmetic).",
-        "tags": ["principle", "number_theory"]
-      },
-      
-      "absorption_drives_specialization": {
-        "definition": "Absorbing operations lead to stable-attractor stage; systems evolve toward absorbing states (e.g., 0 absorbs in ×).",
-        "tags": ["principle", "dynamics"]
-      },
-      
-      "resonance_creates_harmony": {
-        "definition": "Aligned constraints produce stability and beauty; mathematical beauty equals structural resonance.",
-        "tags": ["principle", "aesthetics"]
-      },
-      
-      "periodic_obstruction_signals_incompatibility": {
-        "definition": "Cycles without convergence indicate fighting constraints; incompatibility manifests as non-termination.",
-        "tags": ["principle", "dynamics"]
-      },
-      
-      "succession_drives_evolution": {
-        "definition": "Mathematical structures evolve from exploratory to stable-attractor stages; closure requirements force expansion (ℕ→ℤ→ℚ→ℝ→ℂ).",
-        "tags": ["principle", "development"]
-      },
-      
-      "attractors_are_invariant": {
-        "definition": "f(x*) = x* means x* is operational invariant; constants are operational equilibria, fixed points of iteration.",
-        "tags": ["principle", "stability"]
-      },
-      
-      "conservation_of_operational_potential": {
-        "definition": "Threading cost must equal or exceed increase in operational potential; energy/complexity cannot be created from nothing.",
-        "tags": ["principle", "conservation"]
-      }
+
+    "axiom_geometric_emergence": {
+      "definition": "Spatial structure (distance, dimension, continuity) emerges from operational substrate threading, not pre-existing. Space is constructed through operations, not given a priori.",
+      "tags": ["axiom", "foundational", "geometry"],
+      "related_terms": ["space", "dimension", "distance"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Axioms": {
-      
-      "axiom_of_operational_priority": {
-        "definition": "Operations are ontologically prior to objects; objects emerge as stable invariants under repeated operations.",
-        "tags": ["axiom", "foundational"]
-      },
-      
-      "axiom_of_substrate_reality": {
-        "definition": "There exists a substrate capable of supporting operations with intrinsic properties constraining admissible operations.",
-        "tags": ["axiom", "foundational"]
-      },
-      
-      "axiom_of_finite_physical_realizability": {
-        "definition": "Physical substrates have finite coherence capacity, finite memory capacity, and finite operational rate.",
-        "tags": ["axiom", "physics"]
-      },
-      
-      "axiom_of_teleological_constraints": {
-        "definition": "Operations are directed toward forms satisfying coherence, stability, efficiency, and beauty constraints; emergent structures are filtered by purposiveness.",
-        "tags": ["axiom", "teleology"]
-      },
-      
-      "axiom_of_geometric_emergence": {
-        "definition": "Spatial structure (distance, dimension, continuity) emerges from operational substrate threading, not pre-existing.",
-        "tags": ["axiom", "geometry"]
-      }
+
+    "axiom_teleological_constraints": {
+      "definition": "Operations are directed toward forms satisfying coherence, stability, efficiency, and beauty constraints; emergent structures are filtered by purposiveness. Not random drift but directed evolution.",
+      "tags": ["axiom", "foundational", "teleology"],
+      "related_terms": ["teleology", "attractor"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Specific_Theorems": {
-            
-      "Intrinsic_Operational_Gradient_Theorem": {
-        "definition": "Every physically realizable computation admits intrinsic operational gradient satisfying non-degeneracy, information-theoretic scaling, irreducibility, and representation independence.",
-        "tags": ["theorem", "IOGT"]
-      },
-      
-      "Plus_One_Theorem": {
-        "definition": "Addition of unity (+1) is the minimal non-trivial operational increment; generates natural numbers and their structure.",
-        "tags": ["theorem", "number_theory"]
-      },
-      
-      "Unreachability_Principle": {
-        "definition": "Certain configurations are unreachable from given initial states by admissible operations; operational accessibility defines possibility.",
-        "tags": ["theorem", "reachability"]
-      },
-      
-      "global_regularity": {
-        "definition": "3D Navier-Stokes equations admit global smooth solutions; incompressibility provides geometric penalty preventing blowup.",
-        "status": "proved (operational geometry)",
-        "tags": ["theorem", "Navier-Stokes"]
-      },
-      
-      "P_neq_NP": {
-        "definition": "P ≠ NP follows from IOGT; gradient-aligned (P) operations cannot reverse gradient-opposed (NP) exponential cost.",
-        "status": "proved (operational geometry)",
-        "tags": ["theorem", "complexity"]
-      }
+
+    "axiom_finite_physical_realizability": {
+      "definition": "Physical substrates have finite coherence capacity, finite memory capacity, and finite operational rate. Constrains which mathematical structures can be physically instantiated.",
+      "tags": ["axiom", "foundational", "physical_constraint"],
+      "related_terms": ["coherence_capacity", "substrate"],
+      "citation": "zelenka2025opgeom"
     },
-    
-    "Special_Structures": {
-      
-      "natural_numbers": {
-        "symbol": "ℕ",
-        "definition": "Generated by +1 operation from 0; exploratory stage of number system evolution.",
-        "tags": ["number_system", "foundational"]
-      },
-      
-      "integers": {
-        "symbol": "ℤ",
-        "definition": "ℕ closed under subtraction; includes negative threading (reverse operations).",
-        "tags": ["number_system", "closure"]
-      },
-      
-      "rationals": {
-        "symbol": "ℚ",
-        "definition": "ℤ closed under division (except by 0); field of fractions; periodic decimal expansions.",
-        "tags": ["number_system", "closure"]
-      },
-      
-      "reals": {
-        "symbol": "ℝ",
-        "definition": "ℚ closed under limits; completion via Cauchy sequences or Dedekind cuts; continuous line.",
-        "tags": ["number_system", "completion"]
-      },
-      
-      "complex_numbers": {
-        "symbol": "ℂ",
-        "definition": "ℝ ∪ {i} where i² = -1; algebraically closed; 2D operational plane.",
-        "tags": ["number_system", "closure"]
-      },
-      
-      "algebraic_numbers": {
-        "definition": "Roots of polynomials with integer coefficients; countable; includes √2, φ.",
-        "tags": ["number_system", "algebraic"]
-      },
-      
-      "transcendental_numbers": {
-        "definition": "Not algebraic; uncountable; transcend polynomial equations; includes π, e.",
-        "tags": ["number_system", "transcendental"]
-      }
+
+    "operational_gradient": {
+      "definition": "Intrinsic directional structure of substrate making some operations easier than others; cannot be eliminated, reflects fundamental asymmetries.",
+      "equation": "∇V(x) where V is operational potential",
+      "tags": ["foundational", "asymmetry", "complexity"],
+      "related_terms": ["operational_potential", "operational_flow", "iogt"],
+      "citation": "zelenka2025iogt"
     },
-    
-    "Fourier_and_Analysis": {
-      
-      "Fourier_mode": {
-        "symbol": "û^(k)",
-        "definition": "Frequency component of field at wavevector k; Fourier transform decomposes fields into operational frequencies.",
-        "tags": ["analysis", "Fourier"]
-      },
-      
-      "wavevector": {
-        "symbol": "k",
-        "definition": "Spatial frequency vector; magnitude |k| is frequency scale, direction is orientation of oscillation.",
-        "tags": ["analysis", "Fourier"]
-      },
-      
-      "frequency_cascade": {
-        "definition": "Energy transfer from large scales (low frequency) to small scales (high frequency); operational flow through scale space.",
-        "tags": ["analysis", "turbulence"]
-      },
-      
-      "spectral_decomposition": {
-        "definition": "Breaking field into frequency components; reveals scale-by-scale operational structure.",
-        "tags": ["analysis", "Fourier"]
-      }
+
+    "operational_potential": {
+      "definition": "Minimal effort to reach state x from initial state.",
+      "equation": "V(x) = inf{C(w) | w(x₀) = x}",
+      "signature": "V: X → ℝ≥0",
+      "tags": ["foundational", "complexity", "measure"],
+      "related_terms": ["operational_gradient", "operational_cost"],
+      "citation": "zelenka2025iogt"
     },
-    
-    "Miscellaneous_Technical_Terms": {
-      
-      "triad": {
-        "definition": "Three-way interaction in Fourier space with k₁+k₂+k₃=0; noncoplanar triads maximize geometric penalty in 3D.",
-        "tags": ["Navier-Stokes", "interaction"]
+
+    "operational_cost": {
+      "definition": "Effort/resources required to execute operation sequence.",
+      "signature": "C: O* → ℝ≥0",
+      "properties": ["monotonic", "subadditive", "nontrivial"],
+      "tags": ["foundational", "complexity", "measure"],
+      "related_terms": ["operational_potential", "computational_complexity"],
+      "citation": "zelenka2025iogt"
+    },
+
+    "operational_flow": {
+      "definition": "Natural direction operations follow due to gradient; geodesics in configuration space; efficient algorithms work with flow. Follows steepest descent of potential.",
+      "tags": ["foundational", "dynamics", "optimization"],
+      "related_terms": ["operational_gradient", "gradient_aligned"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "operational_depth": {
+      "definition": "Number of sequential threading operations performed; time as operational count, not duration. Measures complexity of reaching configuration.",
+      "tags": ["foundational", "complexity", "time"],
+      "related_terms": ["threading", "time", "computational_complexity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "operational_width": {
+      "definition": "Number of parallel threading branches; simultaneous operational possibilities; nondeterministic computation dimension. Measures branching factor.",
+      "tags": ["foundational", "complexity", "parallelism"],
+      "related_terms": ["branch_potential", "np"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "operational_locality": {
+      "definition": "Constraint that operations directly thread only nearby substrate regions; non-local effects require mediated paths. Fundamental causality principle.",
+      "tags": ["foundational", "constraint", "causality"],
+      "related_terms": ["substrate", "threading"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "iogt": {
+      "full_name": "Intrinsic Operational Gradient Theorem",
+      "definition": "Composable operations induce intrinsic gradients of difficulty; forward construction and reverse reconstruction are generically asymmetric. Foundational theorem of operational geometry.",
+      "tags": ["theorem", "foundational", "complexity"],
+      "related_terms": ["operational_gradient", "composition_amplification", "p_neq_np"],
+      "citation": "zelenka2025iogt"
+    },
+
+    "composition_amplification": {
+      "definition": "Asymmetry magnifies under operational composition; ε-forward-easy can require exp(n)-reverse-hard. Explains exponential gaps in complexity.",
+      "tags": ["principle", "complexity", "asymmetry"],
+      "related_terms": ["iogt", "gradient_opposed"],
+      "citation": "zelenka2025iogt"
+    },
+
+    "gradient_aligned": {
+      "definition": "Operations proceeding with (downhill along) the operational gradient; polynomial cost, includes evaluation and verification.",
+      "complexity_class": "P (polynomial time)",
+      "tags": ["complexity", "algorithm", "efficient"],
+      "related_terms": ["p", "operational_flow"],
+      "citation": "zelenka2025iogt"
+    },
+
+    "gradient_opposed": {
+      "definition": "Operations proceeding against (uphill) the operational gradient; exponential cost, includes search and inversion.",
+      "complexity_class": "NP (nondeterministic polynomial)",
+      "tags": ["complexity", "algorithm", "hard"],
+      "related_terms": ["np", "operational_gradient"],
+      "citation": "zelenka2025iogt"
+    },
+
+    "iot": {
+      "full_name": "Irreducible Overhead Theorem",
+      "definition": "Exponential operational cost cannot be perfectly conserved across time-parallelism trade; overhead factor (1+c) is irreducible.",
+      "tags": ["theorem", "complexity", "parallelism"],
+      "related_terms": ["irreducible_overhead", "coordination_cost"],
+      "citation": "zelenka2025iot"
+    },
+
+    "irreducible_overhead": {
+      "definition": "Minimum unavoidable coordination cost in parallel operations; cannot be eliminated by algorithmic optimization. (1+c) factor in IOT.",
+      "tags": ["complexity", "parallelism", "constraint"],
+      "related_terms": ["iot", "coordination_cost"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "coordination_cost": {
+      "definition": "Extra operational overhead required to synchronize parallel branches; arises from substrate limitations.",
+      "equation": "overhead ≥ (1+c) · base_cost where c > 0",
+      "tags": ["complexity", "parallelism", "overhead"],
+      "related_terms": ["irreducible_overhead", "operational_width"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "function": {
+      "definition": "Operational mapping; rule threading configurations from one domain into another; deterministic operation sequence.",
+      "equation": "f: X → Y",
+      "tags": ["operation", "mapping", "fundamental"],
+      "related_terms": ["domain", "range", "composition"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "domain": {
+      "definition": "Operational input space; configurations on which function can operate; where threading begins.",
+      "equation": "dom(f) = {x : f(x) defined}",
+      "tags": ["operation", "space", "input"],
+      "related_terms": ["function", "range"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "range": {
+      "definition": "Operational output space; configurations function can produce; where threading ends.",
+      "equation": "range(f) = {f(x) : x ∈ dom(f)}",
+      "tags": ["operation", "space", "output"],
+      "related_terms": ["function", "domain"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "composition": {
+      "definition": "Sequential function application; threading one operation after another.",
+      "equation": "(f ∘ g)(x) = f(g(x))",
+      "tags": ["operation", "fundamental", "sequential"],
+      "related_terms": ["function", "iteration"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "iteration": {
+      "definition": "Repeated operational application; threading same operation multiple times; controlled operational repetition.",
+      "equation": "f^n(x) = f(f(⋯f(x)⋯))",
+      "tags": ["operation", "repetition", "recursion"],
+      "related_terms": ["composition", "recursion", "attractor"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "recursion": {
+      "definition": "Self-referential threading; operations invoking themselves as sub-operations; operational self-similarity. Enables infinite structures from finite rules.",
+      "tags": ["operation", "self_reference", "infinite"],
+      "related_terms": ["iteration", "self_similarity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "fixed_point": {
+      "definition": "Configuration unchanged by operation; x* satisfying f(x*) = x*. Attractors are fixed points of iteration.",
+      "equation": "f(x*) = x*",
+      "tags": ["stability", "invariant", "attractor"],
+      "related_terms": ["attractor", "iteration"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "limit": {
+      "definition": "Operational convergence; configuration approached as threading depth increases; asymptotic attractor of operational sequences.",
+      "equation": "lim(n→∞) aₙ",
+      "tags": ["convergence", "asymptotic", "analysis"],
+      "related_terms": ["attractor", "iteration"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "derivative": {
+      "definition": "Rate of operational change; how fast threading produces new configurations; instantaneous threading velocity.",
+      "equation": "d/dx: local linearity of operations",
+      "tags": ["calculus", "rate", "change"],
+      "related_terms": ["integral", "threading_rate"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "integral": {
+      "definition": "Accumulated operational effect; total structural change from continuous threading; sums infinitesimal operations.",
+      "equation": "∫ f(x) dx: inverse of derivative",
+      "tags": ["calculus", "accumulation", "summation"],
+      "related_terms": ["derivative", "threading"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "addition": {
+      "definition": "Sequential threading; performing one operation after another; operational composition along single dimension.",
+      "symbol": "+",
+      "properties": ["associative", "commutative", "identity_0"],
+      "tags": ["arithmetic", "operation", "fundamental"],
+      "related_terms": ["zero", "subtraction"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "multiplication": {
+      "definition": "Repeated threading; iterating an operation; operational iteration creating amplification.",
+      "symbol": "×",
+      "properties": ["associative", "commutative", "identity_1", "distributes_over_addition"],
+      "tags": ["arithmetic", "operation", "fundamental"],
+      "related_terms": ["one", "division", "prime"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "exponentiation": {
+      "definition": "Iterated multiplication; operations on operations; meta-operational counting of iteration depth.",
+      "symbol": "^",
+      "properties": ["non_associative", "non_commutative", "rapid_growth"],
+      "equation": "a^b",
+      "tags": ["arithmetic", "operation", "meta"],
+      "related_terms": ["multiplication", "factorial"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "division": {
+      "definition": "Inverse of multiplication; boundary operation; undefined at 0. Creates rational structure.",
+      "symbol": "÷",
+      "tags": ["arithmetic", "operation", "inverse"],
+      "related_terms": ["multiplication", "rationals"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "modular_arithmetic": {
+      "definition": "Cyclic operation; periodic residue classes; bounded structure.",
+      "equation": "a ≡ b (mod n) defines equivalence",
+      "symbol": "mod",
+      "tags": ["arithmetic", "operation", "cyclic"],
+      "related_terms": ["addition", "multiplication"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "factorial": {
+      "definition": "Cascading multiplication; product of all threading operations up to n; measures permutation space size.",
+      "equation": "n! = n × (n-1) × ⋯ × 2 × 1",
+      "symbol": "!",
+      "tags": ["arithmetic", "operation", "combinatorial"],
+      "related_terms": ["multiplication", "exponentiation"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "zero": {
+      "definition": "Additive identity; operation that changes nothing; configuration before any counting operation begins.",
+      "symbol": "0",
+      "properties": ["additive_identity", "multiplicative_absorber"],
+      "tags": ["number", "constant", "identity"],
+      "related_terms": ["addition", "one"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "one": {
+      "definition": "Multiplicative identity; minimal threading; single operational step; unit by which all operations are measured.",
+      "symbol": "1",
+      "properties": ["multiplicative_identity", "generator"],
+      "tags": ["number", "constant", "identity"],
+      "related_terms": ["multiplication", "zero"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "number": {
+      "definition": "Operational invariant of counting and grouping operations; repeatable procedures yielding same structural pattern. Fundamental mathematical object.",
+      "tags": ["fundamental", "object", "arithmetic"],
+      "related_terms": ["naturals", "integers", "rationals", "reals", "complex"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "naturals": {
+      "definition": "Generated by +1 operation from 0; exploratory stage of number system evolution. Foundational for arithmetic.",
+      "symbol": "ℕ",
+      "tags": ["number_system", "foundational", "discrete"],
+      "related_terms": ["zero", "one", "addition", "integers"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "integers": {
+      "definition": "ℕ closed under subtraction; includes negative threading (reverse operations). Fundamental ring structure.",
+      "symbol": "ℤ",
+      "tags": ["number_system", "ring", "closure"],
+      "related_terms": ["naturals", "rationals", "addition"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "rationals": {
+      "definition": "ℤ closed under division (except by 0); field of fractions; periodic decimal expansions. Countable infinite structure.",
+      "symbol": "ℚ",
+      "tags": ["number_system", "field", "countable"],
+      "related_terms": ["integers", "reals", "division"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "reals": {
+      "definition": "ℚ closed under limits; completion via Cauchy sequences or Dedekind cuts; continuous line. Uncountable structure.",
+      "symbol": "ℝ",
+      "tags": ["number_system", "field", "uncountable", "continuous"],
+      "related_terms": ["rationals", "complex", "limit"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "complex": {
+      "definition": "ℝ ∪ {i} where i² = -1; algebraically closed; 2D operational plane. Complete field for polynomial equations.",
+      "symbol": "ℂ",
+      "tags": ["number_system", "field", "algebraically_closed"],
+      "related_terms": ["reals", "imaginary_unit"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "algebraic": {
+      "definition": "Roots of polynomials with integer coefficients; countable; includes √2, φ. Intermediate between rationals and reals.",
+      "tags": ["number_system", "countable", "algebraic"],
+      "related_terms": ["rationals", "reals", "transcendental"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "transcendental": {
+      "definition": "Not algebraic; uncountable; transcend polynomial equations; includes π, e. Exceed algebraic closure.",
+      "tags": ["number_system", "uncountable", "transcendental"],
+      "related_terms": ["algebraic", "pi", "e"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "prime": {
+      "definition": "Irreducible multiplicative atom; number divisible only by 1 and itself; fundamental building blocks of multiplication.",
+      "properties": ["irreducible", "infinite", "irregular_distribution"],
+      "tags": ["number", "fundamental", "irreducible"],
+      "related_terms": ["composite", "multiplication", "irreducible_operation"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "composite": {
+      "definition": "Product of primes; non-prime natural number greater than 1; factorizable into irreducible components. Represents accumulated operational load.",
+      "tags": ["number", "factorizable"],
+      "related_terms": ["prime", "multiplication"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "irreducible_operation": {
+      "definition": "Operation that cannot be decomposed into simpler operations; atomic unit of threading. Primes are irreducible in multiplication.",
+      "tags": ["operation", "fundamental", "atomic"],
+      "related_terms": ["prime", "operation"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "phi": {
+      "full_name": "Golden Ratio",
+      "definition": "Fixed point of x = 1 + 1/x; self-similar growth ratio emerging from additive operations.",
+      "symbol": "φ",
+      "value": "1.618033988749...",
+      "equation": "φ = (1 + √5)/2",
+      "alternative_notation": "Ω₂",
+      "tags": ["constant", "attractor", "self_similar"],
+      "related_terms": ["omega_p", "attractor", "fixed_point"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "pi": {
+      "definition": "Ratio of circumference to diameter; operational cost of rotation; emerges from e^(iθ) periodicity.",
+      "symbol": "π",
+      "value": "3.14159265358979...",
+      "equation": "e^(iπ) + 1 = 0",
+      "tags": ["constant", "attractor", "geometric"],
+      "related_terms": ["e", "imaginary_unit", "circle"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "e": {
+      "full_name": "Euler's Number",
+      "definition": "Natural base; rate at which operations compound continuously; fixed point of continuous growth.",
+      "symbol": "e",
+      "value": "2.71828182845904...",
+      "equation": "e = lim(n→∞)(1 + 1/n)^n",
+      "property": "d/dx(e^x) = e^x",
+      "tags": ["constant", "attractor", "exponential"],
+      "related_terms": ["pi", "derivative", "limit"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "imaginary_unit": {
+      "definition": "90-degree rotation operator; represents orthogonal threading in perpendicular operational dimension.",
+      "symbol": "i",
+      "equation": "i² = -1",
+      "tags": ["constant", "operator", "rotation"],
+      "related_terms": ["complex", "pi"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "omega_p": {
+      "definition": "Prime-indexed attractor family; fixed point of x = 1 + 1/x^(p-1) for prime p; each prime generates unique depth.",
+      "symbol": "Ωₚ",
+      "examples": {
+        "Ω₂": "φ ≈ 1.618 (golden ratio)",
+        "Ω₃": "≈ 1.465",
+        "Ω₅": "≈ 1.194",
+        "Ω₇": "≈ 1.106"
       },
-      
-      "noncoplanar": {
-        "definition": "Three vectors not lying in same plane; volume |k₁·(k₂×k₃)| ≠ 0; essential for 3D energy transfer.",
-        "tags": ["geometry", "3D"]
-      },
-      
-      "Leray_projector": {
-        "symbol": "P_k",
-        "definition": "Projects vector fields onto divergence-free subspace; P_k(ξ) = ξ - k(k·ξ)/|k|².",
-        "tags": ["Navier-Stokes", "projection"]
-      },
-      
-      "enstrophy": {
-        "definition": "Integrated vorticity squared; |∇×u|² integrated over domain; measures rotation intensity.",
-        "tags": ["Navier-Stokes", "vorticity"]
-      },
-      
-      "blowup": {
-        "definition": "Solution becoming unbounded in finite time; singularity formation; operational geometry proves this cannot occur for 3D NS.",
-        "tags": ["analysis", "singularity"]
-      },
-      
-      "self_similarity": {
-        "definition": "Structure repeating at different scales; fractal property; operational patterns reproducing under scaling.",
-        "tags": ["geometry", "fractals"]
-      },
-      
-      "scale_invariance": {
-        "definition": "Properties unchanged under scaling transformations; no characteristic length; continuous symmetry.",
-        "tags": ["physics", "symmetry"]
-      },
-      
-      "criticality": {
-        "definition": "Phase transition point; balance between competing tendencies; operational equilibrium between growth and decay.",
-        "tags": ["physics", "phase_transition"]
-      }
+      "convergence": "Ωₚ → 1 as p → ∞",
+      "tags": ["constant", "attractor", "prime_indexed"],
+      "related_terms": ["phi", "prime", "attractor"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "point": {
+      "definition": "Minimal operational localization; configuration with zero extension; operational address in substrate space. Fundamental geometric primitive.",
+      "tags": ["geometry", "primitive", "zero_dimensional"],
+      "related_terms": ["line", "plane", "dimension"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "line": {
+      "definition": "One-dimensional threading path; configurations reachable by threading in single direction; operational trajectory. Fundamental geometric object.",
+      "tags": ["geometry", "one_dimensional", "path"],
+      "related_terms": ["point", "plane", "dimension"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "plane": {
+      "definition": "Two-dimensional operational surface; configurations reachable by threading in two independent directions. Fundamental geometric object.",
+      "tags": ["geometry", "two_dimensional", "surface"],
+      "related_terms": ["line", "dimension", "threading_subspace"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "dimension": {
+      "definition": "Operational degrees of freedom; number of independent threading directions available. Fundamental measure of operational space structure.",
+      "tags": ["geometry", "measure", "freedom"],
+      "related_terms": ["point", "line", "plane", "manifold"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "distance": {
+      "definition": "Operational separation; minimum threading required to transform one configuration into another; measured in operational steps. Metric on configuration space.",
+      "tags": ["geometry", "metric", "measure"],
+      "related_terms": ["configuration_space", "threading"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "manifold": {
+      "definition": "Locally flat operational space appearing linear under small threading but curving globally; space where local operations compose into global structure. Fundamental geometric framework.",
+      "tags": ["geometry", "topology", "curved_space"],
+      "related_terms": ["dimension", "topology", "configuration_space"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "topology": {
+      "definition": "Operational connectedness; properties preserved under continuous threading; studies structures surviving deformation without tearing. Fundamental geometric framework.",
+      "tags": ["geometry", "continuity", "invariant"],
+      "related_terms": ["manifold", "continuity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "symmetry": {
+      "definition": "Operational invariance under transformation; threading that leaves structure unchanged; operations that are their own inverse. Fundamental principle.",
+      "tags": ["geometry", "invariance", "transformation"],
+      "related_terms": ["operation", "invariant"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "field": {
+      "definition": "Distributed operational potential; continuous mapping assigning operational capacity to every point; substrate property guiding threading.",
+      "equation": "φ: X → ℝ",
+      "tags": ["physics", "potential", "continuous"],
+      "related_terms": ["substrate", "force", "fourier_mode"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "force": {
+      "definition": "Coherence gradient; operational pressure from memory density differences; substrate's tendency toward operational equilibrium.",
+      "equation": "F = -∇V",
+      "tags": ["physics", "gradient", "dynamics"],
+      "related_terms": ["field", "operational_gradient", "gravity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "mass": {
+      "definition": "Memory density; accumulated operational history in substrate region; quantifies threading retention.",
+      "equation": "m ∝ ρ_memory",
+      "tags": ["physics", "memory", "density"],
+      "related_terms": ["memory", "gravity", "substrate"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "momentum": {
+      "definition": "Directed operational potential; energy with preferred threading direction; vectored capacity for future operations.",
+      "equation": "p⃗ = mv⃗",
+      "tags": ["physics", "dynamics", "vector"],
+      "related_terms": ["mass", "force"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "gravity": {
+      "definition": "Memory density gradient; operational flow toward regions of accumulated threading; substrate's response to mass concentration.",
+      "equation": "g⃗ = -∇ρ",
+      "tags": ["physics", "force", "gradient"],
+      "related_terms": ["mass", "memory", "force"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "charge": {
+      "definition": "Operational polarity; sign of electromagnetic threading coupling; determines whether operations attract or repel. Fundamental to electromagnetic structure.",
+      "tags": ["physics", "electromagnetic", "polarity"],
+      "related_terms": ["field", "force"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "spin": {
+      "definition": "Topological winding; rotational threading depth encoded in substrate structure; operational chirality. Fundamental quantum property.",
+      "tags": ["physics", "quantum", "topology"],
+      "related_terms": ["topology", "rotation"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "entropy": {
+      "definition": "Operational uncertainty; logarithm of indistinguishable threading histories producing same macroscopic configuration; hidden operational degrees of freedom.",
+      "equation": "S = k_B ln(Ω)",
+      "tags": ["physics", "information", "thermodynamics"],
+      "related_terms": ["information", "irreversible_operation"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "information": {
+      "definition": "Operational distinguishability; minimum threading required to differentiate states; operational content of memory. Quantified by Shannon entropy.",
+      "tags": ["information_theory", "measure", "distinguishability"],
+      "related_terms": ["entropy", "memory", "branch_potential"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "time": {
+      "definition": "Threading depth; operational accumulation, not duration; counted in operations performed. Fundamental measure of change.",
+      "tags": ["physics", "measure", "fundamental"],
+      "related_terms": ["operational_depth", "threading"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "reversible_operation": {
+      "definition": "Operation that can be exactly undone without information loss; all fundamental physical operations are reversible. Contrasts with irreversible operations.",
+      "tags": ["operation", "physics", "information"],
+      "related_terms": ["irreversible_operation", "information"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "irreversible_operation": {
+      "definition": "Operation discarding information, increasing entropy; measurement, forgetting, thermalization; genuinely loses operational history. Contrasts with reversible operations.",
+      "tags": ["operation", "physics", "entropy"],
+      "related_terms": ["reversible_operation", "entropy"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "algorithm": {
+      "definition": "Determinate operational sequence; specified path through configuration space guaranteed to terminate; reproducible threading procedure.",
+      "signature": "A: X* → X",
+      "tags": ["computation", "procedure", "deterministic"],
+      "related_terms": ["turing_machine", "computational_complexity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "turing_machine": {
+      "definition": "Minimal universal threader; simplest operational system capable of any computable threading sequence; defines algorithmic operations boundary. Foundational computational model.",
+      "tags": ["computation", "foundational", "universal"],
+      "related_terms": ["algorithm", "computational_complexity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "computational_complexity": {
+      "definition": "Threading depth requirement; operational cost to reach result; time/space complexity measures steps/memory. Quantifies operational difficulty.",
+      "tags": ["complexity", "measure", "computation"],
+      "related_terms": ["operational_depth", "p", "np"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "p": {
+      "full_name": "Polynomial Time",
+      "definition": "Problems solvable by gradient-aligned operations; deterministic polynomial-time algorithms; forward construction class. Defined by existence of polynomial-time algorithm.",
+      "tags": ["complexity_class", "efficient", "deterministic"],
+      "related_terms": ["gradient_aligned", "np", "p_neq_np"],
+      "citation": "zelenka2025pnp"
+    },
+
+    "np": {
+      "full_name": "Nondeterministic Polynomial Time",
+      "definition": "Problems verifiable in polynomial time; gradient-opposed search problems; reverse reconstruction class. Defined by existence of polynomial-time witness verification.",
+      "tags": ["complexity_class", "verification", "nondeterministic"],
+      "related_terms": ["gradient_opposed", "p", "p_neq_np"],
+      "citation": "zelenka2025pnp"
+    },
+
+    "p_neq_np": {
+      "full_name": "P ≠ NP",
+      "definition": "Polynomial-time solvable problems differ from nondeterministic polynomial-time verifiable problems. Proved via IOGT and coordination cost analysis.",
+      "tags": ["theorem", "complexity", "major_result"],
+      "related_terms": ["p", "np", "iogt"],
+      "citation": "zelenka2025pnp"
+    },
+
+    "branch_potential": {
+      "definition": "Information-theoretic measure of distinct computational branches; H = log₂(N) where N is the number of branches. Quantifies nondeterministic dimension.",
+      "equation": "H = log₂(N)",
+      "tags": ["complexity", "information", "nondeterministic"],
+      "related_terms": ["operational_width", "np"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "set": {
+      "definition": "Collection defined by operational membership; predicate determining whether threading included a configuration; operational boundaries. Fundamental mathematical object.",
+      "tags": ["foundational", "collection", "membership"],
+      "related_terms": ["intersection", "union"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "intersection": {
+      "definition": "Overlapping operational domains; configurations reachable by both operations A and B; operational constraint satisfaction.",
+      "symbol": "∩",
+      "tags": ["set_theory", "operation", "constraint"],
+      "related_terms": ["set", "union"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "union": {
+      "definition": "Combining operational domains; configurations reachable by either operation A or B; operational aggregation.",
+      "symbol": "∪",
+      "tags": ["set_theory", "operation", "aggregation"],
+      "related_terms": ["set", "intersection"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "teleology": {
+      "definition": "Directedness toward intended forms inherent in operational structure; forms are attractors satisfying coherence, stability, and efficiency constraints. Purpose in mathematics.",
+      "tags": ["philosophy", "purpose", "foundational"],
+      "related_terms": ["axiom_teleological_constraints", "attractor"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "self_similarity": {
+      "definition": "Structure repeating at different scales; fractal property; operational patterns reproducing under scaling. Characteristic of attractors.",
+      "tags": ["geometry", "fractal", "scale"],
+      "related_terms": ["scale_invariance", "recursion", "attractor"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "scale_invariance": {
+      "definition": "Properties unchanged under scaling transformations; no characteristic length; continuous symmetry. Fundamental to understanding self-similar structures.",
+      "tags": ["geometry", "symmetry", "scale"],
+      "related_terms": ["self_similarity", "symmetry"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "shock": {
+      "definition": "Discontinuity in operational flow; sharp reorganization of structure; singular point in configuration space. Occurs at critical thresholds.",
+      "tags": ["dynamics", "discontinuity", "critical"],
+      "related_terms": ["operational_flow", "coherence_threshold"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "threading_aggregate": {
+      "definition": "Operations compose by threading through previous results, creating nested coherence; mechanism stabilizing at fixed points. Explains constant emergence.",
+      "tags": ["process", "composition", "emergence"],
+      "related_terms": ["threading", "attractor", "composition"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "threading_rate": {
+      "definition": "Operations per unit substrate volume; different regions have different rates, perceived as field intensity variations. Measure of local operational activity.",
+      "tags": ["rate", "density", "local"],
+      "related_terms": ["threading", "substrate", "field"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "plus_one_theorem": {
+      "definition": "Addition of unity (+1) is the minimal non-trivial operational increment; generates natural numbers and their structure. Foundational for arithmetic.",
+      "tags": ["theorem", "arithmetic", "foundational"],
+      "related_terms": ["one", "addition", "naturals"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "irreducibility_fundamental": {
+      "definition": "Principle: all structure equals composition of irreducibles; primes are mathematical atoms (Fundamental Theorem of Arithmetic). Explains prime primacy.",
+      "tags": ["principle", "foundational", "arithmetic"],
+      "related_terms": ["prime", "irreducible_operation"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "closure_forces_finiteness": {
+      "definition": "Principle: finite closure implies finite components. Seeking closure constrains system size. Fundamental constraint on mathematical structures.",
+      "tags": ["principle", "constraint", "closure"],
+      "related_terms": ["succession_drives_evolution"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "succession_drives_evolution": {
+      "definition": "Principle: mathematical structures evolve from exploratory to stable-attractor stages; closure requirements force expansion (ℕ → ℤ → ℚ → ℝ → ℂ).",
+      "tags": ["principle", "evolution", "number_systems"],
+      "related_terms": ["naturals", "integers", "rationals", "reals", "complex"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "absorption_drives_specialization": {
+      "definition": "Principle stating that absorbing operations lead to stable-attractor stages. Systems evolve toward absorbing states where further operations have no effect. Example: 0 absorbs in multiplication (a × 0 = 0), ∞ absorbs in addition.",
+      "tags": ["principle", "stability", "evolution"],
+      "related_terms": ["attractor", "zero"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "density_freezing": {
+      "definition": "Principle: constrained systems develop frozen densities; distributions stabilize under iteration (e.g., π(x) ~ x/ln(x)). Explains prime distribution patterns.",
+      "tags": ["principle", "distribution", "stability"],
+      "related_terms": ["prime", "attractor"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "resonance_creates_harmony": {
+      "definition": "Principle: aligned constraints produce stability and beauty; mathematical beauty equals structural resonance. Explains aesthetic appeal of constants.",
+      "tags": ["principle", "aesthetics", "stability"],
+      "related_terms": ["attractor", "teleology"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "periodic_obstruction_signals_incompatibility": {
+      "definition": "Principle: cycles without convergence indicate fighting constraints; incompatibility manifests as non-termination. Explains why certain problems resist solution.",
+      "tags": ["principle", "obstruction", "incompatibility"],
+      "related_terms": ["collatz_conjecture"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "unreachability_principle": {
+      "definition": "Certain configurations are unreachable from given initial states by admissible operations; operational accessibility defines possibility. Explains unobtainable mathematical objects.",
+      "tags": ["principle", "constraint", "accessibility"],
+      "related_terms": ["configuration_space", "mahler_measure"],
+      "citation": "zelenka2025unreachability"
+    },
+
+    "mahler_measure": {
+      "definition": "For polynomial P(x) = a₀ ∏(x - αᵢ): M(P) = |a₀| ∏ max(1, |αᵢ|). Quantifies arithmetic complexity; threading depth for algebraic integers.",
+      "equation": "M(P) = |a₀| ∏ max(1, |αᵢ|)",
+      "tags": ["measure", "arithmetic", "complexity"],
+      "related_terms": ["algebraic", "unreachability_principle"],
+      "citation": "zelenka2025unreachability"
+    },
+
+    "riemann_hypothesis": {
+      "definition": "All non-trivial zeros of ζ(s) lie on critical line Re(s) = 1/2. Conditional proof via operational gradient minimization.",
+      "tags": ["conjecture", "number_theory", "major_problem"],
+      "related_terms": ["prime", "operational_gradient"],
+      "citation": "zelenka2026rh"
+    },
+
+    "collatz_conjecture": {
+      "definition": "For any positive integer n: repeatedly apply n → 3n+1 if odd, n → n/2 if even; sequence reaches 1. Conditional proof via Conformal Mixing Lemma.",
+      "tags": ["conjecture", "number_theory", "major_problem"],
+      "related_terms": ["iteration", "periodic_obstruction_signals_incompatibility"],
+      "citation": "zelenka2026collatz"
+    },
+
+    "navier_stokes_global_regularity": {
+      "definition": "3D Navier-Stokes equations admit global smooth solutions; incompressibility provides geometric penalty preventing blowup. Proved via operational geometry.",
+      "tags": ["theorem", "physics", "major_result"],
+      "related_terms": ["incompressibility", "threading_deficit", "viscous_dissipation"],
+      "citation": "zelenka2026ns"
+    },
+
+    "incompressibility": {
+      "definition": "Constraint ∇·u = 0 forcing energy to thread through 2D planes; provides geometric penalty preventing blowup. Essential for Navier-Stokes regularity.",
+      "equation": "∇·u = 0",
+      "tags": ["physics", "constraint", "fluid_dynamics"],
+      "related_terms": ["threading_subspace", "navier_stokes_global_regularity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "threading_subspace": {
+      "definition": "2D plane perpendicular to wavevector k; incompressibility forces velocity modes into this reduced dimensional space.",
+      "equation": "V_k^⊥ = {ξ: ξ·k = 0}, dimension 2",
+      "tags": ["physics", "geometry", "constraint"],
+      "related_terms": ["incompressibility", "plane", "wavevector"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "threading_deficit": {
+      "definition": "Energy locked in 3D noncoplanar triads; quantifies steepness of operational gradient for angular refinement.",
+      "equation": "D_j = Σ_{k₁+k₂+k₃=0} |k₁·(k₂×k₃)| · |û^(k₁)||û^(k₂)||û^(k₃)|",
+      "tags": ["physics", "measure", "fluid_dynamics"],
+      "related_terms": ["triad", "noncoplanar", "navier_stokes_global_regularity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "viscous_dissipation": {
+      "definition": "Energy decay from viscosity ν; rate ~ ν|k|² dominates deficit growth by factor 2^(4j) at shell j.",
+      "equation": "-ν|k|²|û^(k)|²",
+      "tags": ["physics", "dissipation", "fluid_dynamics"],
+      "related_terms": ["enstrophy", "navier_stokes_global_regularity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "enstrophy": {
+      "definition": "Integrated vorticity squared; |∇×u|² integrated over domain; measures rotation intensity. Key quantity in Navier-Stokes regularity.",
+      "equation": "|∇×u|²",
+      "tags": ["physics", "measure", "fluid_dynamics"],
+      "related_terms": ["viscous_dissipation", "navier_stokes_global_regularity"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "triad": {
+      "definition": "Three-way interaction in Fourier space with k₁+k₂+k₃=0; noncoplanar triads maximize geometric penalty in 3D. Essential for NS analysis.",
+      "equation": "k₁+k₂+k₃=0",
+      "tags": ["physics", "interaction", "fluid_dynamics"],
+      "related_terms": ["noncoplanar", "threading_deficit", "fourier_mode"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "noncoplanar": {
+      "definition": "Three vectors not lying in same plane; volume |k₁·(k₂×k₃)| ≠ 0; essential for 3D energy transfer. Key to NS regularity.",
+      "equation": "|k₁·(k₂×k₃)| ≠ 0",
+      "tags": ["physics", "geometry", "3d"],
+      "related_terms": ["triad", "threading_deficit"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "fourier_mode": {
+      "definition": "Frequency component of field at wavevector k; Fourier transform decomposes fields into operational frequencies.",
+      "notation": "û^(k): spectral decomposition",
+      "tags": ["physics", "analysis", "frequency"],
+      "related_terms": ["wavevector", "field", "dyadic_shell"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "wavevector": {
+      "definition": "Spatial frequency vector; magnitude |k| is frequency scale, direction is orientation of oscillation. Fundamental in spectral analysis.",
+      "symbol": "k",
+      "tags": ["physics", "frequency", "vector"],
+      "related_terms": ["fourier_mode", "dyadic_shell"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "dyadic_shell": {
+      "definition": "Fourier modes in frequency band {k: 2^j ≤ |k| < 2^(j+1)}; partitions frequency space by scale. Essential for Navier-Stokes analysis.",
+      "equation": "{k: 2^j ≤ |k| < 2^(j+1)}",
+      "tags": ["physics", "analysis", "scale"],
+      "related_terms": ["fourier_mode", "wavevector"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "leray_projector": {
+      "definition": "Projects vector fields onto divergence-free subspace; P_k(ξ) = ξ - k(k·ξ)/|k|². Essential for incompressible flow analysis.",
+      "equation": "P_k(ξ) = ξ - k(k·ξ)/|k|²",
+      "tags": ["physics", "operator", "projection"],
+      "related_terms": ["incompressibility", "threading_subspace"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "bkm_criterion": {
+      "full_name": "Beale-Kato-Majda Criterion",
+      "definition": "Bounded vorticity gradients imply global regularity in fluid dynamics. Operational geometry achieves this via bounded angular entropy. Key to Navier-Stokes regularity proof.",
+      "tags": ["physics", "criterion", "regularity"],
+      "related_terms": ["navier_stokes_global_regularity", "enstrophy"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "frontier_problem": {
+      "type": "Type A",
+      "definition": "Problem with low stability and disconnected approaches; needs new operations/dimensions. Examples: Collatz, Goldbach, P≠NP.",
+      "examples": ["collatz_conjecture", "p_neq_np"],
+      "tags": ["problem_classification", "open_problem"],
+      "related_terms": ["bridge_problem", "stable_attractor_problem"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "bridge_problem": {
+      "type": "Type B",
+      "definition": "Problem with moderate stability and emerging coherence; needs attractor connection. Examples: Twin Primes, ABC Conjecture, BSD Conjecture.",
+      "tags": ["problem_classification", "open_problem"],
+      "related_terms": ["frontier_problem", "stable_attractor_problem"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "stable_attractor_problem": {
+      "type": "Type C",
+      "definition": "Problem with high stability and single framework; operate deeply within established structure. Example: Riemann Hypothesis.",
+      "examples": ["riemann_hypothesis"],
+      "tags": ["problem_classification", "open_problem"],
+      "related_terms": ["frontier_problem", "bridge_problem"],
+      "citation": "zelenka2025opgeom"
+    },
+
+    "axiom_boundary_problem": {
+      "type": "Type D",
+      "definition": "Problem with 100+ years no progress; may be undecidable in current axiom system. Example: Continuum Hypothesis.",
+      "tags": ["problem_classification", "undecidable"],
+      "related_terms": ["frontier_problem"],
+      "citation": "zelenka2025opgeom"
     }
   },
-  
-  "notation_summary": {
-    "∘": "composition operator",
-    "→": "maps to, converges to",
-    "↔": "bidirectional interaction",
-    "≈": "approximately equal",
-    "∈": "element of, membership",
-    "⊆": "subset",
-    "∪": "union",
-    "∩": "intersection",
-    "∅": "empty set",
-    "ℕ": "natural numbers",
-    "ℤ": "integers",
-    "ℚ": "rationals",
-    "ℝ": "reals",
-    "ℂ": "complex numbers",
-    "∇": "gradient operator",
-    "∂": "partial derivative",
-    "∫": "integral",
-    "Σ": "summation",
-    "Π": "product",
-    "lim": "limit",
-    "inf": "infimum",
-    "sup": "supremum",
-    "⊥": "perpendicular, orthogonal"
+
+  "categories": {
+    "foundational_concepts": [
+      "operation", "substrate", "threading", "configuration", "configuration_space",
+      "coherence", "memory", "attractor", "operational_gradient"
+    ],
+    "axioms": [
+      "axiom_operational_priority", "axiom_substrate_reality", 
+      "axiom_geometric_emergence", "axiom_teleological_constraints",
+      "axiom_finite_physical_realizability"
+    ],
+    "operations": [
+      "function", "composition", "iteration", "recursion",
+      "addition", "multiplication", "exponentiation", "division"
+    ],
+    "numbers": [
+      "zero", "one", "prime", "composite",
+      "naturals", "integers", "rationals", "reals", "complex"
+    ],
+    "constants": [
+      "phi", "pi", "e", "imaginary_unit", "omega_p"
+    ],
+    "geometry": [
+      "point", "line", "plane", "dimension", "distance",
+      "manifold", "topology", "symmetry"
+    ],
+    "complexity_theory": [
+      "iogt", "iot", "p", "np", "p_neq_np",
+      "gradient_aligned", "gradient_opposed", "computational_complexity"
+    ],
+    "physics": [
+      "field", "force", "mass", "momentum", "gravity", "charge", "spin",
+      "time", "entropy", "information"
+    ],
+    "fluid_dynamics": [
+      "navier_stokes_global_regularity", "incompressibility", 
+      "threading_deficit", "viscous_dissipation", "enstrophy",
+      "triad", "fourier_mode", "dyadic_shell"
+    ],
+    "principles": [
+      "irreducibility_fundamental", "closure_forces_finiteness",
+      "succession_drives_evolution", "absorption_drives_specialization",
+      "density_freezing", "resonance_creates_harmony",
+      "unreachability_principle"
+    ],
+    "major_problems": [
+      "riemann_hypothesis", "collatz_conjecture", "p_neq_np",
+      "navier_stokes_global_regularity"
+    ],
+    "problem_types": [
+      "frontier_problem", "bridge_problem", 
+      "stable_attractor_problem", "axiom_boundary_problem"
+    ]
   },
-  
-  "key_equations": {
-    "golden_ratio": "φ = 1 + 1/φ = (1+√5)/2",
-    "Euler_identity": "e^(iπ) + 1 = 0",
-    "Euler_number": "e = lim_{n→∞}(1+1/n)^n",
-    "imaginary_unit": "i² = -1",
-    "Omega_p_general": "Ωₚ solves x = 1 + 1/x^(p-1)",
-    "operational_potential": "V(x) = inf{C(w) | w(x₀) = x}",
-    "operational_gradient": "∇V(x)",
-    "angular_entropy": "Hⱼ = -Σ_α (Eⱼ,α/Eⱼ)·log(Eⱼ,α/Eⱼ)",
-    "incompressibility": "∇·u = 0",
-    "Navier_Stokes": "∂_t u + (u·∇)u = -∇p + ν∇²u, ∇·u = 0"
-  },
-  
-  "related_frameworks": {
-    "category_theory": "Studies composition of morphisms; operational geometry generalizes to substrate operations",
-    "dynamical_systems": "Studies iteration and attractors; operational geometry provides ontological foundation",
-    "constructive_mathematics": "Mathematics via explicit construction; aligns with operations-primary view",
-    "process_philosophy": "Reality as process not substance; operational geometry formalizes this mathematically",
-    "information_theory": "Quantifies distinguishability; operational interpretation as threading requirements"
-  },
-  
-  "one_sentence_summary": "Operational Geometry is a framework where operations are ontologically primary, mathematical objects emerge as stable attractors of iterative threading processes on substrate, and fundamental constants arise necessarily from fixed points in operational space."
+
+  "citations": {
+    "zelenka2025opgeom": {
+      "title": "Operational Geometry: A Framework for Operations-Primary Mathematics",
+      "author": "Zelenka, D. D.",
+      "year": 2025,
+      "type": "framework_paper"
+    },
+    "zelenka2025iogt": {
+      "title": "Intrinsic Operational Gradient Theorem",
+      "author": "Zelenka, D. D.",
+      "year": 2025,
+      "type": "theorem_paper"
+    },
+    "zelenka2025iot": {
+      "title": "Irreducible Overhead Theorem",
+      "author": "Zelenka, D. D.",
+      "year": 2025,
+      "type": "theorem_paper"
+    },
+    "zelenka2025pnp": {
+      "title": "P ≠ NP: An Operational Geometry Proof",
+      "author": "Zelenka, D. D.",
+      "year": 2025,
+      "type": "proof_paper"
+    },
+    "zelenka2025unreachability": {
+      "title": "The Unreachability Principle in Operational Geometry",
+      "author": "Zelenka, D. D.",
+      "year": 2025,
+      "type": "principle_paper"
+    },
+    "zelenka2026rh": {
+      "title": "Riemann Hypothesis: Conditional Proof via Operational Gradient Minimization",
+      "author": "Zelenka, D. D.",
+      "year": 2026,
+      "type": "proof_paper"
+    },
+    "zelenka2026collatz": {
+      "title": "Collatz Conjecture: Conditional Proof via Conformal Mixing",
+      "author": "Zelenka, D. D.",
+      "year": 2026,
+      "type": "proof_paper"
+    },
+    "zelenka2026ns": {
+      "title": "Navier-Stokes Global Regularity via Operational Geometry",
+      "author": "Zelenka, D. D.",
+      "year": 2026,
+      "type": "proof_paper"
+    }
+  }
 }
