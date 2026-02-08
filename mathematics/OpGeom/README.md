@@ -69,11 +69,11 @@ Iterating from converges to .
 
 Each prime generates a constant from the fixed point:
 
-| Prime | Polynomial | Constant | Name |
-| --- | --- | --- | --- |
-| 2   |     | 1.618... | Golden Ratio |
-| 3   |     | 1.466... | Plastic Number |
-| 5   |     | 1.325... | Pentic Constant |
+| Prime | Polynomial | Constant |
+| --- | --- | --- |
+| 2   |     | 1.618... |
+| 3   |     | 1.466... |
+| 5   |     | 1.325... |
 
 ---
 ## Pedagogical Implications:
