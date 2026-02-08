@@ -73,8 +73,7 @@ Each prime generates a constant from the fixed point:
 | --- | --- | --- | --- |
 | 2   |     | 1.618... | Golden Ratio |
 | 3   |     | 1.466... | Plastic Number |
-| 5   |     | 1.221... | Pentic Constant |
-| 137 |     | ≈ 1.007? | Fine-structure? |
+| 5   |     | 1.325... | Pentic Constant |
 
 ---
 ## Pedagogical Implications:
