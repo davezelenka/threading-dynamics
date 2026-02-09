@@ -87,6 +87,19 @@ Other potential operator-based attractors.
 | continued subdivision | φ         |
 
 ---
+Operational Class → Constant Family
+
+| Operation symmetry    | Attractors                |
+| --------------------- | ------------------------- |
+| recursive subdivision | φ family                  |
+| orthogonal grids      | √n family                 |
+| circular rolling      | π family                  |
+| contact packing       | √ + π mixed densities     |
+| energy minimization   | ζ / exponential constants |
+
+
+---
+
 ## Pedagogical Implications:
 
 Agency: Students see themselves as generators of mathematical structure, not just consumers.
