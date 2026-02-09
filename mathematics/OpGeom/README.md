@@ -74,6 +74,17 @@ Each prime generates a constant from the fixed point:
 | 2   |     | 1.618... |
 | 3   |     | 1.466... |
 | 5   |     | 1.325... |
+---
+Other potential operator-based attractors. 
+
+| Operation             | Attractor |
+| --------------------- | --------- |
+| roll a wheel          | π         |
+| square diagonal       | √2        |
+| cube diagonal         | √3        |
+| circle area/diameter  | π         |
+| optimal 2D packing    | π/√12     |
+| continued subdivision | φ         |
 
 ---
 ## Pedagogical Implications:
