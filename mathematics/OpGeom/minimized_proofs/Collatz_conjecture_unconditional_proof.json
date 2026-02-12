@@ -48,6 +48,8 @@
       "28D05 (Measure-preserving transformations)"
     ],
     "links": {
+      "zenodo_unconditional": "https://zenodo.org/records/18626114",
+      "doi_unconditional": "https://doi.org/10.5281/zenodo.18626114",
       "zenodo_conditional": "https://zenodo.org/records/18273351",
       "doi_conditional": "https://doi.org/10.5281/zenodo.18273351",
       "zenodo_empirical": "https://zenodo.org/records/18363354",
@@ -55,7 +57,7 @@
       "repository": "https://github.com/davezelenka/threading-dynamics/tree/main/mathematics/OpGeom"
     },
     "citations": {
-      "full_cite": "Zelenka, D. D. (2026). The Collatz Conjecture Resolved: Funnel Density and the Impossibility of Divergence. [Manuscript in preparation]",
+      "full_cite": "Zelenka, D. D. (2026). The Collatz Conjecture Resolved: Funnel Density and the Impossibility of Divergence. https://doi.org/10.5281/zenodo.18626114",
       "conditional_cite": "Zelenka, D. D. (2026). A Conditional Proof of the Collatz Conjecture: The Integer Manifold as a Dissipative System. Zenodo. https://doi.org/10.5281/zenodo.18273351",
       "empirical_cite": "Zelenka, D. D. (2026). The Collatz Conjecture as Gradient Flow: Empirical Evidence for Switched Dissipation. Zenodo. https://doi.org/10.5281/zenodo.18363354"
     }
