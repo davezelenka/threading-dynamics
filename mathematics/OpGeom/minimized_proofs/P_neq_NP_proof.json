@@ -46,8 +46,8 @@
     "links": {
       "zenodo_record": "https://zenodo.org/records/18063338",
       "doi": "https://doi.org/10.5281/zenodo.18063338",
-      "repository": null,
-      "preprint": null
+      "repository": "https://github.com/davezelenka/threading-dynamics/blob/main/mathematics/OpGeom",
+      "preprint": "https://zenodo.org/records/18063338"
     },
     "citations": {
       "cite_as": "Zelenka, D. D. (2025). P ≠ NP from the Intrinsic Operational Gradient Theorem. Zenodo. https://doi.org/10.5281/zenodo.18063338",
