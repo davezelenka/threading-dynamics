@@ -47,8 +47,8 @@
     "links": {
       "zenodo_record": "https://zenodo.org/records/18214940",
       "doi": "https://doi.org/10.5281/zenodo.18214940",
-      "repository": null,
-      "preprint": null
+      "repository": "https://github.com/davezelenka/threading-dynamics/blob/main/mathematics/OpGeom",
+      "preprint": "https://zenodo.org/records/18214940"
     },
     "citations": {
       "cite_as": "Zelenka, D. (2025). 3D Navier-Stokes Global Regularity Proof: Operational Geometry Framework. Zenodo. https://doi.org/10.5281/zenodo.18214940",
