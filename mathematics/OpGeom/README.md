@@ -69,7 +69,7 @@ Iterating from converges to .
 
 Each prime generates a constant from the fixed point:
 
-| Prime | Polynomial | Constant |
+| Prime |  | Constant |
 | --- | --- | --- |
 | 2   |     | 1.618... |
 | 3   |     | 1.466... |
@@ -149,11 +149,17 @@ $\mathbf{OpGeom}$ opens avenues for interdisciplinary research:
 
 ---
 
+More Information: [https://discomath.com/resources/opgeom]
+
+---
+
 ## License
 
 Creative Commons Attribution 4.0 International. All mathematical content is freely available for research and educational purposes.
 
 ##
+
+
 _"Every form is merely the memory of an act."_
 
 _"All things were made through him, and without him was not any thing made that was made."_ - John 1:3
