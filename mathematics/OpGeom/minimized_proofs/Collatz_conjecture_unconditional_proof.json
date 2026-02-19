@@ -319,6 +319,7 @@
       "number": "8.2",
       "type": "theorem",
       "statement": "The cycle {1,2,4} is the only cycle in the Collatz map. No other finite cycle exists.",
+      "Remark": "Formally, a cycle is defined by its orbit (the set of visited states), not by the starting point. The orbit {1,2,4} is unique. All three entry points traverse the same three states in the same order, differing only in phase offset. This is the native or trivial cycle—the fundamental attractor of the Collatz manifold. When we say 'unique cycle,' we mean unique orbit, not unique entry point.",
       "proof_strategy": "Three complementary arguments: (1) dissipative flow topology, (2) algebraic irrationality constraint, (3) manifold connectivity",
       "proof_arguments": [
         {
