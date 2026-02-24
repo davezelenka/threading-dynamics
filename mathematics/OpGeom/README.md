@@ -69,11 +69,17 @@ Iterating from converges to .
 
 Each prime generates a constant from the fixed point:
 
-| Prime |  | Constant |
-| --- | --- | --- |
-| 2   |     | 1.618... |
-| 3   |     | 1.466... |
-| 5   |     | 1.325... |
+
+| Constant | Polynomial Degree | Complex Roots | Natural Home | Emergence Domain |
+|---|---|---|---|---|
+| φ (Ω₂) | 2 | 0 (both real) | ℝ | 1D optimization, proportion |
+| Ω₃ | 3 | 2 (conjugate pair) | ℂ | 2D rotation, threefold phase |
+| Ω₅ | 5 | 4 (two conjugate pairs) | ℂ² | 4D structure, fivefold symmetry |
+| Ω₇ | 7 | 6 (three conjugate pairs) | ℂ³ | 6D structure, sevenfold symmetry |
+
+Each prime p generates a fixed point whose full algebraic structure requires (p-1)/2 complex dimensions to house. The real number you can measure is the **tip of an increasingly high-dimensional object**.
+
+This would mean the Ω_p hierarchy is not just a sequence of constants getting closer to 1. It's a sequence of constants that are **projections from progressively higher-dimensional spaces onto the real line**. What you observe physically is the shadow. The object casting it is rotating in dimensions you can't directly see.
 ---
 Other potential operator-based attractors. 
 
