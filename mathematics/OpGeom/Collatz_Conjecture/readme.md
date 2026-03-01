@@ -138,7 +138,7 @@ Collatz doesn't just prove convergence—it reveals that integers have a **canon
 
 Licensed under CC-BY-4.0.
 
-The Collatz Conjecture is **solved**. The mystery is over. 🎉
+The Collatz Conjecture is **solved**. The mystery is over. 
 
 ---
 
