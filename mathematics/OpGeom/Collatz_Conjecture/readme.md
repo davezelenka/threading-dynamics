@@ -29,12 +29,12 @@ Explore the mathematical structure through interactive demonstrations:
 Watch numbers fall toward n=1 under negative operational strain. See turbulent expansion (×3+1) vs dissipative contraction (÷2) in real-time.
 
 ### 🌀 [Logarithmic Spiral](https://discomath.com/elements/collatz_spiral_visualization.html)
-The integer manifold mapped as a logarithmic spiral. Powers of 2 appear as radial spokes (green). Watch trajectories spiral inward through funnel catchment zones toward n=1 at the center.
+The integer manifold mapped as a scaled logarithmic spiral. Powers of 2 appear as radial spokes (green). Watch trajectories spiral inward through funnel catchment zones toward n=1 at the center.
 
 ### 🎨 [Multi-Trajectory Trace](https://discomath.com/elements/collatz-multi-trace.html)
 Overlay multiple trajectories to see the funnel highway network. Thick lines show where paths merge—the shared infrastructure of convergence.
 
-### 🪢 [Unknotting Animation](https://discomath.com/elements/collatz_unknotting.html)
+### ⚛ [Unknotting Animation](https://discomath.com/elements/collatz_unknotting.html)
 Factorization as "knots" that unravel. Each prime factor is a colored circle. Watch composites unknot through 2-adic extraction until reaching 1.
 
 ---
