@@ -48,7 +48,7 @@ All proofs follow a consistent JSON schema structure:
   "meta": {
     "title": "...",
     "author": "Zelenka_D_D",
-    "claim": "PROVED | CONDITIONAL_PROOF",
+    "claim": "PROVED | CONDITIONAL_PROOF | Framework",
     "framework": [...],
     "links": {
       "zenodo_record": "...",
