@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "title": "Fabric–OpGeom Market Dynamics: A Unified Threading Framework",
+    "subtitle": "Markets as Coherence-Threading Fields with Operational Attractor Structure",
+    "author": "Zelenka_D_D",
+    "author_orcid": null,
+    "claim": "Framework",
+    "status": "active_refinement",
+    "version": "2.0",
+    "date_created": "2025-01",
+    "date_revised": "2025-07",
+    "document_status": "preprint_synthesis",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "parent_frameworks": [
+      "Operational_Geometry",
+      "Fabric_Foundation",
+      "IOGT",
+      "IOT"
+    ],
+    "links": {
+      "opgeom_zenodo": "https://zenodo.org/records/18039583",
+      "opgeom_doi": "https://doi.org/10.5281/zenodo.18039583",
+      "iogt_doi": "https://doi.org/10.5281/zenodo.18062553",
+      "iot_doi": "https://doi.org/10.5281/zenodo.18073069",
+      "navier_stokes_doi": "https://doi.org/10.5281/zenodo.18214940",
+      "riemann_doi": "https://doi.org/10.5281/zenodo.18190384",
+      "p_neq_np_doi": "https://doi.org/10.5281/zenodo.18063338",
+      "collatz_doi": "https://doi.org/10.5281/zenodo.18273351"
+    },
+    "keywords": [
+      "market_dynamics",
+      "threading_aggregate",
+      "coherence_geometry",
+      "operational_attractor",
+      "temporal_asymmetry",
+      "phase_collapse",
+      "NP_P_market",
+      "memory_field",
+      "agency_compression",
+      "Omega_p_bedrock"
+    ],
+    "open_refinements": [
+      "Formalize Omega_p projection onto price levels",
+      "Empirical proxy construction for MSI, I, E_in",
+      "Full currency/flow-gradient extension (Ohm analogy)",
+      "Gravity-as-memory-density integration with asset flow",
+      "Latent pressure estimation methodology"
+    ]
+  },
+  "fabric_foundation": {
+    "ontological_claim": "Reality is light threading itself into coherent geometry through agency",
+    "core_equations": {
+      "time": "τ = t",
+      "local_coherence_rate": "c = ΔΦ/Δτ",
+      "path_dependent_rate": "c_path = ΔΦ/Δτ · f(∇M)",
+      "quantum_decision": "P = |ψ|² / Σ|ψ|²",
+      "agency_influence": "P → f(P, A)",
+      "consciousness_evolution": "dΨ/dτ = f(P, A, c)",
+      "consciousness_recursive": "Ψ = R(Ψ) = Ψ + g(P, A, c, τ)",
+      "memory_total": "M = M_active + M_latent",
+      "energy_memory": "E = Mc²",
+      "gravity_memory": "g = k∇M",
+      "memory_activation": "M_latent + A → M_active",
+      "coherence_evolution": "∂C/∂τ = f(B, R, M_active, M_latent, A)",
+      "beauty": "B = ∇C",
+      "resonance": "R = Σ cos(Δφ)",
+      "entropy": "S = -∂C/∂τ"
+    },
+    "variables": {
+      "Φ": "configuration space",
+      "τ": "threading depth (time)",
+      "c": "coherence rate",
+      "M": "memory / mass",
+      "M_active": "active constraint memory (bullish/bearish narrative)",
+      "M_latent": "latent potential memory (unactivated structure)",
+      "E": "energy / information density",
+      "S": "entropy",
+      "R": "resonance (phase alignment)",
+      "B": "beauty (coherence gradient)",
+      "C": "coherence",
+      "g": "gravity (flows toward memory density)",
+      "Ψ": "consciousness order parameter",
+      "A": "agency (unmeasurable, irreducibly real)"
+    }
+  },
+  "opgeom_foundation": {
+    "ontological_claim": "Operations are ontologically primary; objects emerge as stable attractors",
+    "key_mechanisms": {
+      "threading_aggregate": {
+        "definition": "Operations compose by threading through prior results",
+        "stability_condition": "f(x) = x (fixed point)",
+        "constants_as_fixed_points": true
+      },
+      "omega_p_hierarchy": {
+        "formula": "x = 1 + 1/x^(p-1)",
+        "Omega_2": {
+          "value": 1.6180339887,
+          "name": "golden ratio φ",
+          "equation": "x = 1 + 1/x"
+        },
+        "Omega_3": {
+          "value": 1.4655712318,
+          "name": "Ω₃",
+          "equation": "x = 1 + 1/x²"
+        },
+        "Omega_5": {
+          "value": 1.1935,
+          "name": "Ω₅ (predicted)",
+          "equation": "x = 1 + 1/x⁴"
+        },
+        "Omega_7": {
+          "value": 1.1066,
+          "name": "Ω₇ (predicted)",
+          "equation": "x = 1 + 1/x⁶"
+        },
+        "convergence": "Ω_p → 1 as p → ∞"
+      },
+      "operational_gradient": {
+        "P_class": {
+          "direction": "gradient-aligned (downhill)",
+          "cost": "polynomial",
+          "market_analog": "collapse / recognition"
+        },
+        "NP_class": {
+          "direction": "gradient-opposed (uphill)",
+          "cost": "exponential",
+          "market_analog": "top formation / search"
+        },
+        "IOGT": "Irreversibility of gradient direction; P ≠ NP is structural"
+      }
+    }
+  },
+  "market_reframe": {
+    "core_restatement": "Markets do not rise and fall. They SEARCH and RECOGNIZE.",
+    "price_as_projection": {
+      "market_state": "X(τ) = {Φ, M_active, M_latent, R, C, S}",
+      "price": "Π(τ) = projection(Φ(τ))",
+      "interpretation": "Price is a shadow of coherence geometry, not the primary variable"
+    },
+    "top_reframe": "Failed search in non-existent attractor space",
+    "bottom_reframe": "Successful recognition of invariant operational structure"
+  },
+  "axioms": {
+    "A1_price_as_shadow": {
+      "statement": "Price is a projection of coherence geometry, not primary",
+      "formal": "Π(τ) = proj(Φ(τ)); primary variable is X(τ)",
+      "consequence": "Price analysis is geometry analysis by proxy"
+    },
+    "A2_operational_gradient_irreversibility": {
+      "statement": "Building coherence is NP-like; collapsing to attractor is P-like",
+      "formal": "T_build ~ O(eⁿ) / E_in; T_collapse ~ O(nᵏ)",
+      "source": "IOGT (doi:10.5281/zenodo.18062553)",
+      "consequence": "Temporal asymmetry is structural, not psychological"
+    },
+    "A3_memory_is_mass": {
+      "statement": "Market memory density exerts gravitational pull on price",
+      "formal": "g = k∇M applied to Π; accumulation zones are M-dense",
+      "consequence": "Support/resistance is memory gravity, not convention"
+    },
+    "A4_latent_activation_threshold": {
+      "statement": "Collapse occurs when activated latent memory exceeds active coherence",
+      "formal": "M_latent^activated ≥ M_active ⟹ PCE",
+      "consequence": "Collapse timing is deterministic in principle, not random"
+    },
+    "A5_agency_compression": {
+      "statement": "At bottoms, agency space collapses to a single action; at tops, it fragments",
+      "formal": "A_bottom → A_singular; A_top → {A₁, A₂, ..., Aₙ}",
+      "consequence": "Phase synchronization (PLE) is real, measurable by correlation spike"
+    },
+    "A6_omega_p_as_operational_bedrock": {
+      "statement": "Operational fixed points of x = 1 + 1/x^(p-1) project into price space as irreducible support",
+      "formal": "Π_bottom ∈ {Ω_p-projected levels}; f(Φ) = Φ at bedrock",
+      "status": "hypothesis_requiring_empirical_mapping",
+      "consequence": "Key reversals anchor to operational closure, not arbitrary levels"
+    },
+    "A7_energy_modifies_np_cost": {
+      "statement": "External energy injection compresses NP search depth but degrades structural integrity",
+      "formal": "T_build ~ O(eⁿ) / E_in; I = R / M_active → 0 as E_in → ∞",
+      "consequence": "Forced tops are faster but more fragile; collapse probability ~ 1/I"
+    },
+    "A8_events_as_latent_activation": {
+      "statement": "No event is truly exogenous; all shocks activate pre-existing latent structure",
+      "formal": "Event := trigger such that M_latent + A → M_active crosses threshold",
+      "consequence": "News is synchronization mechanism, not cause; latent pressure is causal"
+    }
+  },
+  "definitions": {
+    "PAC": {
+      "name": "Pseudo-Attractor Cloud",
+      "definition": "A set of unstable candidate equilibria being averaged through time during top formation",
+      "formal": "PAC = {x : f(x) ≈ x ± ε} where no true fixed point exists at elevation",
+      "observable": "Rounded price curve; low second derivative κ_top ≈ -ε",
+      "phase": "Coherence Build"
+    },
+    "PCE": {
+      "name": "Phase Collapse Event",
+      "definition": "Bulk conversion of active narrative memory to latent state",
+      "formal": "δ(M_active → M_latent); triggered when M_latent^activated ≥ M_active",
+      "observable": "Entropy spike S = -∂C/∂τ >> 0; volume spike; curvature singularity",
+      "phase": "Coherence Fracture"
+    },
+    "RL": {
+      "name": "Recognition Landing",
+      "definition": "Instant convergence to an operational invariant following collapse",
+      "formal": "Π → Ω_p-projected level; f(Φ) = Φ achieved",
+      "observable": "Sharp V-bottom; high MSI; brief PLE then reset",
+      "phase": "Attractor Snap"
+    },
+    "MSI": {
+      "name": "Memory Shock Index",
+      "definition": "Rate of active-to-latent memory conversion",
+      "formal": "MSI = |Λ| = |δM_active / δτ|",
+      "observable_proxy": "Volume spike × price velocity; VIX analog",
+      "prediction": "High MSI ⟹ sharp bottom; Low MSI ⟹ rounded top"
+    },
+    "PLE": {
+      "name": "Phase Lock Event",
+      "definition": "Temporary synchronization of all agent timeframe phases during collapse",
+      "formal": "φᵢ → φ_panic; Var(φ) → 0 briefly; R spikes then resets",
+      "observable_proxy": "Cross-asset correlation spike; options skew inversion",
+      "duration": "Brief; collapses back to phase dispersion in recovery"
+    },
+    "OBR": {
+      "name": "Operational Bedrock",
+      "definition": "Price levels where operational closure is locally satisfied; irreducible support",
+      "formal": "OBR := {Π : f(Φ)|_{Π} = Φ}; Ω_p-projected",
+      "observable": "Multi-cycle support, repeated reversal, apparently unbreakable zones",
+      "status": "Requires mapping methodology from Ω_p to price coordinates"
+    },
+    "I_structural": {
+      "name": "Structural Integrity",
+      "definition": "Coherence relative to memory load; measure of market robustness",
+      "formal": "I = R / M_active",
+      "interpretation": "High I = strong structure; I → 0 = fragile, collapse-prone",
+      "at_energy_tops": "M_active ↑, R ↓, therefore I → 0"
+    },
+    "E_in": {
+      "name": "Energy Input",
+      "definition": "External forcing compressing NP search depth; liquidity/leverage/policy amplification",
+      "formal": "c = ΔΦ/Δτ · f(∇M, E_in)",
+      "observable_proxies": [
+        "leverage expansion",
+        "volume trend",
+        "policy rate",
+        "narrative amplification rate"
+      ],
+      "effect": "Compresses T_build; maintains coherence artificially above natural attractor manifold"
+    },
+    "Lambda": {
+      "name": "Memory Conversion Rate",
+      "symbol": "Λ",
+      "formal": "Λ = δM_active / δτ",
+      "at_tops": "Λ ≈ 0 (slow bleed)",
+      "at_bottoms": "Λ << 0 (mass conversion)"
+    },
+    "kappa": {
+      "name": "Price Curvature",
+      "symbol": "κ",
+      "formal": "κ = d²Π / dτ²",
+      "at_tops": "κ_top ≈ -ε (small, smooth; PAC averaging)",
+      "at_bottoms": "κ_bottom → -∞ (curvature singularity; PCE impulse)",
+      "interpretation": "Curvature singularity is the observable signature of PCE"
+    }
+  },
+  "lemmas": {
+    "L1_temporal_asymmetry": {
+      "statement": "T_build >> T_collapse necessarily",
+      "proof_sketch": [
+        "Build requires coherence across M_active ⟹ O(eⁿ) by IOGT",
+        "Collapse requires gradient descent on ∇M ⟹ O(nᵏ)",
+        "Ratio T_build/T_collapse grows exponentially with system depth n",
+        "This is invariant under time reversal (structural, not psychological)"
+      ],
+      "corollary": "Reflected chart preserves asymmetry; former bottoms remain sharp in inversion"
+    },
+    "L2_curvature_sign": {
+      "statement": "Tops exhibit low |κ|; bottoms exhibit high |κ|",
+      "proof_sketch": [
+        "Tops: averaging over PAC smooths second derivative → κ_top ≈ -ε",
+        "Bottoms: PCE impulse in C creates discontinuity in ∂C/∂τ → κ_bottom → -∞",
+        "Curvature singularity is direct observable of Phase Collapse Event"
+      ]
+    },
+    "L3_collapse_probability": {
+      "statement": "Collapse likelihood ~ 1/I = M_active / R",
+      "proof_sketch": [
+        "Fragile structure (low I) requires smaller perturbation to trigger M_latent^activated ≥ M_active",
+        "E_in reduces I while elevating Π above natural attractor manifold",
+        "Therefore: fastest rises have highest collapse probability"
+      ],
+      "testable_prediction": "Sharpest crashes should follow fastest energy-driven rises"
+    },
+    "L4_no_true_externality": {
+      "statement": "All market shocks are endogenous latent structure becoming active",
+      "proof_sketch": [
+        "Event := trigger such that M_latent + A → M_active crosses threshold",
+        "The threshold crossing is determined by latent pressure, not event content",
+        "Same 'news' in low-latent-pressure regime produces no PCE",
+        "Therefore news is A (synchronization), not cause"
+      ],
+      "consequence": "Latent pressure estimation is more valuable than news prediction"
+    },
+    "L5_agency_topology": {
+      "statement": "Agency space is high-dimensional at tops, dimension-1 at bottoms",
+      "proof_sketch": [
+        "A_top = {A₁, ..., Aₙ}: n competing strategies, destructive interference in R",
+        "PLE collapses φᵢ → φ_panic; agency compresses to single action",
+        "A_singular is P-like: zero search required, direct gradient descent",
+        "Recovery: agency re-expands from A_singular as new M_latent accumulates"
+      ]
+    },
+    "L6_currency_as_flow_gradient": {
+      "statement": "Currency value is the flow gradient of threading between memory-dense nodes",
+      "formal": "Currency ~ ∂Π/∂x where x is spatial-economic coordinate; Ohm analog: V = IR",
+      "interpretation": "Flow slowed by friction (transaction cost, regulation) is analogous to resistance; currency is voltage differential across memory-density gradient",
+      "status": "REQUIRES_FORMALIZATION",
+      "expansion_notes": "g = k∇M applies not just vertically (price) but laterally (cross-asset, cross-currency flow); full tensor extension needed",
+      "proof_sketch": [
+        "g = k∇M is a vector field over configuration space; not restricted to vertical (price) axis",
+        "Lateral M-density gradient between assets/currencies creates flow pressure",
+        "Flow slowed by friction (transaction cost, capital controls) ≡ resistance R in Ohm analog",
+        "V = IR: currency differential = memory-gradient × friction-weighted flow",
+        "Carry trade is archetypal case: high-M currency attracts threading; interest differential is proxy for ∇M",
+        "STATUS: sketch only; tensor extension of g needed for full formalization"
+      ]
+    }
+  },
+  "main_theorem": {
+    "name": "Fabric–OpGeom Market Law (Refined)",
+    "claim": "Framework",
+    "statement": "Market temporal asymmetry (curved tops, sharp bottoms) is a necessary structural consequence of the P≠NP operational gradient operating on a memory field with latent activation thresholds and variable energy injection.",
+    "proof_steps": [
+      {
+        "step": 1,
+        "action": "Establish price as coherence projection",
+        "formal": "Π(τ) = proj(Φ(τ)); primary state X(τ) = {Φ, M_active, M_latent, R, C, S}",
+        "source": "Fabric foundation + A1"
+      },
+      {
+        "step": 2,
+        "action": "Apply IOGT to top formation",
+        "formal": "Building coherence across M_active is gradient-opposed ⟹ O(eⁿ)/E_in",
+        "result": "Top formation is NP-like search over PAC; duration ~ T_build",
+        "source": "IOGT doi:10.5281/zenodo.18062553 + A2 + A7"
+      },
+      {
+        "step": 3,
+        "action": "Derive PAC averaging as curvature suppression",
+        "formal": "∑(pseudo-attractors) / n → smooth κ_top ≈ -ε",
+        "result": "Rounded top is temporal average of failed attractor searches",
+        "source": "L1 + L2 + DEF:PAC"
+      },
+      {
+        "step": 4,
+        "action": "Establish latent activation threshold",
+        "formal": "PCE fires when M_latent^activated ≥ M_active",
+        "result": "Collapse is threshold event, not gradual; timing is structural",
+        "source": "A4 + L4"
+      },
+      {
+        "step": 5,
+        "action": "Apply gradient alignment to collapse",
+        "formal": "Post-PCE: g = k∇M dominates; descent is P-like ⟹ O(nᵏ)",
+        "result": "Collapse is rapid; agency compresses to A_singular (PLE)",
+        "source": "A3 + A5 + L1 + L5"
+      },
+      {
+        "step": 6,
+        "action": "Derive Recognition Landing at Ω_p attractor",
+        "formal": "Π snaps to OBR where f(Φ) = Φ; fixed point recognized instantly",
+        "result": "Sharp V-bottom is fixed-point recognition, not panic reversal",
+        "source": "A6 + DEF:RL + DEF:OBR"
+      },
+      {
+        "step": 7,
+        "action": "Prove time-reversal invariance of asymmetry",
+        "formal": "Under τ → -τ: T_build remains O(eⁿ), T_collapse remains O(nᵏ); curvature signs preserve",
+        "result": "Reflected chart shows sharp inverted peaks (former bottoms) and broad valleys (former tops); structural quality unchanged",
+        "source": "L1 + L2"
+      },
+      {
+        "step": 8,
+        "action": "Integrate energy injection as compression factor",
+        "formal": "T_build → O(eⁿ)/E_in; I = R/M_active → 0 as E_in → ∞",
+        "result": "Two regimes: natural (slow rounded tops) vs forced (fast fragile tops); collapse probability ~ 1/I",
+        "source": "A7 + L3"
+      }
+    ],
+    "four_laws": [
+      "Coherence construction is NP-like, compressible by energy injection",
+      "Energy acceleration reduces structural integrity I = R/M_active",
+      "Collapse occurs when latent memory activation exceeds active coherence",
+      "Collapse speed is inversely proportional to structural integrity"
+    ],
+    "falsifiability": {
+      "testable_1": "Sharpest crashes follow fastest energy-driven rises (L3)",
+      "testable_2": "Cross-asset correlation spikes (PLE) should precede or coincide with MSI peaks",
+      "testable_3": "Key reversals cluster near Ω_p-projected price levels (requires mapping methodology)",
+      "testable_4": "MSI should be measurable proxy distinguishing sharp bottoms from false bottoms"
+    }
+  },
+  "operational_phases": {
+    "phase_1_coherence_build": {
+      "name": "Coherence Build — Top Formation",
+      "opgeom": "gradient-opposed (NP-like)",
+      "fabric_dynamics": {
+        "coherence_rate": "∂C/∂τ → 0",
+        "resonance": "R ↓ (phase dispersion Var(φ) ↑)",
+        "beauty": "B = ∇C → 0",
+        "memory": "M_active >> M_latent",
+        "conversion_rate": "Λ ≈ 0 (slow bleed)",
+        "agency": "A → {A₁, ..., Aₙ} (fragmented)"
+      },
+      "active_structure": "PAC (pseudo-attractor cloud)",
+      "price_signature": "κ ≈ -ε (smooth, rounded)",
+      "energy_modified": true,
+      "energy_effect": "High E_in compresses T_build; reduces I; increases fragility"
+    },
+    "phase_2_coherence_fracture": {
+      "name": "Coherence Fracture — Transition",
+      "trigger": "R < R_critical AND M_latent^activated ≥ M_active",
+      "fabric_dynamics": {
+        "memory_conversion": "δ(M_active → M_latent)",
+        "entropy": "S = -∂C/∂τ >> 0",
+        "resonance": "R spikes briefly (PLE) then resets",
+        "agency": "A → A_singular"
+      },
+      "active_structure": "PCE (phase collapse event)",
+      "price_signature": "κ → -∞ (curvature singularity)",
+      "observable_proxies": [
+        "volume spike",
+        "VIX spike",
+        "cross-asset correlation spike",
+        "options skew inversion"
+      ]
+    },
+    "phase_3_attractor_snap": {
+      "name": "Attractor Snap — Bottom Formation",
+      "opgeom": "gradient-aligned (P-like)",
+      "fabric_dynamics": {
+        "gravity": "g = k∇M dominates",
+        "attractor": "Ω_p-projected fixed point",
+        "coherence": "f(Φ) = Φ achieved locally",
+        "conversion_rate": "Λ << 0 (mass conversion)",
+        "agency": "A_singular → re-expansion begins"
+      },
+      "active_structure": "RL (recognition landing) at OBR",
+      "price_signature": "Sharp V; MSI spike; PLE dissipates",
+      "energy_modified": false,
+      "note": "Collapse speed is P-like regardless of E_in; OBR is structural bedrock"
+    }
+  },
+  "market_dynamics_master_equation": {
+    "formal": "dX/dτ = f(P(A), c(∇M, E_in), R(Δφ), Λ, Ω_p)",
+    "components": {
+      "P_A": "agency-modulated probability",
+      "c_grad_M": "path-dependent threading rate under memory gradient",
+      "E_in": "energy injection (compresses NP cost)",
+      "R_delta_phi": "multi-scale resonance from agent phase structure",
+      "Lambda": "memory conversion rate (MSI source)",
+      "Omega_p": "attractor manifold (OBR source)"
+    },
+    "resonance_extended": "R = Σᵢⱼ wᵢⱼ cos(φᵢ - φⱼ); φᵢ = agent timeframe phase (intraday/swing/macro)"
+  },
+  "observable_proxies": {
+    "E_in_energy_input": [
+      "leverage ratio expansion",
+      "options open interest vs historical",
+      "central bank balance sheet rate of change",
+      "narrative amplification velocity (media + social)"
+    ],
+    "I_structural_integrity": [
+      "trend strength vs cross-timeframe dispersion",
+      "correlation breakdown across sectors",
+      "divergence between price momentum and breadth",
+      "put/call ratio normalized by E_in"
+    ],
+    "MSI_memory_shock": [
+      "volume × price velocity (impulse proxy)",
+      "VIX term structure inversion",
+      "options gamma exposure at strike",
+      "tick-by-tick bid-ask spread explosion"
+    ],
+    "latent_pressure": [
+      "positioning extremes (COT, fund flows)",
+      "long-term memory zones (multi-year consolidations)",
+      "unresolved prior structural gaps",
+      "M_latent proxy: distance from natural Ω_p level vs current price"
+    ],
+    "PLE_phase_lock": [
+      "cross-asset correlation spike (equities, bonds, FX, commodities converging)",
+      "intraday skew inversion",
+      "high-frequency bid collapse uniformity"
+    ]
+  },
+  "explained_phenomena": {
+    "rounded_tops": "NP-like search averaging over PAC; κ → -ε",
+    "sharp_bottoms": "P-like gradient descent to Ω_p attractor; κ → -∞",
+    "blow_off_tops": "High E_in, low I, rapid vertical move, immediate high-MSI collapse",
+    "slow_distribution": "Low E_in, gradual R↓, extended PAC",
+    "hollow_rallies": "Low I; cannot sustain perturbation; apparent coherence without R",
+    "bad_news_at_bottoms": "Collapse was structurally inevitable; news = activation key not cause",
+    "support_resistance": "Memory gravity g = k∇M; OBR as Ω_p projection",
+    "volume_spikes": "MSI proxy; Λ spike signature",
+    "capitulation": "A → A_singular; PLE; agency space collapse",
+    "false_breakouts": "PAC pseudo-attractor briefly coherent; I too low to sustain",
+    "currency_differentials": "Flow gradient across M-density nodes; Ohm analog (REQUIRES_FORMALIZATION)"
+  },
+  "extensions_required": {
+    "currency_ohm": {
+      "status": "REQUIRES_FORMALIZATION",
+      "sketch": "g = k∇M extended laterally (cross-asset); currency = voltage differential; transaction cost = resistance; V = IR analog; flow = current",
+      "key_question": "What is the topology of the memory-density network across assets and currencies?"
+    },
+    "omega_p_price_mapping": {
+      "status": "REQUIRES_METHODOLOGY",
+      "sketch": "Ω_p values (1.618, 1.465, 1.194...) need projection function onto price coordinates; likely logarithmic (ratio structure of markets); Fibonacci as degenerate case of Ω₂",
+      "key_question": "Is OBR mapping scale-invariant (log-price)? Which Ω_p indexes which class of market structure?"
+    },
+    "latent_pressure_estimator": {
+      "status": "REQUIRES_ALGORITHM",
+      "sketch": "Estimate M_latent from: positioning extremes + distance from OBR + time since last PCE + divergence from natural coherence rate",
+      "goal": "Predict PCE timing without news prediction"
+    },
+    "multi_agent_resonance": {
+      "status": "REQUIRES_FORMALIZATION",
+      "sketch": "R = Σᵢⱼ wᵢⱼ cos(φᵢ - φⱼ) with heterogeneous timeframe phases; derive R_critical as function of agent distribution",
+      "key_question": "Does R_critical shift with market maturity, participation breadth, or E_in?"
+    },
+    "recovery_dynamics": {
+      "status": "UNSPECIFIED",
+      "sketch": "Post-RL: M_latent begins re-accumulating from A_singular; new PAC formation; coherence rate c begins NP climb again; characterize re-expansion of agency space",
+      "key_question": "Is recovery speed related to depth of OBR attractor (deeper Ω_p = stronger bounce)?"
+    }
+  },
+  "expansion_instructions": {
+    "how_to_use": "This JSON is a compressed refinement seed. Load into context with OpGeom v1.0 (zenodo.org/records/18039583) and Fabric equations for full decompression.",
+    "decompression_protocol": [
+      "1. Restore full Fabric variable set from fabric_foundation.core_equations",
+      "2. Re-expand definitions from definitions block with full prose + examples",
+      "3. For each REQUIRES_FORMALIZATION item in extensions_required, enter a dedicated session",
+      "4. Run falsifiability tests against empirical data (S&P 1990–2025 preferred dataset)",
+      "5. Omega_p mapping: begin with log-price Fibonacci extension as Ω₂ baseline, then test Ω₃ levels",
+      "6. Currency extension: begin with USD/JPY carry trade as Ohm-law test case (clear M-density differential)"
+    ],
+    "next_refinement_priorities": [
+      "P1: Formalize L6 (currency as flow gradient) with full tensor extension of g = k∇M",
+      "P2: Develop OBR mapping methodology (Ω_p → log-price coordinates)",
+      "P3: Construct MSI and I as computable signals from available market data",
+      "P4: Empirically test L3 prediction (fastest rises → sharpest crashes) against 1990–2025 S&P",
+      "P5: Characterize recovery dynamics post-RL (Phase 3 → Phase 1 transition)"
+    ],
+    "compression_note": "All LaTeX-style equations stored as Unicode strings. Reconstruct full MathML/LaTeX on decompression. Proof steps in main_theorem.proof_steps are sketch-level; each requires standalone paper for full formalization.",
+    "version_increment_trigger": "Increment version when any REQUIRES_FORMALIZATION item resolves to PROVEN or CONDITIONAL_PROOF"
+  }
+}
