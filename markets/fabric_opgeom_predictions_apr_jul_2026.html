@@ -1,0 +1,169 @@
+
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .pred-card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 14px 16px; margin-bottom: 10px; }
+  .pred-header { display: flex; align-items: flex-start; gap: 10px; margin-bottom: 8px; }
+  .pred-id { font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 12px; white-space: nowrap; flex-shrink: 0; }
+  .pred-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); line-height: 1.4; }
+  .pred-window { font-size: 11px; color: var(--color-text-secondary); margin-bottom: 6px; }
+  .pred-body { font-size: 12px; color: var(--color-text-secondary); line-height: 1.6; margin-bottom: 8px; }
+  .pred-signal { font-size: 11px; color: var(--color-text-secondary); background: var(--color-background-secondary); border-radius: 6px; padding: 6px 10px; margin-bottom: 6px; }
+  .pred-falsify { font-size: 11px; border-left: 2px solid var(--color-border-danger); padding-left: 8px; color: var(--color-text-danger); }
+  .state-row { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
+  .state-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 12px; }
+  .state-label { font-size: 11px; color: var(--color-text-secondary); margin-bottom: 2px; }
+  .state-val { font-size: 16px; font-weight: 500; color: var(--color-text-primary); }
+  .state-sub { font-size: 10px; color: var(--color-text-tertiary); margin-top: 1px; }
+  .fork-box { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: 10px 14px; margin-bottom: 10px; font-size: 12px; color: var(--color-text-secondary); }
+  .fork-title { font-size: 13px; font-weight: 500; color: var(--color-text-primary); margin-bottom: 6px; }
+  .timeline-bar { position: relative; height: 36px; background: var(--color-background-secondary); border-radius: 6px; margin-bottom: 14px; overflow: visible; }
+  .tl-seg { position: absolute; top: 0; height: 100%; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 500; }
+  .tl-label { position: absolute; top: 40px; font-size: 10px; color: var(--color-text-tertiary); transform: translateX(-50%); white-space: nowrap; }
+  .tl-tick { position: absolute; top: -8px; width: 1px; background: var(--color-border-secondary); height: 52px; }
+  .section-head { font-size: 12px; font-weight: 500; color: var(--color-text-tertiary); text-transform: uppercase; letter-spacing: 0.06em; margin: 14px 0 8px; }
+  .alert-bar { background: var(--color-background-warning); border: 0.5px solid var(--color-border-warning); border-radius: var(--border-radius-md); padding: 8px 12px; font-size: 12px; color: var(--color-text-warning); margin-bottom: 12px; }
+  .green-dot { display: inline-block; width: 7px; height: 7px; background: #1D9E75; border-radius: 50%; margin-right: 4px; }
+  .red-dot { display: inline-block; width: 7px; height: 7px; background: #E24B4A; border-radius: 50%; margin-right: 4px; }
+  .amber-dot { display: inline-block; width: 7px; height: 7px; background: #EF9F27; border-radius: 50%; margin-right: 4px; }
+</style>
+
+<h2 class="sr-only">Fabric-OpGeom market predictions April to July 2026 with Iran war context</h2>
+
+<div class="section-head">Current state — April 15, 2026</div>
+
+<div class="state-row">
+  <div class="state-card">
+    <div class="state-label">SPX</div>
+    <div class="state-val">6,967</div>
+    <div class="state-sub">futures 7,010 — PAC ceiling zone</div>
+  </div>
+  <div class="state-card">
+    <div class="state-label">WTI crude</div>
+    <div class="state-val">$93</div>
+    <div class="state-sub">vs $67 pre-war — high M_latent</div>
+  </div>
+  <div class="state-card">
+    <div class="state-label">VIX</div>
+    <div class="state-val">18.4</div>
+    <div class="state-sub">compressing — low entropy</div>
+  </div>
+  <div class="state-card">
+    <div class="state-label">Gold / DXY</div>
+    <div class="state-val">$4,847</div>
+    <div class="state-sub">DXY 99 — both rising: pre-PLE</div>
+  </div>
+</div>
+
+<div class="alert-bar">
+  <span class="amber-dot"></span><strong>Critical deadline:</strong> US-Iran ceasefire expires ~Apr 22. Talks collapsed in Islamabad. US naval blockade active. 136M barrels stuck in Gulf. Strait effectively closed.
+</div>
+
+<div class="section-head">Timeline</div>
+
+<div style="position: relative; height: 80px; margin-bottom: 20px;">
+  <div class="timeline-bar">
+    <div class="tl-seg" style="left:0%; width:14%; background:#E6F1FB; color:#185FA5;">PAC test</div>
+    <div class="tl-seg" style="left:14%; width:10%; background:#FAEEDA; color:#633806;">Apr 22</div>
+    <div class="tl-seg" style="left:24%; width:20%; background:#FCEBEB; color:#A32D2D;">PCE window</div>
+    <div class="tl-seg" style="left:44%; width:22%; background:#E1F5EE; color:#085041;">RL / rebuild</div>
+    <div class="tl-seg" style="left:66%; width:34%; background:#F1EFE8; color:#5F5E5A;">PAC II / July test</div>
+  </div>
+  <div class="tl-tick" style="left:0%"></div>
+  <div class="tl-label" style="left:0%">Apr 15</div>
+  <div class="tl-tick" style="left:14%"></div>
+  <div class="tl-label" style="left:14%">~Apr 22 (ceasefire expires)</div>
+  <div class="tl-tick" style="left:44%"></div>
+  <div class="tl-label" style="left:44%">May</div>
+  <div class="tl-tick" style="left:66%"></div>
+  <div class="tl-label" style="left:66%">Jun</div>
+  <div class="tl-tick" style="left:100%"></div>
+  <div class="tl-label" style="left:98%">Jul 15</div>
+</div>
+
+<div class="section-head">The April 22 fork — binary split of all predictions</div>
+
+<div class="fork-box">
+  <div class="fork-title"><span class="red-dot"></span>Fork A — no deal by April 22 (higher probability given current state)</div>
+  M_latent (war continuation) activates mechanically. Oil re-surges above $100. PCE likely within 48–72h of expiry. SPX target: 6,400–6,550 RL zone (confirmed OBR from March). DXY spikes, gold spikes, equities drop simultaneously (PLE fires). MSI >> 90th pct. Then rebuild begins from RL.
+</div>
+
+<div class="fork-box">
+  <div class="fork-title"><span class="green-dot"></span>Fork B — deal reached before April 22</div>
+  Oil drops toward $70–75 (Strait reopens). M_latent converts to M_active (recovery narrative). I = R/M_active recovers. PAC extends toward / through 7,032 ATH. PCE deferred to May–June (earnings window). Blow-off risk increases if E_in surges on oil relief.
+</div>
+
+<div class="section-head">Predictions — refined with war context</div>
+
+<div class="pred-card">
+  <div class="pred-header">
+    <span class="pred-id" style="background:#E6F1FB; color:#185FA5;">P1</span>
+    <div class="pred-title">PAC ceiling confirmation at 7,000–7,032 — smooth approach, not spike</div>
+  </div>
+  <div class="pred-window">Window: Apr 15–22 (this week)</div>
+  <div class="pred-body">SPX should approach the ATH zone (7,000–7,032) with low-negative curvature (κ ≈ –ε), not a V-top spike. Earnings + diplomacy hope = narrative energy, but oil drag keeps I low. Any break above 7,032 before ceasefire resolution = energy-forced extension with minimum I — maximum fragility per L3.</div>
+  <div class="pred-signal"><span class="amber-dot"></span>Tighter signal: watch breadth vs price divergence this week. If SPX reaches 7,000+ while fewer than 55% of members are above 20-day MA → hollow rally confirmed (I → 0).</div>
+  <div class="pred-falsify">Falsify if: V-top spike with κ → –∞ before any PCE — violates temporal asymmetry (L1/L2).</div>
+</div>
+
+<div class="pred-card">
+  <div class="pred-header">
+    <span class="pred-id" style="background:#FCEBEB; color:#A32D2D;">P2</span>
+    <div class="pred-title">PCE + RL event — timing window tightened to April 22–May 10</div>
+  </div>
+  <div class="pred-window">Window: Apr 22 – May 10 (Fork A), or May 15 – Jun 15 (Fork B)</div>
+  <div class="pred-body">Original doc said "by mid-July" — this is too loose given the hard April 22 threshold. Under Fork A: ceasefire expiry triggers M_latent^activated ≥ M_active crossing within days, not weeks. Under Fork B: deferred but still predicts at least one PCE by early June via earnings window. Morphology is the same: sharp V (κ → –∞), MSI spike, brief PLE.</div>
+  <div class="pred-signal"><span class="red-dot"></span>Tighter signal: WTI re-crossing $100 sustained = PCE within 5–10 trading days. This is the latent pressure threshold proxy.</div>
+  <div class="pred-signal"><span class="green-dot"></span>RL target: 6,400–6,550 (confirmed OBR zone — March low). If this fails on the second test, next OBR candidate: ~6,050–6,100 (requires Ω_p mapping validation).</div>
+  <div class="pred-falsify">Falsify if: prolonged grinding decline without MSI spike, or rounded bottom instead of V. Either violates P-like gradient alignment (A2 + L1).</div>
+</div>
+
+<div class="pred-card">
+  <div class="pred-header">
+    <span class="pred-id" style="background:#FAEEDA; color:#633806;">P3</span>
+    <div class="pred-title">Oil as I-degradation clock — WTI levels as structural integrity signal</div>
+  </div>
+  <div class="pred-window">Window: continuous — key thresholds at $80 and $105</div>
+  <div class="pred-body">Original doc had no oil variable. Correction: oil is the dominant negative E_in modifier. At $93, structural integrity I = R/M_active is degrading faster than equities price action suggests. Two thresholds define the regime.</div>
+  <div class="pred-signal"><span class="green-dot"></span>WTI &lt; $80 sustained (3+ days): Strait fully reopened → M_latent converts → I recovers → PAC can extend past 7,032 durably (Fork B scenario extends).</div>
+  <div class="pred-signal"><span class="red-dot"></span>WTI &gt; $105 sustained: inflation/Fed path repriced → immediate PCE trigger regardless of diplomacy calendar. Faster collapse than Fork A baseline.</div>
+  <div class="pred-falsify">Falsify if: SPX sustains above 7,032 with WTI > $95 for more than 2 weeks — would require external E_in source (fiscal, AI narrative velocity) to compensate oil drag, which is testable independently.</div>
+</div>
+
+<div class="pred-card">
+  <div class="pred-header">
+    <span class="pred-id" style="background:#EEEDFE; color:#3C3489;">P4</span>
+    <div class="pred-title">PLE signature — gold + DXY + equities correlate in same session on PCE</div>
+  </div>
+  <div class="pred-window">Window: coincident with any PCE (whenever it fires)</div>
+  <div class="pred-body">Gold $4,847 and DXY >99 both elevated simultaneously is a pre-PLE state — assets threading to competing M-dense attractors. When PLE fires: agency compresses to A_singular (capitulate). All three assets move with high cross-correlation in the same session: equities down sharply, DXY up, gold volatile (brief spike then flush as margin calls fire). This is the measurable Phase Lock Event.</div>
+  <div class="pred-signal"><span class="amber-dot"></span>Tighter signal: options skew inversion (put skew steepens to > 2σ) within 48h before or coincident with equity drop day.</div>
+  <div class="pred-falsify">Falsify if: equity PCE fires but DXY and gold are uncorrelated that session → agency topology claim (A5 + L5) falsified for this cycle.</div>
+</div>
+
+<div class="pred-card">
+  <div class="pred-header">
+    <span class="pred-id" style="background:#E1F5EE; color:#085041;">P5</span>
+    <div class="pred-title">OBR first field test — 6,400–6,550 holds on second test</div>
+  </div>
+  <div class="pred-window">Window: during PCE recovery phase</div>
+  <div class="pred-body">March RL (confirmed OBR) landed at ~6,500. If PCE fires and price revisits this zone, the OBR hypothesis predicts it holds again (fixed-point recognition, not just luck). A second hold confirms the zone as a genuine Ω_p-projected level. Failure to hold → deeper OBR candidate needed (~6,050–6,100 by rough ratio estimation). Both outcomes are framework information.</div>
+  <div class="pred-signal"><span class="green-dot"></span>Tighter: if RL lands at 6,500 again on a high-MSI day, record the exact intraday low. Three cycles of RL at same level within ±1% = strong OBR confirmation. Begin Ω_p ratio mapping from this anchor.</div>
+  <div class="pred-falsify">Falsify if: price passes through 6,400 in a low-MSI, slow-grinding move (not a V) — that's a different mechanism, not RL at OBR.</div>
+</div>
+
+<div class="pred-card">
+  <div class="pred-header">
+    <span class="pred-id" style="background:#FAECE7; color:#712B13;">P6</span>
+    <div class="pred-title">Currency / Ohm test — USD strengthens as oil flow gradient proxy</div>
+  </div>
+  <div class="pred-window">Window: coincident with oil > $100 and/or PCE</div>
+  <div class="pred-body">L6 (currency as flow gradient) gets its first real test here. The Strait closure is a literal friction event in the oil flow network — exactly the Ohm-law analog (resistance in the M-density flow). Prediction: DXY strength should track inversely with Strait throughput, not just risk sentiment. If DXY rises when risk-off AND rises when Strait closes more (oil up) → same direction for two different reasons → lateral g = k∇M supported.</div>
+  <div class="pred-signal"><span class="amber-dot"></span>Tighter: monitor AUD (commodity currency) vs DXY. AUD/USD should fall as oil rises if flow-gradient hypothesis holds (Ohm: high-resistance path = low flow to commodity currencies).</div>
+  <div class="pred-falsify">Falsify if: DXY falls while oil rises above $105 — breaks the lateral memory-density gradient claim.</div>
+</div>
+
+<div class="section-head">Scoring protocol — post July 15 review</div>
+<div class="pred-body" style="font-size:12px; color: var(--color-text-secondary); padding: 0 4px;">
+  Score each prediction binary. <strong>4/6 or better</strong> → framework advances to v2.1, begin Ω_p log-price ratio mapping using cycle RL levels as calibration. <strong>P2 timing miss only</strong> (PCE occurs but outside window) = mechanism correct, timing wrong = energy scaling in A7 needs revision. <strong>P4 falsified</strong> = most significant → agency topology requires fundamental rethink. <strong>P5 falsified</strong> = OBR concept stands but zone identification methodology needs work.
+</div>
