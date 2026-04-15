@@ -26,3 +26,6 @@ Third, DXY >99 and gold at $4,847 rising *simultaneously* with equities is textb
 **The hardest prediction to fake** is P4 (PLE signature) — the simultaneous cross-asset correlation on PCE day is either there or it isn't, with no ambiguity in the data.
 
 **What the framework cannot do** is predict which fork at April 22 — that depends on Trump/Iran agency (A, unmeasurable by definition). But it can predict the *morphology* of each path independently, and those morphologies are falsifiable regardless of which fork materializes.
+
+<img width="1440" height="4214" alt="image" src="https://github.com/user-attachments/assets/96a69347-c1ab-4504-89c3-7b68a61bef95" />
+
