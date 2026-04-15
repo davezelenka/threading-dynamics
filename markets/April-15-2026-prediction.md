@@ -1,30 +1,143 @@
-The framework assumptions in the original document were written *blind* to the Iran war. The actual data changes several things structurally. Let me map current state precisely before rebuilding.
+## Fabric-OpGeom market predictions April to July 2026 with Iran war context
 
-**What the data reveals:**
-- SPX 6,967 (April 14 close); futures 7,010 this morning — testing ATH zone
-- VIX 18.36 — compressing again after Monday spike to 21.58
-- WTI ~$93 (swung: $67 pre-war → $111 peak → $91 post-ceasefire → $104 post-blockade → $93 today)
-- Gold $4,847 — near ATH, safe-haven + inflation bid simultaneously
-- DXY >99 — dollar and gold rising together (abnormal; cross-asset phase divergence)
-- Ceasefire: April 8, expires ~**April 22** — hard deadline, talks collapsed in Islamabad, US naval blockade active, Trump considering resumed strikes
-- 136M barrels stuck in Gulf; Strait effectively closed; supply deficit Q2 ~3M bpd
+Current state — April 15, 2026
 
-The Iran war is not noise — it's the dominant **E_in modifier** and **latent pressure accumulator** simultaneously. Oil is the key variable.Now I can build something much tighter. The original document was written without the Iran war context — that changes the mechanism significantly. Oil is not noise here; it's the dominant variable in every framework term simultaneously.
+SPX
 
-**Three structural corrections before predictions:**
+6,967
 
-First, E_in is actually *negative* right now — oil at $93 (vs $67 pre-war = +39%) acts as a friction drag on structural integrity, not an amplifier. This means I = R/M_active is eroding faster than the original doc assumed.
+futures 7,010 — PAC ceiling zone
 
-Second, the ceasefire expiry (~April 22) is a hard exogenous M_latent activation deadline — not a "news event" but a structural threshold. If no deal: M_latent (war continuation) activates mechanically.
+WTI crude
 
-Third, DXY >99 and gold at $4,847 rising *simultaneously* with equities is textbook pre-PLE cross-asset phase dispersion — assets threading to competing M-dense attractors. The PLE hasn't fired; when it does, all three will briefly correlate.The key tightenings from the original document:
+$93
 
-**What changed and why.** The original "3-month horizon" with no hard triggers was too soft to be useful. The Iran war gives the framework something it rarely gets: an *exogenous threshold with a known date* (April 22 ceasefire expiry). That date now forks every prediction. P2's timing collapses from "by mid-July" to "April 22 – May 10" under the no-deal path — a window narrow enough to clearly falsify.
+vs $67 pre-war — high M\_latent
 
-**The most important new insight** is that oil is simultaneously functioning as three different framework variables at once: negative E_in (oil drag degrades structural integrity), primary M_latent pressure source (war memory), and the L6 Ohm-law test case (Strait closure = resistance in flow network). This is actually unusually clean for a framework test — one variable doing work in three equations you can track independently.
+VIX
 
-**The hardest prediction to fake** is P4 (PLE signature) — the simultaneous cross-asset correlation on PCE day is either there or it isn't, with no ambiguity in the data.
+18.4
 
-**What the framework cannot do** is predict which fork at April 22 — that depends on Trump/Iran agency (A, unmeasurable by definition). But it can predict the *morphology* of each path independently, and those morphologies are falsifiable regardless of which fork materializes.
+compressing — low entropy
 
+Gold / DXY
 
+$4,847
+
+DXY 99 — both rising: pre-PLE
+
+**Critical deadline:** US-Iran ceasefire expires ~Apr 22. Talks collapsed in Islamabad. US naval blockade active. 136M barrels stuck in Gulf. Strait effectively closed.
+
+Timeline
+
+PAC test
+
+Apr 22
+
+PCE window
+
+RL / rebuild
+
+PAC II / July test
+
+Apr 15
+
+~Apr 22 (ceasefire expires)
+
+May
+
+Jun
+
+Jul 15
+
+The April 22 fork — binary split of all predictions
+
+Fork A — no deal by April 22 (higher probability given current state)
+
+M\_latent (war continuation) activates mechanically. Oil re-surges above $100. PCE likely within 48–72h of expiry. SPX target: 6,400–6,550 RL zone (confirmed OBR from March). DXY spikes, gold spikes, equities drop simultaneously (PLE fires). MSI >> 90th pct. Then rebuild begins from RL.
+
+Fork B — deal reached before April 22
+
+Oil drops toward $70–75 (Strait reopens). M\_latent converts to M\_active (recovery narrative). I = R/M\_active recovers. PAC extends toward / through 7,032 ATH. PCE deferred to May–June (earnings window). Blow-off risk increases if E\_in surges on oil relief.
+
+Predictions — refined with war context
+
+P1
+
+PAC ceiling confirmation at 7,000–7,032 — smooth approach, not spike
+
+Window: Apr 15–22 (this week)
+
+SPX should approach the ATH zone (7,000–7,032) with low-negative curvature (κ ≈ –ε), not a V-top spike. Earnings + diplomacy hope = narrative energy, but oil drag keeps I low. Any break above 7,032 before ceasefire resolution = energy-forced extension with minimum I — maximum fragility per L3.
+
+Tighter signal: watch breadth vs price divergence this week. If SPX reaches 7,000+ while fewer than 55% of members are above 20-day MA → hollow rally confirmed (I → 0).
+
+Falsify if: V-top spike with κ → –∞ before any PCE — violates temporal asymmetry (L1/L2).
+
+P2
+
+PCE + RL event — timing window tightened to April 22–May 10
+
+Window: Apr 22 – May 10 (Fork A), or May 15 – Jun 15 (Fork B)
+
+Original doc said "by mid-July" — this is too loose given the hard April 22 threshold. Under Fork A: ceasefire expiry triggers M\_latent^activated ≥ M\_active crossing within days, not weeks. Under Fork B: deferred but still predicts at least one PCE by early June via earnings window. Morphology is the same: sharp V (κ → –∞), MSI spike, brief PLE.
+
+Tighter signal: WTI re-crossing $100 sustained = PCE within 5–10 trading days. This is the latent pressure threshold proxy.
+
+RL target: 6,400–6,550 (confirmed OBR zone — March low). If this fails on the second test, next OBR candidate: ~6,050–6,100 (requires Ω\_p mapping validation).
+
+Falsify if: prolonged grinding decline without MSI spike, or rounded bottom instead of V. Either violates P-like gradient alignment (A2 + L1).
+
+P3
+
+Oil as I-degradation clock — WTI levels as structural integrity signal
+
+Window: continuous — key thresholds at $80 and $105
+
+Original doc had no oil variable. Correction: oil is the dominant negative E\_in modifier. At $93, structural integrity I = R/M\_active is degrading faster than equities price action suggests. Two thresholds define the regime.
+
+WTI < $80 sustained (3+ days): Strait fully reopened → M\_latent converts → I recovers → PAC can extend past 7,032 durably (Fork B scenario extends).
+
+WTI > $105 sustained: inflation/Fed path repriced → immediate PCE trigger regardless of diplomacy calendar. Faster collapse than Fork A baseline.
+
+Falsify if: SPX sustains above 7,032 with WTI > $95 for more than 2 weeks — would require external E\_in source (fiscal, AI narrative velocity) to compensate oil drag, which is testable independently.
+
+P4
+
+PLE signature — gold + DXY + equities correlate in same session on PCE
+
+Window: coincident with any PCE (whenever it fires)
+
+Gold $4,847 and DXY >99 both elevated simultaneously is a pre-PLE state — assets threading to competing M-dense attractors. When PLE fires: agency compresses to A\_singular (capitulate). All three assets move with high cross-correlation in the same session: equities down sharply, DXY up, gold volatile (brief spike then flush as margin calls fire). This is the measurable Phase Lock Event.
+
+Tighter signal: options skew inversion (put skew steepens to > 2σ) within 48h before or coincident with equity drop day.
+
+Falsify if: equity PCE fires but DXY and gold are uncorrelated that session → agency topology claim (A5 + L5) falsified for this cycle.
+
+P5
+
+OBR first field test — 6,400–6,550 holds on second test
+
+Window: during PCE recovery phase
+
+March RL (confirmed OBR) landed at ~6,500. If PCE fires and price revisits this zone, the OBR hypothesis predicts it holds again (fixed-point recognition, not just luck). A second hold confirms the zone as a genuine Ω\_p-projected level. Failure to hold → deeper OBR candidate needed (~6,050–6,100 by rough ratio estimation). Both outcomes are framework information.
+
+Tighter: if RL lands at 6,500 again on a high-MSI day, record the exact intraday low. Three cycles of RL at same level within ±1% = strong OBR confirmation. Begin Ω\_p ratio mapping from this anchor.
+
+Falsify if: price passes through 6,400 in a low-MSI, slow-grinding move (not a V) — that's a different mechanism, not RL at OBR.
+
+P6
+
+Currency / Ohm test — USD strengthens as oil flow gradient proxy
+
+Window: coincident with oil > $100 and/or PCE
+
+L6 (currency as flow gradient) gets its first real test here. The Strait closure is a literal friction event in the oil flow network — exactly the Ohm-law analog (resistance in the M-density flow). Prediction: DXY strength should track inversely with Strait throughput, not just risk sentiment. If DXY rises when risk-off AND rises when Strait closes more (oil up) → same direction for two different reasons → lateral g = k∇M supported.
+
+Tighter: monitor AUD (commodity currency) vs DXY. AUD/USD should fall as oil rises if flow-gradient hypothesis holds (Ohm: high-resistance path = low flow to commodity currencies).
+
+Falsify if: DXY falls while oil rises above $105 — breaks the lateral memory-density gradient claim.
+
+Scoring protocol — post July 15 review
+
+Score each prediction binary. **4/6 or better** → framework advances to v2.1, begin Ω\_p log-price ratio mapping using cycle RL levels as calibration. **P2 timing miss only** (PCE occurs but outside window) = mechanism correct, timing wrong = energy scaling in A7 needs revision. **P4 falsified** = most significant → agency topology requires fundamental rethink. **P5 falsified** = OBR concept stands but zone identification methodology needs work.
