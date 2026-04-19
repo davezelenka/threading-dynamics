@@ -1,4 +1,4 @@
-# Fabric–OpGeom Framework Files
+# Socio-Political Framework Files
 
 Compressed JSON seeds for the Fabric–OpGeom unified framework developed by Zelenka_D_D. Each file is a structured synthesis designed for decompression and further refinement in future sessions.
 
