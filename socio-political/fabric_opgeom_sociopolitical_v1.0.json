@@ -1,0 +1,437 @@
+{
+  "meta": {
+    "title": "Fabric–OpGeom Sociopolitical Dynamics: Attractor Setting as Constitutional Design",
+    "subtitle": "Social Systems as Coherence-Threading Fields; The U.S. Constitution as Deliberate Omega_n Calibration",
+    "author": "Zelenka_D_D",
+    "author_orcid": null,
+    "claim": "Framework",
+    "status": "active_refinement",
+    "version": "1.0",
+    "date_created": "2026-04",
+    "document_status": "preprint_synthesis",
+    "language": "en",
+    "license": "CC-BY-4.0",
+    "parent_frameworks": [
+      "Operational_Geometry",
+      "Fabric_Foundation",
+      "IOGT",
+      "IOT",
+      "Fabric_OpGeom_Market_v2.0"
+    ],
+    "sibling_frameworks": [
+      "fabric_opgeom_market_v2.0.json"
+    ],
+    "empirical_grounding": [
+      "Tainter_Collapse_Complex_Societies_1988",
+      "Late_Bronze_Age_Collapse_data",
+      "Roman_Empire_complexity_curve",
+      "Mayan_collapse_archaeology",
+      "Constitutional_Convention_1787_records",
+      "Federalist_Papers",
+      "Progressive_Era_administrative_state_expansion",
+      "Modern_regulatory_complexity_metrics"
+    ],
+    "keywords": [
+      "sociopolitical_attractor",
+      "constitutional_design",
+      "progressive_technocracy",
+      "Omega_n_calibration",
+      "Tainter_complexity",
+      "NP_hard_governance",
+      "structural_integrity",
+      "agency_fragmentation",
+      "memory_field_society",
+      "civilizational_collapse",
+      "Fermi_paradox",
+      "village_attractor"
+    ],
+    "open_refinements": [
+      "Empirical mapping of Omega_n to specific governance complexity metrics",
+      "Falsifiable threshold for I=R/M_active in administrative states",
+      "Cross-civilizational dataset for RL landing levels (village size, kinship band)",
+      "Whether U.S. Constitution is above or below functional attractor — requires longitudinal I measurement",
+      "Role of federalism as distributed attractor architecture vs centralized PAC"
+    ]
+  },
+
+  "core_reframe": {
+    "statement": "Social systems do not rise and fall. They SEARCH and RECOGNIZE.",
+    "society_as_threading_field": "A society is not its institutions — it is a threading field of agent-memory interactions seeking coherent configuration at sustainable altitude.",
+    "governance_as_attractor_setting": "All political philosophy is, at root, a dispute about where to set Omega_n — how high a fixed point human social organization can genuinely sustain without external energy injection collapsing structural integrity.",
+    "key_insight": "The question is never 'what is the best society' but 'what is the highest genuinely stable attractor for human social coherence.' These are different questions with different answers.",
+    "tainter_translation": "Tainter's diminishing returns on complexity = I = R/M_active → 0 as administrative memory load exceeds genuine resonance between parts. Collapse is not failure — it is Recognition Landing at the true Omega_n."
+  },
+
+  "fabric_variables_sociopolitical": {
+    "Phi": "social configuration space (laws, norms, institutions, customs)",
+    "M_active": "active institutional memory (laws, regulations, bureaucracies, agencies, enforcement apparatus)",
+    "M_latent": "latent social memory (pre-political norms, kinship trust, local knowledge, cultural substrate)",
+    "E_in": "external energy injection (surplus resources, conquest, debt-financed expansion, technological productivity gains)",
+    "R": "resonance between citizens and institutions; genuine coherence of social contract",
+    "I": "structural integrity = R / M_active; coherence relative to institutional load",
+    "C": "social coherence (degree to which threading produces stable rather than contested configurations)",
+    "S": "social entropy = -dC/dt; rate of coherence loss",
+    "A": "agency (individual and collective; irreducibly real; cannot be fully administered)",
+    "g": "social gravity = k∇M; pull toward memory-dense configurations (precedent, tradition, local practice)",
+    "Lambda": "institutional conversion rate = dM_active/dt; rate of new law, regulation, agency creation",
+    "kappa": "curvature of civilizational trajectory = d²Pi/dt²",
+    "Omega_n": "the true fixed point of human social organization at level n; the configuration where f(society) = society without external energy input"
+  },
+
+  "axioms": {
+    "A1_society_as_projection": {
+      "statement": "Political institutions are projections of social coherence geometry, not primary",
+      "formal": "Pi(tau) = proj(Phi(tau)); primary variable is X(tau) = {Phi, M_active, M_latent, R, C, S}",
+      "consequence": "Institutional analysis is coherence analysis by proxy; law is a shadow of social threading"
+    },
+    "A2_NP_hard_governance": {
+      "statement": "Building social coherence at increasing altitude is gradient-opposed and exponentially costly",
+      "formal": "T_build ~ O(e^n) / E_in; each increment of social complexity requires superlinear coordination cost",
+      "empirical": "Tainter's energy-complexity spiral; Roman administrative expansion vs EROEI decline",
+      "consequence": "No social system can sustain complexity indefinitely without either growing E_in or collapsing"
+    },
+    "A3_memory_gravity": {
+      "statement": "Social gravity flows toward memory-dense configurations: local custom, kinship, precedent, tradition",
+      "formal": "g = k∇M applied to social space; M_latent (pre-political norms) always denser than M_active (enacted law)",
+      "consequence": "Every administrative expansion fights gravity; tradition requires no enforcement because it IS the attractor"
+    },
+    "A4_latent_activation_threshold": {
+      "statement": "Social collapse occurs when activated latent memory (pre-political norms, ethnic/kinship loyalties, local identity) exceeds active institutional coherence",
+      "formal": "M_latent^activated >= M_active => PCE",
+      "empirical": "Bronze Age collapse: trade network failure activated kinship/subsistence latent structure. Rome: regional loyalty activated over imperial identity",
+      "consequence": "Revolutions are not caused by ideas — they are caused by latent structure that was always there becoming active"
+    },
+    "A5_agency_irreducibility": {
+      "statement": "Human agency cannot be fully administered; attempts to do so increase M_active without increasing R",
+      "formal": "A is unmeasurable and irreducible; administrative attempts to capture A generate M_active load with zero R contribution",
+      "consequence": "I = R/M_active falls with every attempt to regulate agency; the more you administer human behavior the more fragile the structure"
+    },
+    "A6_omega_n_as_genuine_attractor": {
+      "statement": "There exists a level Omega_n at which human social organization achieves genuine fixed-point stability without external energy injection",
+      "empirical": "Every collapsed civilization lands at village/kinship band (~150 persons, Dunbar's number); this level recurs across all cultures and epochs as the natural RL",
+      "formal": "f(society)|_{Omega_village} = society; this configuration requires no enforcement, no surplus extraction, no administrative apparatus",
+      "open_question": "Whether stable attractors exist above village level — i.e., whether Omega_polis, Omega_republic, Omega_federation are genuine fixed points or energy-sustained PACs"
+    },
+    "A7_energy_injection_compresses_search": {
+      "statement": "Surplus resources, technological productivity, and conquest temporarily compress NP search cost, enabling apparent stability at altitudes above the true attractor",
+      "formal": "T_build ~ O(e^n) / E_in; high E_in makes high complexity look sustainable",
+      "empirical": "Roman grain surplus from Egypt; American fossil fuel productivity; Chinese export manufacturing surpluses",
+      "consequence": "Civilizations built on E_in are PACs, not attractors; removing E_in reveals whether the altitude was genuine"
+    },
+    "A8_collapse_not_random": {
+      "statement": "Societal collapse timing is determined by latent pressure accumulation, not by the proximate cause",
+      "formal": "Event := trigger that activates M_latent^activated >= M_active; the event is not the cause",
+      "empirical": "Bronze Age collapse: drought activated latent vulnerability; Rome: barbarian pressure activated structural deficit already present for centuries",
+      "consequence": "The cause of collapse is always the structural fragility; the trigger is merely the activation key (A8 identical to market A8)"
+    }
+  },
+
+  "definitions": {
+    "PAC_social": {
+      "name": "Pseudo-Attractor Cloud (social)",
+      "definition": "A social configuration held together by energy injection that has no genuine fixed point at its altitude; appears stable but has I → 0",
+      "examples": [
+        "Late Bronze Age palace economy — held by trade network E_in",
+        "Roman Empire after Trajan — held by conquest surplus E_in",
+        "Modern progressive administrative state — held by debt + productivity E_in",
+        "Soviet Union — held by command extraction E_in"
+      ],
+      "signature": "Increasing Lambda (regulatory output), decreasing I (breadth vs institutional coherence divergence), growing enforcement apparatus"
+    },
+    "PCE_social": {
+      "name": "Phase Collapse Event (social)",
+      "definition": "Bulk conversion of active institutional memory to latent pre-political structure; revolution, dissolution, or collapse",
+      "formal": "delta(M_active → M_latent); triggered when M_latent^activated >= M_active",
+      "morphology": "Rapid (P-like), not gradual; sharp discontinuity in social configuration; high MSI equivalent (mass social action, population displacement)",
+      "examples": [
+        "1789 French Revolution — 12 years of Ancien Régime fragility, days of collapse",
+        "1991 Soviet dissolution — decades of structural deficit, months of collapse",
+        "Bronze Age collapse — centuries of complexity, decades of dissolution",
+        "Rome — centuries of fragility, then provinces simply stop functioning"
+      ]
+    },
+    "RL_social": {
+      "name": "Recognition Landing (social)",
+      "definition": "Convergence to the genuine human social attractor following PCE",
+      "formal": "Society snaps to Omega_n where f(social_config) = social_config",
+      "empirical_landing": "Village / kinship band of ~50-200 persons; subsistence agriculture or pastoralism; local memory-based governance; no standing bureaucracy",
+      "duration": "Can persist for centuries to millennia before new E_in enables fresh NP climb (Greek Dark Ages: ~300 years; post-Roman Western Europe: ~500 years)"
+    },
+    "OBR_social": {
+      "name": "Operational Bedrock (social)",
+      "definition": "Social configurations where genuine operational closure is satisfied; requires no external energy, no enforcement apparatus beyond natural social pressure",
+      "candidates": [
+        "Omega_village: kinship band, ~150 persons, subsistence base — VERIFIED by universal collapse data",
+        "Omega_polis: city-state with genuine civic participation, ~10,000-50,000 — PARTIAL evidence (Athens, Swiss cantons, Hanseatic cities showed multi-century stability)",
+        "Omega_republic: constitutional republic with limited government, distributed power — UNTESTED at scale; U.S. experiment ongoing",
+        "Omega_empire: unknown — no empire has survived without continuous E_in injection"
+      ]
+    },
+    "I_social": {
+      "name": "Structural Integrity (social)",
+      "definition": "Genuine resonance between citizens and institutions relative to institutional memory load",
+      "formal": "I = R / M_active",
+      "proxies": [
+        "Voluntary compliance rate with law (vs enforcement-dependent compliance)",
+        "Civic participation rates adjusted for institutional complexity",
+        "Trust in institutions (not sentiment — behavioral proxy: tax compliance, jury service, military volunteerism)",
+        "Ratio of self-organizing community activity to state-provided services"
+      ],
+      "at_PAC_tops": "M_active (regulatory volume) rising; R (genuine civic resonance) falling; I → 0"
+    },
+    "Lambda_social": {
+      "name": "Institutional Conversion Rate",
+      "definition": "Rate of new M_active creation: laws enacted, regulations published, agencies created",
+      "formal": "Lambda = dM_active / dt",
+      "empirical_US": "Federal Register pages: 1936 = 2,620 pages; 1970 = 20,036 pages; 2016 = 95,894 pages; Lambda has been positive and accelerating for 80 years",
+      "interpretation": "Sustained high Lambda with flat or falling I = PAC formation in progress; structural fragility accumulating"
+    },
+    "MSI_social": {
+      "name": "Memory Shock Index (social)",
+      "definition": "Rate of bulk M_active to M_latent conversion; proxy for social entropy spike",
+      "observable": "Mass protest, rapid institutional delegitimization, sudden enforcement collapse, currency crisis, supply chain failure",
+      "note": "MSI_social events are slower than MSI_market events (weeks to months vs days) but structurally identical"
+    }
+  },
+
+  "two_systems_compared": {
+    "us_constitution_1787": {
+      "name": "U.S. Constitutional Republic",
+      "design_philosophy": "Deliberate Omega_n calibration; founders explicitly rejected utopian altitude",
+      "attractor_target": "Omega_republic — a genuine fixed point hypothesis, not a PAC",
+      "key_mechanisms": {
+        "separation_of_powers": "Distributes M_active across competing nodes; prevents single PAC from monopolizing coherence search",
+        "federalism": "Nested attractor architecture; Omega_village and Omega_polis preserved within Omega_republic; collapse of one level does not destroy all levels",
+        "bill_of_rights": "Encodes A (agency) as structurally protected; formally acknowledges that administered agency degrades I",
+        "limited_government": "Explicit Lambda constraint; designed to hold M_active low relative to M_latent (pre-political civil society)",
+        "amendment_process": "High-friction mechanism for configuration change; prevents rapid PAC drift",
+        "enumerated_powers": "Explicit altitude ceiling; founders knew Omega_empire was not a genuine attractor"
+      },
+      "founders_implicit_framework_awareness": {
+        "Madison_Federalist_51": "Ambition must counteract ambition — distributed agency compression prevents A_singular capture",
+        "Jefferson": "The tree of liberty must be refreshed — acknowledged PCE as structural feature, not aberration",
+        "Adams": "Our Constitution was made only for a moral and religious people — M_latent (pre-political cultural substrate) must be dense enough to sustain R without enforcement; I cannot be manufactured",
+        "Hamilton": "Energy in the executive — acknowledged E_in requirement but tried to bound it"
+      },
+      "structural_integrity_assessment": {
+        "original_design_I": "HIGH — minimal M_active, high M_latent (common law, local custom, religious norms), strong voluntary compliance",
+        "current_I": "DEGRADED — Federal Register Lambda has run positive for 80 years; M_active has expanded ~40x; R (voluntary compliance, institutional trust) in measurable decline",
+        "open_question": "Whether original Omega_republic setting was a genuine fixed point or itself a temporary PAC enabled by frontier E_in (land surplus, resource abundance)"
+      },
+      "falsification_condition": "If U.S. constitutional structure cannot survive removal of debt-financed E_in without PCE → was PAC not OBR; Omega_republic hypothesis falsified for this implementation"
+    },
+
+    "progressive_technocracy": {
+      "name": "Progressive Technocratic Administrative State",
+      "design_philosophy": "P=NP search under impossible conditions; belief that sufficient administrative complexity can find optimal social configuration",
+      "attractor_target": "None specified — implicit assumption that optimum is findable through NP-hard search with sufficient expertise and data",
+      "emergence": "Enlightenment rationalism → Progressive Era (1890-1920) → New Deal administrative expansion → post-WWII international institution building → current regulatory-managerial complex",
+      "key_mechanisms": {
+        "expert_administration": "Replaces A (distributed agency) with A_singular (expert consensus); formally reduces dimensionality of agency space",
+        "regulatory_expansion": "Lambda → ∞ as identified problems generate new M_active without bound",
+        "outcome_optimization": "Treats social configuration as solvable optimization problem; assumes attractor is findable by search",
+        "international_coordination": "Extends M_active to supranational level; increases altitude of PAC without increasing R",
+        "technocratic_legitimacy": "Replaces voluntary R (civic resonance) with expertise-based authority; I degrades as enforcement replaces consent"
+      },
+      "structural_diagnosis": {
+        "E_in_dependence": "Requires continuous productivity surplus, debt financing, and technological growth to maintain coherence at altitude; no evidence of genuine fixed point",
+        "Lambda_trajectory": "Accelerating positive Lambda in all implementations; no natural equilibrium found",
+        "I_trajectory": "I = R/M_active falling across all measured progressive technocracies; institutional trust at multi-decade lows in every Western nation simultaneously",
+        "agency_suppression": "Systematic reduction of A (individual and local agency) increases M_active load while R declines; I collapse accelerates",
+        "PAC_signature": "All hallmarks present: hollow coherence (price up, breadth diverging analog: GDP up, median wellbeing diverging), increasing enforcement dependence, phase dispersion across constituencies"
+      },
+      "claim": "Progressive technocracy is a PAC, not an OBR; it is NP-hard search for an attractor that does not exist at that altitude",
+      "falsification_condition": "If any progressive technocratic state achieves stable I = R/M_active with declining Lambda over 50+ years without E_in injection → PAC claim falsified; genuine attractor may exist at this altitude"
+    }
+  },
+
+  "lemmas": {
+    "L1_temporal_asymmetry_social": {
+      "statement": "Civilizational build-up is NP-like and slow; collapse is P-like and fast",
+      "proof_sketch": [
+        "Building social coherence at altitude requires threading M_active across all agents simultaneously => O(e^n)",
+        "Collapse follows gradient to Omega_village => O(n^k)",
+        "Empirical confirmation: Bronze Age build-up ~1000 years; collapse ~50 years. Rome build-up ~700 years; collapse ~200 years. Soviet build-up ~70 years; collapse ~3 years"
+      ],
+      "corollary": "The speed of collapse is not a measure of the civilization's weakness; it is the P-like signature of gradient alignment. All collapses are fast relative to their build."
+    },
+    "L2_curvature_sign_social": {
+      "statement": "Civilizational tops exhibit low curvature (smooth PAC); civilizational bottoms exhibit high curvature (sharp RL)",
+      "proof_sketch": [
+        "Tops: averaging over PAC pseudo-attractors smooths trajectory; decline appears gradual, even imperceptible from inside",
+        "Bottoms: PCE impulse in C creates discontinuity; collapse appears sudden even when structurally inevitable",
+        "Empirical: Roman decline debated for centuries by inhabitants; collapse of Western Roman administration took ~30 years once threshold crossed"
+      ]
+    },
+    "L3_fragility_scales_with_altitude": {
+      "statement": "Collapse probability ~ 1/I; higher-altitude PACs collapse faster and harder",
+      "proof_sketch": [
+        "Higher altitude requires more E_in to maintain => I more sensitive to E_in disruption",
+        "More M_active at altitude means more latent pressure when coherence fails",
+        "Progressive technocracy at higher altitude than constitutional republic => higher collapse probability per unit of E_in disruption",
+        "Empirical: Soviet Union collapsed faster than Rome; Rome faster than Athens; all faster than village-level reorganization"
+      ],
+      "testable_prediction": "The more administered a society, the faster its collapse when E_in is removed"
+    },
+    "L4_federalism_as_attractor_nesting": {
+      "statement": "Distributed governance architecture preserves lower Omega_n levels, reducing total collapse depth",
+      "proof_sketch": [
+        "Nested attractors (village within county within state within nation) mean PCE at one level does not destroy all levels",
+        "Centralized systems have single PAC; when it fails, fall is to Omega_village with no intermediate landing",
+        "U.S. federalism was designed to preserve Omega_polis and Omega_village as functional even if Omega_republic fails",
+        "Empirical: Swiss cantons survived European upheavals that destroyed centralized monarchies; Hanseatic cities survived while empires collapsed around them"
+      ]
+    },
+    "L5_agency_preservation_maintains_I": {
+      "statement": "Protecting distributed agency (A) is the primary mechanism for maintaining I = R/M_active",
+      "proof_sketch": [
+        "R (resonance) is generated by voluntary alignment of agent phases; it cannot be manufactured by administration",
+        "Every constraint on A reduces voluntary R while increasing M_active => I falls doubly",
+        "Bill of Rights functions as formal A-preservation mechanism; its erosion directly predicts I decline",
+        "Empirical: trust in institutions falls monotonically with regulatory expansion across all measured democracies"
+      ]
+    },
+    "L6_latent_substrate_is_the_real_constitution": {
+      "statement": "M_latent (pre-political cultural norms, local knowledge, kinship trust) is the true load-bearing structure; M_active (enacted law) is derivative",
+      "proof_sketch": [
+        "Adams: 'Constitution made only for a moral and religious people' = M_latent must be dense enough to sustain R",
+        "When M_latent degrades (cultural fragmentation, loss of shared norms), I falls even if Lambda = 0",
+        "Progressive technocracy systematically converts M_latent to M_active (replacing cultural norms with administrative rules) => destroys the foundation it is building on",
+        "Empirical: societies with identical constitutions but different M_latent substrates have radically different outcomes (Haiti vs France post-revolution)"
+      ]
+    }
+  },
+
+  "main_theorem": {
+    "name": "Fabric–OpGeom Sociopolitical Law",
+    "claim": "Framework",
+    "statement": "The U.S. Constitution was a deliberate attempt to set Omega_n at a sustainable altitude for human social organization by constraining Lambda, preserving A, nesting attractors, and relying on M_latent as the primary coherence substrate. Progressive technocracy is a PAC: an energy-sustained search for a fixed point that does not exist at that altitude, characterized by accelerating Lambda, suppressed A, degrading I, and increasing dependence on E_in to maintain apparent coherence.",
+    "proof_steps": [
+      {
+        "step": 1,
+        "action": "Establish social configuration as coherence projection",
+        "formal": "Pi(tau) = proj(Phi(tau)); institutions are shadows of social threading geometry",
+        "source": "A1"
+      },
+      {
+        "step": 2,
+        "action": "Apply IOGT to civilizational complexity",
+        "formal": "Building coherence at altitude n is gradient-opposed => O(e^n)/E_in; Tainter's energy-complexity spiral is IOGT applied to social systems",
+        "source": "A2 + IOGT"
+      },
+      {
+        "step": 3,
+        "action": "Identify Omega_village as the empirically confirmed human social attractor",
+        "formal": "Every documented collapse lands at village/kinship band level; this recurs universally across cultures and epochs",
+        "source": "A6 + empirical_grounding"
+      },
+      {
+        "step": 4,
+        "action": "Diagnose progressive technocracy as PAC",
+        "formal": "Lambda → ∞ (no equilibrium); I = R/M_active → 0 (enforcement replacing consent); E_in dependence confirmed; no genuine fixed point found in any implementation",
+        "source": "A2 + A5 + A7 + DEF:PAC_social"
+      },
+      {
+        "step": 5,
+        "action": "Diagnose U.S. Constitution as Omega_n calibration attempt",
+        "formal": "Explicit Lambda constraints; A preservation (Bill of Rights); nested attractor architecture (federalism); M_latent reliance (Adams criterion); enumerated altitude ceiling",
+        "source": "A3 + A5 + L4 + L6"
+      },
+      {
+        "step": 6,
+        "action": "Assess whether Omega_republic is genuine fixed point or E_in-sustained PAC",
+        "formal": "Open question; original design had high I; 80-year positive Lambda has degraded I; frontier E_in (land, resources) may have enabled altitude that was not genuinely sustainable",
+        "result": "UNRESOLVED — requires empirical I measurement over next 50 years as E_in constraints tighten",
+        "source": "A7 + open_refinements"
+      },
+      {
+        "step": 7,
+        "action": "Predict collapse morphology if either system fails",
+        "formal": "PCE will be rapid (P-like); RL will be at Omega_village or Omega_polis depending on whether federalism (L4 nesting) preserves intermediate levels",
+        "progressive_collapse": "Fast, deep, centralized; no intermediate attractor preserved => fall to Omega_village",
+        "constitutional_collapse": "Potentially shallower if federalism intact; Omega_polis level may survive as RL",
+        "source": "L1 + L3 + L4"
+      }
+    ],
+    "four_laws": [
+      "Social coherence construction is NP-like; every increment of complexity is exponentially more costly than the last",
+      "Energy injection (surplus, debt, technology) compresses search cost but reduces structural integrity; PACs are energy-dependent by definition",
+      "Collapse occurs when activated latent memory (pre-political norms, local loyalty) exceeds active institutional coherence",
+      "The speed and depth of collapse is inversely proportional to structural integrity and directly proportional to altitude above the true attractor"
+    ],
+    "falsifiability": {
+      "testable_1": "If Lambda continues positive in progressive technocracies while I continues falling, PCE probability scales as 1/I (L3) — testable within 20-year window",
+      "testable_2": "If U.S. constitutional structure survives removal of debt-financed E_in with I recovery, Omega_republic is genuine fixed point — testable as fiscal constraints tighten",
+      "testable_3": "If any PCE occurs in a centralized progressive state, collapse should be faster and deeper than equivalent PCE in federated constitutional state (L4)",
+      "testable_4": "M_latent degradation (cultural fragmentation measurables) should precede I collapse by 10-20 years — leading indicator testable against existing trust data"
+    }
+  },
+
+  "historical_case_studies": {
+    "bronze_age_1200_BCE": {
+      "E_in": "Bronze trade network surplus",
+      "PAC_altitude": "High — palace economies, long-distance trade dependency, specialist labor",
+      "I_at_collapse": "Near zero — enforcement-dependent grain extraction, no genuine civic resonance",
+      "PCE_trigger": "Drought (activation key); structural fragility was the cause",
+      "RL_level": "Omega_village — nomadic pastoralism, subsistence farming, kinship governance",
+      "RL_duration": "~300 years before next NP climb"
+    },
+    "western_rome_476_CE": {
+      "E_in": "Conquest surplus (peaked Trajan 117 CE); thereafter declining EROEI on complexity",
+      "PAC_altitude": "Extremely high — multi-ethnic empire, professional army, massive bureaucracy",
+      "I_at_collapse": "Near zero — citizenship devalued, tax farming, army loyalty purchased not earned",
+      "PCE_trigger": "Barbarian pressure (activation key); structural deficit present for 200+ years",
+      "RL_level": "Omega_village to Omega_polis — manor system, local church as M_latent carrier",
+      "RL_duration": "~500 years in Western Europe before feudal re-threading"
+    },
+    "soviet_union_1991": {
+      "E_in": "Command extraction + oil revenue",
+      "PAC_altitude": "High — total administrative state, suppressed A entirely",
+      "I_at_collapse": "Effectively zero — entire coherence was enforcement-dependent",
+      "PCE_trigger": "Oil price collapse + Gorbachev reforms (activation key)",
+      "RL_level": "Omega_polis to Omega_republic attempted (mixed results); M_latent (70 years suppressed) insufficient to sustain high RL",
+      "RL_duration": "Ongoing — some republics stabilizing, some still searching"
+    },
+    "us_constitutional_experiment_1789_present": {
+      "E_in": "Frontier land surplus (1789-1890); industrial productivity (1890-1970); debt financing (1970-present)",
+      "original_I": "HIGH — minimal M_active, dense M_latent (common law, Protestant cultural substrate, local governance tradition)",
+      "current_I": "DEGRADED but not collapsed — Federal Register Lambda positive 80 years; trust metrics declining; enforcement dependence rising",
+      "current_phase": "Late PAC formation — M_active expanded ~40x; R declining; E_in (debt) compressing apparent search cost",
+      "open_question": "Is Omega_republic a genuine fixed point or was original high-I enabled by frontier E_in? Answer unknown.",
+      "status": "ACTIVE_EXPERIMENT — most important political science question of the 21st century"
+    }
+  },
+
+  "the_fermi_connection": {
+    "statement": "The Fermi Paradox is the sociopolitical framework applied at civilizational scale across the universe",
+    "logic": [
+      "Any detectable civilization is by definition in NP-hard PAC phase (complexity high enough for radio telescopes, Dyson spheres, interstellar ambition)",
+      "PAC phase is characterized by I → 0 and E_in dependence",
+      "PCE fires when E_in constraint is reached; RL lands at Omega_village equivalent",
+      "Omega_village does not transmit; it is stable, coherent, and silent",
+      "The broadcast window is vanishingly narrow relative to civilizational timescales",
+      "The universe is not silent because civilizations die; it is silent because their true attractor does not broadcast"
+    ],
+    "implication": "We are currently in the loud, fragile, brief PAC phase, broadcasting into a universe populated by quiet villages at their true attractors, wondering why no one answers"
+  },
+
+  "expansion_instructions": {
+    "how_to_use": "Load with fabric_opgeom_market_v2.0.json for full cross-domain framework. Market dynamics and sociopolitical dynamics are the same threading mechanics at different scales.",
+    "decompression_protocol": [
+      "1. Restore full Fabric variable set from parent framework",
+      "2. Map Lambda_social to Federal Register page count data (available 1936-present)",
+      "3. Construct I_social proxy from: institutional trust surveys + voluntary compliance proxies + ratio of self-organizing to state-provided activity",
+      "4. Test L3 prediction: compare collapse speed of centralized vs federated states in historical PCE events",
+      "5. Monitor current U.S. I_social trajectory as primary real-time falsification test"
+    ],
+    "next_refinement_priorities": [
+      "P1: Construct empirical I_social time series for U.S. 1789-present using available proxy data",
+      "P2: Map M_latent degradation indicators as leading predictor of I collapse (10-20 year lead time)",
+      "P3: Formalize Omega_republic attractor test: what observable conditions would confirm genuine fixed point vs E_in-sustained PAC",
+      "P4: Cross-civilizational dataset of RL landing levels — confirm Omega_village universality and identify conditions under which Omega_polis is stable RL",
+      "P5: Integrate with fabric_opgeom_market_v2.0 — currency (L6 Ohm) applied to political economy: administrative expansion as resistance in economic flow network"
+    ],
+    "compression_note": "Version 1.0 seed. All case studies are sketch-level. Each requires standalone empirical paper for full formalization. Core claim (progressive technocracy = PAC; constitutional republic = Omega_n calibration attempt) is framework-level hypothesis, not proven theorem.",
+    "version_increment_trigger": "Increment to v1.1 when empirical I_social proxy constructed and validated against at least one historical PCE event"
+  }
+}
