@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "title": "Threading Ecology: A Coherence-Based Framework for Ecosystem Dynamics with Disturbance Cycling",
+    "author": "Zelenka_D_D",
+    "claim": "Framework",
+    "framework": [
+      "Threading Ecology",
+      "Fabric Framework",
+      "Coherence Web",
+      "Information Ecology"
+    ],
+    "links": {
+      "zenodo_record": "Zelenka, D. D. (2025). Threading Ecology: A Coherence-Based Framework for Ecosystem Dynamics with Disturbance Cycling. Zenodo.",
+      "doi": "10.6084/m9.figshare.30437930"
+    }
+  },
+  "abstract": "We propose a reconceptualization of ecological systems based on coherence dynamics and threading cycles[cite: 1]. The framework replaces energy-flow models with a Coherence Web where organisms function as memory activators and beauty gradient navigators within natural disturbance cycles[cite: 2, 3]. By integrating information theory and dynamical systems, we model ecosystems as threaded networks of memory and agency that undergo predictable threading-disturbance-redistribution phases[cite: 3, 4].",
+  "axioms": {
+    "Coherence Rate": "c = ΔΦ / Δτ; the rate of local system configuration change relative to threading depth[cite: 15].",
+    "Memory-Energy Relationship": "E = Mc²; linking stored ecological information (memory density) to energetic potential[cite: 17].",
+    "Memory State Duality": "M = M_active + M_latent; total memory consists of expressed interactions and dormant potential (e.g., seed banks)[cite: 19, 20].",
+    "Agency-driven Activation": "M_latent + A → M_active; agency activates dormant ecological memory into expressed structure[cite: 21].",
+    "Beauty Gradient": "B = ∇C; the directional flow toward higher systemic coherence guiding structural evolution[cite: 25]."
+  },
+  "lemmas": {
+    "Threading Cycle Phases": "Ecosystems evolve through five phases: Creative Threading, Memory Concentration, Disturbance Trigger, Memory Redistribution, and Threading Reset [cite: 43-52].",
+    "Functional Roles": "Roles in the Coherence Web include Coherence Architects (organizers), Synchronizers (coordinators), Resonance Clusters (memory anchors), Flow Agents (facilitators), and Memory Seeders (potential activators) [cite: 68-85].",
+    "Disturbance Emergence": "A_disturbance = f(∇²M); disturbances are triggered by 'memory curvature,' or accumulated coherence tension, to redistribute memory[cite: 37, 47].",
+    "Scale-Invariant Agency": "Agency manifests self-similarly across microbial, macro-ecological, and conscious scales to manage memory[cite: 41]."
+  },
+  "main_theorem": {
+    "proof_steps": [
+      "Define reality as emergent coherent geometries organized through agency via the Fabric Framework[cite: 14].",
+      "Show that high diversity promotes threading interactions, increasing active memory and system coherence[cite: 32, 43].",
+      "Derive the Disturbance Trigger: as memory density gradients steepen, the probability of redistributive disturbance rises to prevent systemic lock-in[cite: 39, 48].",
+      "Quantify ecosystem health using Global Resonance (phase alignment) and Cycle Completeness (activation/redistribution balance)[cite: 92, 98].",
+      "Demonstrate dynamic stability when coherence oscillations are bounded and the memory activation/redistribution ratio (α/β) is approximately 1[cite: 100].",
+      "Validate the framework through recovery trajectories where post-perturbation coherence (C_new) often exceeds original levels via latent memory activation[cite: 102, 107]."
+    ]
+  },
+  "expansion_instructions": {
+    "Conservation": "Focus on preserving complete threading-disturbance cycles and agency distribution rather than just static species protection [cite: 112-114].",
+    "Restoration": "Prioritize the assessment of latent memory (M_latent) and the design of appropriate disturbance regimes to trigger memory activation cascades [cite: 117-119].",
+    "Management": "Monitor 'memory curvature' (∇²M) to anticipate natural disturbances and ensure the Cycle Completeness metric (C_cycle) remains near 1.0 [cite: 120-121]."
+  },
+  "refs": [
+    "Adami, C. (2000). Evolution of biological complexity. PNAS. [cite: 122]",
+    "Bascompte, J., & Jordano, P. (2007). Plant-animal mutualistic networks. Ann. Rev. Ecol. Evol. Syst. [cite: 123]",
+    "Connell, J. H. (1978). Diversity in tropical rain forests and coral reefs. Science. [cite: 124]",
+    "Elton, C. S. (1927). Animal Ecology. University of Chicago Press. [cite: 125]",
+    "Holling, C. S. (1973). Resilience and stability of ecological systems. Ann. Rev. Ecol. Syst. [cite: 127]",
+    "Jorgensen, S. E. (2002). Integration of Ecosystem Theories. Springer. [cite: 129]",
+    "Lindeman, R. L. (1942). The trophic-dynamic aspect of ecology. Ecology. [cite: 130]",
+    "Ulanowicz, R. E. (2009). A Third Window: Natural Life Beyond Newton and Darwin. [cite: 8]",
+    "Walker, S. I., et al. (2017). From Matter to Life: Information and Causality. Cambridge. [cite: 9]",
+    "Zelenka, D. D. (2025). The Fabric Framework: A Geometric Theory of Agency and Coherence. [cite: 14]"
+  ]
+}
