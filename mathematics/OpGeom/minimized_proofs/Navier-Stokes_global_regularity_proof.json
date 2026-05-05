@@ -9,7 +9,7 @@
     "title": "3D Navier-Stokes Global Regularity Proof",
     "subtitle": "Operational Geometry Framework",
     "author": "Zelenka_D",
-    "author_orcid": null,
+    "author_orcid": "0000-0002-8198-8019",
     "claim": "PROVED",
     "problem": "Clay_Millennium_Problem_3D_NS",
     "framework": ["Operational_Geometry", "IOGT", "Fourier_Analysis"],
