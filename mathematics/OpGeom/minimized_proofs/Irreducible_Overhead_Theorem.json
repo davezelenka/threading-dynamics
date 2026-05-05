@@ -9,7 +9,7 @@
     "title": "The Irreducible Overhead Theorem (IOT)",
     "subtitle": "Why Exponential Cost Cannot Be Perfectly Conserved",
     "author": "Zelenka_D_D",
-    "author_orcid": null,
+    "author_orcid": "0000-0002-8198-8019",
     "claim": "PROVED",
     "problem": "Time_Parallelism_Conservation_Limits",
     "framework": ["Information_Theory", "Kolmogorov_Complexity", "Computational_Complexity"],
