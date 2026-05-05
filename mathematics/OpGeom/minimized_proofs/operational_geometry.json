@@ -9,7 +9,7 @@
     "title": "Operational Geometry: A Framework for Operations-Primary Mathematics",
     "subtitle": "Condensed Reference",
     "author": "Zelenka_D_D",
-    "author_orcid": null,
+    "author_orcid": "0000-0002-8198-8019",
     "type": "FRAMEWORK",
     "status": "foundational_theory",
     "framework": ["Operational_Mathematics", "Category_Theory", "Dynamical_Systems"],
