@@ -9,7 +9,7 @@
     "title": "P ≠ NP via IOGT: Minimal Proof",
     "subtitle": "Intrinsic Operational Gradient Framework",
     "author": "Zelenka_D_D",
-    "author_orcid": null,
+    "author_orcid": "0000-0002-8198-8019",
     "claim": "PROVED",
     "problem": "P_versus_NP_Millennium_Problem",
     "framework": ["IOGT", "Operational_Complexity", "Computational_Complexity"],
