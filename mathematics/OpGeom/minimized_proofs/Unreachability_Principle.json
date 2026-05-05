@@ -9,7 +9,7 @@
     "title": "The Unreachability Principle: From Metric Invariants to Operational Selmer Geometry",
     "subtitle": "Why Metric Approaches to BSD Must Fail and What Replaces Them",
     "author": "Zelenka_D",
-    "author_orcid": null,
+    "author_orcid": "0000-0002-8198-8019",
     "claim": "FRAMEWORK_WITH_EMPIRICAL_VALIDATION_AND_FALSIFICATION",
     "problem": "Organization_Principles_for_Unobtainable_Mathematical_Objects",
     "framework": ["Operational_Unreachability", "Threading_Depth", "Selmer_Geometry", "Coherence_Dimension"],
