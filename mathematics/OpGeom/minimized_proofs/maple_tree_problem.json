@@ -9,7 +9,7 @@
     "title": "Computational Irreducibility and the Maple Tree Problem: A Structural Resolution via Operational Gradients",
     "subtitle": "Why Forward Generation is Easy but Inverse Reconstruction is Hard",
     "author": "Zelenka_D_D",
-    "author_orcid": null,
+    "author_orcid": "0000-0002-8198-8019",
     "type": "THEOREM",
     "status": "structural_explanation",
     "framework": ["Operational_Mathematics", "Computational_Complexity", "Information_Theory", "Dynamical_Systems"],
