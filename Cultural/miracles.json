@@ -1,0 +1,114 @@
+{
+  "research_goal": "What are miracles? How do they happen? Why don't we see them regularly today from men and women of faith (or do we)?",
+  "method_note": "Ten miracles of Jesus selected from the source study (a devotional analysis applying Aristotle's Four Causes: material, formal, efficient, final) chosen specifically because each one contributes a distinct answer to WHAT a miracle is, HOW it operates, or WHY miracles are rare or withheld.",
+
+  "framework": {
+    "material_cause": "WHAT it is made of - the ordinary substance or situation God works with.",
+    "formal_cause": "The DESIGN or shape the miracle takes - the 'picture' or purpose that preexists the result, and what it represents.",
+    "efficient_cause": "HOW it happens - the supernatural force/law that produces the change (faith, obedience, love, humility, brokenness, prayer).",
+    "final_cause": "WHY it happens - the ultimate purpose (God's glory, compassion, building faith, revealing character)."
+  },
+
+  "miracles": [
+    {
+      "name": "Water into Wine",
+      "reference": "John 2:1-11",
+      "material_cause": "Ordinary water in six stone jars used for ceremonial washing.",
+      "formal_cause": "The finished form was the best wine, a symbol of joy; the image existed first in Mary's request before it existed in the jars.",
+      "efficient_cause": "Obedience is the operating law: the servants obeyed Jesus without understanding, and Jesus, though reluctant, obeyed his mother. Faith is not required from the recipients, only compliance from those asked to act.",
+      "final_cause": "To reveal Jesus's glory and to produce belief in his disciples.",
+      "relevance_to_research_goal": "WHAT: a miracle is ordinary material transformed into the form God already intends. HOW: it can proceed through simple obedience alone, even without dramatic faith from bystanders."
+    },
+    {
+      "name": "Healing at the Pool of Bethesda",
+      "reference": "John 5:1-15",
+      "material_cause": "A paralyzed man who had been sick for 38 years, lying beside a pool.",
+      "formal_cause": "Jesus does only what he 'sees' the Father doing; the formal cause is the Father's design shown to the Son, not invented by the Son.",
+      "efficient_cause": "Obedience again: the man is told to get up and walk, and does. Follow-through obedience (Jesus's later command to 'stop sinning') shows obedience is ongoing, not a one-time transaction.",
+      "final_cause": "God's glory, plus personal compassion - Jesus later warns the man out of care, not just power display. Also acts in deliberate humility, slipping away into the crowd rather than seeking credit.",
+      "relevance_to_research_goal": "HOW: miracles flow from what God shows a person to do, requiring the person to listen and act, and then to act humbly, without seeking personal glory. WHY they may be rare: pride in claiming credit shuts down the pattern; miracles seem tied to secrecy and humility rather than public spectacle."
+    },
+    {
+      "name": "Feeding of the Five Thousand",
+      "reference": "Mark 6:30-43",
+      "material_cause": "Five loaves and two fish.",
+      "formal_cause": "The multiplication points toward Jesus himself as the bread of life, broken and distributed - a preview of the Eucharist.",
+      "efficient_cause": "Brokenness. The efficient cause is not multiplication for its own sake but Jesus being broken (the bread is broken, then distributed), foreshadowing the sacrifice of the cross.",
+      "final_cause": "To meet physical hunger while teaching that the deeper hunger is spiritual, satisfied only through Jesus's self-giving. Also to demonstrate that nothing is wasted.",
+      "relevance_to_research_goal": "WHAT: a miracle can cost the miracle-worker something real; Jesus withdraws to pray afterward because miracles drained him. HOW: brokenness/self-giving is itself a supernatural mechanism, not just a side effect. WHY miracles seem rare: they take a real toll, and true compassion is described as a 'suffering enterprise' few are willing to sustain."
+    },
+    {
+      "name": "Healing of the Bleeding Woman and Raising of Jairus's Daughter",
+      "reference": "Mark 5:21-43",
+      "material_cause": "A woman with a 12-year hemorrhage; a dying/dead 12-year-old girl.",
+      "formal_cause": "Two crumbling situations - a religious leader's controlled world collapsing, and a woman's desperate faith reaching for the edge of a garment - converge into a single scene about the kingdom breaking into human control.",
+      "efficient_cause": "Faith in physical contact ('if I just touch his clothes'). Jesus explicitly names faith as the operative force: 'your faith has healed you.' Power is described as tangibly leaving Jesus's body when faith draws on it.",
+      "final_cause": "To restore physical wholeness and to demonstrate that faith, not ritual/relic status, is what channels divine power - and to give hope to those who cannot see a solution in advance.",
+      "relevance_to_research_goal": "HOW: faith is described here almost as a measurable exchange - power going out, faith drawing it. This is one of the clearest 'mechanism' passages: contact plus faith produces effect. WHY today: this suggests miracles require an active reach of faith from the person in need, not passive waiting."
+    },
+    {
+      "name": "Walking on Water",
+      "reference": "Matthew 14:22-33",
+      "material_cause": "Wind, waves, and the physical bodies of Jesus and Peter on the surface of the Sea of Galilee.",
+      "formal_cause": "The picture is courage overtaking fear: 'Take courage, it is I, do not be afraid' - the miracle's shape is defined by what it overturns (terror) as much as by what it displays (power over nature).",
+      "efficient_cause": "Faith versus fear, framed as a hierarchy: supernatural law (faith) can override natural law (gravity), the way biology is subordinate to chemistry and chemistry to physics. Peter walks as long as he keeps faith; he sinks the instant fear intrudes.",
+      "final_cause": "To reveal Jesus as the Son of God to the disciples, and to teach that fear - not lack of power - is what disables faith.",
+      "relevance_to_research_goal": "WHY today: this miracle is used to argue that faith is a real, if unmeasurable, force that can suspend natural law, but that fear renders it 'inoperable.' A world described as 'deeply faithless and secular' is offered as the likely reason for fewer visible miracles - not because the power is gone, but because the operating condition (faith without fear) is rarely met."
+    },
+    {
+      "name": "Healing of the Man Born Blind",
+      "reference": "John 9:1-7",
+      "material_cause": "Mud made from dust and saliva, applied to a man blind from birth; water in the Pool of Siloam.",
+      "formal_cause": "A deliberate echo of Genesis 2:7 (God forming man from dust) - the healing re-enacts creation itself, remaking the man's eyes as God once made Adam.",
+      "efficient_cause": "Obedience to an unusual, undignified instruction (wash in a specific pool) rather than any dramatic display of faith described beforehand.",
+      "final_cause": "So 'the works of God might be displayed' - explicitly not a punishment for sin (the text rejects the disciples' assumption that the man or his parents sinned), but an opportunity for God's glory, and ultimately a statement about spiritual versus physical blindness.",
+      "relevance_to_research_goal": "WHAT: a miracle is not proof that suffering equals guilt; it clarifies that God does not manufacture affliction for showmanship. WHY people may miss miracles: the account ends with religious leaders who 'see' physically but reject the miracle's meaning - suggesting perceptual/spiritual readiness, not just divine willingness, governs whether a miracle is recognized as one."
+    },
+    {
+      "name": "Raising of Lazarus",
+      "reference": "John 11:1-44",
+      "material_cause": "A four-days-dead body in a sealed tomb.",
+      "formal_cause": "Jesus identifies himself as 'the resurrection and the life' before he acts - the form/image precedes and explains the act itself.",
+      "efficient_cause": "Prayer combined with a direct spoken command ('Lazarus, come out'); Jesus first thanks the Father aloud, showing dependence rather than independent power.",
+      "final_cause": "'For God's glory, so that God's Son may be glorified,' and to build the faith of those watching, including deliberately delaying two days so that faith would have something greater to grasp.",
+      "relevance_to_research_goal": "WHY delay matters: Jesus's two-day wait before responding is offered as an explanation for why prayers for miracles often go unanswered on the timeline requested - not absence of power or love, but a purpose not yet visible to the one asking. HOW: the miracle is preceded by grief ('Jesus wept'), suggesting the supernatural does not bypass genuine human suffering but moves through it."
+    },
+    {
+      "name": "Healing of the Blind Man at Bethsaida",
+      "reference": "Mark 8:22-26",
+      "material_cause": "A blind man's eyes, healed in two stages rather than one.",
+      "formal_cause": "Partial sight first ('people, like trees walking') then full clarity - the design deliberately includes an intermediate, imperfect stage.",
+      "efficient_cause": "A second, repeated touch is required; the miracle is not instantaneous the first time, contrary to most other healing accounts.",
+      "final_cause": "To be sent home quietly rather than to become spectacle, and (in the source study's reading) to illustrate that spiritual sight/hope is often granted in stages, not all at once.",
+      "relevance_to_research_goal": "WHY miracles seem partial or slow: this is the one account where Jesus's healing power is not depicted as instantaneous, offered as a model for why faith and healing (physical or spiritual) can be a two-step or gradual process rather than a single dramatic event - which may be why ongoing miracles are harder to recognize as miracles at all."
+    },
+    {
+      "name": "Healing of the Demon-Possessed Boy",
+      "reference": "Mark 9:14-29",
+      "material_cause": "A boy with convulsions, described as mute and thrown into fire and water by the affliction; a father at the end of his hope.",
+      "formal_cause": "A public failure precedes the miracle - the disciples had already tried and failed, in full view of religious critics.",
+      "efficient_cause": "Explicitly named by Jesus: 'this kind can come out only by prayer' (and, in Matthew, faith - 'if you have faith as small as a mustard seed'). The disciples' failure is attributed to insufficient faith/prayer, not absence of divine willingness.",
+      "final_cause": "To expose and correct the disciples' unbelief, and to answer the father's honest prayer, 'I do believe; help my unbelief.'",
+      "relevance_to_research_goal": "WHY miracles seem absent today: this is the most direct textual answer in the set - Jesus attributes failed miracles to a lack of faith and prayer in the people attempting them, not to God withholding power. It reframes the research question: absence of miracles may reflect a deficit in the human 'efficient cause' (prayer/faith) rather than a change in divine capacity."
+    },
+    {
+      "name": "The Miraculous Catch of Fish",
+      "reference": "Luke 5:1-11",
+      "material_cause": "An empty net after a full night's failed fishing, then an overwhelming catch.",
+      "formal_cause": "The miracle is staged from Peter's own boat, foreshadowing Peter's later role leading the Church - the vessel itself carries meaning beyond the catch.",
+      "efficient_cause": "Obedience despite prior failure and fatigue ('because you say so, I will let down the nets') - not confidence that it would work, but willingness to try again on command.",
+      "final_cause": "Not primarily to solve a fishing problem, but to bring Peter to a point of recognizing his own sinfulness ('Go away from me, Lord; I am a sinful man') and to call him into discipleship.",
+      "relevance_to_research_goal": "WHAT a miracle is ultimately for: this account argues explicitly that the miracle itself doesn't produce lasting devotion - Peter had already witnessed healings and gone back to fishing. What changes him is the encounter with holiness the miracle occasions, not the wonder of the event. This bears on WHY visible signs and wonders alone don't reliably produce faith, then or now: 'Signs and wonders and miracles will never do it' - only the direct encounter with grace and mercy converts."
+    }
+  ],
+
+  "synthesis": {
+    "what_are_miracles": "Across these ten accounts, a miracle is consistently framed as ordinary material (water, bread, mud, a net, a broken body) reshaped according to a form or purpose that existed in God's intention before it appeared in the physical result. Miracles are not violations of a machine-like universe for their own sake; they are read as evidence that the universe is not deterministic - that infinite variation and freedom, not fixed mechanism, are the true nature of creation. A miracle is presented as an act of a personal God responding to real relationship, not an impersonal force triggered like a natural law.",
+
+    "how_do_they_happen": "The study identifies several recurring 'supernatural laws' functioning as the efficient cause across these ten miracles: obedience (water into wine; the paralytic; the man born blind), faith (the bleeding woman; walking on water; the demon-possessed boy), brokenness/self-giving (feeding the 5,000), humility (healing at Bethesda, done quietly), and prayer (the demon-possessed boy, explicitly). These are treated as real, operative forces - unmeasurable by natural instruments but as reliable in their own domain as gravity is in the physical domain - and they typically work together rather than singly.",
+
+    "why_dont_we_see_them_today_or_do_we": "The texts themselves supply the clearest answer: Jesus tells his own disciples they failed to heal the boy because of insufficient faith and prayer, not because God withheld the power (Mark 9:14-29). Separately, Mark records that Jesus 'could not do many miracles' in his own hometown 'because of their lack of faith' (Mark 6:4-5, referenced in the walking-on-water discussion) - suggesting unbelief itself is described as capable of limiting the miraculous, not merely failing to notice it. The study also stresses that miracles cost the miracle-worker something (Jesus 'felt power leave him'; he withdrew exhausted to pray), that they typically happen away from public credit-seeking, and that signs and wonders alone do not reliably produce lasting faith even in eyewitnesses (Peter kept fishing after earlier healings). Taken together, the study's implicit answer to 'or do we' is: the operating conditions - faith without fear, obedience under uncertainty, humility that avoids spectacle, and willingness to be broken/spent - are rare, which would make genuine miracles rare in the same proportion, without requiring that the underlying supernatural laws have ceased to operate."
+  },
+
+  "note_on_supplementary_frameworks": "The uploaded Operational Geometry, Fabric/Light-Substrate, and Threaded Mind documents were reviewed as requested background but were not used to structure the miracle entries themselves, since they are independent speculative/mathematical frameworks about physics and cognition rather than exegetical material on the biblical miracle accounts. They do not materially change the what/how/why analysis above, which is drawn from the primary miracles study."
+}
