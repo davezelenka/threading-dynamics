@@ -1,1 +1,323 @@
-
+{
+  "meta": {
+    "title": "Mass Formation as Coherence Pathology: A Threaded Mind Account of Group Psychosis, Lock-In, and Reversal",
+    "author": "Zelenka_D_D",
+    "claim": "Framework_Application",
+    "type": "SPECULATIVE_FRAMEWORK",
+    "status": "hypothesis",
+    "problem": "Collective_Narrative_Capture_and_Reversal",
+    "framework": [
+      "Threaded Mind",
+      "Threading Ecology",
+      "Fabric Framework",
+      "Coherence Web",
+      "Mass Formation"
+    ],
+    "date_created": "2026",
+    "version": "1.0",
+    "language": "en",
+    "keywords": [
+      "mass formation",
+      "group psychosis",
+      "collective hypnosis",
+      "latent memory",
+      "coherence gradient",
+      "phase locking",
+      "hysteresis",
+      "agency depletion",
+      "substrate erosion",
+      "free-floating anxiety",
+      "polarization",
+      "de-escalation",
+      "disturbance cycling",
+      "reflexivity",
+      "testable predictions"
+    ],
+    "links": {
+      "zenodo_record": "Zelenka, D. D. (2026). Mass Formation as Coherence Pathology: A Threaded Mind Account of Group Psychosis, Lock-In, and Reversal. Zenodo.",
+      "doi": "10.5281/zenodo.22214628",
+      "url": "https://doi.org/10.5281/zenodo.22214628"
+    },
+    "citations": {
+      "cite_as": "Zelenka, D. D. (2026). Mass Formation as Coherence Pathology: A Threaded Mind Account of Group Psychosis, Lock-In, and Reversal. Zenodo. https://doi.org/10.5281/zenodo.22214628",
+      "bibtex": "@misc{zelenka2026massformation,\n  author = {Zelenka, D. D.},\n  title = {Mass Formation as Coherence Pathology: A Threaded Mind Account of Group Psychosis, Lock-In, and Reversal},\n  year = {2026},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.22214628},\n  url = {https://doi.org/10.5281/zenodo.22214628}\n}"
+    }
+  },
+  "abstract": "Desmet's account of mass formation holds that populations become susceptible to a totalizing crisis narrative when four conditions coincide: social isolation, loss of sense-making, free-floating anxiety, and free-floating discontent. We restate this account inside the Threaded Mind framework, where mental and social systems are fields of latent memory (M_latent) selectively activated (M_active) through agency (A) along coherence gradients (B = grad C). Under this restatement the four preconditions collapse into one quantity: unanchored activation on an eroded substrate. A crisis narrative resolves that state by supplying a single high-density attractor to which distress can bind. Alignment is modeled as a phase-locking transition in which substrate erosion raises susceptibility by removing competing local attractors, yielding rapid hysteretic ordering without persuasion. The model derives ten observed features of group psychosis, including the regime-dependent sign inversion by which counter-evidence strengthens conviction, and agency depletion by which a group's capacity to choose is consumed maintaining the pattern it adopted. Reversal follows from the same dynamics: substrate repair, salience withdrawal, non-reciprocal de-escalation, and post-disturbance reseeding. The framework is politically symmetric by construction and imposes a reflexivity constraint: confident diagnosis of mass formation in an out-group is itself a predicted symptom of lock-in.",
+  "scope_and_status": {
+    "terminology": "'Mass formation psychosis' is not a clinical diagnosis and appears in no diagnostic manual. 'Mass formation' denotes the social process; 'group psychosis' is used descriptively for failure of collective reality-testing, with no implication of individual clinical psychosis.",
+    "source_theory_status": "Desmet's thesis is contested, criticized for reliance on historical analogy over measurement and for selective partisan deployment. Treated here as a candidate mechanism worth formalizing, not an established result.",
+    "framework_status": "Fabric constructs C (coherence), B (beauty), and especially A (agency) are not yet operationalized to a standard permitting strong inference. Predictions use proxies.",
+    "symmetry": "The model contains no term for the truth of the narrative phase and applies identically to all groups, including the reader's own."
+  },
+  "axioms": {
+    "Memory State Duality": "M = M_active + M_latent; total memory consists of expressed activation and dormant relational substrate.",
+    "Agency-driven Activation": "M_latent + A -> M_active; agency selects which latent regions are activated.",
+    "Unanchored Activation": "Omega_free = integral |M_active - Pi_latent M_active| d3x; the portion of present activation for which no interpreting latent pattern exists. Formal definition of free-floating anxiety.",
+    "Beauty Gradient": "B = grad C; the directional flow toward higher systemic coherence.",
+    "Resonance": "R = sum over pairs of cos(delta phi_ij); phase alignment across coupled units, used as the collective order parameter.",
+    "Mental Gravity": "g = k grad M; dA_attention/dtau = k grad M_latent; attention flows toward memory density gradients.",
+    "Entropy": "S = -dC/dtau; entropy as rate of coherence loss.",
+    "Disturbance Emergence": "A_disturbance = f(laplacian M); disturbance is triggered by accumulated memory curvature rather than exogenous noise.",
+    "Agency Budget": "A_available = A_total - A_maintenance; agency spent sustaining a pattern is unavailable for choice."
+  },
+  "lemmas": {
+    "Precondition Collapse": "Desmet's four preconditions (lack of social bonds, lack of sense-making, free-floating anxiety, free-floating discontent) are not independent variables but four measurements of low M_latent with nonzero M_active, i.e. high Omega_free.",
+    "Bindability Selection": "Any pattern that reduces Omega_free will be adopted, and the reduction is the reward; uptake selects for bindability, not accuracy.",
+    "Substrate Erosion Raises Susceptibility": "Rich latent substrate supplies many independent local attractors (kin, craft, congregation, neighborhood) that pin individual phase. Susceptibility chi = dR/dh rises as local pinning attractors are removed. The narrative is not more persuasive; the population is less pinned.",
+    "Phase-Locking Alignment": "H = -J sum cos(phi_i - phi_j) - h sum cos(phi_i - phi_0). Above critical coupling beta*J > (beta*J)_c ordering is autocatalytic, producing alignment in weeks without persuasion, and hysteretic, so dissolution requires h far below the formation value.",
+    "Truth Independence": "The alignment Hamiltonian contains no term for the truth of phi_0. Narratives with substantial and with negligible truth content both lock a sufficiently unpinned population, and the locked states are structurally indistinguishable.",
+    "Mutual Illegibility": "For domains locked at phases separated by more than pi/2, cross-domain resonance R_AB < 0. Each group's inputs arrive at the other as destructive interference, so each can truthfully report that the other has lost its mind.",
+    "Inference Inversion": "Unlocked systems evaluate P(conclusion | pattern); locked systems evaluate P(pattern | conclusion). A single-basin coherence landscape routes every input to the same attractor regardless of entry point.",
+    "Sign Inversion (regime-dependent)": "At high R, dR/dE_counter > 0. Counter-evidence arrives not as information but as a threat to the binding that reduced Omega_free; absorption into the narrative is the cheapest dissonance resolution and additionally signals loyalty. Predicted to hold only in the locked regime, reconciling mixed correction and backfire literatures.",
+    "Cost Asymmetry": "Assent is immediately rewarded and free; doubt costs the defector their only remaining coherence substrate, because substrate erosion made group membership the last available source.",
+    "Agency Depletion": "As R approaches 1 and contradictions accumulate, A_maintenance approaches A_total and A_available approaches zero. The knot strengthens by means of the group's weakening, since no agency remains to redirect activation.",
+    "Metastasis": "When memory curvature exceeds the disturbance threshold, redistribution becomes near-certain. The open variable is the form of disturbance, managed redistribution versus catastrophic release, not its occurrence.",
+    "Hysteretic Reversal": "Because the aligned state is self-stabilizing, it does not dissolve at the drive level at which it formed. No configuration of arguments makes dissolution cheap.",
+    "Incoherent Forcing Tightens": "Uncoordinated counter-pressure applied at many phases adds drive without adding order, consolidating in-group phase. Pulling a knot from many directions locks it harder.",
+    "Cost Conservation": "Local memory redistribution is approximately conservative; every method that appears free either is not, or was paid by a subpopulation, a later generation, or an uncounted substrate.",
+    "Landscape Reshaping": "Reorganization intractable as a search may be spontaneous under a funneled landscape (Levinthal's paradox; folding funnels). The available intervention is landscape shaping (restoring pinning attractors, lowering drive, raising local coherence), not solution enumeration.",
+    "Non-Reciprocal Exit": "Escalation is reciprocal, so exit requires a non-reciprocal move: one party absorbs an unowned cost, converting live activated grievance into integrated latent memory unilaterally. The gradient they were holding stops pulling.",
+    "Post-Disturbance Overshoot": "Where latent memory survived the rupture, post-disturbance coherence can exceed pre-disturbance coherence (C_new > C_old). Where substrate was destroyed, recovery is prolonged and flat.",
+    "Substrate as Only Durable Defense": "A population that reseeds latent memory becomes pinned again and chi falls, so the next narrative field finds less purchase. A population that merely wins the current argument remains fully susceptible."
+  },
+  "main_theorem": {
+    "statement": "Group psychosis is a frozen coherence knot at collective scale, formed when a substrate depleted of local pinning attractors undergoes a hysteretic phase-locking transition under a narrative field that binds unanchored activation; its characteristic features, including falsification immunity and terminal escalation, follow from the geometry of the resulting single-basin landscape rather than from the content of the narrative.",
+    "proof_steps": [
+      "Define social latent memory as the distributed substrate of kinship, craft, ritual, narrative, and reciprocal obligation, and define unanchored activation Omega_free as activation lacking any interpreting latent pattern.",
+      "Show that sustained decline in social M_latent raises Omega_free without producing crisis, making substrate erosion a leading indicator invisible at the time it is cheapest to reverse.",
+      "Show that unrepaired injury forms frozen knots with steep local gradients and blocked redistribution, and that attention gravity deepens such basins autocatalytically without any coordinating agent.",
+      "Show that superposition of many private basins in a shared social field collapses a multi-basin coherence landscape toward a single basin, a prerequisite state distinct from lock-in.",
+      "Derive alignment as a phase-locking transition under the Hamiltonian H = -J sum cos(phi_i - phi_j) - h sum cos(phi_i - phi_0), with susceptibility rising as pinning attractors are removed, accounting for alignment in weeks rather than decades and for alignment without persuasion.",
+      "Show the transition is hysteretic and truth-independent, so locked states formed on narratives of differing truth content are structurally indistinguishable and neither dissolves at its formation drive.",
+      "Derive mutual illegibility from negative cross-domain resonance, and inference inversion from single-basin geometry.",
+      "Derive regime-dependent sign inversion: counter-evidence threatens the binding that reduced Omega_free, so absorption raises rather than lowers R at high lock-in while corrections succeed at low lock-in.",
+      "Derive agency depletion from the maintenance load of a contradictory pattern, yielding the observed conjunction of increasing rigidity with decreasing competence.",
+      "Derive metastasis from memory curvature exceeding the disturbance threshold, and show that the residual decision is the form of disturbance rather than its occurrence.",
+      "Invert the derivation to obtain reversal constraints: hysteresis forbids cheap dissolution, incoherent forcing tightens, cost is conserved, and counter-argument at high R is drive rather than information.",
+      "Identify the tractable operations as substrate repair at household scale, salience withdrawal, landscape reshaping rather than enumeration, non-reciprocal de-escalation, and post-rupture reseeding.",
+      "Impose the reflexivity constraint: since the model contains no truth term, outward diagnosis is unreliable in the locked and unnecessary in the unlocked, and only inward application returns agency to A_available."
+    ]
+  },
+  "descent_sequence": [
+    {
+      "step": 1,
+      "observed_feature": "Substrate erosion; extended family thins, craft and story are not transmitted",
+      "formal_correlate": "dM_latent/dtau < 0; loss of local pinning attractors; chi rises"
+    },
+    {
+      "step": 2,
+      "observed_feature": "Severed lineages; unrepaired abuse, humiliation, betrayal",
+      "formal_correlate": "Frozen knot; dM_latent_trauma/dtau approx 0 with steep local grad M"
+    },
+    {
+      "step": 3,
+      "observed_feature": "The wound becomes the low point; attention, money, talent, worry pool there",
+      "formal_correlate": "dA_attention/dtau = k grad M; basin deepening as positive feedback"
+    },
+    {
+      "step": 4,
+      "observed_feature": "Vortices of many broken families coincide; dialogue narrows, topics become undiscussable",
+      "formal_correlate": "Superposition grad M_collective = sum of grad M_i; loss of multi-basin structure"
+    },
+    {
+      "step": 5,
+      "observed_feature": "Everyone says THIS is the problem; leaders profiteer; opinions snap into alignment, water to ice",
+      "formal_correlate": "Narrative field h binds Omega_free to phi_0; phase-locking transition above critical coupling; hysteretic"
+    },
+    {
+      "step": 6,
+      "observed_feature": "Groups look across boundaries and see madness; reasonableness is talked to the hand",
+      "formal_correlate": "R_AB < 0; destructive interference; coherence assessed against a differently phased reference"
+    },
+    {
+      "step": 7,
+      "observed_feature": "Every problem traces to the cause; weather, prices, a diagnosis, a lost game",
+      "formal_correlate": "Single-basin landscape; inference inversion from P(conclusion|pattern) to P(pattern|conclusion)"
+    },
+    {
+      "step": 8,
+      "observed_feature": "Nothing can count against it; contradiction becomes conspiracy, defectors were bought, silence proves fear",
+      "formal_correlate": "dR/dE_counter > 0 in the locked regime; counter-evidence as drive"
+    },
+    {
+      "step": 9,
+      "observed_feature": "Gravity increases with the mass of the problem; agreeing is cheap, doubting costs friends and family",
+      "formal_correlate": "Cost asymmetry with group as last remaining substrate; A_available = A_total - A_maintenance approaches zero"
+    },
+    {
+      "step": 10,
+      "observed_feature": "Metastasis; both sides believe the knot can only be cut by the sword",
+      "formal_correlate": "Laplacian M past disturbance threshold; form of redistribution is the only open variable"
+    }
+  ],
+  "reversal_sequence": [
+    {
+      "step": 1,
+      "operation": "Know the arithmetic is against you; inspect before acting; ask which tangle is mine",
+      "formal_correlate": "Hysteresis: dissolution requires h far below formation value; incoherent forcing raises effective coupling"
+    },
+    {
+      "step": 2,
+      "operation": "The bill cannot be paid, only moved; no clever method unties it free",
+      "formal_correlate": "Approximate conservation of local memory; apparent zero-cost interventions display cost on audit"
+    },
+    {
+      "step": 3,
+      "operation": "Stop yanking; arguing and demanding full explanation feed the pattern",
+      "formal_correlate": "At high R counter-evidence is drive, not information; reduce counter-pressure amplitude"
+    },
+    {
+      "step": 4,
+      "operation": "Fix your floor; sleep, food, work, safety, love; forgive without demanding forgiveness",
+      "formal_correlate": "Raise M_latent and restore A_available; convert live grievance to integrated latent memory, lowering the pulling gradient"
+    },
+    {
+      "step": 5,
+      "operation": "Expect the knot to be shaken; prepare for redistribution rather than authoring it",
+      "formal_correlate": "A_disturbance = f(laplacian M) makes redistribution near-inevitable; prescribed burn versus crown fire"
+    },
+    {
+      "step": 6,
+      "operation": "Focus attention elsewhere; when everyone lets go of their line the knot slacks",
+      "formal_correlate": "Salience withdrawal lowers effective h; unilateral and uncoordinated, therefore the cheapest available operation"
+    },
+    {
+      "step": 7,
+      "operation": "The shortcut is real, but the work is on the surface rather than the path",
+      "formal_correlate": "Levinthal's paradox and funneled landscapes; reorganization intractable as search is spontaneous under a reshaped landscape"
+    },
+    {
+      "step": 8,
+      "operation": "Weave anew; expect coherence and beauty to return after the fire",
+      "formal_correlate": "C_new > C_old where latent memory survived; threading reset phase"
+    },
+    {
+      "step": 9,
+      "operation": "Somebody absorbs a cost that is not theirs; accounting is suspended",
+      "formal_correlate": "Non-reciprocal exit from a reciprocal escalation loop; announced sustained unilateral concession (GRIT)"
+    },
+    {
+      "step": 10,
+      "operation": "Rethread the substrate; tell the stories, teach, care, make things, take up the local work",
+      "formal_correlate": "Restore pinning attractors so chi falls and the next narrative field finds less purchase"
+    }
+  ],
+  "testable_predictions": {
+    "P1_substrate_precedes_capture": {
+      "claim": "Population indices of latent substrate (associational density, residential and kin stability, transmission of craft and local knowledge, subjective meaning) predict subsequent speed and amplitude of opinion alignment under a common information shock, better than exposure or narrative content.",
+      "falsification": "Alignment amplitude fully explained by exposure and content, with substrate adding no incremental variance."
+    },
+    "P2_precondition_collinearity": {
+      "claim": "Desmet's four preconditions load on a single factor in population samples.",
+      "falsification": "The four preconditions are empirically orthogonal."
+    },
+    "P3_hysteresis": {
+      "claim": "Time series of an opinion order parameter under rising then falling narrative drive show a loop; collapse occurs at drive levels measurably below formation levels.",
+      "falsification": "The trajectory is reversible."
+    },
+    "P4_regime_dependent_sign_inversion": {
+      "claim": "Corrections reduce false belief at low R and fail or reverse at high R, with a locatable crossover; reconciles Nyhan and Reifler with Wood and Porter by stratifying on identity-load and prior investment.",
+      "falsification": "Correction efficacy is independent of lock-in measures."
+    },
+    "P5_salience_withdrawal_beats_counterargument": {
+      "claim": "At high R, interventions reducing topic salience reduce alignment more than counter-evidence interventions of comparable cost.",
+      "falsification": "Counter-argument dominates at high R."
+    },
+    "P6_unilateral_de_escalation": {
+      "claim": "Announced, sustained, unreciprocated concession reduces cross-group hostility more than reciprocal or conditional strategies, with effect increasing in the duration of non-reciprocation tolerated.",
+      "falsification": "Unilateral initiatives reliably increase exploitation without hostility reduction."
+    },
+    "P7_agency_depletion": {
+      "claim": "Locked groups show declining collective problem-solving capacity on tasks unrelated to the narrative, proportional to maintenance load (contradiction density, boundary policing, defection rate).",
+      "falsification": "Unrelated task performance is unaffected by lock-in."
+    },
+    "P8_post_disturbance_overshoot": {
+      "claim": "Communities retaining latent substrate through a rupture recover past pre-rupture coherence; communities whose substrate was destroyed show prolonged flat recovery (Mount St. Helens versus post-fire forest, applied socially).",
+      "falsification": "Recovery trajectories are independent of pre-rupture substrate measures."
+    },
+    "P9_floor_repair_reduces_susceptibility": {
+      "claim": "Randomized substrate interventions at household and neighborhood scale (sleep, shared meals, craft and story transmission, relational repair) reduce measured susceptibility to narrative capture independent of any argument about the narrative.",
+      "falsification": "Substrate interventions leave susceptibility unchanged."
+    }
+  },
+  "reflexivity_constraint": {
+    "principle": "Because the alignment model contains no term for the truth of the narrative phase, possession of a theory of group psychosis is not protective. A newly acquired vocabulary for diagnosing narrative capture is itself a highly efficient instance of the described structure: one explanation that absorbs all counter-evidence, explains every disagreement, and treats correction as predicted enemy behavior.",
+    "outward_application": "Diagnosis. Unreliable in the hands of the locked and unnecessary in the hands of the unlocked; spends A on A_maintenance.",
+    "inward_application": "Checklist. Which convictions absorb all counter-evidence; how much available agency is spent maintaining rather than examining a position; how much meaning and connection would be lost if a belief proved false; which tangle here is actually mine. The only operation that returns agency to A_available.",
+    "usage_rule": "A model of group psychosis that cannot be turned on its user is not a model but a weapon."
+  },
+  "expansion_instructions": {
+    "Diagnosis": "Measure substrate before narrative. Assess associational density, kin and residential stability, transmission of craft and story, and subjective meaning as susceptibility indices; treat narrative content as approximately irrelevant to lock-in probability.",
+    "Intervention": "Order operations by regime. At low R, argue. At high R, reduce drive: withdraw salience, lower counter-pressure amplitude, and shift effort to substrate repair at household and neighborhood scale.",
+    "De-escalation": "Design for non-reciprocity. Escalation loops exit only through announced, sustained, unilateral concession absorbed at real cost by one party; expect non-reciprocation early and budget for it.",
+    "Measurement": "Operationalize R via opinion alignment and inter-brain or behavioral synchrony; proxy A via task capacity and maintenance load; proxy C via coherence and integration measures. Report proxies as proxies.",
+    "Recovery": "Assess surviving latent memory before designing reseeding. Prioritize story, craft, food, teaching, and local work over legislative or argumentative remedies; expect coherence overshoot only where substrate survived.",
+    "Usage_Constraint": "Apply the framework inward before outward. Outward diagnosis without inward audit reproduces step 6 of the descent sequence."
+  },
+  "related_work": {
+    "crowd_and_totalitarianism": ["Le Bon 1895", "Freud 1921", "Hoffer 1951", "Arendt 1951", "Canetti 1960", "Desmet 2021, 2022"],
+    "synchronization_and_cascades": ["Kuramoto model", "XY model", "Granovetter threshold models", "Watts global cascades", "Centola complex contagion"],
+    "motivated_reasoning_and_corrections": ["Festinger dissonance", "Taber and Lodge", "Kahan motivated numeracy", "Nyhan and Reifler", "Wood and Porter", "Bail exposure to opposing views", "Finkel political sectarianism"],
+    "landscapes_and_self_assembly": ["Levinthal paradox", "Bryngelson and Wolynes folding funnels", "Onuchic energy landscape theory"],
+    "resilience_and_disturbance": ["Holling resilience", "Gunderson and Holling panarchy", "Connell intermediate disturbance"],
+    "de_escalation_and_repair": ["Osgood GRIT", "Axelrod evolution of cooperation", "Bruneau perspective-giving", "Halperin group malleability", "Enright forgiveness"],
+    "substrate_and_collective_trauma": ["Putnam Bowling Alone", "Cacioppo loneliness", "van der Kolk trauma", "Hirschberger collective trauma", "Saul collective healing"]
+  },
+  "refs": [
+    "Arendt, H. (1951). The Origins of Totalitarianism. Harcourt, Brace.",
+    "Acebron, J. A., et al. (2005). The Kuramoto model: a simple paradigm for synchronization phenomena. Rev. Mod. Phys.",
+    "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books.",
+    "Bail, C. A., et al. (2018). Exposure to opposing views on social media can increase political polarization. PNAS.",
+    "Bryngelson, J. D., Onuchic, J. N., Socci, N. D., & Wolynes, P. G. (1995). Funnels, pathways, and the energy landscape of protein folding. Proteins.",
+    "Cacioppo, J. T., & Hawkley, L. C. (2009). Loneliness. Ann. N.Y. Acad. Sci.",
+    "Canetti, E. (1960). Crowds and Power. Victor Gollancz.",
+    "Centola, D. (2018). How Behavior Spreads: The Science of Complex Contagions. Princeton University Press.",
+    "Desmet, M. (2021). Mass Formation and Totalitarian Thinking in This Time of Global Crisis. Transcript of remarks, 30 July 2021.",
+    "Desmet, M. (2022). The Psychology of Totalitarianism. Chelsea Green.",
+    "Enright, R. D. (2001). Forgiveness is a Choice. American Psychological Association.",
+    "Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press.",
+    "Finkel, E. J., et al. (2020). Political sectarianism in America. Science.",
+    "Freud, S. (1921). Group Psychology and the Analysis of the Ego. International Psycho-Analytical Press.",
+    "Granovetter, M. (1978). Threshold models of collective behavior. Am. J. Sociol.",
+    "Gunderson, L. H., & Holling, C. S. (Eds.) (2002). Panarchy. Island Press.",
+    "Halperin, E., et al. (2011). Promoting the Middle East peace process by changing beliefs about group malleability. Science.",
+    "Hirschberger, G. (2018). Collective trauma and the social construction of meaning. Front. Psychol.",
+    "Hoffer, E. (1951). The True Believer. Harper and Row.",
+    "Holling, C. S. (1973). Resilience and stability of ecological systems. Ann. Rev. Ecol. Syst.",
+    "Kahan, D. M., Peters, E., Dawson, E. C., & Slovic, P. (2017). Motivated numeracy and enlightened self-government. Behav. Public Policy.",
+    "Kruglanski, A. W., et al. (2006). Groups as epistemic providers: need for closure and the unfolding of group-centrism. Psychol. Rev.",
+    "Kuramoto, Y. (1975). Self-entrainment of a population of coupled non-linear oscillators. Lect. Notes Phys.",
+    "Le Bon, G. (1896). The Crowd: A Study of the Popular Mind. T. Fisher Unwin.",
+    "Levinthal, C. (1969). How to fold graciously. Mossbauer Spectroscopy in Biological Systems.",
+    "Nyhan, B., & Reifler, J. (2010). When corrections fail: the persistence of political misperceptions. Polit. Behav.",
+    "Onuchic, J. N., Luthey-Schulten, Z., & Wolynes, P. G. (1997). Theory of protein folding: the energy landscape perspective. Ann. Rev. Phys. Chem.",
+    "Osgood, C. E. (1962). An Alternative to War or Surrender. University of Illinois Press.",
+    "Putnam, R. D. (2000). Bowling Alone. Simon and Schuster.",
+    "Saul, J. (2022). Collective Trauma, Collective Healing (2nd ed.). Routledge.",
+    "Strogatz, S. H. (2000). From Kuramoto to Crawford. Physica D.",
+    "Taber, C. S., & Lodge, M. (2006). Motivated skepticism in the evaluation of political beliefs. Am. J. Polit. Sci.",
+    "van der Kolk, B. (2014). The Body Keeps the Score. Viking.",
+    "Watts, D. J. (2002). A simple model of global cascades on random networks. PNAS.",
+    "Wood, T., & Porter, E. (2019). The elusive backfire effect. Polit. Behav.",
+    "Zelenka, D. D. (2025). The Fabric Paradigm: Fundamental Axioms and Equations. figshare. doi:10.6084/m9.figshare.30227890",
+    "Zelenka, D. D. (2025). Threading Ecology: A Coherence-Based Framework for Ecosystem Dynamics with Disturbance Cycling. Zenodo. doi:10.6084/m9.figshare.30437930",
+    "Zelenka, D. D. (2025). Threaded Mind: Consciousness as Ecological Fabric and Recursive Memory Dynamics. Unpublished manuscript."
+  ],
+  "computational_metadata": {
+    "machine_readable": true,
+    "formal_verification_status": "framework_definition",
+    "numerical_implementation": "phase-locking and hysteresis claims are simulable with standard Kuramoto and threshold-cascade solvers",
+    "experimental_validation": "awaiting tests; P4 and P9 are testable against existing datasets",
+    "collaboration_ready": true
+  },
+  "disclaimer": {
+    "verification_status": "UNVERIFIED HYPOTHESIS",
+    "clinical_status": "NOT A DIAGNOSTIC INSTRUMENT; 'mass formation psychosis' is not a clinical diagnosis",
+    "source_theory_status": "CONTESTED",
+    "political_status": "SYMMETRIC BY CONSTRUCTION; no term distinguishes any group's narrative",
+    "unfalsifiability_risk": "A model predicting that counter-evidence strengthens locked belief can be misused as an unfalsifiable device; P4 exists so the sign-inversion claim can fail",
+    "purpose": "Research template for independent investigation",
+    "open_to_falsification": true
+  }
+}
