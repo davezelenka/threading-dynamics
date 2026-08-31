@@ -1,4 +1,4 @@
-# Fabric Theory - Threading Dynamics Repository
+# Fabric Theory (A Light-Substrate Ontology)  - Threading Dynamics Repository
 
 The **Threading Dynamics** repository contains research, analyses, and datasets relating to the **Fabric Paradigm**, a conceptual framework that interprets reality as a living fabric of light, memory, and agency. This framework unifies phenomena across physics, biology, cognition, and ecological systems through shared threading dynamics.
 
