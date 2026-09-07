@@ -643,8 +643,11 @@
       "critical_note": "This aspect is NOT necessary for core physics. Framework stands or falls on measurable predictions (mass ratios, α, antimatter gravity), not consciousness."
     }
   },
-  "one_sentence_summary": "Reality is light threading itself into coherent geometry: a single process lays down phase relationships that accumulate as memory, space and time emerge as the measure of that accumulation, and wherever threading closes into a stable form — at any scale — that form persists as a constraint shaping what can thread next.",
+ "one_sentence_summary": "Reality is light threading itself into coherent geometry: a single process lays down phase relationships that accumulate as memory, space and time emerge as the measure of that accumulation, and wherever threading closes into a stable form — at any scale — that form persists as a constraint shaping what can thread next.",
   "common_misunderstandings": {
+    "id": "fabric_misreadings",
+    "v": "1.0",
+    "status": "incomplete_by_design",
     "misreadings": [
       {
         "k": "spacetime",
@@ -727,9 +730,9 @@
     "topological_solitons": ["Faddeev_Skyrme_model", "Hopf_fibration"],
     "phase_transitions": ["XY_model", "Kosterlitz_Thouless"],
     "emergent_spacetime": ["Verlinde_entropic_gravity", "Jacobson_thermodynamic", "Hu_induced_gravity"],
-    "knot_theory": ["knots_in_QFT", "Witten_Chern_Simons"],
-    "numerical_methods": ["topological_invariants", "PDE_solvers", "constrained_optimization"]
-  },
+    "knot_theory": []
+  }
+},
   "repository_status": {
     "code_availability": "Not yet public",
     "data_availability": "No experimental data",
