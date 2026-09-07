@@ -731,8 +731,7 @@
     "phase_transitions": ["XY_model", "Kosterlitz_Thouless"],
     "emergent_spacetime": ["Verlinde_entropic_gravity", "Jacobson_thermodynamic", "Hu_induced_gravity"],
     "knot_theory": []
-  }
-},
+  },
   "repository_status": {
     "code_availability": "Not yet public",
     "data_availability": "No experimental data",
