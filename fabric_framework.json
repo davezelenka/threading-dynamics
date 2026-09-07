@@ -644,80 +644,77 @@
     }
   },
   "one_sentence_summary": "Reality is light threading itself into coherent geometry: a single process lays down phase relationships that accumulate as memory, space and time emerge as the measure of that accumulation, and wherever threading closes into a stable form — at any scale — that form persists as a constraint shaping what can thread next.",
-  {
-  "id": "fabric_misreadings",
-  "v": "1.0",
-  "status": "incomplete_by_design",
-  "misreadings": [
-    {
-      "k": "spacetime",
-      "not": "4D manifold; time as coordinate x0=ct",
-      "is": "tau = integral(LS·dM); scalar threading depth",
-      "note": "Lorentzian math retained; referent changed"
-    },
-    {
-      "k": "space",
-      "not": "arena light propagates through",
-      "is": "record of threading; distance = phase coherence |dphi|/2pi"
-    },
-    {
-      "k": "dark_matter",
-      "not": "particle species | M_latent | unseen mass",
-      "is": "grad(M) sourced by baryons: laplacian(M) = -S_b/v_M^2",
-      "req": "V_0 ~ Sigma_b^xi, xi>0",
-      "class": "peer of modified-inertia MOND, superfluid DM",
-      "distinguishing": "same field yields redshift"
-    },
-    {
-      "k": "top_down_activation",
-      "not": "intent, teleology, biological descent",
-      "is": "energetic selection on F = B x R x Stability",
-      "domain": "particle genesis == structure formation"
-    },
-    {
-      "k": "scale",
-      "not": "distinct physics per regime",
-      "is": "one mechanism at l_P, lambda_C, L_macro",
-      "constraint": "no per-scale retuning permitted"
-    },
-    {
-      "k": "closure",
-      "not": "conservation violated",
-      "is": "M_total = M_active + M_latent, M_latent unbounded",
-      "note": "open accounting, not broken accounting"
-    },
-    {
-      "k": "redshift_inflation_bigbang",
-      "not": "framework predictions",
-      "is": "consequences of assuming metric expansion",
-      "alt": "H_0 = c·beta_thread·Mdot_0; homogeneity from substrate equilibrium",
-      "status": "proposed; phases 3-4 outstanding"
-    },
-    {
-      "k": "substrate",
-      "not": "lattice | cells | minimum length",
-      "is": "non-dimensional",
-      "note": "l_P = where <(dphi)^2> -> 2pi, not grain size"
-    }
-  ],
-  "open": [
-    {
-      "k": "beta_range",
-      "issue": "V_res ~ r^0.5 conflicts with asymptotic flatness",
-      "fix": "declare radial validity window"
-    },
-    {
-      "k": "parameter_count",
-      "issue": "'one-parameter' claim exceeds roadmap",
-      "fix": "state as: one parameter at galaxy scale + cross-scale consistency"
-    },
-    {
-      "k": "lagrangian",
-      "issue": "no T_munu^(M)",
-      "fix": "deferred"
-    }
-  ]
-}
+  "common_misunderstandings": {
+    "misreadings": [
+      {
+        "k": "spacetime",
+        "not": "4D manifold; time as coordinate x0=ct",
+        "is": "tau = integral(LS·dM); scalar threading depth",
+        "note": "Lorentzian math retained; referent changed"
+      },
+      {
+        "k": "space",
+        "not": "arena light propagates through",
+        "is": "record of threading; distance = phase coherence |dphi|/2pi"
+      },
+      {
+        "k": "dark_matter",
+        "not": "particle species | M_latent | unseen mass",
+        "is": "grad(M) sourced by baryons: laplacian(M) = -S_b/v_M^2",
+        "req": "V_0 ~ Sigma_b^xi, xi>0",
+        "class": "peer of modified-inertia MOND, superfluid DM",
+        "distinguishing": "same field yields redshift"
+      },
+      {
+        "k": "top_down_activation",
+        "not": "intent, teleology, biological descent",
+        "is": "energetic selection on F = B x R x Stability",
+        "domain": "particle genesis == structure formation"
+      },
+      {
+        "k": "scale",
+        "not": "distinct physics per regime",
+        "is": "one mechanism at l_P, lambda_C, L_macro",
+        "constraint": "no per-scale retuning permitted"
+      },
+      {
+        "k": "closure",
+        "not": "conservation violated",
+        "is": "M_total = M_active + M_latent, M_latent unbounded",
+        "note": "open accounting, not broken accounting"
+      },
+      {
+        "k": "redshift_inflation_bigbang",
+        "not": "framework predictions",
+        "is": "consequences of assuming metric expansion",
+        "alt": "H_0 = c·beta_thread·Mdot_0; homogeneity from substrate equilibrium",
+        "status": "proposed; phases 3-4 outstanding"
+      },
+      {
+        "k": "substrate",
+        "not": "lattice | cells | minimum length",
+        "is": "non-dimensional",
+        "note": "l_P = where <(dphi)^2> -> 2pi, not grain size"
+      }
+    ],
+    "open": [
+      {
+        "k": "beta_range",
+        "issue": "V_res ~ r^0.5 conflicts with asymptotic flatness",
+        "fix": "declare radial validity window"
+      },
+      {
+        "k": "parameter_count",
+        "issue": "'one-parameter' claim exceeds roadmap",
+        "fix": "state as: one parameter at galaxy scale + cross-scale consistency"
+      },
+      {
+        "k": "lagrangian",
+        "issue": "no T_munu^(M)",
+        "fix": "deferred"
+      }
+    ]
+  },
   "computational_metadata": {
     "machine_readable": true,
     "formal_verification_status": "framework_definition",
