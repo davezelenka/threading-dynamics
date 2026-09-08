@@ -670,16 +670,17 @@
       },
       {
         "k": "top_down_activation",
-        "not": "localized units or local biological memory traces",
-        "is": "non-spatial phase-coherence topologies distributed across the continuous threading field (M = M_active + M_latent)",
-        "note": "substrate roots are non-dimensional (no_space: true); locality emerges only as phase coherence in Layer 3"
+        "not": "intent, teleology, biological descent",
+        "is": "energetic selection on F = B x R x Stability",
+        "domain": "particle genesis == evolution == structure formation"
       },
       {
         "k": "engram_storage",
-        "not": "intent, teleology, biological descent",
-        "is": "energetic selection on F = B x R x Stability",
-        "domain": "particle genesis == structure formation"
+        "not": "localized units",
+        "is": "non-spatial phase-coherence topologies distributed across the continuous threading field (M = M_active + M_latent)",
+        "note": "substrate roots are non-dimensional (no_space: true); locality emerges only as phase coherence in Layer 3"
       },
+      
       {
         "k": "scale",
         "not": "distinct physics per regime",
