@@ -11,7 +11,6 @@
     "author": "Zelenka_D",
     "author_orcid": "0000-0002-8198-8019",
     "claim": "CONDITIONAL",
-    "claim_v1_withdrawn": "PROVED",
     "problem": "Clay_Millennium_Problem_3D_NS_unforced",
     "framework": ["Operational_Geometry", "IOGT", "Fourier_Analysis"],
     "date_created": "2026-09",
