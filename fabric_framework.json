@@ -661,6 +661,13 @@
         "is": "record of threading; distance = phase coherence |dphi|/2pi"
       },
       {
+        "k": "light",
+        "not": "a single thread",
+        "is": "emergent from a non-dimensional substrate; generates space, time, and particles",
+        "class": "generative substrate",
+        "distinguishing": "coherence rate is invariant"
+      },
+      {
         "k": "dark_matter",
         "not": "particle species | M_latent | unseen mass",
         "is": "grad(M) sourced by baryons: laplacian(M) = -S_b/v_M^2",
