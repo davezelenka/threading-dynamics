@@ -687,7 +687,13 @@
         "is": "non-spatial phase-coherence topologies distributed across the continuous threading field (M = M_active + M_latent)",
         "note": "substrate roots are non-dimensional (no_space: true); locality emerges only as phase coherence in Layer 3"
       },
-      
+      {
+        "k": "climate_change",
+        "not": "external force or anthropocentric anomaly acting upon a passive background space",
+        "is": "macroscopic relaxation and phase-coherence realignment of active memory density (M_active) driven by atmospheric thermodynamic feedback loops toward substrate equilibrium",
+        "constraint": "g_μν(τ) response dictated by logarithmic radiative forcing delta_F = a * ln(C / C_0) coupled to internal memory-gradient flows grad(M)",
+        "note": "planetary climate shifts reflect continuous field dynamics in Layer 3, governed by the same coherence and energy landscape equations operating across all scales"
+      }
       {
         "k": "scale",
         "not": "distinct physics per regime",
