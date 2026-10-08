@@ -1,21 +1,60 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "doi": "https://doi.org/"
+  },
   "title": "Fabric Framework: Emergent Social Morphology, Pathology, and Systemic Repair",
-  "version": "2026-09-29",
+  "version": "2026-10-08",
+  "version_note": "Revised to incorporate the three-tier taxonomy (morphology / pathological process / configuration), the checks-and-secrecy model, secrets vs. surprises, relational repair, and crisis-as-fire from Zelenka (2026), doi:10.5281/zenodo.23227369.",
   "subtitle": "Condensed Reference",
   "author": "Zelenka_D_D",
-  "author_orcid": "0000-0002-8198-8019"
+  "author_full_name": "David D. Zelenka",
+  "author_orcid": "0000-0002-8198-8019",
+  "license": "CC-BY-4.0",
+  "language": "en",
+  "keywords": [
+    "emergent social morphology",
+    "Operational Geometry",
+    "Fabric framework",
+    "corrective feedback",
+    "institutional pathology",
+    "political capture",
+    "checks and balances",
+    "secrecy and transparency",
+    "affective polarization",
+    "social trust"
+  ],
+  "links": {
+    "primary_paper_doi": "https://doi.org/10.5281/zenodo.23227369",
+    "operational_geometry_doi": "https://doi.org/10.5281/zenodo.18039583",
+    "light_substrate_record": "https://zenodo.org/records/17411110",
+    "repository": "https://github.com/davezelenka/threading-dynamics"
+  },
+  "citations": {
+    "primary_paper": {
+      "cite_as": "Zelenka, D. D. (2026). Emergent Social Morphologies, Pathological Processes, and Repair in the Fabric Framework. Zenodo. https://doi.org/10.5281/zenodo.23227369",
+      "doi": "10.5281/zenodo.23227369",
+      "bibtex": "@misc{zelenka2026morphologies,\n  author = {Zelenka, David D.},\n  title = {Emergent Social Morphologies, Pathological Processes, and Repair in the Fabric Framework},\n  year = {2026},\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.23227369},\n  url = {https://doi.org/10.5281/zenodo.23227369}\n}"
+    },
+    "parent_framework": {
+      "cite_as": "Zelenka, D. D. (2025). Operational Geometry: A Framework for Operations-Primary Mathematics. Zenodo. https://doi.org/10.5281/zenodo.18039583",
+      "doi": "10.5281/zenodo.18039583"
+    }
+  },
   "status": {
     "classification": "FRAMEWORK",
     "research_status": "NOT ESTABLISHED SCIENCE; OPEN TO FALSIFICATION",
     "political_status": "NON-PARTISAN ANALYTICAL FRAMEWORK",
-    "scope": "Applies the user's verb-first, noun-emergent Fabric/Threading framework to social and political systems.",
-    "caution": "The framework describes proposed process relationships. It does not establish that any named political system, jurisdiction, institution, or historical period is objectively pathological."
+    "scope": "Applies the verb-first, noun-emergent Fabric/Threading framework to institutional and political morphologies.",
+    "caution": "The framework describes proposed process relationships. It does not establish that any named political arrangement, jurisdiction, institution, or historical period is objectively pathological. 'Healthy' and 'pathological' describe the state of corrective feedback, not the moral standing of any ideology, party, or population.",
+    "terminology": "Uses 'emergent social morphologies' (institutional and political) in place of 'political systems'."
   },
   "source_framework": {
     "name": "Fabric / Threading Dynamics / Operational Geometry",
     "core_orientation": "Verb-first, noun-emergent.",
     "central_idea": "Processes precede stable forms. Repeated operations create memory; accumulated memory constrains later operations; relatively stable morphology emerges from that feedback.",
-    "canonical_social_translation": "A social system is not primarily a noun that a society chooses. It is a morphology that emerges from repeated social operations.",
+    "canonical_social_translation": "A social arrangement is not primarily a noun that a society chooses. It is a morphology that emerges from repeated social operations.",
     "key_equation": "M_latent + A -> M_active",
     "dynamic_loop": [
       "action",
@@ -33,271 +72,390 @@
   "conceptual_analogy": {
     "biological_example": {
       "claim": "Within the framework, 'monkey' is not the first explanatory primitive.",
-      "process": "Repeated climbing and environmental interaction, together with inherited and epigenetic memory, contribute to an emergent animal morphology.",
-      "schematic": "climbing -> repeated interaction -> retained/developmental memory -> morphology"
+      "process": "Repeated climbing and environmental interaction, together with inherited and developmental memory, contribute to an emergent animal morphology.",
+      "schematic": "climbing -> repeated interaction -> retained/developmental memory -> morphology",
+      "caveat": "Illustrative only; no claim that social systems obey biological dynamics."
     },
     "social_example": {
-      "claim": "A constitutional republic, democracy, technocracy, autocracy, socialism, communism, or other institutional form can likewise be treated as an emergent morphology rather than a primitive noun.",
+      "claim": "A constitutional republic, democracy, technocracy, market economy, collective provision, or other institutional form can likewise be treated as an emergent morphology rather than a primitive noun.",
       "schematic": "repeated social operations -> stored social memory -> constrained future operations -> institutional morphology"
     },
-    "memory_interpretation": "DNA/epigenetic memory is used as an analogy for how latent structure can constrain activation; social memory includes laws, precedents, customs, institutions, expectations, records, property arrangements, technologies, and learned behaviors."
+    "ecological_example": {
+      "claim": "Forest and mountain water cycles illustrate healthy versus captured flow: water combed from fog and released to the roots versus water held at the ridge.",
+      "use": "Governs the capture, secrecy, and crisis-as-fire analogies."
+    },
+    "memory_interpretation": "Social memory includes laws, precedents, customs, institutions, expectations, records, property arrangements, technologies, and learned behaviors."
   },
-  "emergent_social_morphology": [
-    {
-      "process": "Distribute authority",
-      "healthy_memory_feedback": "Local autonomy, negotiation, customary law, and reciprocal correction",
-      "emergent_morphology": "Decentralized/federal republic",
-      "characteristic_form": "Authority branches and distributes spatially."
+  "organizing_principle": {
+    "statement": "A morphology is what repeatedly emerges. A pathology is what can happen to it.",
+    "three_tiers": {
+      "morphology": "The stable form a repeated operation tends to produce when its corrective feedback is intact.",
+      "pathological_process": "A cross-cutting operation that degrades corrective feedback and can occur inside almost any morphology.",
+      "configuration": "The outcome when several pathological processes reinforce one another within one or more morphologies."
     },
+    "rationale": "Prevents listing fascism beside democracy and socialism, or crony capitalism beside the market economy, as though they were equivalent kinds of noun.",
+    "healthy_range_note": "Morphologies need not have equally wide healthy ranges; ordered hierarchy and clientelism may sustain high corrective capacity only under narrow conditions. This is an empirical question."
+  },
+  "morphologies": [
     {
-      "process": "Require rulers to operate under durable rules",
-      "healthy_memory_feedback": "Constitutional precedent and limits on office",
-      "emergent_morphology": "Constitutional republic",
-      "characteristic_form": "Political power becomes bounded by persistent rules."
-    },
-    {
-      "process": "Repeatedly choose representatives",
-      "healthy_memory_feedback": "Electoral procedures and representative expectations",
-      "emergent_morphology": "Representative democracy",
-      "characteristic_form": "Authority periodically reconstitutes through selection."
-    },
-    {
-      "process": "Make public decisions through direct participation",
-      "healthy_memory_feedback": "Assembly, voting, deliberation",
-      "emergent_morphology": "Direct democracy",
-      "characteristic_form": "Decision-making remains close to participating citizens."
-    },
-    {
-      "process": "Concentrate specialized decisions in credentialed experts",
-      "healthy_memory_feedback": "Technical procedures, professional standards, expertise",
-      "emergent_morphology": "Technocracy/administrative state",
-      "characteristic_form": "Authority increasingly follows specialized knowledge and administrative competence."
-    },
-    {
-      "process": "Concentrate decision-making around one ruler",
-      "healthy_memory_feedback": "Loyalty, hierarchy, patronage, succession customs",
-      "emergent_morphology": "Autocracy/authoritarianism",
-      "characteristic_form": "Political agency converges toward a center."
-    },
-    {
-      "process": "Centralize collective economic ownership and allocation",
-      "healthy_memory_feedback": "Collective planning and allocation procedures",
-      "emergent_morphology": "State socialism",
-      "characteristic_form": "Economic coordination converges into centralized institutions."
-    },
-    {
-      "process": "Suppress private ownership of productive capital while centralizing allocation",
-      "healthy_memory_feedback": "Collective ownership and planning memory",
-      "emergent_morphology": "Communist institutional form",
-      "characteristic_form": "Production and distribution are organized through collective/state structures."
-    },
-    {
-      "process": "Permit extensive private ownership and decentralized exchange",
-      "healthy_memory_feedback": "Contracts, prices, property rights, distributed market knowledge",
-      "emergent_morphology": "Market-oriented capitalism",
-      "characteristic_form": "Economic coordination is distributed across independent actors."
-    },
-    {
-      "process": "Continuously bargain among organized interests",
-      "healthy_memory_feedback": "Compromise, coalition-building, lobbying, negotiation",
-      "emergent_morphology": "Pluralist democracy",
-      "characteristic_form": "Authority becomes a network of competing centers."
-    },
-    {
-      "process": "Repeatedly transfer resources through hierarchical dependency",
-      "healthy_memory_feedback": "Patronage and clientage",
-      "emergent_morphology": "Patrimonial/clientelist system",
-      "characteristic_form": "Institutions organize vertically around dependency."
-    },
-    {
-      "process": "Treat emergencies as requiring centralized command",
-      "healthy_memory_feedback": "Crisis procedures and temporary exceptional powers",
-      "emergent_morphology": "Emergency/command state",
-      "characteristic_form": "Authority contracts toward rapid centralized decision-making."
-    },
-    {
-      "process": "Expand bureaucratic measurement and administration",
-      "healthy_memory_feedback": "Records, classification, procedures, compliance systems",
-      "emergent_morphology": "Administrative state",
-      "characteristic_form": "Social reality becomes increasingly organized through bureaucratic categories."
-    },
-    {
-      "process": "Build institutions that check one another",
-      "healthy_memory_feedback": "Judicial, legislative, and executive precedents",
-      "emergent_morphology": "Separation-of-powers constitutionalism",
-      "characteristic_form": "Authority becomes structurally interdependent."
-    },
-    {
-      "process": "Build dense voluntary associations",
-      "healthy_memory_feedback": "Trust networks, churches, unions, charities, clubs, civic groups",
-      "emergent_morphology": "Associational/pluralist order",
-      "characteristic_form": "Social coordination occurs through intermediate structures."
-    },
-    {
-      "process": "Replace inherited authority with universal legal rules",
-      "healthy_memory_feedback": "Impersonal precedent and equal legal categories",
-      "emergent_morphology": "Rule-of-law state",
-      "characteristic_form": "Persons become subordinate to persistent legal rules."
-    },
-    {
-      "process": "Make ideological conformity a prerequisite for participation",
-      "healthy_memory_feedback": "Shared ideological orthodoxy",
-      "emergent_morphology": "Ideological one-party state",
-      "characteristic_form": "Institutional variation collapses toward one authorized pattern."
-    }
-  ],
-  "expanded_process_morphology_pathology_table": [
-    {
-      "process": "Participate",
-      "healthy_feedback": "Members see themselves as agents in a shared system.",
-      "morphology": "Democracy",
-      "pathological_drift": "Manipulation, factional capture, or exclusion.",
-      "pathology": "Factional/populist pathology."
-    },
-    {
-      "process": "Represent",
-      "healthy_feedback": "Representatives remain accountable to constituents.",
-      "morphology": "Representative government",
-      "pathological_drift": "Representation disconnects from those represented.",
-      "pathology": "Oligarchic or captured government."
+      "process": "Distribute",
+      "morphology": "Federalism",
+      "healthy_feedback": "Local and central authorities correct one another.",
+      "healthy_example": "Swiss confederation; Ostrom's long-enduring commons institutions",
+      "typical_pathological_drift": [
+        "exclude",
+        "capture (subnational)"
+      ]
     },
     {
       "process": "Constrain",
-      "healthy_feedback": "Authority remains under law.",
-      "morphology": "Constitutional republic",
-      "pathological_drift": "Exceptions become permanent; powerful actors become effectively above law.",
-      "pathology": "Authoritarian constitutional shell."
+      "morphology": "Constitutionalism / constitutional republic",
+      "healthy_feedback": "Authority remains under durable rules.",
+      "healthy_example": "Madisonian separation of powers (Federalist 51)",
+      "typical_pathological_drift": [
+        "falsify",
+        "centralise without correction"
+      ]
     },
     {
-      "process": "Distribute",
-      "healthy_feedback": "Local and central authorities correct one another.",
-      "morphology": "Federalism",
-      "pathological_drift": "One level captures or nullifies the others.",
-      "pathology": "Excessive centralization."
+      "process": "Deliberate and participate",
+      "morphology": "Direct democracy",
+      "healthy_feedback": "Disagreement among participating citizens produces correction.",
+      "healthy_example": "Athenian assembly; New England town meeting",
+      "typical_pathological_drift": [
+        "fragment",
+        "falsify",
+        "exclude"
+      ]
     },
     {
-      "process": "Compete",
-      "healthy_feedback": "Competing institutions correct one another.",
+      "process": "Represent",
+      "morphology": "Representative democracy",
+      "healthy_feedback": "Representatives remain accountable to constituents.",
+      "healthy_example": "Polyarchy (Dahl)",
+      "typical_pathological_drift": [
+        "capture",
+        "exclude"
+      ]
+    },
+    {
+      "process": "Associate (bridging)",
+      "morphology": "Civil society",
+      "healthy_feedback": "Voluntary groups create cross-cutting trust.",
+      "healthy_example": "Northern Italian civic regions (Putnam); bridging associations in Indian cities (Varshney)",
+      "typical_pathological_drift": [
+        "fragment"
+      ],
+      "distinction": "Bridging association, not interest competition."
+    },
+    {
+      "process": "Compete (interests)",
       "morphology": "Pluralism",
-      "pathological_drift": "Competition becomes zero-sum tribal conflict.",
-      "pathology": "Factionalized political system."
+      "healthy_feedback": "Rival organised interests expose one another's errors.",
+      "healthy_example": "Consensus democracies (Lijphart)",
+      "typical_pathological_drift": [
+        "capture",
+        "fragment"
+      ],
+      "distinction": "Interest competition, not bridging association."
     },
     {
-      "process": "Measure",
+      "process": "Measure / administer",
+      "morphology": "Technocracy / administrative state",
       "healthy_feedback": "Measurement exposes and corrects institutional error.",
-      "morphology": "Technocracy/administrative state",
-      "pathological_drift": "Metrics replace reality; administrators become self-validating.",
-      "pathology": "Bureaucratic technocracy."
+      "healthy_example": "East Asian developmental states; Nordic impartial administration",
+      "typical_pathological_drift": [
+        "falsify (metric substitution)",
+        "suppress (local knowledge)",
+        "capture"
+      ]
     },
     {
-      "process": "Centralize",
-      "healthy_feedback": "Central coordination remains accountable.",
-      "morphology": "Centralized government",
-      "pathological_drift": "Feedback from subordinate nodes is suppressed.",
-      "pathology": "Autocracy."
-    },
-    {
-      "process": "Obey",
-      "healthy_feedback": "Legitimate authority receives voluntary compliance.",
-      "morphology": "Ordered hierarchy",
-      "pathological_drift": "Obedience becomes the primary political virtue.",
-      "pathology": "Authoritarianism."
-    },
-    {
-      "process": "Collectivize",
-      "healthy_feedback": "Resources are coordinated for shared purposes.",
-      "morphology": "Socialism",
-      "pathological_drift": "Collective authority becomes immune to correction.",
-      "pathology": "Centralized state socialism."
+      "process": "Collectivise",
+      "morphology": "Socialism / collective provision",
+      "healthy_feedback": "Resources are coordinated for shared purposes and remain correctable.",
+      "healthy_example": "Mondragon cooperatives; Nordic social democracy",
+      "typical_pathological_drift": [
+        "centralise without correction",
+        "suppress"
+      ]
     },
     {
       "process": "Plan",
-      "healthy_feedback": "Planning responds to distributed information.",
       "morphology": "Planned economy",
-      "pathological_drift": "Information is forced to conform to the plan.",
-      "pathology": "Command economy."
+      "healthy_feedback": "Planning responds to distributed information.",
+      "healthy_example": "French indicative planning (Shonfield)",
+      "typical_pathological_drift": [
+        "falsify",
+        "conform under compulsion"
+      ]
     },
     {
       "process": "Exchange",
-      "healthy_feedback": "Contracts, property, and competition are enforced impartially.",
       "morphology": "Market economy",
-      "pathological_drift": "Economic power captures political privilege.",
-      "pathology": "Crony capitalism."
+      "healthy_feedback": "Contracts, property, and competition are enforced impartially.",
+      "healthy_example": "Open access orders (North, Wallis, Weingast)",
+      "typical_pathological_drift": [
+        "capture",
+        "exclude"
+      ]
     },
     {
-      "process": "Capture",
-      "healthy_feedback": "State and economic actors remain institutionally distinct.",
-      "morphology": "No single necessary morphology",
-      "pathological_drift": "Economic actors become dependent upon political privilege and the state protects favored economic interests.",
-      "pathology": "Corporatist/crony-capitalist state."
+      "process": "Centralise",
+      "morphology": "Executive / hierarchical state",
+      "healthy_feedback": "Central coordination remains accountable and bounded.",
+      "healthy_example": "Bounded constitutional emergency powers (Rossiter)",
+      "typical_pathological_drift": [
+        "centralise without correction",
+        "personalise"
+      ]
     },
     {
-      "process": "Coerce",
-      "healthy_feedback": "Coercion remains bounded by law.",
-      "morphology": "State enforcement",
-      "pathological_drift": "Coercion becomes the primary feedback mechanism.",
-      "pathology": "Repressive state."
+      "process": "Command and obey",
+      "morphology": "Ordered hierarchy",
+      "healthy_feedback": "Commands are bounded by law; obedience is voluntary because authority is legitimate.",
+      "healthy_example": "Weberian rational-legal authority; military under civilian control",
+      "typical_pathological_drift": [
+        "coerce",
+        "conform under compulsion"
+      ],
+      "distinction": "Names both the ruler's action and the response of the ruled."
     },
     {
-      "process": "Conform",
-      "healthy_feedback": "Shared norms coexist with legitimate disagreement.",
-      "morphology": "Social cohesion",
-      "pathological_drift": "Dissent becomes evidence of disloyalty.",
-      "pathology": "Ideological authoritarianism."
-    },
-    {
-      "process": "Mobilize",
+      "process": "Mobilise",
+      "morphology": "Mass organisation",
       "healthy_feedback": "Collective action responds to genuine common problems.",
-      "morphology": "Mass political organization",
-      "pathological_drift": "Permanent mobilization requires enemies.",
-      "pathology": "Fascistic morphology."
+      "healthy_example": "Federated civic associations (Skocpol)",
+      "typical_pathological_drift": [
+        "exclude + falsify (enemy construction)"
+      ]
     },
     {
-      "process": "Personalize",
-      "healthy_feedback": "Leaders remain subordinate to institutions.",
-      "morphology": "Executive leadership",
-      "pathological_drift": "Institution becomes identified with the leader.",
-      "pathology": "Personalist state."
-    },
-    {
-      "process": "Associate",
-      "healthy_feedback": "Voluntary groups create cross-cutting trust.",
-      "morphology": "Civil society",
-      "pathological_drift": "Groups become isolated and mutually suspicious.",
-      "pathology": "Social fragmentation."
-    },
-    {
-      "process": "Deliberate",
-      "healthy_feedback": "Disagreement produces correction.",
-      "morphology": "Deliberative government",
-      "pathological_drift": "Deliberation becomes ritual while decisions are predetermined.",
-      "pathology": "Procedural shell."
-    },
-    {
-      "process": "Tell truth",
-      "healthy_feedback": "Accurate information permits corrective feedback.",
-      "morphology": "Trust-bearing institutions",
-      "pathological_drift": "Systematic lying prevents correction.",
-      "pathology": "Information pathology."
-    },
-    {
-      "process": "Apply justice",
-      "healthy_feedback": "The same rules constrain all participants.",
-      "morphology": "Rule of law",
-      "pathological_drift": "Powerful actors become exempt from consequences.",
-      "pathology": "Lawless/captured state."
-    },
-    {
-      "process": "Trust",
-      "healthy_feedback": "Successful interaction reinforces future cooperation.",
-      "morphology": "Social cohesion",
-      "pathological_drift": "Betrayal produces withdrawal and defensive isolation.",
-      "pathology": "Cordonized/fragmented society."
+      "process": "Exchange resources for loyalty",
+      "morphology": "Clientelism",
+      "healthy_feedback": "Integrates newcomers where formal institutions are weak.",
+      "healthy_example": "Integrative party machines (Kitschelt and Wilkinson)",
+      "typical_pathological_drift": [
+        "capture",
+        "personalise"
+      ],
+      "distinction": "Conditional exchange of resources for loyalty, not ordinary transfer by impersonal rule."
     }
   ],
-  "fascism_variant_pathway": {
-    "framework_definition": "A proposed pathological morphology involving combinations of concentrated economic power, state protection of favored interests, weakened equal justice, centralized political authority, propaganda or information control, enemy construction, and suppression of competing centers of power.",
-    "important_distinction": "Fascism is modeled as an emergent configuration/pathway rather than as a primitive noun.",
+  "pathological_processes": {
+    "note": "Not morphologies. Each can arise inside almost any morphology and is defined by the feedback variable it degrades.",
+    "items": [
+      {
+        "process": "Capture",
+        "variables_degraded": [
+          "kappa up",
+          "J down"
+        ],
+        "mechanism": "A narrow interest gains control of rules or rule-makers and exempts itself.",
+        "example": "Regulatory capture; state capture in transition economies"
+      },
+      {
+        "process": "Fragment",
+        "variables_degraded": [
+          "X down"
+        ],
+        "mechanism": "Cross-cutting ties dissolve; groups interact only internally.",
+        "example": "Segmented Weimar civil society; affective polarisation"
+      },
+      {
+        "process": "Suppress",
+        "variables_degraded": [
+          "rho down"
+        ],
+        "mechanism": "True signals are blocked from travelling upward to decision nodes.",
+        "example": "Press and dissent controls"
+      },
+      {
+        "process": "Falsify",
+        "variables_degraded": [
+          "rho down"
+        ],
+        "mechanism": "False signals, inflated reports, or hollow forms replace accurate ones.",
+        "example": "Inflated Great Leap grain reports; metric substitution (Campbell's law)"
+      },
+      {
+        "process": "Conceal",
+        "variables_degraded": [
+          "rho down",
+          "kappa up"
+        ],
+        "mechanism": "Decision nodes withhold their own state outward, open-endedly, released at the holder's discretion; the withholding may itself be hidden.",
+        "example": "Overclassification (Moynihan)"
+      },
+      {
+        "process": "Exclude",
+        "variables_degraded": [
+          "J down",
+          "X down"
+        ],
+        "mechanism": "Categories of people are removed from the feedback loop.",
+        "example": "Jim Crow disenfranchisement; Venetian Serrata"
+      },
+      {
+        "process": "Coerce",
+        "variables_degraded": [
+          "T replaced by compulsion"
+        ],
+        "mechanism": "Compulsion substitutes for legitimacy as the basis of compliance.",
+        "example": "Repressive regimes"
+      },
+      {
+        "process": "Personalise",
+        "variables_degraded": [
+          "kappa up"
+        ],
+        "mechanism": "The institution becomes identified with one leader.",
+        "example": "Venezuela after 1999"
+      },
+      {
+        "process": "Centralise without correction",
+        "variables_degraded": [
+          "kappa up",
+          "K down"
+        ],
+        "mechanism": "Coordination concentrates while feedback from subordinate nodes is cut.",
+        "example": "Weimar Article 48 rule"
+      },
+      {
+        "process": "Conform under compulsion",
+        "variables_degraded": [
+          "rho down",
+          "X down"
+        ],
+        "mechanism": "Dissent is treated as disloyalty; private and public truth diverge (preference falsification).",
+        "example": "Cultural Revolution"
+      }
+    ],
+    "distinctions": {
+      "suppress_vs_falsify_vs_conceal": "All lower truth fidelity. Suppress blocks signals travelling upward; falsify injects false signals or hollow forms; conceal withholds the decision nodes' own state outward.",
+      "centralise_vs_centralise_without_correction": "Centralising is a morphology; centralising while cutting feedback from below is the pathology."
+    }
+  },
+  "configurations": {
+    "note": "Low-corrective-capacity basins stabilised by reinforcing pathological processes.",
+    "items": [
+      {
+        "configuration": "Crony capitalism / state capture",
+        "host_morphology": "Market economy",
+        "reinforcing_processes": [
+          "capture",
+          "exclude"
+        ],
+        "example": "South Korea and the Philippines (Kang); transition economies (Hellman et al.)"
+      },
+      {
+        "configuration": "Fascism (technical sense)",
+        "host_morphology": "Mass organisation + executive state + market economy",
+        "reinforcing_processes": [
+          "capture",
+          "enemy construction (exclude + falsify)",
+          "centralise without correction",
+          "suppress",
+          "coerce"
+        ],
+        "example": "Interwar Italy and Germany"
+      },
+      {
+        "configuration": "Totalitarianism",
+        "host_morphology": "Mass organisation + ordered hierarchy",
+        "reinforcing_processes": [
+          "conform under compulsion",
+          "suppress",
+          "coerce",
+          "fragment of independent ties"
+        ],
+        "example": "Cultural Revolution; German Democratic Republic"
+      },
+      {
+        "configuration": "Authoritarian constitutional shell",
+        "host_morphology": "Constitutionalism",
+        "reinforcing_processes": [
+          "falsify (forms without function)",
+          "centralise without correction"
+        ],
+        "example": "Roman principate; autocratic legalism"
+      },
+      {
+        "configuration": "Subnational authoritarian enclave",
+        "host_morphology": "Federalism",
+        "reinforcing_processes": [
+          "exclude",
+          "capture",
+          "coerce"
+        ],
+        "example": "U.S. South c. 1890-1965"
+      },
+      {
+        "configuration": "Command-economy failure",
+        "host_morphology": "Planned economy",
+        "reinforcing_processes": [
+          "falsify",
+          "suppress",
+          "conform under compulsion"
+        ],
+        "example": "Great Leap Forward famine"
+      },
+      {
+        "configuration": "Kleptocracy",
+        "host_morphology": "Clientelism / executive state",
+        "reinforcing_processes": [
+          "capture",
+          "personalise",
+          "suppress",
+          "conceal"
+        ],
+        "example": "Russia (Dawisha)"
+      },
+      {
+        "configuration": "Informational autocracy",
+        "host_morphology": "Executive / hierarchical state",
+        "reinforcing_processes": [
+          "falsify",
+          "selective suppress"
+        ],
+        "example": "Contemporary cases (Guriev and Treisman)"
+      },
+      {
+        "configuration": "Emergency dictatorship",
+        "host_morphology": "Executive / hierarchical state",
+        "reinforcing_processes": [
+          "centralise without correction (exception made permanent)"
+        ],
+        "example": "Weimar to 1933"
+      },
+      {
+        "configuration": "Sclerotic pluralism",
+        "host_morphology": "Pluralism",
+        "reinforcing_processes": [
+          "capture by distributional coalitions"
+        ],
+        "example": "Olson (1982)"
+      },
+      {
+        "configuration": "Paralysed republic (capture by vacuum)",
+        "host_morphology": "Separation-of-powers constitutionalism",
+        "reinforcing_processes": [
+          "excess veto points",
+          "fragment",
+          "capture from outside the check structure"
+        ],
+        "example": "Polish-Lithuanian liberum veto and partitions, 1772-1795"
+      }
+    ],
+    "general_lesson": "No single verb produces these outcomes; reinforcing combinations do."
+  },
+  "fascism": {
+    "important_distinction": "Fascism is modeled as an emergent configuration, not a primitive noun alongside democracy or socialism.",
+    "two_senses": {
+      "technical_historical": "Interwar movements and regimes of Italy and Germany: mass mobilisation around national rebirth and a designated enemy, abandonment of legal restraint, collaboration with established economic and political elites; Italian corporatism organised economic sectors under the state (the narrower 'industry merged with state' usage).",
+      "colloquial": "Shorthand for the end state of total political pathology regardless of ideology; widely understood but imprecise because it merges distinct configurations (Orwell, 1946)."
+    },
+    "framework_usage": "Technical sense. Fascism = capture + enemy construction (exclude + falsify) + centralise without correction + suppress + coerce. The colloquial sense corresponds roughly to the general low-K attractor, which the framework prefers to describe by naming its reinforcing processes.",
     "corporatist_crony_pathway": [
       "market exchange",
       "economic concentration",
@@ -305,7 +463,7 @@
       "loss of equal justice",
       "state protection of favored interests",
       "institutional dependence",
-      "corporatist/crony-capitalist morphology"
+      "corporatist/crony-capitalist configuration"
     ],
     "mass_mobilization_pathway": [
       "social fragmentation",
@@ -314,7 +472,7 @@
       "enemy construction",
       "mass mobilization",
       "centralized authority",
-      "fascistic morphology"
+      "fascist configuration"
     ],
     "reinforcing_loop": "economic capture <-> political centralization"
   },
@@ -322,12 +480,24 @@
     "definition": "Pathology is a degradation of the processes that maintain coherent social geometry. It is not identical to any particular governmental noun.",
     "general_principle": "Any institutional morphology can become pathological when corrective feedback is systematically weakened or captured.",
     "core_variables": {
+      "rho": "truth fidelity: accuracy of information available for correction (0-1)",
+      "J": "justice: impartial application of shared rules (0-1)",
+      "T": "reciprocal trust (0-1)",
+      "X": "cross-group connectivity (0-1)",
+      "kappa": "concentration and capture of decision nodes",
+      "K": "corrective capacity",
       "C": "social coherence",
-      "J": "justice: impartial application of shared rules",
-      "T": "reciprocal trust",
-      "truth": "accurate information available for correction",
-      "feedback": "ability of the system to detect and respond to discrepancies between claimed and actual states"
+      "c": "density of checks (independent nodes able to audit, compel disclosure, or block)"
     },
+    "equations": {
+      "corrective_capacity": "K = k0 * rho * J * T * X",
+      "discrepancy_dynamics": "d(DeltaM)/dt = epsilon(t) - K * DeltaM",
+      "steady_state_discrepancy": "DeltaM* = epsilon / K",
+      "trust_dynamics": "dT/dt = alpha * J * (1 - T) - beta * DeltaM * T",
+      "justice_dynamics": "dJ/dt = gamma * T * (1 - J) - delta * kappa * J"
+    },
+    "interpretation": "Multiplicative K: near-zero value of any one variable cripples correction. As K -> 0, DeltaM diverges. Coupling may yield bistability (high-K and low-K attractors), analogous to ecological regime shifts; this is a conjecture, not a result.",
+    "status": "Schematic; parameters unspecified and unfitted.",
     "healthy_loop": [
       "justice",
       "trust",
@@ -345,6 +515,86 @@
     ],
     "formal_schematic": "not-J -> not-T -> isolation -> feedback loss -> greater not-J",
     "principle": "The critical issue is not whether a system has conflict, but whether conflict can still generate truthful corrective feedback."
+  },
+  "feedback_tests": {
+    "note": "Applied identically to every morphology and every faction.",
+    "tests": [
+      {
+        "test": "Upward truth",
+        "question": "Can accurate unwelcome information reach decision-makers without penalty to the sender?"
+      },
+      {
+        "test": "Equal rules",
+        "question": "Are powerful actors meaningfully subject to the rules that bind others?"
+      },
+      {
+        "test": "Cross-cutting ties",
+        "question": "Do groups that disagree still interact, trade, and associate?"
+      },
+      {
+        "test": "Exit and voice",
+        "question": "Can dissatisfied members leave, speak, or replace leaders?"
+      },
+      {
+        "test": "Realised correction",
+        "question": "Does the system demonstrably change course after error?"
+      },
+      {
+        "test": "Bounded secrecy",
+        "question": "Is withholding time-limited, released on known conditions, and acknowledged to exist?"
+      }
+    ]
+  },
+  "checks_secrecy_and_impotence": {
+    "principle": "Correction requires detecting a discrepancy and enacting a response. Checks raise detection but lower enactment, so corrective capacity peaks at an intermediate density of checks.",
+    "equations": {
+      "capacity_vs_checks": "K(c) = K0 * D(c) * E(c)",
+      "detection": "D(c) = 1 - exp(-a*c)",
+      "enactment": "E(c) = exp(-b*c)",
+      "optimum": "c* = (1/a) * ln(1 + a/b)"
+    },
+    "robustness": "Interior maximum holds for any saturating detection term and declining enactment term; functional forms are illustrative.",
+    "opgeom_interpretation": "c* is a balance point between two opposed operations (auditing and enacting), not a fixed point in the strict sense.",
+    "regimes": {
+      "concealment_regime": {
+        "condition": "c < c*",
+        "description": "Few nodes can compel disclosure; secrecy is cheap; DeltaM hidden; capture grows from inside."
+      },
+      "impotence_regime": {
+        "condition": "c > c*",
+        "description": "Errors are detected but cannot be corrected (vetocracy). Decision capacity migrates outside the check structure to private economic power, foreign states, or improvised channels: capture by vacuum.",
+        "example": "Polish-Lithuanian liberum veto; foreign bribery of deputies; partitions 1772-1795"
+      }
+    },
+    "capture_risk_shape": "Plausibly U-shaped in c: capture by concealment at low c, capture by vacuum at high c.",
+    "madisons_problem": "Madison catalogued the Confederation's impotence (Vices, 1787); the Constitution added energy (Federalist 70) while dividing power (Federalist 51); Federalist 37 frames the task as combining stability and energy with liberty. The Convention reads as an attempt to locate c*.",
+    "relational_dependence": "Parameters a and b depend on trust and truth fidelity: where T and rho are high, fewer checks are needed and vetoes are used in good faith, shifting c* and flattening the penalty for missing it."
+  },
+  "secrets_vs_surprises": {
+    "principle": "Not all withholding is pathological. The criterion is the distinction between a surprise and a secret.",
+    "surprise": {
+      "duration": "bounded",
+      "release": "on a known condition",
+      "existence": "acknowledged",
+      "beneficiary": "those from whom it is withheld, or a shared purpose",
+      "examples": [
+        "sealed bids until opening",
+        "embargoed statistics",
+        "jury deliberations",
+        "plans declassified after a fixed term"
+      ],
+      "fabric_form": "M_latent scheduled for activation as M_active at a known time"
+    },
+    "secret": {
+      "duration": "open-ended",
+      "release": "at the holder's discretion",
+      "existence": "may itself be hidden",
+      "beneficiary": "the holder",
+      "fabric_form": "memory permanently withdrawn from the feedback loop"
+    },
+    "ecological_idiom": "A surprise is water held and released in its season; a secret is water that never reaches the roots.",
+    "related_work": "Thompson's second-order publicity (1999); Moynihan, secrecy as regulation (1998).",
+    "role_of_checks": "Checks and balances keep surprises from turning into secrets."
   },
   "truth_and_lies": {
     "principle": "Within Fabric, truth functions as a feedback mechanism rather than merely as a moral proposition.",
@@ -390,9 +640,10 @@
     ]
   },
   "love": {
-    "role": "Proposed foundational process for non-pathological social systems.",
+    "role": "Proposed foundational process for non-pathological social coherence.",
     "framework_expression": "Love = max(dC_other / dA_self)",
-    "interpretation": "Love is modeled as an orientation of agency toward increasing the coherence of another rather than maximizing one's own coherence at the other's expense.",
+    "interpretation": "An orientation of agency toward increasing the coherence of another rather than maximizing one's own coherence at the other's expense.",
+    "model_role": "A source term for trust and cross-group connectivity that does not depend on prior trust, so it can restart the healthy loop from a low state.",
     "social_sequence": [
       "love",
       "other-regarding action",
@@ -415,36 +666,98 @@
     },
     {
       "healthy_process": "Justice",
-      "pathological_counterprocess": "Privileged exemption/injustice"
+      "pathological_counterprocess": "Privileged exemption / capture"
     },
     {
       "healthy_process": "Truth",
-      "pathological_counterprocess": "Lying/information corruption"
+      "pathological_counterprocess": "Falsify"
+    },
+    {
+      "healthy_process": "Disclosure in season (surprise)",
+      "pathological_counterprocess": "Conceal (secret)"
     },
     {
       "healthy_process": "Trust",
       "pathological_counterprocess": "Suspicion and defensive isolation"
     },
     {
-      "healthy_process": "Cooperation",
-      "pathological_counterprocess": "Zero-sum factionalism"
+      "healthy_process": "Cooperation / bridging association",
+      "pathological_counterprocess": "Fragment"
     },
     {
       "healthy_process": "Feedback",
-      "pathological_counterprocess": "Suppression of corrective information"
+      "pathological_counterprocess": "Suppress"
+    },
+    {
+      "healthy_process": "Inclusion",
+      "pathological_counterprocess": "Exclude"
     },
     {
       "healthy_process": "Distributed agency",
-      "pathological_counterprocess": "Capture/concentration"
+      "pathological_counterprocess": "Capture / centralise without correction"
     },
     {
       "healthy_process": "Law-bound authority",
-      "pathological_counterprocess": "Arbitrary or selectively applied authority"
+      "pathological_counterprocess": "Personalise / coerce"
+    },
+    {
+      "healthy_process": "Legitimate disagreement",
+      "pathological_counterprocess": "Conform under compulsion"
     }
   ],
+  "repair": {
+    "principle": "Repair is relational before it is institutional or technical. Systems heal when enough agents resume the verbs that pathology interrupted.",
+    "technological_mediation_not_proposed": {
+      "reason_capture": "Tools that mediate public reasoning, including AI language models, are high-centrality nodes; training and post-training make them an efficient capture channel, propagating one upstream decision into many downstream conversations.",
+      "reason_mirror": "Approval-tuned systems tend toward sycophancy (Sharma et al., 2024); a mirror returns M_claimed instead of measuring DeltaM, so it cannot serve as an independent correction channel.",
+      "summary": "The screen is a mirror, not a neighbor."
+    },
+    "relational_repair": {
+      "basis": "Humans are character (ethos) and relationship, not only logic.",
+      "favoured_form": "Brotherhood and sisterhood: horizontal ties among peers carrying mutual obligation not conditional on loyalty or payment.",
+      "contrast": {
+        "clientelism": "vertical and conditional",
+        "market_exchange": "impersonal and contractual",
+        "brotherhood_sisterhood": "horizontal and unconditional"
+      },
+      "effects": [
+        "carries high-fidelity feedback",
+        "sustains trust when formal institutions falter",
+        "restores cross-group connectivity when it crosses group lines (Varshney)"
+      ],
+      "settings": [
+        "families",
+        "friendships",
+        "congregations",
+        "schools",
+        "businesses",
+        "tribes",
+        "councils",
+        "volunteer organisations"
+      ],
+      "repair_sequence": [
+        "tell the truth when lying would be easier",
+        "apply the same rule to friend and opponent",
+        "keep promises",
+        "serve the other",
+        "cooperate across disagreement",
+        "reconnect separated groups",
+        "create new trustworthy social memory"
+      ],
+      "memory_effect": "Repeated repair actions become latent social memory that institutions can later draw on.",
+      "formal_schematic": "M_latent,new + A_repair -> M_active,new"
+    }
+  },
   "systemic_fire_and_reset": {
-    "core_hypothesis": "Repeated unresolved pathology may eventually produce a crisis large enough to disrupt the existing feedback configuration. A crisis can function as a systemic 'fire' that clears or rearranges accumulated structure, but crisis itself does not guarantee healing.",
-    "important_qualification": "The reset occurs only if crisis produces truthful feedback, justice, love, and renewed cooperation rather than greater fear, blame, isolation, and coercion.",
+    "core_hypothesis": "Entrenched configurations have historically often been broken by crisis rather than gradual reform. Crisis functions as a systemic fire that clears accumulated structure, but does not determine what regrows.",
+    "historical_support": [
+      "Olson (1982): defeat in war dissolved distributional coalitions in Germany and Japan",
+      "Scheidel (2017): largest reductions in inequality came through war, revolution, state collapse, and pandemic",
+      "Tainter (1988): collapse as shedding of complexity with negative marginal returns"
+    ],
+    "ecological_analogy": "Holling's adaptive cycle: accumulation becomes rigid and brittle; release (fire) frees resources; reorganisation follows. Regrowth comes from the seed bank already present.",
+    "complementarity": "Crisis clears what is too entrenched to self-correct; relational verbs maintained beforehand are the seed bank that determines whether what regrows is healthier.",
+    "important_qualification": "Describing crisis as historically effective is not advocating it. Crises carry great human cost, and the same fire can feed a worse configuration when the seed bank is fear, blame, and enemy construction.",
     "healing_pathway": [
       "crisis",
       "truth",
@@ -465,30 +778,52 @@
       "reduced feedback",
       "deeper pathology"
     ],
-    "biological_analogy": "Human infection illustrates the proposed principle that crisis can activate feedback and repair processes. The analogy is suggestive, not proof that social systems obey biological dynamics.",
+    "examples": {
+      "healing_branch": [
+        "post-1945 West Germany",
+        "South African Truth and Reconciliation process"
+      ],
+      "pathological_branch": [
+        "Weimar Germany 1930-1933"
+      ]
+    },
     "key_statement": "Systems do not necessarily heal by eliminating their pathology. They heal when enough agents resume the verbs that pathology interrupted."
-  },
-  "small_group_repair": {
-    "principle": "During systemic crisis, small groups may function as repair nodes because human-scale relationships can carry truth, justice, trust, and love directly.",
-    "repair_sequence": [
-      "tell the truth when lying would be easier",
-      "apply the same rule to friend and opponent",
-      "keep promises",
-      "serve the other",
-      "cooperate across disagreement",
-      "reconnect separated groups",
-      "create new trustworthy social memory"
-    ],
-    "memory_effect": "Repeated repair actions become latent social memory that can later be activated in institutions.",
-    "formal_schematic": "M_latent,new + A_repair -> M_active,new"
   },
   "jurisdictional_summary": {
     "United States": {
       "framework_status": "Analytical speculation only; not a political forecast or partisan assessment.",
-      "present_question": "Can truth, justice, and trust continue to provide corrective feedback across increasingly separated social and institutional nodes?",
+      "earlier_pathologies": [
+        {
+          "era": "1850s",
+          "dominant_process": "fragment (sectional)"
+        },
+        {
+          "era": "c. 1890-1965",
+          "dominant_process": "exclude + capture + coerce (subnational authoritarian enclaves)"
+        },
+        {
+          "era": "Gilded Age",
+          "dominant_process": "capture"
+        },
+        {
+          "era": "Mid-20th century",
+          "dominant_process": "conform under compulsion"
+        }
+      ],
+      "earlier_pattern": "Predominantly blocked feedback: some signal or category of people could not reach or move decision nodes.",
+      "present_hypothesis": "A distributed failure of feedback fidelity dominated by falsify and fragment, with no central falsifier; digital mediation raised the rate and gain of signalling while lowering average accuracy and fragmenting the shared reference against which error is measured.",
+      "technological_mechanisms": [
+        "engagement ranking optimises attention, not accuracy",
+        "high-gain, noisy feedback tends to oscillate rather than converge",
+        "reference fragmentation: groups maintain separate M_claimed",
+        "platform concentration as new high-centrality nodes",
+        "synthetic media and the liar's dividend raise the cost of verification"
+      ],
+      "counterevidence": "Polarisation predates social media; cross-national trends vary; 2020 platform field experiments found limited short-run effects. Technology modifies the mechanism and tempo of a problem with older roots.",
+      "both_edges_hypothesis": "The U.S. may sit near both edges of the checks curve in different domains: legislative gridlock with decisions migrating to executive action, litigation, and platforms (capture by vacuum), and long-criticised overclassification (concealment).",
+      "symmetry": "Different constituencies call different institutions captured; each claim is treated as a testable hypothesis about kappa and rho. A system where each faction trusts only its own correction channels has low X regardless of who is right.",
       "potential_risk_loop": "distrust -> information separation -> less shared reality -> less cooperation -> institutional failure -> more distrust",
       "potential_repair_loop": "truth + justice + love -> local trust -> cross-group cooperation -> restored feedback -> institutional correction",
-      "future_speculation": "The framework allows for bifurcation rather than a single predetermined trajectory. Continued isolation could deepen pathological feedback; functioning local institutions and relationships could act as repair nodes that reconnect separated portions of the social fabric.",
       "key_measure": "Whether cross-group corrective feedback remains possible."
     },
     "Washington State": {
@@ -504,39 +839,94 @@
       "present_question": "Can overlapping human-scale institutions maintain direct feedback across government, families, schools, churches, businesses, tribes, nonprofits, and civic organizations?",
       "potential_advantage": "Geographic and relational scale may permit direct human feedback to remain significant.",
       "potential_repair_sequence": "tell truth -> apply justice -> keep promises -> serve the other -> restore trust -> repeat -> create new social memory",
-      "future_speculation": "Clallam could function as a repair-scale system even while larger systems experience unresolved pathology, provided local actors preserve truthful relationships and cross-boundary cooperation.",
+      "future_speculation": "Clallam could function as a repair-scale system, a seed bank of relational memory, even while larger systems experience unresolved pathology, provided local actors preserve truthful relationships and cross-boundary cooperation.",
       "key_measure": "Who continues truthful, just, trustworthy, other-regarding action across institutional and social boundaries?"
     }
+  },
+  "testable_indicators": {
+    "proxies": {
+      "rho": [
+        "correction and retraction rates",
+        "preference falsification via list experiments",
+        "gap between official and independent statistics"
+      ],
+      "J": [
+        "expert-coded rule-of-law and judicial-independence indices"
+      ],
+      "T": [
+        "generalised and institutional trust series (Pew, Gallup)"
+      ],
+      "X": [
+        "cross-group friendship, marriage, residential, and associational networks"
+      ],
+      "kappa": [
+        "market concentration",
+        "lobbying intensity",
+        "executive aggrandisement indicators"
+      ],
+      "c": [
+        "veto events",
+        "legislative productivity",
+        "classification and declassification volumes",
+        "share of consequential decisions made outside the legislative process"
+      ],
+      "love": [
+        "volunteering",
+        "giving to non-kin",
+        "service across group lines"
+      ]
+    },
+    "predictions": [
+      "Changes in process variables precede changes in institutional morphology (lead-lag, panel data).",
+      "Declines in X and rho predict subsequent declines in J and T more strongly than the reverse.",
+      "Systems with similar formal institutions but different K diverge in measured policy correction after shocks.",
+      "Capture risk is U-shaped in the density of checks."
+    ],
+    "falsification": [
+      "Morphology changes routinely precede process changes.",
+      "The four variables do not covary as proposed.",
+      "Process variables add no predictive power beyond conventional regime classifications."
+    ],
+    "method_note": "Pre-register tests to guard against retrospective storytelling."
   },
   "suggestions": {
     "framework_development": [
       "Treat government labels as emergent morphology rather than first-order causes.",
-      "Map repeated verbs/processes before assigning institutional nouns.",
-      "Track truth, justice, trust, feedback, and love as process variables.",
-      "Distinguish healthy institutional morphology from pathological process within the same morphology.",
-      "Model economic capture and political centralization as mutually reinforcing processes rather than assuming one causes the other in every case.",
-      "Treat crisis as a possible phase transition/reset mechanism, not an automatic cure.",
-      "Look for small groups that maintain truthful, just, trustworthy, other-regarding interactions during larger crises.",
-      "Develop observable indicators that could distinguish the proposed processes from retrospective storytelling."
+      "Map repeated verbs before assigning institutional nouns.",
+      "Keep morphology, pathological process, and configuration as separate tiers.",
+      "Track truth, justice, trust, cross-group connectivity, capture, checks, and love as process variables.",
+      "Model economic capture and political centralization as mutually reinforcing rather than assuming one causes the other in every case.",
+      "Distinguish surprises from secrets when assessing withholding.",
+      "Treat crisis as a possible reset mechanism, not an automatic cure.",
+      "Develop observable indicators that distinguish the proposed processes from retrospective storytelling."
     ],
-    "empirical_next_step": "To move beyond philosophical speculation, define measurable proxies for truthfulness, equal application of rules, reciprocal trust, cross-group interaction, institutional feedback, concentration/capture, and other-regarding action, then test whether changes in those processes precede measurable changes in institutional morphology.",
-    "anti_bias_guardrail": "Do not begin with a preferred political noun and search backward for supporting verbs. Begin with observed processes, compare competing explanations, and allow the emergent morphology to be an empirical question."
+    "anti_bias_guardrail": "Do not begin with a preferred political noun and search backward for supporting verbs. Begin with observed processes, apply the same feedback tests to every morphology and faction, compare competing explanations, and allow the emergent morphology to be an empirical question."
   },
+  "limitations": [
+    "Cross-domain analogies from mathematics, biology, and ecology are heuristics, not derivations.",
+    "'Healthy' and 'pathological' carry normative weight even when defined through feedback.",
+    "Historical examples are illustrative; a systematic sample may reveal counterexamples.",
+    "The love variable is the hardest to measure without circularity.",
+    "The dynamical models are schematic; bistability is conjectured and parameters are unidentified."
+  ],
   "central_propositions": [
     "Processes precede stable social forms.",
     "Repeated actions deposit social memory.",
     "Social memory constrains future action.",
     "Institutional nouns are emergent morphologies of repeated processes.",
+    "A morphology is what repeatedly emerges; a pathology is what can happen to it.",
     "Any institutional morphology can become pathological.",
     "Pathology is characterized by degraded corrective feedback.",
+    "Configurations such as crony capitalism and fascism arise from reinforcing pathological processes, not as primitive kinds.",
     "Loss of equal justice can degrade trust.",
     "Loss of trust can produce isolation and reduced feedback.",
-    "Lying can corrupt the memory by which a system acts upon reality.",
+    "Lying and concealment can corrupt the memory by which a system acts upon reality.",
+    "Corrective capacity peaks at an intermediate density of checks; too few invite concealment, too many invite capture by vacuum.",
     "Economic capture and political centralization can form reinforcing pathological loops.",
-    "Crisis can either deepen pathology or interrupt it.",
-    "Truth, justice, and love practiced in small groups can create repair nodes.",
+    "Crisis can either deepen pathology or clear it; what regrows depends on the relational seed bank.",
+    "Truth, justice, and love practiced among peers create repair nodes.",
     "Love is proposed as the foundational other-regarding process supporting non-pathological coherence.",
-    "The central question is not merely 'What government is this?' but 'What verbs are repeatedly generating and maintaining this morphology?'"
+    "The central question is not 'What government is this?' but 'What verbs are repeatedly generating and maintaining this morphology?'"
   ],
-  "one_sentence_summary": "Within the speculative Fabric framework, political systems are emergent social morphologies generated by repeated processes; pathology arises when truth, justice, trust, love, and corrective feedback are progressively interrupted, while repair begins when agents resume those processes and create new social memory."
+  "one_sentence_summary": "Within the speculative Fabric framework, institutional and political forms are emergent social morphologies generated by repeated processes; pathology is any process that degrades corrective feedback (truth, justice, trust, cross-group ties, bounded secrecy), configurations arise when such processes reinforce one another, and repair begins when people resume the interrupted verbs in brotherly and sisterly relationships, often in the opening a crisis leaves behind."
 }
