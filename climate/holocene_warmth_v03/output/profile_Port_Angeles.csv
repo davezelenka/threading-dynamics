@@ -1,0 +1,25 @@
+taxon,variable,scope,n,place_value,q01,q05,median,q95,q99,room_colder_q01,room_colder_q05,room_warmer_q95,room_warmer_q99,pct_of_records_colder_than_place
+Quercus garryana,MTWA,species-wide,1710,16.24,15.22,16.39,19.04,23.82,25.02,1.02,-0.15,7.58,8.78,4.4
+Quercus garryana,MTWA,within 300 km,478,16.24,15.97,16.52,17.63,19.7,20.73,0.27,-0.28,3.47,4.49,1.7
+Quercus garryana,MTCO,species-wide,1710,3.3,-2.44,0.66,4.29,8.45,9.11,5.74,2.64,5.15,5.81,26.4
+Quercus garryana,MTCO,within 300 km,478,3.3,-2.83,-2.16,3.9,4.67,4.97,6.13,5.46,1.37,1.67,27.2
+Quercus garryana,MAT,species-wide,1710,9.32,6.88,8.16,10.99,14.65,15.42,2.43,1.16,5.33,6.1,13.1
+Quercus garryana,MAT,within 300 km,478,9.32,7.37,8.63,10.19,11.28,11.76,1.94,0.69,1.97,2.45,10.7
+Quercus garryana,GDD5,species-wide,1710,1699.89,1228.45,1502.67,2253.35,3537.13,3818.61,471.44,197.21,1837.24,2118.72,9.4
+Quercus garryana,GDD5,within 300 km,478,1699.89,1588.15,1711.18,1992.07,2356.75,2509.69,111.74,-11.29,656.86,809.81,4.6
+Arbutus menziesii,MTWA,species-wide,1913,16.24,15.12,16.03,18.59,22.29,24.34,1.11,0.21,6.06,8.1,6.5
+Arbutus menziesii,MTWA,within 300 km,597,16.24,14.86,15.77,17.2,19.21,19.92,1.37,0.47,2.97,3.68,12.1
+Arbutus menziesii,MTCO,species-wide,1913,3.3,0.83,2.23,4.75,9.96,11.33,2.47,1.07,6.66,8.03,16.3
+Arbutus menziesii,MTCO,within 300 km,597,3.3,-1.41,1.82,3.58,4.87,5.31,4.71,1.48,1.57,2.01,35.0
+Arbutus menziesii,MAT,species-wide,1913,9.32,7.7,8.83,11.48,14.81,16.32,1.62,0.49,5.5,7.01,9.0
+Arbutus menziesii,MAT,within 300 km,597,9.32,5.97,8.38,9.96,11.32,11.9,3.34,0.94,2.0,2.58,18.8
+Arbutus menziesii,GDD5,species-wide,1913,1699.89,1359.38,1604.34,2402.65,3591.28,4147.68,340.51,95.54,1891.39,2447.79,7.6
+Arbutus menziesii,GDD5,within 300 km,597,1699.89,1120.75,1505.67,1896.69,2368.01,2550.16,579.13,194.22,668.12,850.27,15.7
+Rhododendron macrophyllum,MTWA,species-wide,1109,16.24,12.93,14.08,15.82,18.23,19.15,3.3,2.16,1.99,2.91,63.7
+Rhododendron macrophyllum,MTWA,within 300 km,291,16.24,11.45,13.13,15.87,17.67,18.51,4.79,3.11,1.43,2.27,56.4
+Rhododendron macrophyllum,MTCO,species-wide,1109,3.3,-5.35,-1.86,4.54,8.77,9.35,8.65,5.16,5.47,6.05,36.1
+Rhododendron macrophyllum,MTCO,within 300 km,291,3.3,-6.41,-4.96,3.42,4.82,6.39,9.71,8.26,1.52,3.09,46.7
+Rhododendron macrophyllum,MAT,species-wide,1109,9.32,3.69,5.41,10.24,12.23,13.38,5.63,3.91,2.91,4.06,34.9
+Rhododendron macrophyllum,MAT,within 300 km,291,9.32,3.06,4.06,9.37,10.49,10.84,6.25,5.26,1.18,1.52,46.7
+Rhododendron macrophyllum,GDD5,species-wide,1109,1699.89,792.84,1002.6,1981.15,2643.05,3065.59,907.05,697.29,943.17,1365.71,34.1
+Rhododendron macrophyllum,GDD5,within 300 km,291,1699.89,555.38,836.14,1699.89,2047.14,2169.54,1144.51,863.74,347.25,469.65,49.1

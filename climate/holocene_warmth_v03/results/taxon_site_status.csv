@@ -1,0 +1,24 @@
+site_id,gbif_name,status,evidence,confidence,dispersal_limited_risk,bib_keys
+BGL,Pseudotsuga menziesii,persistent,Pseudotsuga pollen throughout Holocene; forest dominant after savanna,medium (regional pollen),low,walsh2008battleground
+BGL,Quercus garryana,abundance_change,"Quercus savanna phase, then forest; oak still present regionally",high,low,walsh2008battleground
+BGL,Thuja plicata,abundance_change,Thuja-type increases in later Holocene (Cupressaceae lumped),medium,low,walsh2008battleground
+BGL,Tsuga heterophylla,abundance_change,increases in later Holocene,medium,low,walsh2008battleground
+BGL,Tsuga mertensiana,never_present,subalpine taxa in W lowland only before the Holocene (verify at this site),medium,low (grows in Cascades nearby),whitlock1992
+LWA,Pseudotsuga menziesii,persistent,"high early, present throughout",medium,low,leopold1982lakewashington;tsukada1981
+LWA,Thuja plicata,abundance_change,rise in later Holocene,medium,low,whitlock1992
+LWA,Tsuga mertensiana,never_present,not a Holocene lowland component (verify at this site),medium,low,whitlock1992
+LWA,Picea engelmannii,never_present,"glacial-age W lowland only; Holocene Picea pollen is genus-level (lumped with P. sitchensis), and absence may reflect competition in a maritime climate",low,HIGH (pollen lumped; competitive exclusion plausible),johnson1994gtr322;whitlock1992
+KIL,Pseudotsuga menziesii,persistent,Douglas-fir forest through Holocene (verify),low-medium,low,leopold2016orcas
+KIL,Quercus garryana,abundance_change,Quercus increases mid-Holocene; present today,high,low,leopold2016orcas
+HOH,Tsuga heterophylla,persistent,Tsuga-Picea forest throughout Holocene,medium,low,heusser1974hoh;whitlock1992
+HOH,Picea sitchensis,persistent,Picea throughout (genus; Sitka on coast),medium,low,heusser1974hoh
+HOH,Pseudotsuga menziesii,abundance_change,"abundant early Holocene, reduced later",medium,low,heusser1974hoh;whitlock1992
+PEN,Pseudotsuga menziesii,persistent,Pseudotsuga throughout 10 ka record,medium,low,lucaslacourse2013
+PEN,Quercus garryana,abundance_change,oak savanna phase then mixed forest,high,low,lucaslacourse2013
+CAR,Artemisia tridentata,abundance_change,"temperate steppe early, then pine forest (Artemisia genus)",medium,low,whitlock2000carp
+CAR,Pinus ponderosa,abundance_change,pine forest from middle Holocene (diploxylon pollen),medium,low,whitlock2000carp
+CAR,Quercus garryana,gained,oak part of local vegetation only in latest Holocene,low-medium,HIGH (migration lag possible),whitlock2000carp
+WIL,Artemisia tridentata,persistent,grass-sagebrush throughout Holocene,medium,low,johnson1994gtr322
+WIL,Pinus ponderosa,abundance_change,pine important only late; present regionally earlier (verify presence/absence),medium,low,johnson1994gtr322
+WCL,Artemisia tridentata,persistent,steppe throughout; sagebrush varies,medium,low,johnson1994gtr322;mehringer1985
+WCL,Pinus ponderosa,never_present,site remained steppe; verify pine distance today and local macrofossil absence,low,medium,johnson1994gtr322

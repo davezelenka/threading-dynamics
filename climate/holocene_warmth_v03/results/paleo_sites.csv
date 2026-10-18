@@ -1,0 +1,13 @@
+site_id,site_name,side,setting,lat,lon,elev_m,coord_status,proxies,bib_keys
+BGL,Battle Ground Lake,west,lower Columbia lowland,45.8,-122.49,155,approx - verify,pollen; charcoal,walsh2008battleground;barnosky1985battleground
+DAV,Davis Lake,west,S Puget Lowland,46.6,-122.25,,approx - verify,pollen,barnosky1981davis
+LWA,Lake Washington,west,central Puget Lowland,47.62,-122.26,6,approx,pollen; lignin,leopold1982lakewashington;tsukada1981
+KIL,Killebrew Lake Fen,west,Orcas Is. rainshadow,48.6,-122.9,88,published,pollen,leopold2016orcas
+CRO,Crocker Lake,west,NE Olympic lowland,47.94,-122.88,,approx - verify,pollen; macrofossils,mclachlan1995
+WEN,Wentworth Lake,west,W Olympic lowland,48.0,-124.5,,approx - verify,pollen; macrofossils; charcoal,gavinbrubaker2015
+HOH,Hoh valley bog,west,W Olympic valley,47.86,-124.0,,approx - verify,pollen,heusser1974hoh
+PEN,"Roe Lake, Pender Is. (comparator)",west,Gulf Islands BC rainshadow,48.8,-123.3,,approx - verify,pollen; charcoal,lucaslacourse2013
+CAR,Carp Lake,east,forest-steppe border,45.92,-120.88,714,approx - verify,pollen,whitlock2000carp
+WIL,Williams Lake Fen,east,pine-steppe ecotone,47.32,-117.62,635,approx (elev published),pollen; charcoal,johnson1994gtr322
+WCL,Wildcat Lake,east,Palouse steppe,46.9,-117.4,,approx - verify,pollen,johnson1994gtr322;mehringer1985
+CAS,Castor Lake,east,Okanogan highlands,48.54,-119.56,,from NOAA archive,carbonate d18O (independent check),steinman2012;nelson2011castor

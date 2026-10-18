@@ -1,0 +1,99 @@
+scenario,shift_C,region,class,area_pct
+Coldest Holocene (bound),-2.5,statewide,BSk,13.6
+Coldest Holocene (bound),-2.5,statewide,BWk,0.1
+Coldest Holocene (bound),-2.5,statewide,Cfb,7.1
+Coldest Holocene (bound),-2.5,statewide,Cfc,1.2
+Coldest Holocene (bound),-2.5,statewide,Csb,14.2
+Coldest Holocene (bound),-2.5,statewide,Csc,0.2
+Coldest Holocene (bound),-2.5,statewide,Dfb,9.5
+Coldest Holocene (bound),-2.5,statewide,Dfc,14.0
+Coldest Holocene (bound),-2.5,statewide,Dsb,26.7
+Coldest Holocene (bound),-2.5,statewide,Dsc,9.7
+Coldest Holocene (bound),-2.5,statewide,EF,0.0
+Coldest Holocene (bound),-2.5,statewide,ET,3.6
+Coldest Holocene (bound),-2.5,west of crest,Cfb,19.5
+Coldest Holocene (bound),-2.5,west of crest,Cfc,3.3
+Coldest Holocene (bound),-2.5,west of crest,Csb,39.0
+Coldest Holocene (bound),-2.5,west of crest,Csc,0.5
+Coldest Holocene (bound),-2.5,west of crest,Dfb,4.9
+Coldest Holocene (bound),-2.5,west of crest,Dfc,20.7
+Coldest Holocene (bound),-2.5,west of crest,Dsb,2.8
+Coldest Holocene (bound),-2.5,west of crest,Dsc,5.4
+Coldest Holocene (bound),-2.5,west of crest,EF,0.0
+Coldest Holocene (bound),-2.5,west of crest,ET,3.7
+Coldest Holocene (bound),-2.5,east of crest,BSk,21.3
+Coldest Holocene (bound),-2.5,east of crest,BWk,0.1
+Coldest Holocene (bound),-2.5,east of crest,Dfb,12.1
+Coldest Holocene (bound),-2.5,east of crest,Dfc,10.2
+Coldest Holocene (bound),-2.5,east of crest,Dsb,40.4
+Coldest Holocene (bound),-2.5,east of crest,Dsc,12.2
+Coldest Holocene (bound),-2.5,east of crest,ET,3.6
+Present (1970-2000),0.0,statewide,BSk,17.1
+Present (1970-2000),0.0,statewide,BWk,1.5
+Present (1970-2000),0.0,statewide,Cfa,0.2
+Present (1970-2000),0.0,statewide,Cfb,12.9
+Present (1970-2000),0.0,statewide,Cfc,0.5
+Present (1970-2000),0.0,statewide,Csa,1.2
+Present (1970-2000),0.0,statewide,Csb,17.6
+Present (1970-2000),0.0,statewide,Dfb,14.2
+Present (1970-2000),0.0,statewide,Dfc,6.6
+Present (1970-2000),0.0,statewide,Dsa,0.5
+Present (1970-2000),0.0,statewide,Dsb,24.3
+Present (1970-2000),0.0,statewide,Dsc,3.3
+Present (1970-2000),0.0,statewide,ET,0.1
+Present (1970-2000),0.0,west of crest,Cfb,35.0
+Present (1970-2000),0.0,west of crest,Cfc,1.3
+Present (1970-2000),0.0,west of crest,Csb,43.3
+Present (1970-2000),0.0,west of crest,Dfb,7.7
+Present (1970-2000),0.0,west of crest,Dfc,8.0
+Present (1970-2000),0.0,west of crest,Dsb,3.4
+Present (1970-2000),0.0,west of crest,Dsc,1.1
+Present (1970-2000),0.0,west of crest,ET,0.3
+Present (1970-2000),0.0,east of crest,BSk,26.9
+Present (1970-2000),0.0,east of crest,BWk,2.4
+Present (1970-2000),0.0,east of crest,Cfa,0.3
+Present (1970-2000),0.0,east of crest,Cfb,0.2
+Present (1970-2000),0.0,east of crest,Csa,2.0
+Present (1970-2000),0.0,east of crest,Csb,2.8
+Present (1970-2000),0.0,east of crest,Dfb,17.9
+Present (1970-2000),0.0,east of crest,Dfc,5.8
+Present (1970-2000),0.0,east of crest,Dsa,0.7
+Present (1970-2000),0.0,east of crest,Dsb,36.3
+Present (1970-2000),0.0,east of crest,Dsc,4.6
+Present (1970-2000),0.0,east of crest,ET,0.1
+Warmest Holocene (bound),2.461680049896234,statewide,BSk,18.6
+Warmest Holocene (bound),2.461680049896234,statewide,BWk,5.1
+Warmest Holocene (bound),2.461680049896234,statewide,Cfa,0.6
+Warmest Holocene (bound),2.461680049896234,statewide,Cfb,16.7
+Warmest Holocene (bound),2.461680049896234,statewide,Cfc,0.3
+Warmest Holocene (bound),2.461680049896234,statewide,Csa,5.7
+Warmest Holocene (bound),2.461680049896234,statewide,Csb,21.9
+Warmest Holocene (bound),2.461680049896234,statewide,Dfa,0.6
+Warmest Holocene (bound),2.461680049896234,statewide,Dfb,13.1
+Warmest Holocene (bound),2.461680049896234,statewide,Dfc,1.7
+Warmest Holocene (bound),2.461680049896234,statewide,Dsa,2.6
+Warmest Holocene (bound),2.461680049896234,statewide,Dsb,12.8
+Warmest Holocene (bound),2.461680049896234,statewide,Dsc,0.3
+Warmest Holocene (bound),2.461680049896234,statewide,ET,0.0
+Warmest Holocene (bound),2.461680049896234,west of crest,Cfb,45.0
+Warmest Holocene (bound),2.461680049896234,west of crest,Cfc,0.9
+Warmest Holocene (bound),2.461680049896234,west of crest,Csa,0.3
+Warmest Holocene (bound),2.461680049896234,west of crest,Csb,47.0
+Warmest Holocene (bound),2.461680049896234,west of crest,Dfb,4.9
+Warmest Holocene (bound),2.461680049896234,west of crest,Dfc,1.3
+Warmest Holocene (bound),2.461680049896234,west of crest,Dsb,0.6
+Warmest Holocene (bound),2.461680049896234,west of crest,Dsc,0.0
+Warmest Holocene (bound),2.461680049896234,west of crest,ET,0.1
+Warmest Holocene (bound),2.461680049896234,east of crest,BSk,29.2
+Warmest Holocene (bound),2.461680049896234,east of crest,BWk,8.1
+Warmest Holocene (bound),2.461680049896234,east of crest,Cfa,0.9
+Warmest Holocene (bound),2.461680049896234,east of crest,Cfb,0.4
+Warmest Holocene (bound),2.461680049896234,east of crest,Csa,8.8
+Warmest Holocene (bound),2.461680049896234,east of crest,Csb,7.5
+Warmest Holocene (bound),2.461680049896234,east of crest,Dfa,0.9
+Warmest Holocene (bound),2.461680049896234,east of crest,Dfb,17.8
+Warmest Holocene (bound),2.461680049896234,east of crest,Dfc,1.9
+Warmest Holocene (bound),2.461680049896234,east of crest,Dsa,4.1
+Warmest Holocene (bound),2.461680049896234,east of crest,Dsb,19.8
+Warmest Holocene (bound),2.461680049896234,east of crest,Dsc,0.4
+Warmest Holocene (bound),2.461680049896234,east of crest,ET,0.0

@@ -1,0 +1,28 @@
+gbif_name,common_name,growth_form,biome_affinity,group,wa_status,variables_bounded,pollen_type,key_caveats,bib_keys,use_in_breadth
+Quercus garryana,Oregon white oak,tree,California-Oregon Mediterranean woodland,west_lowland,"northern range edge; prairies, islands, lower Columbia",MTWA; GDD5; P_JJA,Quercus (species-level in WA),fire-maintained; outwash soils,walsh2008battleground;lucaslacourse2013;pellattgedalof2014,true
+Arbutus menziesii,Pacific madrone,tree,California Mediterranean evergreen,west_lowland,northern range edge; rainshadow,MTCO; P_JJA,Ericaceae (rarely resolved),coastal-bluff microclimate,kruckeberg1991;little1971,true
+Arctostaphylos columbiana,hairy manzanita,shrub,chaparral,west_lowland,northern range edge; balds,P_JJA,Ericaceae,thin soils,kruckeberg1991;hitchcock2018,true
+Juniperus maritima,seaside juniper,tree,Salish Sea endemic,west_lowland,regional endemic,MI,Cupressaceae (lumped),not J. scopulorum; bird dispersal,adams2007maritima;leopold2016orcas,true
+Opuntia fragilis,brittle prickly-pear,succulent,interior steppe,west_lowland,island disjunct,MI (not temperature),none,very cold-hardy; edaphic,kruckeberg1991;hitchcock2018,true
+Pseudotsuga menziesii,Douglas-fir,tree,temperate forest (coast + interior varieties),west_lowland,core,MI; P_JJA,Pseudotsuga/Larix,two varieties pooled in GBIF; split by longitude,whitlock1992;brownhebda2002,true
+Thuja plicata,western redcedar,tree,wet forest,west_lowland,core (also NE WA),MI; P_JJA,Cupressaceae (lumped),pollen lumping,whitlock1992;herringgavin2015,true
+Tsuga heterophylla,western hemlock,tree,temperate rainforest,west_lowland,core,MI; P_JJA,species,fire history,gavin2013yahoo;crausbay2017,true
+Picea sitchensis,Sitka spruce,tree,hypermaritime fog belt,west_lowland,core on outer coast,P_JJA; MTCO,Picea (genus),fog drip not in gridded P,heusser1974hoh;gavinbrubaker2015,true
+Rhododendron macrophyllum,Pacific rhododendron,shrub,Pacific coast evergreen (N California to SW BC),west_lowland,"near northern range edge; dry Douglas-fir understory, Olympic east side, Kitsap, Whidbey",MTCO; MTWA (weak),Ericaceae (not resolved),"no fossil record; long-lived, resprouts; understory microclimate",hitchcock2018;kruckeberg1991,true
+Rhododendron groenlandicum,Labrador tea,shrub,boreal bog,west_lowland,edaphic relict,MTWA (weak),Ericaceae,bog edaphic: exclude from bounds by default,kruckeberg1991,false
+Artemisia tridentata,big sagebrush,shrub,Great Basin shrub-steppe,east_lowland,core,MI; MAP,Artemisia (genus),genus-level pollen,mehringer1985;daubenmire1970,true
+Purshia tridentata,antelope bitterbrush,shrub,steppe-woodland,east_lowland,core,MI,Rosaceae,weak pollen signal,johnson1994gtr322,true
+Sarcobatus vermiculatus,greasewood,shrub,salt desert,east_lowland,core/edge,MI,Sarcobatus,saline soils,mehringer1985,true
+Grayia spinosa,spiny hopsage,shrub,desert scrub,east_lowland,northern range edge,MI; MTWA,Cheno-Am (lumped),pollen lumped,daubenmire1970,true
+Celtis reticulata,netleaf hackberry,tree,SW canyon / riparian,east_lowland,northern range edge,MTWA; GDD5,Celtis,groundwater-fed,johnson1994gtr322,true
+Juniperus occidentalis,western juniper,tree,Great Basin woodland,east_lowland,northern range edge,MI,Cupressaceae (lumped),historic expansion,johnson1994gtr322;mehringer1985,true
+Pinus ponderosa,ponderosa pine,tree,lower forest border (also W disjunct),east_lowland,core at forest-steppe ecotone,MI; MAP,Pinus diploxylon (with P. contorta),fire; pollen lumping,whitlock2000carp;chappellcrawford1997,true
+Opuntia polyacantha,plains prickly-pear,succulent,Great Plains steppe,east_lowland,core,MI,none,no pollen,daubenmire1970,true
+Tsuga mertensiana,mountain hemlock,tree,maritime subalpine,alpine_reference,absent from Holocene lowland,MTWA; GDD5,species,upslope pollen transport,whitlock1992;gavin2001,true
+Abies lasiocarpa,subalpine fir,tree,subalpine,alpine_reference,montane-subalpine,MTWA; GDD5,Abies (genus),pollen genus-level,gavin2001;zelenka2026olympic,true
+Abies amabilis,Pacific silver fir,tree,maritime montane,alpine_reference,rare low-elevation outliers,MTWA,Abies (genus),cold-air drainages,gavinbrubaker2015,true
+Callitropsis nootkatensis,Alaska yellow-cedar,tree,hypermaritime subalpine,alpine_reference,subalpine,MTWA,Cupressaceae (lumped),taxonomy unsettled (Callitropsis/Cupressus),zelenka2026olympic,true
+Pinus albicaulis,whitebark pine,tree,subalpine-treeline,alpine_reference,treeline,MTWA; GDD5,Pinus haploxylon,pollen subgenus-level,johnson1994gtr322,true
+Picea engelmannii,Engelmann spruce,tree,interior subalpine,alpine_reference,absent from Holocene W lowland,MTWA,Picea (genus),macrofossils needed,johnson1994gtr322;whitlock1992,true
+Alnus rubra,red alder,tree,Pacific lowland,disturbance,core,none,Alnus rubra-type,disturbance indicator,whitlock1992,false
+Pteridium aquilinum,bracken,fern,cosmopolitan,disturbance,core,none,spore,fire/open canopy,whitlock1992,false

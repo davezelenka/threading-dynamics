@@ -1,0 +1,129 @@
+site_id,scope,variable,modern,max_up,binding_up,max_down,binding_down,min_up,min_down,min_either,max_total_range,consistent,flags,up_set_by_limiting_taxon,down_set_by_limiting_taxon,up_geo_truncated,down_geo_truncated
+BGL,species,MAT,10.476000090440117,7.149066523710896,Pseudotsuga menziesii,3.490089096625651,Tsuga mertensiana,0.0,0.0,0.0,10.639155620336547,True,,False,True,,
+BGL,species,MTCO,3.5199999809265137,9.041600322723395,Pseudotsuga menziesii,2.0579789638519337,Tsuga mertensiana,0.0,0.0,0.0,11.099579286575329,True,,False,False,,
+BGL,species,MTWA,18.052000045776367,6.48400001525879,Pseudotsuga menziesii,2.735199737548829,Tsuga mertensiana,0.0,0.0,0.0,9.219199752807619,True,,False,True,,
+BGL,species,GDD5,2095.892035484314,2521.291725111011,Pseudotsuga menziesii,878.8040060997009,Tsuga mertensiana,0.0,0.0,0.0,3400.095731210712,True,,False,True,,
+BGL,species,MAP,1873.0,484.80000000000837,Pseudotsuga menziesii,1554.2,Pseudotsuga menziesii,0.0,0.0,0.0,2039.0000000000084,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),False,False,,
+BGL,species,P_JJA,148.0,471.0,Pseudotsuga menziesii,138.0,Pseudotsuga menziesii,0.0,0.0,0.0,609.0,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+BGL,species,MI,2.9173976644435053,1.482360420197971,Pseudotsuga menziesii,2.444336202121889,Pseudotsuga menziesii,0.0,0.0,0.0,3.92669662231986,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+BGL,species,MI_JJA,0.4779809132948776,2.134792799287608,Pseudotsuga menziesii,0.4437989436204447,Pseudotsuga menziesii,0.0,0.0,0.0,2.5785917429080527,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+BGL,regional,MAT,10.476000090440117,3.2015832428137347,Pseudotsuga menziesii,3.2666147040824125,Tsuga mertensiana,0.0,0.0,0.0,6.468197946896147,True,,False,True,False,
+BGL,regional,MTCO,3.5199999809265137,4.661930179595945,Pseudotsuga menziesii,2.195999950170517,Tsuga mertensiana,0.0,0.0,0.0,6.857930129766462,True,,False,False,True,
+BGL,regional,MTWA,18.052000045776367,4.871880378723144,Pseudotsuga menziesii,2.5,Tsuga mertensiana,0.0,0.0,0.0,7.371880378723144,True,,False,True,False,
+BGL,regional,GDD5,2095.892035484314,1086.205684995648,Pseudotsuga menziesii,838.5720571279526,Tsuga mertensiana,0.0,0.0,0.0,1924.7777421236005,True,,False,True,False,
+BGL,regional,MAP,1873.0,695.2499999999982,Pseudotsuga menziesii,1541.99,Pseudotsuga menziesii,0.0,0.0,0.0,2237.239999999998,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),False,False,False,False
+BGL,regional,P_JJA,148.0,96.0,Pseudotsuga menziesii,127.0,Pseudotsuga menziesii,0.0,0.0,0.0,223.0,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,False,False
+BGL,regional,MI,2.9173976644435053,2.0544200920265276,Pseudotsuga menziesii,2.31836718112728,Pseudotsuga menziesii,0.0,0.0,0.0,4.372787273153808,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,False,False
+BGL,regional,MI_JJA,0.4779809132948776,0.35376064737594615,Pseudotsuga menziesii,0.41517156843540814,Pseudotsuga menziesii,0.0,0.0,0.0,0.7689322158113543,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,False,False
+CAR,species,MAT,7.349333398509771,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,species,MTCO,-1.9839999675750728,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,species,MTWA,17.6200008392334,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,species,GDD5,1547.008020401001,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,species,MAP,555.0,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,species,P_JJA,37.0,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,species,MI,0.99808239271745,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,species,MI_JJA,0.1186854083962776,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,MAT,7.349333398509771,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,MTCO,-1.9839999675750728,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,MTWA,17.6200008392334,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,GDD5,1547.008020401001,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,MAP,555.0,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,P_JJA,37.0,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,MI,0.99808239271745,,,,,0.0,0.0,0.0,,True,,,,,
+CAR,regional,MI_JJA,0.1186854083962776,,,,,0.0,0.0,0.0,,True,,,,,
+HOH,species,MAT,7.710666735967,4.336666504542031,Picea sitchensis,6.7156334852178885,Picea sitchensis,0.0,0.0,0.0,11.05229998975992,True,,True,True,,
+HOH,species,MTCO,2.2279999256134038,6.324000120162964,Picea sitchensis,10.899999856948853,Picea sitchensis,0.0,0.0,0.0,17.223999977111816,True,,True,True,,
+HOH,species,MTWA,14.447999954223633,4.044000625610352,Picea sitchensis,3.524239654541015,Picea sitchensis,0.0,0.0,0.0,7.568240280151366,True,,False,False,,
+HOH,species,GDD5,1238.3400373458862,1340.543927192688,Picea sitchensis,716.5588493728637,Picea sitchensis,0.0,0.0,0.0,2057.1027765655517,True,,False,False,,
+HOH,species,MAP,2939.0,684.6399999999976,Tsuga heterophylla,2209.1,Picea sitchensis,0.0,0.0,0.0,2893.7399999999975,True,,False,False,,
+HOH,species,P_JJA,216.0,353.0,Tsuga heterophylla,192.0,Picea sitchensis,0.0,0.0,0.0,545.0,True,,True,True,,
+HOH,species,MI,5.146815722248386,1.5207743027448926,Tsuga heterophylla,3.9123282734570637,Picea sitchensis,0.0,0.0,0.0,5.433102576201956,True,,True,False,,
+HOH,species,MI_JJA,0.7919721072138415,1.0752169063984993,Tsuga heterophylla,0.6908788647117602,Picea sitchensis,0.0,0.0,0.0,1.7660957711102596,True,,True,False,,
+HOH,regional,MAT,7.710666735967,4.336666504542031,Tsuga heterophylla,1.9503767535975198,Picea sitchensis,0.0,0.0,0.0,6.287043258139551,True,,False,True,True,False
+HOH,regional,MTCO,2.2279999256134038,6.008000135421753,Tsuga heterophylla,5.097839903831483,Picea sitchensis,0.0,0.0,0.0,11.105840039253236,True,,False,True,True,False
+HOH,regional,MTWA,14.447999954223633,4.144001007080078,Picea sitchensis,1.0717499542236322,Picea sitchensis,0.0,0.0,0.0,5.21575096130371,True,,False,False,False,False
+HOH,regional,GDD5,1238.3400373458862,1340.543927192688,Tsuga heterophylla,243.132004737854,Picea sitchensis,0.0,0.0,0.0,1583.675931930542,True,,False,False,False,False
+HOH,regional,MAP,2939.0,294.6500000000001,Tsuga heterophylla,2253.99,Picea sitchensis,0.0,0.0,0.0,2548.64,True,,False,False,False,False
+HOH,regional,P_JJA,216.0,219.90000000000055,Tsuga heterophylla,180.65,Tsuga heterophylla,0.0,0.0,0.0,400.5500000000005,True,,True,True,True,False
+HOH,regional,MI,5.146815722248386,0.4172432929519747,Tsuga heterophylla,4.033011239896913,Tsuga heterophylla,0.0,0.0,0.0,4.450254532848888,True,,True,True,False,False
+HOH,regional,MI_JJA,0.7919721072138415,0.7079887738821911,Tsuga heterophylla,0.6532432877336637,Picea sitchensis,0.0,0.0,0.0,1.3612320616158549,True,,True,False,True,False
+KIL,species,MAT,9.52916661898295,8.095899995168063,Pseudotsuga menziesii,8.35910001595815,Pseudotsuga menziesii,0.0,0.0,0.0,16.455000011126213,True,,False,False,,
+KIL,species,MTCO,4.150000095367432,8.411600208282477,Pseudotsuga menziesii,14.849999904632568,Pseudotsuga menziesii,0.0,0.0,0.0,23.261600112915048,True,,False,False,,
+KIL,species,MTWA,15.8149995803833,8.721000480651856,Pseudotsuga menziesii,3.793399620056153,Pseudotsuga menziesii,0.0,0.0,0.0,12.51440010070801,True,,False,False,,
+KIL,species,GDD5,1708.8462285995483,2908.3375319957768,Pseudotsuga menziesii,1087.7238361358643,Pseudotsuga menziesii,0.0,0.0,0.0,3996.061368131641,True,,False,False,,
+KIL,species,MAP,746.0,1611.8000000000084,Pseudotsuga menziesii,427.2,Pseudotsuga menziesii,0.0,0.0,0.0,2039.0000000000084,True,,False,False,,
+KIL,species,P_JJA,90.0,529.0,Pseudotsuga menziesii,80.0,Pseudotsuga menziesii,0.0,0.0,0.0,609.0,True,,True,True,,
+KIL,species,MI,1.2073224306998236,3.1924356539416525,Pseudotsuga menziesii,0.7342609683782072,Pseudotsuga menziesii,0.0,0.0,0.0,3.92669662231986,True,,True,True,,
+KIL,species,MI_JJA,0.3161899967480176,2.296583715834468,Pseudotsuga menziesii,0.28200802707358474,Pseudotsuga menziesii,0.0,0.0,0.0,2.5785917429080527,True,,True,True,,
+KIL,regional,MAT,9.52916661898295,2.5252198982238756,Pseudotsuga menziesii,8.387833322087923,Pseudotsuga menziesii,0.0,0.0,0.0,10.913053220311799,True,,False,False,True,False
+KIL,regional,MTCO,4.150000095367432,3.3984799957275387,Pseudotsuga menziesii,15.460239810943605,Pseudotsuga menziesii,0.0,0.0,0.0,18.858719806671143,True,,False,False,True,False
+KIL,regional,MTWA,15.8149995803833,4.987240028381347,Pseudotsuga menziesii,3.7629995346069336,Pseudotsuga menziesii,0.0,0.0,0.0,8.75023956298828,True,,False,False,False,False
+KIL,regional,GDD5,1708.8462285995483,885.9537179470062,Pseudotsuga menziesii,1054.1615684127808,Pseudotsuga menziesii,0.0,0.0,0.0,1940.115286359787,True,,False,False,True,False
+KIL,regional,MAP,746.0,1808.96,Pseudotsuga menziesii,390.0,Pseudotsuga menziesii,0.0,0.0,0.0,2198.96,True,,False,False,False,False
+KIL,regional,P_JJA,90.0,168.0,Pseudotsuga menziesii,49.0,Pseudotsuga menziesii,0.0,0.0,0.0,217.0,True,,True,True,False,False
+KIL,regional,MI,1.2073224306998236,3.72586028909957,Pseudotsuga menziesii,0.6050465430298118,Pseudotsuga menziesii,0.0,0.0,0.0,4.330906832129382,True,,True,True,False,False
+KIL,regional,MI_JJA,0.3161899967480176,0.539858552768836,Pseudotsuga menziesii,0.1966935099253054,Pseudotsuga menziesii,0.0,0.0,0.0,0.7365520626941414,True,,True,True,False,False
+LWA,species,MAT,11.059333165486654,6.565733448664359,Pseudotsuga menziesii,4.073422171672188,Tsuga mertensiana,0.0,0.0,0.0,10.639155620336547,True,,False,True,,
+LWA,species,MTCO,4.955999851226807,7.6056004524231025,Pseudotsuga menziesii,3.4939788341522267,Tsuga mertensiana,0.0,0.0,0.0,11.099579286575329,True,,False,False,,
+LWA,species,MTWA,18.447999954223636,6.088000106811521,Pseudotsuga menziesii,3.131199645996098,Tsuga mertensiana,0.0,0.0,0.0,9.219199752807619,True,,False,True,,
+LWA,species,GDD5,2223.833949446678,2393.349811148647,Pseudotsuga menziesii,1006.7459200620651,Tsuga mertensiana,0.0,0.0,0.0,3400.095731210712,True,,False,True,,
+LWA,species,MAP,972.0,1385.8000000000084,Pseudotsuga menziesii,653.2,Pseudotsuga menziesii,0.0,0.0,0.0,2039.0000000000084,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),False,False,,
+LWA,species,P_JJA,93.0,526.0,Pseudotsuga menziesii,83.0,Pseudotsuga menziesii,0.0,0.0,0.0,609.0,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+LWA,species,MI,1.4767784516601643,0.13849007773695288,Tsuga mertensiana,1.0037169893385478,Pseudotsuga menziesii,0.0,0.0,0.0,1.1422070670755007,True,,False,True,,
+LWA,species,MI_JJA,0.2952686309484595,2.3175050816340264,Pseudotsuga menziesii,0.26108666127402663,Pseudotsuga menziesii,0.0,0.0,0.0,2.578591742908053,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+LWA,regional,MAT,11.059333165486654,1.0377134356896072,Pseudotsuga menziesii,3.7866664330164594,Tsuga mertensiana,0.0,0.0,0.0,4.824379868706067,True,,False,True,True,
+LWA,regional,MTCO,4.955999851226807,3.068000316619873,Pseudotsuga menziesii,3.3103998482227306,Tsuga mertensiana,0.0,0.0,0.0,6.378400164842604,True,,False,False,True,
+LWA,regional,MTWA,18.447999954223636,2.461680049896234,Pseudotsuga menziesii,3.192599439620974,Tsuga mertensiana,0.0,0.0,0.0,5.654279489517208,True,,False,True,False,
+LWA,regional,GDD5,2223.833949446678,412.9046671998499,Pseudotsuga menziesii,961.8571214914318,Tsuga mertensiana,0.0,0.0,0.0,1374.7617886912817,True,,False,True,True,
+LWA,regional,MAP,972.0,1572.829999999999,Pseudotsuga menziesii,641.71,Pseudotsuga menziesii,0.0,0.0,0.0,2214.539999999999,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),False,False,False,False
+LWA,regional,P_JJA,93.0,165.0,Pseudotsuga menziesii,55.0,Pseudotsuga menziesii,0.0,0.0,0.0,220.0,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,False,False
+LWA,regional,MI,1.4767784516601643,0.46985167544790407,Tsuga mertensiana,0.8787950810541818,Pseudotsuga menziesii,0.0,0.0,0.0,1.3486467565020859,True,,False,True,,False
+LWA,regional,MI_JJA,0.2952686309484595,0.5603348479880248,Pseudotsuga menziesii,0.18018189737695395,Pseudotsuga menziesii,0.0,0.0,0.0,0.7405167453649788,True,Tsuga mertensiana: never present yet modern site inside envelope (non-climatic absence?),True,True,False,False
+PEN,species,MAT,9.749305526415506,7.875761087735507,Pseudotsuga menziesii,8.579238923390706,Pseudotsuga menziesii,0.0,0.0,0.0,16.455000011126213,True,,False,False,,
+PEN,species,MTCO,4.300000190734863,8.261600112915046,Pseudotsuga menziesii,15.0,Pseudotsuga menziesii,0.0,0.0,0.0,23.261600112915048,True,,False,False,,
+PEN,species,MTWA,16.21666717529297,8.319332885742188,Pseudotsuga menziesii,4.195067214965821,Pseudotsuga menziesii,0.0,0.0,0.0,12.51440010070801,True,,False,False,,
+PEN,species,GDD5,1775.829157948494,2841.354602646831,Pseudotsuga menziesii,1154.70676548481,Pseudotsuga menziesii,0.0,0.0,0.0,3996.061368131641,True,,False,False,,
+PEN,species,MAP,839.0,1518.8000000000084,Pseudotsuga menziesii,520.2,Pseudotsuga menziesii,0.0,0.0,0.0,2039.0000000000084,True,,False,False,,
+PEN,species,P_JJA,84.0,535.0,Pseudotsuga menziesii,74.0,Pseudotsuga menziesii,0.0,0.0,0.0,609.0,True,,True,True,,
+PEN,species,MI,1.3448889999695866,3.05486908467189,Pseudotsuga menziesii,0.8718275376479702,Pseudotsuga menziesii,0.0,0.0,0.0,3.9266966223198603,True,,True,True,,
+PEN,species,MI_JJA,0.2895519999367659,2.32322171264572,Pseudotsuga menziesii,0.255370030262333,Pseudotsuga menziesii,0.0,0.0,0.0,2.578591742908053,True,,True,True,,
+PEN,regional,MAT,9.749305526415506,2.3125210428237892,Pseudotsuga menziesii,8.60797222952048,Pseudotsuga menziesii,0.0,0.0,0.0,10.920493272344268,True,,False,False,True,False
+PEN,regional,MTCO,4.300000190734863,3.253439836502074,Pseudotsuga menziesii,15.61272002220154,Pseudotsuga menziesii,0.0,0.0,0.0,18.866159858703615,True,,False,False,True,False
+PEN,regional,MTWA,16.21666717529297,4.588052845001219,Pseudotsuga menziesii,4.164667129516602,Pseudotsuga menziesii,0.0,0.0,0.0,8.75271997451782,True,,False,False,False,False
+PEN,regional,GDD5,1775.829157948494,818.9707885980606,Pseudotsuga menziesii,1134.4162233161926,Pseudotsuga menziesii,0.0,0.0,0.0,1953.3870119142532,True,,False,False,True,False
+PEN,regional,MAP,839.0,1718.1299999999992,Pseudotsuga menziesii,483.0,Pseudotsuga menziesii,0.0,0.0,0.0,2201.129999999999,True,,False,False,False,False
+PEN,regional,P_JJA,84.0,174.0,Pseudotsuga menziesii,40.0,Pseudotsuga menziesii,0.0,0.0,0.0,214.0,True,,True,True,False,False
+PEN,regional,MI,1.3448889999695866,3.596459229604223,Pseudotsuga menziesii,0.7433905339064258,Pseudotsuga menziesii,0.0,0.0,0.0,4.3398497635106486,True,,True,True,False,False
+PEN,regional,MI_JJA,0.2895519999367659,0.5669853488880636,Pseudotsuga menziesii,0.16640735788364824,Pseudotsuga menziesii,0.0,0.0,0.0,0.7333927067717119,True,,True,True,False,False
+WCL,species,MAT,9.030333270629248,7.8251867647965785,Artemisia tridentata,7.969959885378679,Artemisia tridentata,0.0,0.0,0.0,15.795146650175258,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,,
+WCL,species,MTCO,-0.7440000176429749,12.97936012506485,Artemisia tridentata,9.58000034093857,Artemisia tridentata,0.0,0.0,0.0,22.55936046600342,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,,
+WCL,species,MTWA,19.74799919128418,6.356000900268551,Artemisia tridentata,7.4569588470458985,Artemisia tridentata,0.0,0.0,0.0,13.81295974731445,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,,
+WCL,species,GDD5,1982.3719902038572,2354.1492563819893,Artemisia tridentata,1377.7201468658445,Artemisia tridentata,0.0,0.0,0.0,3731.869403247834,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,,
+WCL,species,MAP,485.0,391.0,Artemisia tridentata,314.0,Artemisia tridentata,0.0,0.0,0.0,705.0,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+WCL,species,P_JJA,70.0,95.84000000000015,Artemisia tridentata,64.0,Artemisia tridentata,0.0,0.0,0.0,159.84000000000015,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,,
+WCL,species,MI,0.7870939463070138,1.2131166312102941,Artemisia tridentata,0.5523780219681674,Artemisia tridentata,0.0,0.0,0.0,1.7654946531784614,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+WCL,species,MI_JJA,0.2029766886176746,0.36265269387393473,Artemisia tridentata,0.18848410516917408,Artemisia tridentata,0.0,0.0,0.0,0.5511367990431089,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),True,True,,
+WCL,regional,MAT,9.030333270629248,2.873600294093288,Artemisia tridentata,8.204999893903732,Artemisia tridentata,0.0,0.0,0.0,11.07860018799702,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,True,False
+WCL,regional,MTCO,-0.7440000176429749,2.0406400084495466,Artemisia tridentata,9.484799773693085,Artemisia tridentata,0.0,0.0,0.0,11.525439782142632,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,False,False
+WCL,regional,MTWA,19.74799919128418,4.231720962524413,Artemisia tridentata,8.138839206695557,Artemisia tridentata,0.0,0.0,0.0,12.37056016921997,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,True,False
+WCL,regional,GDD5,1982.3719902038572,841.7409791707989,Artemisia tridentata,1455.2533033943173,Artemisia tridentata,0.0,0.0,0.0,2296.994282565116,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,True,False
+WCL,regional,MAP,485.0,505.2599999999975,Artemisia tridentata,310.62,Artemisia tridentata,0.0,0.0,0.0,815.8799999999975,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),True,True,False,True
+WCL,regional,P_JJA,70.0,97.30999999999995,Artemisia tridentata,48.0,Artemisia tridentata,0.0,0.0,0.0,145.30999999999995,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),False,False,False,True
+WCL,regional,MI,0.7870939463070138,1.447987423207448,Artemisia tridentata,0.540193779808314,Artemisia tridentata,0.0,0.0,0.0,1.988181203015762,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),True,True,False,True
+WCL,regional,MI_JJA,0.2029766886176746,0.37466316594628646,Artemisia tridentata,0.14879359670018844,Artemisia tridentata,0.0,0.0,0.0,0.5234567626464749,True,Pinus ponderosa: never present yet modern site inside envelope (non-climatic absence?),True,True,False,True
+WIL,species,MAT,8.731000085671743,8.124519949754083,Artemisia tridentata,7.670626700421175,Artemisia tridentata,0.0,0.0,0.0,15.795146650175258,True,,False,False,,
+WIL,species,MTCO,-1.555999994277954,13.79136010169983,Artemisia tridentata,8.76800036430359,Artemisia tridentata,0.0,0.0,0.0,22.55936046600342,True,,False,False,,
+WIL,species,MTWA,20.016000747680664,6.087999343872067,Artemisia tridentata,7.724960403442383,Artemisia tridentata,0.0,0.0,0.0,13.81295974731445,True,,False,False,,
+WIL,species,GDD5,1987.8040323257449,2348.717214260102,Artemisia tridentata,1383.1521889877322,Artemisia tridentata,0.0,0.0,0.0,3731.8694032478343,True,,False,False,,
+WIL,species,MAP,417.0,459.0,Artemisia tridentata,246.0,Artemisia tridentata,0.0,0.0,0.0,705.0,True,,True,True,,
+WIL,species,P_JJA,64.0,101.84000000000015,Artemisia tridentata,58.0,Artemisia tridentata,0.0,0.0,0.0,159.84000000000015,True,,False,False,,
+WIL,species,MI,0.6801443646191664,1.3200662128981415,Artemisia tridentata,0.44542844028032,Artemisia tridentata,0.0,0.0,0.0,1.7654946531784614,True,,True,True,,
+WIL,species,MI_JJA,0.1799064036641872,0.3857229788274221,Artemisia tridentata,0.16541382021568668,Artemisia tridentata,0.0,0.0,0.0,0.5511367990431089,True,,True,True,,
+WIL,regional,MAT,8.731000085671743,3.180133410493532,Artemisia tridentata,7.882706725001336,Artemisia tridentata,0.0,0.0,0.0,11.062840135494868,True,,False,False,True,False
+WIL,regional,MTCO,-1.555999994277954,2.7583999681472813,Artemisia tridentata,8.694400033950807,Artemisia tridentata,0.0,0.0,0.0,11.452800002098087,True,,False,False,False,False
+WIL,regional,MTWA,20.016000747680664,3.594958839416506,Artemisia tridentata,8.332481002807617,Artemisia tridentata,0.0,0.0,0.0,11.927439842224123,True,,False,False,True,False
+WIL,regional,GDD5,1987.8040323257449,832.9795382785794,Artemisia tridentata,1440.1162716674808,Artemisia tridentata,0.0,0.0,0.0,2273.0958099460604,True,,False,False,True,False
+WIL,regional,MAP,417.0,585.6800000000019,Artemisia tridentata,243.16,Artemisia tridentata,0.0,0.0,0.0,828.8400000000019,True,,True,True,False,True
+WIL,regional,P_JJA,64.0,103.58000000000004,Artemisia tridentata,42.0,Artemisia tridentata,0.0,0.0,0.0,145.58000000000004,True,,False,False,False,True
+WIL,regional,MI,0.6801443646191664,1.559608424303768,Artemisia tridentata,0.4342464440988075,Artemisia tridentata,0.0,0.0,0.0,1.9938548684025754,True,,True,True,False,True
+WIL,regional,MI_JJA,0.1799064036641872,0.40052573646838063,Artemisia tridentata,0.1257237942517296,Artemisia tridentata,0.0,0.0,0.0,0.5262495307201103,True,,True,True,False,True
